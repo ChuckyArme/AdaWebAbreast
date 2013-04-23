@@ -1,0 +1,668 @@
+﻿.xW_DivAddProduct
+{
+	width:auto;
+	height:44px;
+	margin:0px 0px 0px 0px;
+	border-width:1px;
+	float: left;
+	overflow:hidden;
+	display:block;
+}
+
+.xW_DivAddressCaption
+{
+	width:74px;
+	height:72px;/*50px; *CH 05-10-11*/
+	margin:1px 1px 1px 2px;
+	border:solid 1px transparent;
+}
+
+.xW_DivCstAddress
+{
+	width:280px;/*width:320px; *CH 06-10-11*/
+	height:98px;
+	margin:0px 3px 1px 1px;
+	border:solid 1px transparent;
+	float:left;
+}
+
+.xW_DivCstCap
+{
+	width:74px;
+	height:22px;
+	margin:1px 1px 1px 2px;
+	border:solid 1px transparent;
+}
+
+.xW_DivCstCode
+{
+	width:140px;/*132px; *CH 09-12-11*/
+	height:22px;
+	float:left;
+	margin:0px 2px 0px 0px;
+	/*border:solid 1px green;*/
+}
+.xW_DivCstCode input
+{
+	width:138px;/*130px; *CH 09-12-11*/
+	height:18px;
+	/*margin:1px 1px 1px 1px;
+	border:solid 1px green;*/
+}
+
+.xW_DivCstDetail
+{
+	width:246px;
+	height:100px;
+	margin:0px 0px 1px 1px;
+	border:solid 1px transparent;
+	float:left;
+}
+
+.xW_DivCstFullName
+{
+	width:auto;
+	height:22px;
+	float:left;
+	margin:0px 0px 0px 2px;
+	/*border:solid 1px green;*/
+}
+
+.xW_DivCstFullName input
+{
+	width:447px;
+	height:18px;
+	float:left;
+	/*margin:0px 0px 0px 2px;
+	border:solid 1px green;*/
+}
+
+.xW_DivCstName
+{
+	width:620px;/*610px; *CH 09-12-11*/
+	height:22px;
+	float:left;
+	margin:1px 1px 1px 1px;
+	border:solid 1px transparent;
+}
+
+
+.xW_DivCstPoint
+{
+	width:335px;/*324px; width:284px; *CH 06-10-11*/
+	height:98px;
+	margin:0px 0px 1px 1px;
+	border:solid 1px transparent;
+	float:left;
+}
+
+.xW_DivCstTelAndFax
+{
+	width:278px;/*width:317px; *CH 06-10-11*/
+	height:22px;
+	margin:1px 1px 2px 0px;
+	/*border:solid 1px green;*/
+}
+
+.xW_DivCstTelAndFax input
+{
+	width:110px;/*width:132px;315px; *CH 06-10-11*/
+	height:18px;
+}
+
+.xW_DivDetail
+{
+	width:99.4%;/*width:auto; *CH 11-11-11*/
+	height:auto;
+	margin:0px 0px 1px 5px;
+	border:solid 1px transparent;
+	overflow:hidden;
+	display:block;
+	float:left;
+}
+
+.xW_DivDocumentNo
+{
+    /*Div ใหญ่ของรายละเอียดเลขที่เอกสาร*/
+    width:227px;
+    height:164px;
+    float:left;
+    border-width:1px; 
+    border-style:none none none none;
+    margin:0px 0px 0px 0px;  
+}
+
+.xW_DivDocumentMenuName
+{
+    height:35px;
+    width:227px;
+    border-width:1px;
+    border-style: solid solid solid solid;
+    padding:0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:center;
+}
+
+.xW_DivDocDetail
+{
+    height:115px;
+    width:227px;
+    padding:0px;
+    margin:3px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+    border:solid 1px transparent;
+}
+
+.xW_DivDocCaption
+{
+    height:113px;
+    width:75px;
+    border:solid 1px transparent;
+    padding:0px;
+    float:left;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+}
+.xW_DivDocCaptionSub
+{
+    height:20px;
+    width:72px;
+    padding:0px;
+    margin:2px 0px 0px 3px; 
+    vertical-align:middle;
+    text-align:left;
+    float:left;
+}
+
+.xW_DivDocGenCode
+{
+    height:113px;
+    width:20px;
+    border:solid 1px transparent;
+    padding:0px;
+    float:left;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+}
+
+.xW_DivDocData
+{
+    height:113px;
+    width:124px;
+    padding:0px;
+    float:left;
+    margin:0px 2px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+}
+
+.xW_DivDocDataSub
+{
+    height:20px;
+    width:123px;
+    padding:0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+   border:solid 1px transparent;
+    float:left;
+}
+
+.xW_DivDocDataSub input
+{
+    height:18px;
+    width:121px;
+    padding:0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+    float:left;
+}
+
+.xW_DivExchange
+{
+	width:111px;/*100px; *CH 09-12-11*/
+	height:90px;
+	margin:1px 1px 1px 0px;
+	border:solid 1px transparent;
+	float:left;
+}
+
+.xW_DivExchangeCap
+{
+	width:111px;/*100px; *CH 09-12-11*/
+	height:21px;
+	margin:1px 1px 1px 0px;
+	border:solid 1px transparent;
+}
+.xW_DivExchangeData
+{
+	width:213px;/*width:175px; *CH 06-10-11*/
+	height:22px;
+	margin:1px 1px 1px 0px;
+	/*border:solid 1px red;*/
+	float: left;
+}
+
+.xW_DivExchangeData input
+{
+	width:211px;/*170px; *CH 05-10-11*/
+	height:18px;
+}
+
+.xW_DivExchangeSplData
+{
+	width:192px;/* *CH 06-10-11*/
+	height:22px;
+	margin:1px 1px 2px 0px;
+	/*border:solid 1px red;*/
+	float: left;
+}
+
+.xW_DivExchangeSplData input
+{
+	width:188px;/* *CH 06-10-11*/
+	height:18px;
+}
+
+.xW_DivExchangeCtrData
+{
+	width:87px;/* *CH 06-10-11*/
+	height:22px;
+	margin:1px 1px 2px 0px;
+	/*border:solid 1px red;*/
+	float: left;
+}
+
+.xW_DivExchangeCtrData input
+{
+	width:84px;/* *CH 06-10-11*/
+	height:18px;
+}
+
+.xW_DivExchangeDetail
+{
+	width:217px;/*width:177px; *CH 06-10-11*/
+	height:90px; 
+	margin:1px 0px 1px 1px;
+	border:solid 1px transparent;
+	float: left;
+}
+
+.xW_DivFootter
+{
+	width:auto;
+	height:30px;
+	margin:0px 0px 1px 0px;
+	/*border:solid 1px transparent;*/
+	float: left;
+}
+
+.xW_DivFootterLeft
+{
+	width:529px;
+	height:99%;
+	margin:0px 0px 0px 0px;
+	/*border:solid 1px blue;*/
+	float: left;
+}
+
+.xW_DivFootterLeft input
+{
+	width:200px;
+	height:20px;
+	margin:2px 0px 0px 5px;
+	/*border:solid 1px blue;*/
+	float: left;
+}
+
+.xW_DivFootterCenter
+{
+	width:200px;
+	height:99%;
+	margin:0px 0px 0px 0px;
+	border:solid 1px transparent;
+	float: left;
+}
+
+.xW_DivFootterRight
+{
+	width:200px;
+	height:99%;
+	margin:0px 0px 0px 0px;
+	border:solid 1px transparent;
+	float: left;
+}
+
+.xW_DivGridDetail
+{
+   vertical-align:top;
+   width:100%;
+   float:left;
+   height:202px;
+   padding: 0px 0px 0px 0px;
+   /*border:solid 1px blue;*/
+   margin: 0px 0px 0px 0px; 
+}
+
+.xW_DivHeader
+{
+	width:auto;
+	height:158px;
+	margin:0px 0px 0px 5px;
+	border-width:1px;
+	overflow:hidden;
+	display:block;
+}
+
+.xW_DivHeaderCstCap
+{
+	width:75px;
+	height:100%;
+	margin:0px 0px 0px 0px;
+	border:solid 1px transparent;
+	float:left;
+}
+.xW_DivHeaderCstDetail
+{
+	width:625px;/*620px; *CH 09-12-11*/
+	height:98%;
+	margin:0px 0px 0px 0px;
+	border:solid 1px transparent;
+	float:left;
+	overflow:hidden;
+	display:block;
+}
+
+.xW_DivHeaderDetail
+{
+	width:706px;
+	height:100%;
+	margin:0px 0px 0px 0px;
+	border-width:1px;
+	border-style:none solid none none;
+	float:left;
+}
+
+.xW_DivProductCode
+{
+	width:175px;
+	height:100%;
+	border-width:1px;
+	border-style:none solid none none ;
+	margin:0px 0px 0px 0px;
+	float:left;
+}
+.xW_DivProductCodeCap
+{
+	width:175px;
+	height:20px;
+	text-align:center;
+	border-style:none none solid none ;
+	margin:0px 0px 0px 0px;
+	float:left;
+}
+
+.xW_DivProductCodeCap label
+{
+	width:170px;
+	height:18px;
+	margin:1px 0px 0px 0px;
+	float:left;
+	text-align:center;
+}
+
+.xW_DivProductCodeSub
+{
+	width:174px;
+	height:22px;
+	margin:0px 0px 0px 0px;
+/*	 border:solid 1px red;*/
+	float:left;
+}
+
+.xW_DivProductCodeValue
+{
+	width:152px;
+	height:22px;
+	margin:0px 0px 0px 0px;
+/*	 border:solid 1px red;*/
+	float:left;
+}
+
+.xW_DivProductCodeValue input
+{
+	width:149px;
+	height:20px;
+	border-width:0px;
+	margin:0px 0px 0px 0px;
+	text-align:left;
+	float:left;
+}
+
+.xW_DivProductName
+{
+	width:282px;
+	height:100%;
+	border-width:1px;
+	border-style:none solid none none ;
+	margin:0px 0px 0px 0px;
+	float:left;
+}
+.xW_DivProductNameCap
+{
+	width:282px;
+	height:20px;
+	text-align:center;
+	border-style:none none solid none ;
+	margin:0px 0px 0px 0px;
+	float:left;
+}
+
+.xW_DivProductNameSub
+{
+	width:282px;
+	height:22px;
+	margin:0px 0px 0px 0px;
+	float:left;
+}
+.xW_DivProductNameSub input
+{
+	width:279px;
+	height:20px;
+	border-width:0px;
+	margin:0px 0px 0px 0px;
+	text-align:left;
+	float:left;
+}
+
+
+.xW_DivProductUnit
+{
+	width:95px;
+	height:100%;
+	border-width:1px;
+	border-style:none solid none none ;
+	margin:0px 0px 0px 0px;
+	float:left;
+}
+.xW_DivProductUnitCap
+{
+	width:95px;
+	height:20px;
+	text-align:center;
+	border-style:none none solid none ;
+	margin:0px 0px 0px 0px;
+	float:left;
+}
+
+.xW_DivProductUnitCap label
+{
+	width:90px;
+	height:18px;
+	margin:1px 0px 0px 0px;
+	float:left;
+	text-align:center;
+}
+
+.xW_DivProductUnitSub
+{
+	width:94px;
+	height:22px;
+	margin:0px 0px 0px 0px;
+/*	 border:solid 1px red;*/
+	float:left;
+}
+.xW_DivProductUnitSub input
+{
+	width:93px;
+	height:20px;
+	border-width:0px;
+	margin:0px 0px 0px 0px;
+	text-align:left;
+	float:left;
+}
+
+
+.xW_DivPointValue
+{
+	width:110px;
+	height:100%;
+	margin:2px 1px 0px 2px;
+	float:left;
+}
+
+.xW_DivPointValue input
+{
+	width:90px;
+	height:20px;
+	margin:0px 0px 0px 0px;
+	float:right;
+}
+
+.xW_DivPointPaid
+{
+	width:80px;
+	height:20px;
+	margin:3px 1px 0px 2px;
+	float:left;
+	 border:solid 1px transparent;
+}
+
+
+ .xW_DivTextAreaCstAddr
+{
+    width:276px;/*width:316px; *CH 06-10-11*/
+    height:72px;/*50px; *CH 05-10-11*/
+	margin:0px 0px 2px 0px;
+}
+
+.xW_DivTextAreaCstAddr textarea
+{
+    border-style: solid;
+	/*border-color: inherit;*/
+	border-width: 1px;
+	margin:0px;
+	padding:0px 0px 0px 3px;
+	width :274px;/*width:314px; *CH 06-10-11*/
+	height:70px;/*48px; *CH 05-10-11*/
+}
+
+.xW_DivActiveDoc
+{
+    width:20px;
+    height:20px;
+    margin:0px 0px 0px 0px;
+    float:left;
+    border:solid 1px transparent;
+    vertical-align:middle;
+}
+
+.xW_DivActiveDoc input
+{
+    width:20px;
+    height:20px;
+    text-align:center;
+}
+.xW_DivActiveDocCaption
+{
+   text-align:left;
+   vertical-align:bottom ;
+   width:105px;/*width:105px; *CH 06-10-11*/
+   height:18px;
+   float:left;
+   padding:2px 0px 0px 0px;
+   margin:5px 0px 0px 2px; 
+   border:solid 1px c;
+   
+}
+
+.xW_DivRemark
+{
+	width:280px;/*611px; *CH 05-10-11*/
+	height:25px;
+	float:left;
+	margin:0px 1px 1px 1px;
+	border:solid 1px transparent;
+	overflow:hidden;
+	display:block;
+}
+
+.xW_DivRemark input
+{
+	width:274px;/*607px; *CH 05-10-11*/
+	height:18px;
+	float:left;
+
+}
+
+
+
+.xW_DivCheckBoxAutoTab
+{
+	width:15px;
+	height:15px;
+	text-align:left;
+	vertical-align:middle;
+	margin:8px 3px 0px 0px;
+	float:left;
+
+}
+
+.xW_DivCheckBoxAutoTab input
+{
+	width:15px;
+	height:15px;
+	text-align:center;
+	vertical-align:middle;
+	float:left;
+}
+
+.xW_DivColumnAutoTab
+{   width:88px;
+    height:inherit;
+    /*border:solid 1px;*/
+    float:left;
+}
+
+.xW_DivColumnAutoTabCap
+{   width:auto;
+    height:inherit;
+    	margin:10px 2px 0px 0px;
+    /*border:solid 1px;*/
+    float:left;
+}
+
+
+
+
+
+
+
+
+
+

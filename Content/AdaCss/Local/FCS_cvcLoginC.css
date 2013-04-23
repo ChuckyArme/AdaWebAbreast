@@ -1,0 +1,242 @@
+﻿/*---------- #D ----------*/
+.xW_Body
+{
+    /*background-image:url(../../../Content/img/AdaLogin/BG2_3-2.png);
+    text-align: center;*/
+    /*background-color:#f9fff0;/*#F8FFED;*/    
+    margin:0px 0px 0px 0px;
+}
+.xW_DivButtonLogin
+{
+    float:left;
+    margin:0px auto auto 183px;
+}
+.xW_DivComboLanguage
+{
+    text-align:left; 
+    vertical-align:top;
+    float:left;
+    padding:9px 0px 0px 0px;
+}
+.xW_DivComment
+{ 
+    color:#5a8944;/*White;*/
+    font-size:11px;
+    width:98%;
+    text-align:center;
+}
+.xW_DivCopyRight
+{
+    font-size:11px;
+    font-weight:bold;
+    margin-left:25px;
+    width:380px;
+    text-align:center;
+}
+.xW_DivFormLogin
+{
+    /*margin:auto 205px auto 205px;*/
+    /*margin:auto auto auto auto;*/
+    position:relative;
+}
+.xW_DivFormLoginSub
+{
+    width:400px;
+    height:auto;
+    /*margin:50px auto auto auto;*/
+    margin:15px 15px 2px 15px;
+}
+.xW_DivInput
+{
+    margin-top:20px;
+    height:120px;
+}
+.xW_DivInputSub
+{
+    float:left;
+    /*margin-left:100px;/*200px;*/
+}
+.xW_DivInputLogin
+{
+    width:400px;
+    height:auto;
+    margin:auto auto auto auto;
+    padding:2px 2px 2px 2px;
+}
+.xW_DivCtrlLogin
+{
+    width:400px;
+    height:100px;   
+}
+.xW_DivImgLogin
+{
+    width:400px;
+    height:64px;
+    margin-left:15px;
+    background-image:url(../../../Content/img/AdaLogin/Login.png);
+    background-repeat:no-repeat;
+}
+.xW_DivInputLoginSub
+{
+    width:400px;
+    height:200px;
+    /*background-image:url(../../../Content/img/AdaLogin/LoginBackground.png);*/
+    /*background-image:url(../../../Content/img/AdaLogin/Login.png);*/
+    background-color:White;
+}
+.xW_DivLabelLanguage
+{
+    font-size:16px;
+    float:left;
+    width:80px;
+    text-align:left;
+    padding:9px 0px 0px 15px;
+    color:#044476;
+    font-weight:bold;
+}
+.xW_DivLabelWelcome
+{
+    font-size:20px;
+    color:#5a8944;/*White;*/
+    font-weight:bold;
+}
+.xW_DivLanguageBar
+{
+    height:33px;
+    background-image:url(../../../Content/img/AdaLogin/LanguageBar.png);
+    background-repeat:no-repeat;
+}
+.xW_DivLanguage
+{
+    height:45px;
+    width:950px;
+}
+.xW_DivLinkForgetPassword
+{
+    float:left;
+    margin:5px auto auto 183px;
+    font-size:11px;
+}
+.xW_DivLogo
+{
+    width:160px;
+    float:right;
+}
+.xW_DivMainLogin
+{
+    height:400px;
+}
+.xW_DivPassword
+{
+    float:left;
+    margin-top:5px;
+    margin-left:80px;
+}
+.xW_DivPasswordLabel
+{
+    font-size:16px;
+    float:left;
+    width:90px;
+    text-align:left;
+    color:#5a8944;/*White;*/
+    font-weight:bold;
+}
+.xW_DivUnauthorize
+{
+    color:Red;
+    font-size:11px;
+    margin-left:100px;
+}
+.xW_DivComboBox
+{
+    float:left;
+    margin-top:5px;
+    margin-left:80px;
+}
+.xW_DivUserName
+{
+    float:left;
+    margin-top:5px;
+    margin-left:80px;
+}
+.xW_DivUserNameLabel
+{
+    font-size:16px;
+    float:left;
+    width:90px;
+    text-align:left;
+    color:#5a8944;/*White;*/
+    font-weight:bold;
+}
+.xW_DivUserNameTextBox,
+.xW_DivPasswordTextBox
+{
+    float:left;
+}
+
+/*---------- #I ----------*/
+.xW_InputUserName,
+.xW_InputPassword
+{
+    width:140px;
+}
+
+/*---------- #S ----------*/
+.xW_SelectLanguage
+{
+    width:143px;/*90px;*/
+    height:20px;
+}
+
+.xW_DivError
+{
+    font-size:12px;
+    font-weight:bold;
+    /*width:auto;*/
+    text-align:center;
+    color:Red;
+    height:auto;
+    
+    margin-left:25px;
+    width:380px;
+}
+
+/*.xW_ImgFooter {
+    /*clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
+    
+    display:block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: url(../../../Content/img/AdaLogin/Footter.png) repeat-x left bottom;
+}*/
+
+.xW_DivSetting{
+    margin:2px 0px 0px 60px; 
+    cursor:pointer;   
+    float:left;
+}
+
+.xW_SizePage
+{
+    height:98.2%;/*100%;*/
+}
+.xW_wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -1.9em;
+}
+.xW_Footer
+{
+    height:45px;
+    width:100%;
+    background-image:url(../../../Content/img/AdaLogin/FootLogin.png);
+    text-align: center;
+    margin:0px 0px 0px 0px;
+}

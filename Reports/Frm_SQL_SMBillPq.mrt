@@ -1,0 +1,1194 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.0" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="1">
+      <AdaAcc Ref="2" type="Stimulsoft.Report.Dictionary.StiSqlDatabase" isKey="true">
+        <Alias>AdaAcc</Alias>
+        <ConnectionString>Password=adasoft;Persist Security Info=True;Data Source=ADA62\SQL2005;Integrated Security=False;Initial Catalog=AdaPos30;User ID=sa</ConnectionString>
+        <Name>AdaAcc</Name>
+        <PromptUserNameAndPassword>False</PromptUserNameAndPassword>
+      </AdaAcc>
+    </Databases>
+    <DataSources isList="true" count="7">
+      <TACTPqHD Ref="3" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>TACTPqHD</Alias>
+        <Columns isList="true" count="6">
+          <value>FTXqhDocNo,System.String</value>
+          <value>FDXqhDocDate,System.DateTime</value>
+          <value>FTXqhVATInOrEx,System.String</value>
+          <value>FTXqhStaDoc,System.String</value>
+          <value>FTBchCode,System.String</value>
+          <value>FTDptCode,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>TACTPqHD</Name>
+        <NameInSource>AdaAcc</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>SELECT TACTPqHD.FTXqhDocNo, TACTPqHD.FDXqhDocDate, TACTPqHD.FTXqhVATInOrEx,
+  TACTPqHD.FTXqhStaDoc, TACTPqHD.FTBchCode, TACTPqHD.FTDptCode,
+  TACTPqHD.FTUsrCode
+FROM TACTPqHD</SqlCommand>
+      </TACTPqHD>
+      <TACTPqDT Ref="4" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>TACTPqDT</Alias>
+        <Columns isList="true" count="14">
+          <value>FTXqhDocNo,System.String</value>
+          <value>FNXqdSeqNo,System.Int64</value>
+          <value>FTPdtCode,System.String</value>
+          <value>FTPdtName,System.String</value>
+          <value>FTXqdBarCode,System.String</value>
+          <value>FCXqdQty,System.Double</value>
+          <value>FTPdtArticle,System.String</value>
+          <value>FTDcsCode,System.String</value>
+          <value>FTPszCode,System.String</value>
+          <value>FTClrName,System.String</value>
+          <value>FTPszName,System.String</value>
+          <value>FTBchCode,System.String</value>
+          <value>FTXqdUnitName,System.String</value>
+          <value>FTPgpChain,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>TACTPqDT</Name>
+        <NameInSource>AdaAcc</NameInSource>
+        <Parameters isList="true" count="2">
+          <value>_x0040_tDocNo,TACTPqDT.Parameters_x005B__x0022__x0040_tDocNo_x0022__x005D_.ParameterValue_x003D_SP_tDocNo,23,0</value>
+          <value>_x0040_tBranch,TACTPqDT.Parameters_x005B__x0022__x0040_tBranch_x0022__x005D_.ParameterValue_x003D_SP_tBranchCode,23,0</value>
+        </Parameters>
+        <SqlCommand>if @tBranch = '' 
+	begin
+		if @tDocNo ='' 
+			begin
+select TACTPqDT.FTBchCode, TACTPqDT.FTXqhDocNo, TACTPqDT.FNXqdSeqNo,
+	TACTPqDT.FTPdtCode, TACTPqDT.FTPdtName, TACTPqDT.FTXqhDocType,
+	TACTPqDT.FDXqhDocDate, TACTPqDT.FTXqhVATInOrEx, TACTPqDT.FTXqdBarCode,
+	TACTPqDT.FTPgpChain, TACTPqDT.FTXqdUnitName, TACTPqDT.FCXqdQty,
+	TACTPqDT.FTClrName, TACTPqDT.FTPszName, TACTPqDT.FTPszCode,
+	TACTPqDT.FTDcsCode, TACTPqDT.FTPdtArticle from TACTPqDT
+			end else
+			begin
+select TACTPqDT.FTBchCode, TACTPqDT.FTXqhDocNo, TACTPqDT.FNXqdSeqNo,
+	TACTPqDT.FTPdtCode, TACTPqDT.FTPdtName, TACTPqDT.FTXqhDocType,
+	TACTPqDT.FDXqhDocDate, TACTPqDT.FTXqhVATInOrEx, TACTPqDT.FTXqdBarCode,
+	TACTPqDT.FTPgpChain, TACTPqDT.FTXqdUnitName, TACTPqDT.FCXqdQty,
+	TACTPqDT.FTClrName, TACTPqDT.FTPszName, TACTPqDT.FTPszCode,
+	TACTPqDT.FTDcsCode, TACTPqDT.FTPdtArticle from TACTPqDT
+	where  TACTPqDT.FTXqhDocNo = @tDocNo 
+			end
+	end else
+		begin
+			if @tDocNo ='' 
+				begin
+select TACTPqDT.FTBchCode, TACTPqDT.FTXqhDocNo, TACTPqDT.FNXqdSeqNo,
+	TACTPqDT.FTPdtCode, TACTPqDT.FTPdtName, TACTPqDT.FTXqhDocType,
+	TACTPqDT.FDXqhDocDate, TACTPqDT.FTXqhVATInOrEx, TACTPqDT.FTXqdBarCode,
+	TACTPqDT.FTPgpChain, TACTPqDT.FTXqdUnitName, TACTPqDT.FCXqdQty,
+	TACTPqDT.FTClrName, TACTPqDT.FTPszName, TACTPqDT.FTPszCode,
+	TACTPqDT.FTDcsCode, TACTPqDT.FTPdtArticle from TACTPqDT
+	where TACTPqDT.FTBchCode = @tBranch 
+				end else
+					begin
+select TACTPqDT.FTBchCode, TACTPqDT.FTXqhDocNo, TACTPqDT.FNXqdSeqNo,
+	TACTPqDT.FTPdtCode, TACTPqDT.FTPdtName, TACTPqDT.FTXqhDocType,
+	TACTPqDT.FDXqhDocDate, TACTPqDT.FTXqhVATInOrEx, TACTPqDT.FTXqdBarCode,
+	TACTPqDT.FTPgpChain, TACTPqDT.FTXqdUnitName, TACTPqDT.FCXqdQty,
+	TACTPqDT.FTClrName, TACTPqDT.FTPszName, TACTPqDT.FTPszCode,
+	TACTPqDT.FTDcsCode, TACTPqDT.FTPdtArticle from TACTPqDT
+	where  TACTPqDT.FTXqhDocNo = @tDocNo and  TACTPqDT.FTBchCode = @tBranch 
+					end
+				end</SqlCommand>
+      </TACTPqDT>
+      <TCNMDepart Ref="5" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>TCNMDepart</Alias>
+        <Columns isList="true" count="8">
+          <value>FDDateIns,System.DateTime</value>
+          <value>FDDateUpd,System.DateTime</value>
+          <value>FTDptCode,System.String</value>
+          <value>FTDptName,System.String</value>
+          <value>FTTimeIns,System.String</value>
+          <value>FTTimeUpd,System.String</value>
+          <value>FTWhoIns,System.String</value>
+          <value>FTWhoUpd,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>TCNMDepart</Name>
+        <NameInSource>AdaAcc</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from TCNMDepart</SqlCommand>
+      </TCNMDepart>
+      <TCNMPdtUnit Ref="6" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>TCNMPdtUnit</Alias>
+        <Columns isList="true" count="8">
+          <value>FDDateIns,System.DateTime</value>
+          <value>FDDateUpd,System.DateTime</value>
+          <value>FTPunCode,System.String</value>
+          <value>FTPunName,System.String</value>
+          <value>FTTimeIns,System.String</value>
+          <value>FTTimeUpd,System.String</value>
+          <value>FTWhoIns,System.String</value>
+          <value>FTWhoUpd,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>TCNMPdtUnit</Name>
+        <NameInSource>AdaAcc</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from TCNMPdtUnit</SqlCommand>
+      </TCNMPdtUnit>
+      <TSysUser Ref="7" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>TSysUser</Alias>
+        <Columns isList="true" count="2">
+          <value>FTUsrCode,System.String</value>
+          <value>FTUsrName,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>TSysUser</Name>
+        <NameInSource>AdaAcc</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from TSysUser</SqlCommand>
+      </TSysUser>
+      <Company Ref="8" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>Company</Alias>
+        <Columns isList="true" count="7">
+          <value>FTCmpName,System.String</value>
+          <value>FTCmpAddr,System.String</value>
+          <value>FTCmpTel,System.String</value>
+          <value>FTCmpFax,System.String</value>
+          <value>FTBchCode,System.String</value>
+          <value>FTCmpBranch,System.String</value>
+          <value>FTCmpTaxNo,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>Company</Name>
+        <NameInSource>AdaAcc</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from tcnmcomp</SqlCommand>
+      </Company>
+      <ProductGrp Ref="9" type="Stimulsoft.Report.Dictionary.StiSqlSource" isKey="true">
+        <Alias>ProductGrp</Alias>
+        <Columns isList="true" count="6">
+          <value>FTPgpCode,System.String</value>
+          <value>FTPgpName,System.String</value>
+          <value>FTPgpChainName,System.String</value>
+          <value>FTPgpChain,System.String</value>
+          <value>FTPdtCode,System.String</value>
+          <value>FTPdtName,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Name>ProductGrp</Name>
+        <NameInSource>AdaAcc</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>SELECT TCNMPdtGrp.FTPgpChainName, TCNMPdt.FTPdtCode, TCNMPdt.FTPdtName,
+  TCNMPdt.FTPgpChain
+FROM TCNMPdt INNER JOIN
+  TCNMPdtGrp ON TCNMPdt.FTPgpChain = TCNMPdtGrp.FTPgpChain</SqlCommand>
+      </ProductGrp>
+    </DataSources>
+    <Relations isList="true" count="4">
+      <R_Department Ref="10" type="DataRelation" isKey="true">
+        <Alias>R-Department</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>FTDptCode</value>
+        </ChildColumns>
+        <ChildSource isRef="3" />
+        <Dictionary isRef="1" />
+        <Name>R-Department</Name>
+        <NameInSource>R-Department</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>FTDptCode</value>
+        </ParentColumns>
+        <ParentSource isRef="5" />
+      </R_Department>
+      <R_User Ref="11" type="DataRelation" isKey="true">
+        <Alias>R-User</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>FTUsrCode</value>
+        </ChildColumns>
+        <ChildSource isRef="3" />
+        <Dictionary isRef="1" />
+        <Name>R-User</Name>
+        <NameInSource>R-User</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>FTUsrCode</value>
+        </ParentColumns>
+        <ParentSource isRef="7" />
+      </R_User>
+      <R_PqHD Ref="12" type="DataRelation" isKey="true">
+        <Alias>R-PqHD</Alias>
+        <ChildColumns isList="true" count="2">
+          <value>FTBchCode</value>
+          <value>FTXqhDocNo</value>
+        </ChildColumns>
+        <ChildSource isRef="4" />
+        <Dictionary isRef="1" />
+        <Name>R-PqHD</Name>
+        <NameInSource>R-PqHD</NameInSource>
+        <ParentColumns isList="true" count="2">
+          <value>FTBchCode</value>
+          <value>FTXqhDocNo</value>
+        </ParentColumns>
+        <ParentSource isRef="3" />
+      </R_PqHD>
+      <R_PdtGrp Ref="13" type="DataRelation" isKey="true">
+        <Alias>R-PdtGrp</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>FTPgpChain</value>
+        </ChildColumns>
+        <ChildSource isRef="4" />
+        <Dictionary isRef="1" />
+        <Name>R-PdtGrp</Name>
+        <NameInSource>R-PdtGrp</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>FTPgpChain</value>
+        </ParentColumns>
+        <ParentSource isRef="9" />
+      </R_PdtGrp>
+    </Relations>
+    <Report isRef="0" />
+    <Variables isList="true" count="15">
+      <value>,tHeaderTH,tHeaderTH,System.String,ใบกำกับภาษี_x002F_ใบเสร็จรับเงิน_x002F_ใบส่งสินค้า,False,False</value>
+      <value>,tHeaderEN,tHeaderEN,System.String,ใบกำกับภาษี_x002F_ใบเสร็จรับเงิน_x002F_ใบส่งสินค้า,True,False</value>
+      <value>,SP_nLang,SP_nLang,_x0031_ไทย_x002C_else_x0020_อื่นๆ,System.Int32,_x0031_,False,False,False</value>
+      <value>,nDoctype,nDoctype,System.Int64,,False,False</value>
+      <value>,SP_tShowBarOrPdt,SP_tShowBarOrPdt,System.String,_x0031_,False,False</value>
+      <value>,tPdtCodeTH,tPdtCodeTH,System.String,รหัสสินค้า,False,False</value>
+      <value>,tPdtBarCodeTH,tPdtBarCodeTH,System.String,บาร์โค้ด,False,False</value>
+      <value>,tPdtCodeEN,tPdtCodeEN,System.String,PdtCode,False,False</value>
+      <value>,tPdtBarCodeEN,tPdtBarCodeEN,System.String,BarCode,False,False</value>
+      <value>,SP_tBranchCode,SP_tBranchCode,System.String,,False,False</value>
+      <value>,SP_tComName,SP_tComName,System.String,,False,False</value>
+      <value>,SP_nMnyFactor,SP_nMnyFactor,System.Int32,_x0031_,False,False</value>
+      <value>,SP_tFsh,SP_tFsh,System.String,_x0031_,False,False</value>
+      <value>,SP_nCountDEC,SP_nCountDEC,System.Int32,_x0032_,False,False</value>
+      <value>,SP_tDocNo,SP_tDocNo,System.String,,False,False</value>
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="14" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="8">
+        <PageHeaderBand1 Ref="15" type="PageHeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,19.2,6.6</ClientRectangle>
+          <Components isList="true" count="39">
+            <tCompany Ref="16" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.2,0,6.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10,Bold</Font>
+              <Guid>8e754c3c90e74657bede76721c536c52</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>tCompany</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <Text>{Company.FTCmpName}</Text>
+              <TextBrush>Black</TextBrush>
+            </tCompany>
+            <tCmpName Ref="17" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>0.2,0.6,6.65,1.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>c7713a5eadf943ef9b35e6349290a805</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>tCmpName</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <Text>{Company.FTCmpAddr}
+{IIF(SP_nLang==1,"โทร","Tel.")} :  {Company.FTCmpTel}
+{IIF(SP_nLang==1,"แฟกซ์","Fax.")} :  {Company.FTCmpFax}
+{IIF(SP_nLang==1,"สาขา","Branch")} :  {Company.FTCmpBranch}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+            </tCmpName>
+            <tHeader Ref="18" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12.25,0.2,6.85,0.95</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,12,Bold</Font>
+              <Guid>53d2044f5fd646199e22919c790033d8</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>tHeader</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <Text>{IIF(SP_nLang==1,"ใบขอซื้อ","Purchase Requestion")}</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </tHeader>
+            <BarCode1 Ref="19" type="Stimulsoft.Report.BarCodes.StiBarCode" isKey="true">
+              <BackColor>White</BackColor>
+              <BarCodeType Ref="20" type="Stimulsoft.Report.BarCodes.StiCode128aBarCodeType" isKey="true" />
+              <ClientRectangle>12.5,1.9,6.6,0.95</ClientRectangle>
+              <Code>{TACTPqDT.R_PqHD.FTXqhDocNo}</Code>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8,Bold,Pixel</Font>
+              <ForeColor>Black</ForeColor>
+              <Guid>3dea1af8a1494a9bb6e98782902148df</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Name>BarCode1</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <VertAlignment>Center</VertAlignment>
+            </BarCode1>
+            <tDocNo Ref="21" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.5,3,2.4,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <Guid>d9fc97edc84a43f7be8982075a2bff4d</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>tDocNo</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <Text>{IIF(SP_nLang==1,"เลขที่เอกสาร :","Document No. :")}</Text>
+              <TextBrush>Black</TextBrush>
+            </tDocNo>
+            <tDocDate Ref="22" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.5,3.9,2.4,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <Guid>eb5171f1e81b4f16a1f501ef2c091c2e</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>tDocDate</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <Text>{IIF(SP_nLang==1,"วันที่เอกสาร :","Document Date :")}</Text>
+              <TextBrush>Black</TextBrush>
+            </tDocDate>
+            <tDpt Ref="23" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12.5,3,1.9,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <Guid>7bff412e642041b694ff9e772e6829cb</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>tDpt</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <Text>{IIF(SP_nLang==1,"แผนก :","Department :")}</Text>
+              <TextBrush>Black</TextBrush>
+            </tDpt>
+            <tOperator Ref="24" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12.5,3.9,1.9,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <Guid>2c500d3593ef496c849095d37d51d8ee</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>tOperator</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <Text>{IIF(SP_nLang==1,"ผู้บันทึก :","Recorder :")}</Text>
+              <TextBrush>Black</TextBrush>
+            </tOperator>
+            <DocNo Ref="25" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.9,3,5.95,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10,Bold</Font>
+              <Guid>2525fd5151774aa68f48b8e9f9750ebf</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>DocNo</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <Text>{TACTPqDT.R_PqHD.FTXqhDocNo}</Text>
+              <TextBrush>Black</TextBrush>
+            </DocNo>
+            <DocDate Ref="26" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.9,3.9,5.95,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <Guid>cba2acb7cf7a493b9bbd058f7b781c74</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>DocDate</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <Text>{TACTPqDT.R_PqHD.FDXqhDocDate}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="27" type="DateFormat" isKey="true" />
+            </DocDate>
+            <Dpt Ref="28" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>14.4,3,4.55,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <Guid>bb57795da84a4044afc720f45c16aa52</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Dpt</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <Text>{TACTPqDT.R_PqHD.R_Department.FTDptName}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+            </Dpt>
+            <Operator Ref="29" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>14.4,3.9,4.55,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <Guid>4d2f0452bb534ae89ffe746a3fd4cfad</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Operator</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <Text>{TACTPqDT.R_PqHD.R_User.FTUsrName}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+            </Operator>
+            <tDatePrint Ref="30" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>10.05,1.4,6,0.45</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <Guid>d4fdfd827ee74eb7b932092122769023</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>tDatePrint</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <Text>{IIF(SP_nLang==1,"วันที่พิมพ์ :","Print Date : ")} {Format("{0:dd/MM/yyyy}", Today)} {IIF(SP_nLang==1,"เวลา : ","Time : ")} {Format("{0:HH:mm:ss}", Time)}</Text>
+              <TextBrush>Black</TextBrush>
+            </tDatePrint>
+            <Page Ref="31" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>16.05,1.4,1.35,0.45</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <Guid>f73e5a6948454652a390552e6fa7993e</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Page</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <Text>{IIF(SP_nLang==1,"หน้า ","Page ")}</Text>
+              <TextBrush>Black</TextBrush>
+            </Page>
+            <TotalPage Ref="32" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>17.45,1.4,1.65,0.45</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <Guid>e2555b531ec34aa6bffd6f8c1f6bf86f</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>TotalPage</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <Text>{PageNumber} / {TotalPageCount}</Text>
+              <TextBrush>Black</TextBrush>
+            </TotalPage>
+            <tVatType Ref="33" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12.5,4.8,1.9,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>tVatType</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <Text>{IIF(SP_nLang==1,"ภาษี :","Vat :")}</Text>
+              <TextBrush>Black</TextBrush>
+            </tVatType>
+            <tSeqNo Ref="34" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.5,5.9,0.9,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>tSeqNo</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <Text>{IIF(SP_nLang==1,"ลำดับ","No.")}</Text>
+              <TextBrush>Black</TextBrush>
+            </tSeqNo>
+            <tPdtCode Ref="35" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.6,5.9,2.7,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <Guid>8d430555b56f4bb08b661a60cb7f0809</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>tPdtCode</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <Text>{IIF(SP_tShowBarOrPdt=="1",IIF(SP_nLang==1,"รหัสสินค้า","Product Code"),IIF(SP_nLang==1,"บาร์โค้ด","BarCode"))}</Text>
+              <TextBrush>Black</TextBrush>
+            </tPdtCode>
+            <tPdtName Ref="36" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>4.3,5.9,9.7,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <Guid>5adafbb030764a2ebb59c86c6d702e27</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>tPdtName</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <Text>{IIF(SP_nLang==1,"ชื่อสินค้า","Product Name")}</Text>
+              <TextBrush>Black</TextBrush>
+            </tPdtName>
+            <tUnit Ref="37" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>14.8,5.9,1.8,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <Guid>c40ad384b8ad4e8782a5698f04fcd09d</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>tUnit</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <Text>{IIF(SP_nLang==1,"หน่วย","Unit")}</Text>
+              <TextBrush>Black</TextBrush>
+            </tUnit>
+            <tQty Ref="38" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>16.85,5.9,2.1,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <Guid>ee561e118c234a6f9d0b7057f49b37fe</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>tQty</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <Text>{IIF(SP_nLang==1,"จำนวน","Qty")}</Text>
+              <TextBrush>Black</TextBrush>
+            </tQty>
+            <tVATInOrEx Ref="39" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>14.4,4.8,4.55,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>tVATInOrEx</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <Text>{IIF(TACTPqDT.R_PqHD.FTXqhVATInOrEx=="1",IIF(SP_nLang==1,"รวมใน","Inculsive"),IIF(SP_nLang==1,"แยกนอก","Exculsive"))}</Text>
+              <TextBrush>Black</TextBrush>
+            </tVATInOrEx>
+            <tDCS Ref="40" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>2.1,6,2,0.4</ClientRectangle>
+              <Conditions isList="true" count="1">
+                <value>_x007B_SP_tFsh_x0020__x0021__x003D__x0020__x0022_1_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,</value>
+              </Conditions>
+              <Font>Tahoma,10</Font>
+              <Guid>5ca67c3e2ecd46e896c27c3cae7d3192</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>tDCS</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <Text>{IIF(SP_nLang==1,"หมวดสินค้า","DCS")}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+            </tDCS>
+            <tColor Ref="41" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>5.3,6,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="1">
+                <value>_x007B_SP_tFsh_x0020__x0021__x003D__x0020__x0022_1_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,</value>
+              </Conditions>
+              <Font>Tahoma,10</Font>
+              <Guid>686c1a8075ef43ccb35d6d59e79f3bda</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>tColor</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <Text>{IIF(SP_nLang==1,"สี","Color")}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+            </tColor>
+            <tSize Ref="42" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>7.5,6,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="1">
+                <value>_x007B_SP_tFsh_x0020__x0021__x003D__x0020__x0022_1_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,</value>
+              </Conditions>
+              <Font>Tahoma,10</Font>
+              <Guid>87630f57ed2d478cb7df9e22f771f6fb</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>tSize</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <Text>{IIF(SP_nLang==1,"ขนาด","Size")}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+            </tSize>
+            <tSeason Ref="43" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>11.3,6,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="1">
+                <value>_x007B_SP_tFsh_x0020__x0021__x003D__x0020__x0022_1_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,</value>
+              </Conditions>
+              <Font>Tahoma,10</Font>
+              <Guid>ae80953b7a134bad87599cfcf266c82e</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>tSeason</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <Text>{IIF(SP_nLang==1,"ฤดูกาล","Season")}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+            </tSeason>
+            <tArticle Ref="44" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>9.5,6,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="1">
+                <value>_x007B_SP_tFsh_x0020__x0021__x003D__x0020__x0022_1_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,</value>
+              </Conditions>
+              <Font>Tahoma,10</Font>
+              <Guid>dae798ab712941cbbdef298cc2c38878</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>tArticle</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <Text>{IIF(SP_nLang==1,"เนื้อผ้า","Article")}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+            </tArticle>
+            <StartPointPrimitive11 Ref="45" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>0.4,2.8,0,0</ClientRectangle>
+              <Name>StartPointPrimitive11</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <ReferenceToGuid>2409f68929cc4f8b8b80ccd319737721</ReferenceToGuid>
+            </StartPointPrimitive11>
+            <EndPointPrimitive10 Ref="46" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>9.6,5.6,0,0</ClientRectangle>
+              <Name>EndPointPrimitive10</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <ReferenceToGuid>2409f68929cc4f8b8b80ccd319737721</ReferenceToGuid>
+            </EndPointPrimitive10>
+            <StartPointPrimitive12 Ref="47" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>12.4,2.8,0,0</ClientRectangle>
+              <Name>StartPointPrimitive12</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <ReferenceToGuid>fcb54826244a479692e18681e9b5b8db</ReferenceToGuid>
+            </StartPointPrimitive12>
+            <EndPointPrimitive11 Ref="48" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>16.6,5.6,0,0</ClientRectangle>
+              <Name>EndPointPrimitive11</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <ReferenceToGuid>fcb54826244a479692e18681e9b5b8db</ReferenceToGuid>
+            </EndPointPrimitive11>
+            <StartPointPrimitive13 Ref="49" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>12.4,0.2,0,0</ClientRectangle>
+              <Name>StartPointPrimitive13</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <ReferenceToGuid>868081557c9540c782640c8d644da67f</ReferenceToGuid>
+            </StartPointPrimitive13>
+            <EndPointPrimitive12 Ref="50" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>16.6,0,0,0</ClientRectangle>
+              <Name>EndPointPrimitive12</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <ReferenceToGuid>868081557c9540c782640c8d644da67f</ReferenceToGuid>
+            </EndPointPrimitive12>
+            <StartPointPrimitive1 Ref="51" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>12.2,0.25,0,0</ClientRectangle>
+              <Name>StartPointPrimitive1</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <ReferenceToGuid>bed82f9f529d4a238d6fb1c3d490d8e5</ReferenceToGuid>
+            </StartPointPrimitive1>
+            <EndPointPrimitive1 Ref="52" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>19.1,1.15,0,0</ClientRectangle>
+              <Name>EndPointPrimitive1</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <ReferenceToGuid>bed82f9f529d4a238d6fb1c3d490d8e5</ReferenceToGuid>
+            </EndPointPrimitive1>
+            <StartPointPrimitive3 Ref="53" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>0.2,2.9,0,0</ClientRectangle>
+              <Name>StartPointPrimitive3</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <ReferenceToGuid>8909fc32d56244c78d26663d377369c5</ReferenceToGuid>
+            </StartPointPrimitive3>
+            <EndPointPrimitive2 Ref="54" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>19.1,5.7,0,0</ClientRectangle>
+              <Name>EndPointPrimitive2</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <ReferenceToGuid>8909fc32d56244c78d26663d377369c5</ReferenceToGuid>
+            </EndPointPrimitive2>
+            <StartPointPrimitive4 Ref="55" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>0.2,5.8,0,0</ClientRectangle>
+              <Name>StartPointPrimitive4</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <ReferenceToGuid>30630547ab9346c18df46865d9445a30</ReferenceToGuid>
+            </StartPointPrimitive4>
+            <HorizontalLinePrimitive1 Ref="56" type="HorizontalLinePrimitive" isKey="true">
+              <ClientRectangle>0.2,6.5,18.9,0.0254</ClientRectangle>
+              <Color>Black</Color>
+              <EndCap Ref="57" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </EndCap>
+              <Name>HorizontalLinePrimitive1</Name>
+              <Page isRef="14" />
+              <Parent isRef="15" />
+              <StartCap Ref="58" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </StartCap>
+            </HorizontalLinePrimitive1>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Guid>dd8b456be4bb4eed919011667d7720f9</Guid>
+          <Name>PageHeaderBand1</Name>
+          <Page isRef="14" />
+          <Parent isRef="14" />
+        </PageHeaderBand1>
+        <PageFooter1 Ref="59" type="PageFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,22.36,19.2,3.3</ClientRectangle>
+          <Components isList="true" count="9">
+            <tTotal Ref="60" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13.95,0.04,1.9,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>tTotal</Name>
+              <Page isRef="14" />
+              <Parent isRef="59" />
+              <Text>{IIF(SP_nLang==1,"รวม","Total")}</Text>
+              <TextBrush>Black</TextBrush>
+            </tTotal>
+            <Total Ref="61" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>15.85,0.04,3.1,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <Guid>1817c59017144487a92630cda1b44f4e</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Total</Name>
+              <Page isRef="14" />
+              <Parent isRef="59" />
+              <PrintOn>OnlyLastPage</PrintOn>
+              <Text>{IIF(SP_tFsh == "1",Format("{0}", Sum(DataBand1,TACTPqDT.FCXqdQty)),Format("{0:N" + SP_nCountDEC.ToString() + "}", Sum(DataBand1,TACTPqDT.FCXqdQty)))}
+</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="62" type="NumberFormat" isKey="true">
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <UseLocalSetting>False</UseLocalSetting>
+              </TextFormat>
+              <Type>Expression</Type>
+            </Total>
+            <tApp_ Ref="63" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.6,2.64,5.9,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10,Bold</Font>
+              <Guid>1b9492b9662449d39c0591f14d49133e</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>tApp.</Name>
+              <Page isRef="14" />
+              <Parent isRef="59" />
+              <Text>{IIF(SP_nLang==1,"ผู้อนุมัติ ","Approved")}</Text>
+              <TextBrush>Black</TextBrush>
+            </tApp_>
+            <tUsrname Ref="64" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.85,1.84,5.5,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Enabled>False</Enabled>
+              <Font>Tahoma,10</Font>
+              <Guid>0566084e87794725bdb7912294e1a175</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>tUsrname</Name>
+              <Page isRef="14" />
+              <Parent isRef="59" />
+              <Text>{TSysUser.FTUsrName}</Text>
+              <TextBrush>Black</TextBrush>
+            </tUsrname>
+            <tHand Ref="65" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.6,1.84,0.2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <Guid>4678f0b5684e4e1faab2d3b71788e1c6</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>tHand</Name>
+              <Page isRef="14" />
+              <Parent isRef="59" />
+              <Text>(                                               </Text>
+              <TextBrush>Black</TextBrush>
+            </tHand>
+            <Text5 Ref="66" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12.4,1.84,0.2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <Guid>34c45373539842f2ab1ec291dd5b2964</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text5</Name>
+              <Page isRef="14" />
+              <Parent isRef="59" />
+              <Text>)</Text>
+              <TextBrush>Black</TextBrush>
+            </Text5>
+            <dot Ref="67" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.5,1.44,6.05,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>dot</Name>
+              <Page isRef="14" />
+              <Parent isRef="59" />
+              <Text>...................................................................................</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </dot>
+            <EndPointPrimitive3 Ref="68" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>19.1,0.64,0,0</ClientRectangle>
+              <Name>EndPointPrimitive3</Name>
+              <Page isRef="14" />
+              <Parent isRef="59" />
+              <ReferenceToGuid>30630547ab9346c18df46865d9445a30</ReferenceToGuid>
+            </EndPointPrimitive3>
+            <HorizontalLinePrimitive2 Ref="69" type="HorizontalLinePrimitive" isKey="true">
+              <ClientRectangle>0.2,0.04,18.9,0.0254</ClientRectangle>
+              <Color>Black</Color>
+              <EndCap Ref="70" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </EndCap>
+              <Name>HorizontalLinePrimitive2</Name>
+              <Page isRef="14" />
+              <Parent isRef="59" />
+              <StartCap Ref="71" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </StartCap>
+            </HorizontalLinePrimitive2>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>PageFooter1</Name>
+          <Page isRef="14" />
+          <Parent isRef="14" />
+        </PageFooter1>
+        <GroupHeader1 Ref="72" type="GroupHeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,7.8,19.2,0.5</ClientRectangle>
+          <Components isList="true" count="1">
+            <StartPointPrimitive2 Ref="73" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>0,0.1,0,0</ClientRectangle>
+              <Name>StartPointPrimitive2</Name>
+              <Page isRef="14" />
+              <Parent isRef="72" />
+              <ReferenceToGuid>d50335f2a4724098b0e6a9a2804e5650</ReferenceToGuid>
+            </StartPointPrimitive2>
+          </Components>
+          <Condition>{TACTPqDT.R_PqHD.FTXqhDocNo}</Condition>
+          <Conditions isList="true" count="0" />
+          <Enabled>False</Enabled>
+          <Name>GroupHeader1</Name>
+          <Page isRef="14" />
+          <Parent isRef="14" />
+          <ResetPageNumber>True</ResetPageNumber>
+        </GroupHeader1>
+        <DataBand1 Ref="74" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,9.1,19.2,0.7</ClientRectangle>
+          <Components isList="true" count="10">
+            <SeqNo Ref="75" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.2,0.1,1,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>SeqNo</Name>
+              <Page isRef="14" />
+              <Parent isRef="74" />
+              <Text>{TACTPqDT.FNXqdSeqNo}</Text>
+              <TextBrush>Black</TextBrush>
+            </SeqNo>
+            <PdtCode Ref="76" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.6,0.1,2.7,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>PdtCode</Name>
+              <Page isRef="14" />
+              <Parent isRef="74" />
+              <Text>{IIF(SP_tShowBarOrPdt == "1",TACTPqDT.FTPdtCode,TACTPqDT.FTXqdBarCode )}</Text>
+              <TextBrush>Black</TextBrush>
+            </PdtCode>
+            <PdtName Ref="77" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>4.3,0.1,10.5,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>PdtName</Name>
+              <Page isRef="14" />
+              <Parent isRef="74" />
+              <Text>{TACTPqDT.FTPdtName}</Text>
+              <TextBrush>Black</TextBrush>
+            </PdtName>
+            <Article Ref="78" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>9.5,0.2,1.7,0.4</ClientRectangle>
+              <Conditions isList="true" count="1">
+                <value>_x007B_SP_tFsh_x0020__x0021__x003D__x0020__x0022_1_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,</value>
+              </Conditions>
+              <Font>Tahoma,10</Font>
+              <Guid>0e2627cf983248be9ec90c44bfe0db8a</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Article</Name>
+              <Page isRef="14" />
+              <Parent isRef="74" />
+              <Text>{TACTPqDT.FTPdtArticle}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+            </Article>
+            <Season Ref="79" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>11.3,0.2,3.5,0.4</ClientRectangle>
+              <Conditions isList="true" count="1">
+                <value>_x007B_SP_tFsh_x0020__x0021__x003D__x0020__x0022_1_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,</value>
+              </Conditions>
+              <Font>Tahoma,10</Font>
+              <Guid>2bcd1c237ade4a489b008699066f0f96</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Season</Name>
+              <Page isRef="14" />
+              <Parent isRef="74" />
+              <Text>{TACTPqDT.R_PdtGrp.FTPgpChainName}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="80" type="CurrencyFormat" isKey="true">
+                <DecimalSeparator>,</DecimalSeparator>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>0</NegativePattern>
+                <PositivePattern>0</PositivePattern>
+                <Symbol>p.</Symbol>
+                <UseLocalSetting>False</UseLocalSetting>
+              </TextFormat>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+            </Season>
+            <Color Ref="81" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>5.3,0.2,2,0.4</ClientRectangle>
+              <Conditions isList="true" count="1">
+                <value>_x007B_SP_tFsh_x0020__x0021__x003D__x0020__x0022_1_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,</value>
+              </Conditions>
+              <Font>Tahoma,10</Font>
+              <Guid>4aefbd79657040c6a1a7265170414094</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Color</Name>
+              <Page isRef="14" />
+              <Parent isRef="74" />
+              <Text>{TACTPqDT.FTClrName}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+            </Color>
+            <Size Ref="82" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>7.5,0.2,2,0.4</ClientRectangle>
+              <Conditions isList="true" count="1">
+                <value>_x007B_SP_tFsh_x0020__x0021__x003D__x0020__x0022_1_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,</value>
+              </Conditions>
+              <Font>Tahoma,10</Font>
+              <Guid>0e33a9b158ac42aeb3e22ef91816dd65</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Size</Name>
+              <Page isRef="14" />
+              <Parent isRef="74" />
+              <Text>{TACTPqDT.FTPszName}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+            </Size>
+            <DCS Ref="83" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>2.15,0.2,1.95,0.4</ClientRectangle>
+              <Conditions isList="true" count="1">
+                <value>_x007B_SP_tFsh_x0020__x0021__x003D__x0020__x0022_1_x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,</value>
+              </Conditions>
+              <Font>Tahoma,10</Font>
+              <Guid>d72935e832fb462a90b56d02e795791c</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>DCS</Name>
+              <Page isRef="14" />
+              <Parent isRef="74" />
+              <Text>{TACTPqDT.FTDcsCode}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+            </DCS>
+            <UnitDT Ref="84" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>14.8,0.1,1.75,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <Guid>3f05aea3c96e4282b16eefee90d03b61</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>UnitDT</Name>
+              <Page isRef="14" />
+              <Parent isRef="74" />
+              <Text>{TACTPqDT.FTXqdUnitName}</Text>
+              <TextBrush>Black</TextBrush>
+            </UnitDT>
+            <Qty Ref="85" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>16.85,0.1,2.1,0.5</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Tahoma,10</Font>
+              <Guid>7135d32925bc41d69f092dc647529cae</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Qty</Name>
+              <Page isRef="14" />
+              <Parent isRef="74" />
+              <Text>{IIF(SP_tFsh == "1",Format("{0}", TACTPqDT.FCXqdQty),Format("{0:N" + SP_nCountDEC.ToString() + "}", TACTPqDT.FCXqdQty))}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="86" type="CurrencyFormat" isKey="true">
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>5</NegativePattern>
+                <PositivePattern>0</PositivePattern>
+                <Symbol />
+                <UseLocalSetting>False</UseLocalSetting>
+              </TextFormat>
+              <Type>Expression</Type>
+            </Qty>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataRelationName isNull="true" />
+          <DataSourceName>TACTPqDT</DataSourceName>
+          <Filters isList="true" count="0" />
+          <Name>DataBand1</Name>
+          <Page isRef="14" />
+          <Parent isRef="14" />
+          <Sort isList="true" count="0" />
+        </DataBand1>
+        <GroupFooter1 Ref="87" type="GroupFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,10.6,19.2,0.5</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <Name>GroupFooter1</Name>
+          <NewPageAfter>True</NewPageAfter>
+          <Page isRef="14" />
+          <Parent isRef="14" />
+        </GroupFooter1>
+        <RectanglePrimitive1 Ref="88" type="RectanglePrimitive" isKey="true">
+          <ClientRectangle>12.2,0.65,6.9,0.9</ClientRectangle>
+          <Color>Black</Color>
+          <Guid>bed82f9f529d4a238d6fb1c3d490d8e5</Guid>
+          <Name>RectanglePrimitive1</Name>
+          <Page isRef="14" />
+          <Parent isRef="14" />
+        </RectanglePrimitive1>
+        <RectanglePrimitive2 Ref="89" type="RectanglePrimitive" isKey="true">
+          <ClientRectangle>0.2,3.3,18.9,2.8</ClientRectangle>
+          <Color>Black</Color>
+          <Guid>8909fc32d56244c78d26663d377369c5</Guid>
+          <Name>RectanglePrimitive2</Name>
+          <Page isRef="14" />
+          <Parent isRef="14" />
+        </RectanglePrimitive2>
+        <RectanglePrimitive3 Ref="90" type="RectanglePrimitive" isKey="true">
+          <ClientRectangle>0.2,6.2,18.9,16.8</ClientRectangle>
+          <Color>Black</Color>
+          <Guid>30630547ab9346c18df46865d9445a30</Guid>
+          <Name>RectanglePrimitive3</Name>
+          <Page isRef="14" />
+          <Parent isRef="14" />
+        </RectanglePrimitive3>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>d45d7517eeb0446ba86c2716844fb582</Guid>
+      <Margins>0.65,0.65,0.65,1.59</Margins>
+      <Name>Page1</Name>
+      <PageHeight>27.9</PageHeight>
+      <PageWidth>20.5</PageWidth>
+      <PaperSize>Letter</PaperSize>
+      <Report isRef="0" />
+      <Watermark Ref="91" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PrinterSettings Ref="92" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>6/11/2010 1:37:06 PM</ReportChanged>
+  <ReportCreated>4/20/2010 10:55:57 AM</ReportCreated>
+  <ReportFile>D:\Fay\BackupReportSt_จาก ada59\Reports\Frm_SQL_SMBillPq.mrt</ReportFile>
+  <ReportGuid>c1faced7e4914e358af96f8bb1bc2fdc</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2010.2.732</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        
+        public Report()
+        {
+            this.InitializeComponent();
+        }
+        #region StiReport Designer generated code - do not modify#endregion StiReport Designer generated code - do not modify
+    }
+}</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>

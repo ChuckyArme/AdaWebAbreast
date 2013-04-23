@@ -1,0 +1,234 @@
+﻿.xW_DivMain
+{
+    height:165px;
+    width:960px;
+}
+
+.xW_DivSizeHead
+{
+    margin-top:10px;
+    width:910px;
+    height:160px;
+}
+.xW_DivSizeHeadUser
+{
+    margin-top:10px;
+    width:910px;
+    height:100px;
+}
+.xW_DivSizeHeadAuth
+{
+    width:910px;
+    height:80px;
+}
+.xW_DivSizeHeadCmpBch
+{
+    margin-top:10px;
+    width:910px;
+    height:150px;
+}
+.xW_LabelHeader{ text-align:center;}
+
+.xW_GroupSetting
+{
+    width:98%;
+    height:155px;   
+}
+
+.xW_DivSizeData
+{
+    width:900;
+    height:25px;
+    float:left;
+    border:solid 1px transparent;
+    margin:1px 1px 0px 1px;
+}
+
+.xW_DivCaption
+{
+    width:150px;
+    height:22px;
+    border:solid 1px transparent;
+    margin:1px 5px 1px 0px;
+    /*float:right;*/
+    /*text-align:right;*/
+    /*float:left;*/
+    text-align:right;
+}
+.xW_DivTextBox
+{
+    /*width:280px;
+    height:22px;
+    border:solid 1px transparent;
+    margin:1px 0px 1px 1px;
+    float:left;*/
+    
+	width:213px;
+	height:22px;
+	margin:1px 1px 1px 0px;
+	float: left;
+}
+.xW_DivTextBox input
+{
+    /*width:279px;
+    height:18px;
+    border-width:1px;
+    margin:1px 0px 1px 1px;
+    float:left;*/
+    
+	width:211px;
+	height:18px;
+}
+
+.xW_ComboBoxBch
+{
+    width:300px;
+    height:20px;
+    border-width:1px;
+    margin:1px 0px 1px 1px;
+    float:left;
+}
+.xW_ComboBox
+{
+    width:278px;
+    height:20px;
+    border-width:1px;
+    margin:1px 0px 1px 1px;
+    float:left;
+}
+.xW_RefreshDB
+{
+    margin-left:3px;
+    height:20px;
+    width:20px;
+    cursor:pointer;
+}
+
+.xW_BtnNext
+{
+    margin-top:5px;
+    margin-right:8px;
+    width:60px;
+    height:24px;
+    float:right;
+    cursor:pointer;
+}
+.xW_BtnBack
+{
+    margin-top:5px;
+    margin-right:8px;
+    width:75px;
+    height:24px;
+    float:right;
+    cursor:pointer;
+}
+.xW_DivMessage
+{
+    float:left;
+    margin:5px auto auto 140px;
+    font-size:11px;
+}
+.xW_DivMessage label
+{
+    color:Red;
+}
+.xW_MessageColor label{color:Red;}
+.xW_DivSizeRadio
+{
+    width:390px;
+    height:25px;
+    float:left;
+    margin:2px 0px 0px 2px;
+    cursor:pointer;
+}
+
+.xW_DivFooter
+{    
+    margin:104px 0px 0px 0px;
+    height:30px;
+}
+
+.xW_LabelStyle
+{
+    font-size:medium;
+    font-weight:bolder;
+    text-align:center;
+}
+.xW_DivLableMargin
+{
+    margin-top:20px;
+}
+
+.xW_DivSignUpData
+{
+	width:900px;
+	height:98px;
+	margin:0px 0px 1px 1px;
+	border:solid 1px transparent;
+	/*float:left;*/
+}
+.xW_DivExchange
+{
+	width:250px;
+	margin:1px 5px 1px 0px;
+	border:solid 1px transparent;
+}
+.xW_DivExchangeCap
+{
+	width:250px;/*100px; *CH 09-12-11*/
+	height:21px;
+	margin:1px 1px 1px 0px;
+	border:solid 1px transparent;
+}
+.xW_DivExchangeData
+{
+	width:300px;/*width:175px; *CH 06-10-11*/
+	height:22px;
+	margin:1px 1px 1px 0px;
+	/*border:solid 1px red;*/
+	float: left;
+}
+.xW_DivExchangeData input
+{
+	width:300px;/*170px; *CH 05-10-11*/
+	height:18px;
+}
+.xW_DivDBData
+{
+	width:300px;
+	height:22px;
+	margin:1px 1px 1px 0px;
+	float: left;
+}
+.xW_DivImg
+{
+    width:350px;
+}
+.xW_DivImgPass a
+{
+    background-image:url(../../../Content/img/imgIcon16x16/Check_16x16.png);
+    background-repeat:no-repeat;
+    background-position:left center;
+    float:left;
+    width:16px;
+    height:16px;
+}
+.xW_DivImgFail a
+{
+    background-image:url(../../../Content/img/imgIcon16x16/Delete_16x16.png);
+    background-repeat:no-repeat;
+    background-position:left center;
+    float:left;
+    width:16px;
+    height:16px;
+}
+
+.xW_ImgRefreshDB a
+{
+    background-image:url(../../../Content/img/imgIcon16x16/Refresh_16x16.png);
+    background-repeat:no-repeat;
+    background-position:left center;
+    float:left;
+    width:16px;
+    height:16px;
+}

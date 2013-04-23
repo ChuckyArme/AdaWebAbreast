@@ -1,0 +1,736 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="tMsgAdd" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="tMsgBaht" xml:space="preserve">
+    <value>baht</value>
+  </data>
+  <data name="tMsgBoxCHKDel" xml:space="preserve">
+    <value>Do you want to delete ?</value>
+  </data>
+  <data name="tMsgBrowse" xml:space="preserve">
+    <value>Browse.</value>
+  </data>
+  <data name="tMsgCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="tMsgCanCom" xml:space="preserve">
+    <value>Cancel  complete.</value>
+  </data>
+  <data name="tMsgCanNoCom" xml:space="preserve">
+    <value>Cancel not complete.</value>
+  </data>
+  <data name="tMsgChangeRate" xml:space="preserve">
+    <value>When you change rate Details must clear Do you want to change ?</value>
+  </data>
+  <data name="tMsgClearCstCode" xml:space="preserve">
+    <value>When change Customer program will be clear all products. Do you want to change customer?</value>
+  </data>
+  <data name="tMsgClearData" xml:space="preserve">
+    <value>Do you want to clear old data?</value>
+  </data>
+  <data name="tMsgClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="tMsgCNPC_ada" xml:space="preserve">
+    <value>Adasoft : Unable to update product for semi-online.</value>
+  </data>
+  <data name="tMsgCNPC_Costup" xml:space="preserve">
+    <value>Cost must update only products in retail or wholesale warehouse.</value>
+  </data>
+  <data name="tMsgCNPC_NoAffect" xml:space="preserve">
+    <value>No affect record.</value>
+  </data>
+  <data name="tMsgCNPC_NoDelHD" xml:space="preserve">
+    <value>Can not delete  HD. </value>
+  </data>
+  <data name="tMsgCNPC_NoLast" xml:space="preserve">
+    <value>Can not delete This document is not last document</value>
+  </data>
+  <data name="tMsgCodeHasUsed" xml:space="preserve">
+    <value>This code has been used.Do you want to generate code again?</value>
+  </data>
+  <data name="tMsgCom" xml:space="preserve">
+    <value>Approve complete</value>
+  </data>
+  <data name="tMsgConfirmCancel" xml:space="preserve">
+    <value>Do you want to cancel this document?</value>
+  </data>
+  <data name="tMsgConfirmChangeSpl" xml:space="preserve">
+    <value>When change supplier program will be clear all product \nDo you confirm to change supplier?</value>
+    <comment>'*khem 10-09-02</comment>
+  </data>
+  <data name="tMsgConfirmDelete" xml:space="preserve">
+    <value>Do you want to delete this data?</value>
+  </data>
+  <data name="tMsgConfirmDelPdtSN" xml:space="preserve">
+    <value>This document combined with S/N product. Program will delete all S/N product before copy.\nDo you want to continue?</value>
+  </data>
+  <data name="tMsgConfirmPost" xml:space="preserve">
+    <value>Do you really want to continue approved?</value>
+  </data>
+  <data name="tMsgConfirmSave" xml:space="preserve">
+    <value>When you save,You could not change type of document(Cash/Credit) \n Do you want to save?</value>
+  </data>
+  <data name="tMsgCopy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="tMsgDAT_Notfound001" xml:space="preserve">
+    <value>Not found data.</value>
+  </data>
+  <data name="tMsgDAT_PleaseWait001" xml:space="preserve">
+    <value>Please wait...</value>
+  </data>
+  <data name="tMsgDelcom" xml:space="preserve">
+    <value>Delete  Complete</value>
+  </data>
+  <data name="tMsgDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="tMsgDelNocom" xml:space="preserve">
+    <value>Delete not complete</value>
+  </data>
+  <data name="tMsgDiscAf" xml:space="preserve">
+    <value>After</value>
+  </data>
+  <data name="tMsgDiscB4" xml:space="preserve">
+    <value>Before</value>
+  </data>
+  <data name="tMsgDiscCal" xml:space="preserve">
+    <value>Cal</value>
+  </data>
+  <data name="tMsgDiscCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="tMsgDiscDisc" xml:space="preserve">
+    <value>Disc</value>
+  </data>
+  <data name="tMsgDiscNo" xml:space="preserve">
+    <value>Seq</value>
+  </data>
+  <data name="tMsgDiscOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="tMsgDiscTitle" xml:space="preserve">
+    <value>Discount</value>
+  </data>
+  <data name="tMsgDiscType" xml:space="preserve">
+    <value>Disc to</value>
+  </data>
+  <data name="tMsgDiscTypeVal" xml:space="preserve">
+    <value>Amt</value>
+  </data>
+  <data name="tMsgDoc_App" xml:space="preserve">
+    <value>Document can not be amended</value>
+  </data>
+  <data name="tMsgDoc_Cancel" xml:space="preserve">
+    <value>Documment is cancel</value>
+  </data>
+  <data name="tMsgDoc_Empty" xml:space="preserve">
+    <value>Can not insert, document is empty.</value>
+  </data>
+  <data name="tMsgDoc_NonApp" xml:space="preserve">
+    <value>UnApporved Document</value>
+  </data>
+  <data name="tMsgEdit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="tMsgEditcom" xml:space="preserve">
+    <value>Edit  Complete</value>
+  </data>
+  <data name="tMsgEditlNocom" xml:space="preserve">
+    <value>Edit not complete</value>
+  </data>
+  <data name="tMsgErrorData" xml:space="preserve">
+    <value>Data is error please insert new data.</value>
+  </data>
+  <data name="tMsgErrorDataBuyer" xml:space="preserve">
+    <value>Buyer 's data is not completely, please insert data again.</value>
+  </data>
+  <data name="tMsgErrorDataPdt" xml:space="preserve">
+    <value>Product 's data is not completely, please insert data again.</value>
+  </data>
+  <data name="tMsgErrorDataSpl" xml:space="preserve">
+    <value>Supplier 's data is not completely, please insert data again.</value>
+  </data>
+  <data name="tMsgExceedCreditLimit" xml:space="preserve">
+    <value>Sum of customer receivable more than credit limit. Please check customer payment.</value>
+  </data>
+  <data name="tMsgFind" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="tMsgHelp" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="tMsgNoAppApp" xml:space="preserve">
+    <value>Can not apporve document is apporve.</value>
+  </data>
+  <data name="tMsgNoAppCancel" xml:space="preserve">
+    <value>Can not apporve document is cancel.</value>
+  </data>
+  <data name="tMsgNoAppNoSave" xml:space="preserve">
+    <value>Can not apporve document is do not save.</value>
+  </data>
+  <data name="tMsgNoAppStaDocDonotAct" xml:space="preserve">
+    <value>Can not approve. Because this document do not active.</value>
+  </data>
+  <data name="tMsgNoCancelApp" xml:space="preserve">
+    <value>Can not cancel document is apporve.</value>
+  </data>
+  <data name="tMsgNoCancelCancel" xml:space="preserve">
+    <value>Can not cancel document is cancel.</value>
+  </data>
+  <data name="tMsgNoCancelNoSave" xml:space="preserve">
+    <value>Can not cancel document is do not save.</value>
+  </data>
+  <data name="tMsgNoChangeWah" xml:space="preserve">
+    <value>Cannot change warehouse because have some product in list</value>
+  </data>
+  <data name="tMsgNoCom" xml:space="preserve">
+    <value>Approve not complete.</value>
+  </data>
+  <data name="tMsgNoCoppyNoSave" xml:space="preserve">
+    <value>Can not copy this document because this document not save</value>
+  </data>
+  <data name="tMsgNoDelApp" xml:space="preserve">
+    <value>Can not delete document is apporve.</value>
+  </data>
+  <data name="tMsgNoDelCancel" xml:space="preserve">
+    <value>Can not delete document is cancel</value>
+  </data>
+  <data name="tMsgNoDelNoSave" xml:space="preserve">
+    <value>Can not delete document is do not save.</value>
+  </data>
+  <data name="tMsgNoDocLast" xml:space="preserve">
+    <value>Can not delete this document. Because this document is not document number.</value>
+  </data>
+  <data name="tMsgNoEdit" xml:space="preserve">
+    <value>This bill already paid therefore  or process done  it could not be changed.</value>
+  </data>
+  <data name="tMsgNoEditApp" xml:space="preserve">
+    <value>Can not edit document is apporve.</value>
+  </data>
+  <data name="tMsgNoEditCancel" xml:space="preserve">
+    <value>Can not edit document is cancel</value>
+  </data>
+  <data name="tMsgNoEditNoSave" xml:space="preserve">
+    <value>Can not edit document is do not save.</value>
+  </data>
+  <data name="tMsgNonData" xml:space="preserve">
+    <value>Not found or this data is not defined yet</value>
+  </data>
+  <data name="tMsgNonDataCtrName" xml:space="preserve">
+    <value>Not found ConTractor Name or this data is not defined yet</value>
+    <comment>'*PP 10-08-26</comment>
+  </data>
+  <data name="tMsgNonDataPdt" xml:space="preserve">
+    <value>Not found Product or this data is not defined yet</value>
+  </data>
+  <data name="tMsgNonDataRte" xml:space="preserve">
+    <value>Not found Rate or this data is not defined yet</value>
+  </data>
+  <data name="tMsgNonDataSpl" xml:space="preserve">
+    <value>Not found Supplier or this data is not defined yet</value>
+  </data>
+  <data name="tMsgNotAuthorize" xml:space="preserve">
+    <value>You do not have any permittion to do  this process!!</value>
+  </data>
+  <data name="tMsgNotGenDoc" xml:space="preserve">
+    <value>Some items in grid,can not select this function.</value>
+  </data>
+  <data name="tMsgNotyet" xml:space="preserve">
+    <value>Not yet process month end. You must back to process month end before.</value>
+  </data>
+  <data name="tMsgNoWah" xml:space="preserve">
+    <value>You not yet define Warehouse</value>
+  </data>
+  <data name="tMsgPost" xml:space="preserve">
+    <value>Post</value>
+  </data>
+  <data name="tMsgRefresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="tMsgReport" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="tMsgSatang" xml:space="preserve">
+    <value>satang</value>
+  </data>
+  <data name="tMsgSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="tMsgSave_AfterDisChgIsZero" xml:space="preserve">
+    <value>Can not save this document. Because After Dis charge less than zero.</value>
+  </data>
+  <data name="tMsgSave_complete" xml:space="preserve">
+    <value>Save Data Complete</value>
+  </data>
+  <data name="tMsgSave_Error" xml:space="preserve">
+    <value>Save Data Not Complete</value>
+  </data>
+  <data name="tMsgSave_NotComplete" xml:space="preserve">
+    <value>Can't Save Data</value>
+  </data>
+  <data name="tMsgSave_Warning" xml:space="preserve">
+    <value>Data have been change. Do you want to save changed?</value>
+  </data>
+  <data name="tMsgSav_Etc" xml:space="preserve">
+    <value>Please enter code.</value>
+  </data>
+  <data name="tMsgSav_otbEmpty" xml:space="preserve">
+    <value>Please enter data.</value>
+  </data>
+  <data name="tMsgSav_Retc" xml:space="preserve">
+    <value>Please re-enter code.</value>
+  </data>
+  <data name="tMsgSelect" xml:space="preserve">
+    <value>Please select colum  you want to find</value>
+  </data>
+  <data name="tMsgSignIn" xml:space="preserve">
+    <value>Please go Login.</value>
+  </data>
+  <data name="tMsgWahCode" xml:space="preserve">
+    <value>Please define data of source.</value>
+  </data>
+  <data name="tMsgBrwFile" xml:space="preserve">
+    <value>Please browse a file to upload.</value>
+  </data>
+  <data name="tMsgBrwFileError" xml:space="preserve">
+    <value>Upload file failed, make sure to browse a valid file path.</value>
+  </data>
+  <data name="tMsgBrwFileOnlyImage" xml:space="preserve">
+    <value>Only image files are accepted, please browse a image file (.gif, .png, .jpg, .jpeg)</value>
+  </data>
+  <data name="tMsgUpload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="tMsgFormatOverFlow" xml:space="preserve">
+    <value>Overflow data in this format, Please change data format of automation code.</value>
+  </data>
+  <data name="tMsgWahNotDelete" xml:space="preserve">
+    <value>This data has been refered from another file. Therefore can not be delete.</value>
+  </data>
+  <data name="tMsgCstGift_DocNotApprove" xml:space="preserve">
+    <value>This customer can not change, Because some bill of this customer still unapproved.</value>
+  </data>
+  <data name="tMsgSelectPdtSerial" xml:space="preserve">
+    <value>Type of product is a serial number, You should define serial before. Do you want to adjust.</value>
+  </data>
+  <data name="tMsgCstPointLessThanPdtPoint" xml:space="preserve">
+    <value>Can not change product. Because  point is less than point of product.</value>
+  </data>
+  <data name="tMsgCheckPdtDuplicate" xml:space="preserve">
+    <value>Duplicate items!!</value>
+  </data>
+  <data name="tMsgConfirmPause" xml:space="preserve">
+    <value>Do you want to continue this promotion?</value>
+  </data>
+  <data name="tMsgConfirmStop" xml:space="preserve">
+    <value>Do you want to stop promotion?</value>
+  </data>
+  <data name="tMsgConfirmUnPause" xml:space="preserve">
+    <value>Do you want to start promotion?</value>
+  </data>
+  <data name="tMsgIsPauseNoPause" xml:space="preserve">
+    <value>Can not pause this promotion. Because promotion had pause.</value>
+  </data>
+  <data name="tMsgIsStopNoPause" xml:space="preserve">
+    <value>Can not pause this promotion. Because promotion had Stop.</value>
+  </data>
+  <data name="tMsgNoApvNotPause" xml:space="preserve">
+    <value>Can not pause this promotion. Because promotion do not approve.</value>
+  </data>
+  <data name="tMsgNoApvNotStop" xml:space="preserve">
+    <value>Can not stop this promotion. Because promotion do not approve.</value>
+  </data>
+  <data name="tMsgNoPmtGrpName" xml:space="preserve">
+    <value>Not found promotion group name or this data is not defined yet</value>
+  </data>
+  <data name="tMsgNoPmtType" xml:space="preserve">
+    <value>Not found promotion type or this data is not defined yet</value>
+  </data>
+  <data name="tMsgPause" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="tMsgStop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="tMsgGrpNameDup" xml:space="preserve">
+    <value>Group Name duplicate, Do you want insert into originally group.</value>
+  </data>
+  <data name="tMsgPerMust100" xml:space="preserve">
+    <value>Percent summary must Equal 100.</value>
+  </data>
+  <data name="tMsgConfirmChangePmt" xml:space="preserve">
+    <value>When change promotion program will be clear all product \nDo you confirm to change promotion?</value>
+  </data>
+  <data name="tMsgNoPdtFree" xml:space="preserve">
+    <value>No product for change or already changed.</value>
+  </data>
+  <data name="tMsgNoFilterCondition" xml:space="preserve">
+    <value>Please select condition  you want to filter</value>
+  </data>
+  <data name="tMsgNoRange" xml:space="preserve">
+    <value>Not found range or this data is not defined yet</value>
+  </data>
+  <data name="tMsgRangeOutOfRange" xml:space="preserve">
+    <value>Range time must less than 23:59:59</value>
+  </data>
+  <data name="tMsgDupSerial" xml:space="preserve">
+    <value>Duplicate serial ,please select serial again.</value>
+  </data>
+  <data name="tMsgNotFoundSerial" xml:space="preserve">
+    <value>Serial not found.</value>
+  </data>
+  <data name="tMsgLimitRcvGrp" xml:space="preserve">
+    <value>Receive group is limited, , must be less than </value>
+  </data>
+  <data name="tMsgCstGift_NotAppv" xml:space="preserve">
+    <value>Can not approve !! Because point total used is more than customer point.</value>
+  </data>
+  <data name="tMsgCstGift_NotSave" xml:space="preserve">
+    <value>Can not save this document! Because total point used is more than customer point.</value>
+  </data>
+  <data name="tMsgStopedNoStop" xml:space="preserve">
+    <value>Can not stop this promotion. Because promotion  Stoped.</value>
+  </data>
+  <data name="tMsgIncorrectDatePmt" xml:space="preserve">
+    <value>Incorrect promotion date ,start date must less than or equal stop date.</value>
+  </data>
+  <data name="tMsgNoBchOrZone" xml:space="preserve">
+    <value>Please select branch or zone for this promotion.</value>
+  </data>
+  <data name="tMsgLogin_PwdIsNull" xml:space="preserve">
+    <value>Please input user's password !!</value>
+  </data>
+  <data name="tMsgLogin_PwdNotCorrect" xml:space="preserve">
+    <value>Password is not correct!!</value>
+  </data>
+  <data name="tMsgLogin_UserCodeNotCorrect" xml:space="preserve">
+    <value>User name  is not correct!!</value>
+  </data>
+  <data name="tMsgPerAvgOutOfRange" xml:space="preserve">
+    <value>Percent of all of them ,must be equal 100.</value>
+  </data>
+  <data name="tMsgIncorrectTimeCond" xml:space="preserve">
+    <value>Incorrect condition date ,min time must less than or equal max time.</value>
+  </data>
+  <data name="tMsgRangeTimeOverlap" xml:space="preserve">
+    <value>Define time range overlap with previous time or next time range.</value>
+  </data>
+  <data name="tMsgPerAvgMustZero" xml:space="preserve">
+    <value>Get free item at customer counter ,Percent discount average must set to zero. \nPlease verify again.</value>
+  </data>
+  <data name="tMsgNoBuyGet" xml:space="preserve">
+    <value>Can't approve this document. Because buy condition not defind or get condition not defind.</value>
+  </data>
+  <data name="tMsgDat_NotFountOrLessPoint" xml:space="preserve">
+    <value>Not found product or customer point is not enough.</value>
+  </data>
+  <data name="tMsgQtyCannotEmpty" xml:space="preserve">
+    <value>Please enter qty</value>
+  </data>
+  <data name="tMsgCstPointChange" xml:space="preserve">
+    <value>Customer point has been change\nDo you want to continue</value>
+  </data>
+  <data name="tMsgPointOverNoPost" xml:space="preserve">
+    <value>Due to used point has exceed\nCan not approve</value>
+  </data>
+  <data name="tMsgBuyAmtIsZero" xml:space="preserve">
+    <value>Can not edit this data. Because buy amount must more than zero.</value>
+  </data>
+  <data name="tMsgBuyMinIsZero" xml:space="preserve">
+    <value>Can not edit this data. Because buy minimum must more than zero.</value>
+  </data>
+  <data name="tMsgBuyQtyIsZero" xml:space="preserve">
+    <value>Can not edit this data. Because buy quantity must more than zero.</value>
+  </data>
+  <data name="tMsgGetQtyIsZero" xml:space="preserve">
+    <value>Can not edit this data. Because get quantity must more than zero.</value>
+  </data>
+  <data name="tMsgSearchSpl" xml:space="preserve">
+    <value>Please Select Customers</value>
+    <comment>*CH 06-10-11</comment>
+  </data>
+  <data name="tMsgdExLessdSt" xml:space="preserve">
+    <value>Expired Date is less than Start Date</value>
+    <comment>*CH 01-12-11</comment>
+  </data>
+  <data name="tMsgCHKChoice" xml:space="preserve">
+    <value>do you want to continue ?</value>
+    <comment>*CH 02-12-11</comment>
+  </data>
+  <data name="tMsgPdtOverLen" xml:space="preserve">
+    <value>Products should not 4000 items per times.</value>
+    <comment>*CH 02-12-11</comment>
+  </data>
+  <data name="tMsgNotShwRptNotAppv" xml:space="preserve">
+    <value>Not allowed to print documents that have already been approved.</value>
+    <comment>*CH 09-02-12</comment>
+  </data>
+  <data name="tMsgNotPdtQtyForEx" xml:space="preserve">
+    <value>Some of the items stock not be enough for exchange.</value>
+    <comment>สินค้าบางรายการของสต็อกสินค้าไม่เพียงพอสำหรับการแลกเปลี่ยน</comment>
+  </data>
+  <data name="tMsgDelExchangePdt" xml:space="preserve">
+    <value>Do you want to delete some product's items?</value>
+    <comment>คุณต้องการลบรายการสินค้าบางรายการ</comment>
+  </data>
+  <data name="tMsgChkWantPdt" xml:space="preserve">
+    <value>You want to selected product?</value>
+    <comment>ที่คุณต้องการสินค้าที่เลือกไว้หรือไม่</comment>
+  </data>
+  <data name="tMsgHavPdtNotSelect" xml:space="preserve">
+    <value>Have product 1 record not be selected.</value>
+    <comment>มีสินค้า 1 รายการไม่ถูกเลือก</comment>
+  </data>
+  <data name="tMsgCantConnWebSrv" xml:space="preserve">
+    <value>Cannot connect database WebServer</value>
+  </data>
+  <data name="tMsgNotFmtDate" xml:space="preserve">
+    <value>The date format is incorrect.\nEx. "dd/MM/yyyy"</value>
+    <comment>รูปแบบวันที่ไม่ถูกต้อง\nตัวอย่าง "dd/MM/yyyy"</comment>
+  </data>
+  <data name="tMsgDay" xml:space="preserve">
+    <value>Day</value>
+    <comment>วัน</comment>
+  </data>
+  <data name="tMsgMonth" xml:space="preserve">
+    <value>Month</value>
+    <comment>เดือน</comment>
+  </data>
+  <data name="tMsgNotEqual" xml:space="preserve">
+    <value>is not equal to</value>
+    <comment>ไม่เท่ากับ</comment>
+  </data>
+  <data name="tMsgYear" xml:space="preserve">
+    <value>Year</value>
+    <comment>ปี</comment>
+  </data>
+  <data name="tMsgNotLess" xml:space="preserve">
+    <value>not less than</value>
+    <comment>ไม่น้อยกว่า</comment>
+  </data>
+  <data name="tMsgNotexceed" xml:space="preserve">
+    <value>not exceed</value>
+    <comment>ต้องไม่เกิน</comment>
+  </data>
+  <data name="tMsgAnd" xml:space="preserve">
+    <value>And</value>
+    <comment>และ</comment>
+  </data>
+  <data name="tMsgMoreThen" xml:space="preserve">
+    <value>more then</value>
+    <comment>มากกว่า</comment>
+  </data>
+  <data name="tMsgOnlyNum" xml:space="preserve">
+    <value>must be numbers only.</value>
+    <comment>ต้องเป็นตัวเลขเท่านั้น.</comment>
+  </data>
+  <data name="tMsgDataNotFound" xml:space="preserve">
+    <value>The data not found to update.</value>
+  </data>
+  <data name="tMsgErroMaxGenCode" xml:space="preserve">
+    <value>ไม่สามารถสร้างรหัสได้ เนื่องจากมีค่าสูงสุดแล้ว</value>
+  </data>
+  <data name="tMsgWahCheckDuplicate" xml:space="preserve">
+    <value>This warehouse has been used. Can not define dupplicate warehouse stock. Please select again.</value>
+  </data>
+  <data name="olaMaximunLevel" xml:space="preserve">
+    <value>Can not add this node because this parent node has maximun level of child nodes.</value>
+  </data>
+  <data name="tMsgBoxCHKSave" xml:space="preserve">
+    <value>Do you want to save ?</value>
+  </data>
+  <data name="olaMaximunNode" xml:space="preserve">
+    <value>Can not add this node because this level already have limited nodes.</value>
+  </data>
+  <data name="tMsgNotDupFac" xml:space="preserve">
+    <value>Can not duplicate facing</value>
+    <comment>ไม่อนุญาติให้ Facing ซ้ำกัน</comment>
+  </data>
+  <data name="tMsgDupKey" xml:space="preserve">
+    <value>Duplicate key ,please insert data again.</value>
+  </data>
+  <data name="tMsgConfirmStaTchScreen" xml:space="preserve">
+    <value>This product already select touch screen group.\nUnchecked touch screen status will cancel touch screen group too.</value>
+  </data>
+  <data name="tMsgCant_CreateTemp" xml:space="preserve">
+    <value>Can't create template table.</value>
+    <comment>Can't create template table.</comment>
+  </data>
+  <data name="tMsgCant_UpdateData" xml:space="preserve">
+    <value>Can't update data table.</value>
+    <comment>Can't update data table</comment>
+  </data>
+  <data name="tMsgHave" xml:space="preserve">
+    <value>have</value>
+  </data>
+  <data name="tMsgChkDel" xml:space="preserve">
+    <value>Do you want to delete</value>
+  </data>
+  <data name="tMsgYesOrNo" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="tMsgWarning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="tMsgGrossLessThanZero" xml:space="preserve">
+    <value>Can not approve document\nbecause Gross Total less than zero</value>
+  </data>
+  <data name="tMsgNoSaveCancel" xml:space="preserve">
+    <value>Can not save document is cancel.</value>
+  </data>
+  <data name="tMsgConfirmChangeWah" xml:space="preserve">
+    <value>When change warehouse program will be clear all product \nDo you confirm to change warehouse?</value>
+  </data>
+  <data name="tMsgFromMoreThanTo" xml:space="preserve">
+    <value>From-Date must be equal or less than To-Date</value>
+  </data>
+  <data name="tMsgHasPdtNotChangeVatInOrEx" xml:space="preserve">
+    <value>Cannot change type of VAT because have some product in list</value>
+  </data>
+  <data name="tMsgChkWahCode" xml:space="preserve">
+    <value>Receive specific\nRetail, Wholesale</value>
+  </data>
+  <data name="tMsgCannotWork" xml:space="preserve">
+    <value>Can not work due to the user level of less than 8.</value>
+  </data>
+  <data name="tMsgCannotUse" xml:space="preserve">
+    <value>Code is not available.</value>
+  </data>
+  <data name="tMsgNotexceed20" xml:space="preserve">
+    <value>not exceedQtycharacters.</value>
+    <comment>ต้องไม่เกินQtyอักษร</comment>
+  </data>
+  <data name="tMsgConfirmChangeCst" xml:space="preserve">
+    <value>When change customer program will be clear all product \nDo you confirm to change customer?</value>
+  </data>
+  <data name="tMsgNonDataCst" xml:space="preserve">
+    <value>Not found customer or this data is not defined yet</value>
+  </data>
+  <data name="tMsgDocDateBelowPeriod" xml:space="preserve">
+    <value>Can not approve document date is below period</value>
+  </data>
+  <data name="tMsgNoDataNoSave" xml:space="preserve">
+    <value>Can not save this document. Because this document not found.</value>
+  </data>
+</root>

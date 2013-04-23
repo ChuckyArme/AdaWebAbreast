@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="tMsgDAT_Notfound001" xml:space="preserve">
+    <value>ไม่พบข้อมูล</value>
+  </data>
+  <data name="tMsgDAT_PleaseWait001" xml:space="preserve">
+    <value>กรุณารอสักครู่...</value>
+  </data>
+  <data name="tMsgSav_Etc" xml:space="preserve">
+    <value>กรุณาป้อนรหัส</value>
+  </data>
+  <data name="tMsgSav_otbEmpty" xml:space="preserve">
+    <value>กรุณาป้อนข้อมูล</value>
+  </data>
+  <data name="tMsgSav_Retc" xml:space="preserve">
+    <value>รหัสซ้ำ กรุณาป้อนรหัสใหม่</value>
+  </data>
+  <data name="tMsgSignIn" xml:space="preserve">
+    <value>กรุณา Login เข้าสู่ระบบ</value>
+  </data>
+  <data name="tMsgBoxCHKDel" xml:space="preserve">
+    <value>ต้องการลบหรือไม่ ?</value>
+  </data>
+  <data name="tMsgCNPC_ada" xml:space="preserve">
+    <value>Adasoft : ไม่สามารถแก้ไขได้</value>
+  </data>
+  <data name="tMsgCNPC_Costup" xml:space="preserve">
+    <value>แก้ไขราคาได้เฉพาะสินค้าที่อยู่ในคลังสินค้า ขายส่ง หรือ ปลีกเท่านั้น</value>
+  </data>
+  <data name="tMsgCNPC_NoAffect" xml:space="preserve">
+    <value>ไม่มีผลต่อข้อมูล</value>
+  </data>
+  <data name="tMsgCNPC_NoDelHD" xml:space="preserve">
+    <value>ไม่สามาถลบรายการ HD ได้</value>
+  </data>
+  <data name="tMsgCNPC_NoLast" xml:space="preserve">
+    <value>ไม่อนุญาติให้ลบรายการเอกสารที่ไม่ใช่รายการสุดท้าย</value>
+  </data>
+  <data name="tMsgDoc_App" xml:space="preserve">
+    <value>เอกสารอนุมัติแล้วไม่สามารถแก้ไขได้</value>
+  </data>
+  <data name="tMsgDoc_Cancel" xml:space="preserve">
+    <value>เอกสารถูกยกเลิกแล้ว</value>
+  </data>
+  <data name="tMsgDoc_Empty" xml:space="preserve">
+    <value>ยังไม่สามารถบันทึกได้เพราะยังไม่มีรายการในเอกสาร</value>
+  </data>
+  <data name="tMsgDoc_NonApp" xml:space="preserve">
+    <value>เอกสารยังไม่อนุมัติ</value>
+  </data>
+  <data name="tMsgErrorData" xml:space="preserve">
+    <value>ข้อมูลไม่สมบูรณ์ กรุณาใส่ใหม่</value>
+  </data>
+  <data name="tMsgNoEdit" xml:space="preserve">
+    <value>มีการชำระเงิน หรือ มีการประมวลผลแล้วไม่สามารถแก้ไขบิลนี้ได้</value>
+  </data>
+  <data name="tMsgNoDelCancel" xml:space="preserve">
+    <value>เอกสารถูกยกเลิกไปแล้ว ไม่สามารถลบได้</value>
+  </data>
+  <data name="tMsgNoDelApp" xml:space="preserve">
+    <value>เอกสารถูกอนุมัติแล้ว ไม่สามารถลบได้</value>
+  </data>
+  <data name="tMsgNoDelNoSave" xml:space="preserve">
+    <value>เอกสารยังไม่ไดับันทึก ไม่สามารถลบได้</value>
+  </data>
+  <data name="tMsgNoAppApp" xml:space="preserve">
+    <value>เอกสารถูกอนุมัติแล้ว ไม่สามารถอนุมัติได้</value>
+  </data>
+  <data name="tMsgNoAppCancel" xml:space="preserve">
+    <value>เอกสารถูกยกเลิกแล้ว ไม่สามารถอนุมัติได้</value>
+  </data>
+  <data name="tMsgNoAppNoSave" xml:space="preserve">
+    <value>เอกสารยังไม่ได้บันทึก ไม่สามารถอนุมัติได้</value>
+  </data>
+  <data name="tMsgNoCancelApp" xml:space="preserve">
+    <value>เอกสารถูกอนุมัติแล้ว ไม่สามารถยกเลิกได้</value>
+  </data>
+  <data name="tMsgNoCancelCancel" xml:space="preserve">
+    <value>เอกสารถูกยกเลิกแล้ว ไม่สามารถยกเลิกได้</value>
+  </data>
+  <data name="tMsgNoCancelNoSave" xml:space="preserve">
+    <value>เอกสารยังไม่ได้บันทึก ไม่สามารถยกเลิกได้</value>
+  </data>
+  <data name="tMsgNotyet" xml:space="preserve">
+    <value>ยังไม่มีการประมวลผลยอดยกมาสิ้นเดือน. คุณต้องประมวลผลยอดยกมาสิ้นเดือนก่อน</value>
+  </data>
+  <data name="tMsgCanCom" xml:space="preserve">
+    <value>การยกเลิกเอกสารสมบูรณ์</value>
+  </data>
+  <data name="tMsgCanNoCom" xml:space="preserve">
+    <value>การยกเลิกเอกสารไม่สมบูรณ์</value>
+  </data>
+  <data name="tMsgCom" xml:space="preserve">
+    <value>การประมวลผลสำเร็จ</value>
+  </data>
+  <data name="tMsgDelcom" xml:space="preserve">
+    <value>การลบข้อมูลสมบูรณ์</value>
+  </data>
+  <data name="tMsgDelNocom" xml:space="preserve">
+    <value>การลบข้อมูลไม่สมบูรณ์</value>
+  </data>
+  <data name="tMsgNoCom" xml:space="preserve">
+    <value>การประมวลผลไม่สำเร็จ</value>
+  </data>
+  <data name="tMsgDiscAf" xml:space="preserve">
+    <value>หลัง</value>
+  </data>
+  <data name="tMsgDiscB4" xml:space="preserve">
+    <value>ก่อน</value>
+  </data>
+  <data name="tMsgDiscCal" xml:space="preserve">
+    <value>คำนวณ</value>
+  </data>
+  <data name="tMsgDiscCancel" xml:space="preserve">
+    <value>ยกเลิก</value>
+  </data>
+  <data name="tMsgDiscDisc" xml:space="preserve">
+    <value>ส่วนลด</value>
+  </data>
+  <data name="tMsgDiscNo" xml:space="preserve">
+    <value>ลำดับ</value>
+  </data>
+  <data name="tMsgDiscOK" xml:space="preserve">
+    <value>ตกลง</value>
+  </data>
+  <data name="tMsgDiscTitle" xml:space="preserve">
+    <value>การลด</value>
+  </data>
+  <data name="tMsgDiscType" xml:space="preserve">
+    <value>ลดเป็น</value>
+  </data>
+  <data name="tMsgDiscTypeVal" xml:space="preserve">
+    <value>จน.</value>
+  </data>
+  <data name="tMsgBrowse" xml:space="preserve">
+    <value>ค้นหา</value>
+  </data>
+  <data name="tMsgChangeRate" xml:space="preserve">
+    <value>เมื่อเปลี่ยนสกุลเงินโปรแกรมจะเครียร์รายการสินค้า คุณยืนยันที่จะเปลี่ยนสกุลเงินหรือไม่</value>
+  </data>
+  <data name="tMsgNonDataPdt" xml:space="preserve">
+    <value>ไม่พบข้อมูลสินค้า หรือ ยังไม่มีการกำหนดข้อมูลสินค้า</value>
+  </data>
+  <data name="tMsgNonDataRte" xml:space="preserve">
+    <value>ไม่พบข้อมูลอัตราแลกเปลี่ยน หรือ ยังไม่มีการกำหนดข้อมูลอัตราแลกเปลี่ยน</value>
+  </data>
+  <data name="tMsgNonDataSpl" xml:space="preserve">
+    <value>ไม่พบข้อมูลผู้จำหน่าย หรือ ยังไม่มีการกำหนดข้อมูลผู้จำหน่าย</value>
+  </data>
+  <data name="tMsgSelect" xml:space="preserve">
+    <value>กรุณาเลือกขอบเขตข้อมูลที่ต้องการค้นหา</value>
+  </data>
+  <data name="tMsgSave_complete" xml:space="preserve">
+    <value>บันทึกข้อมูลสำเร็จ</value>
+  </data>
+  <data name="tMsgSave_Error" xml:space="preserve">
+    <value>บันทึกข้อมูลล้มเหลว</value>
+  </data>
+  <data name="tMsgSave_NotComplete" xml:space="preserve">
+    <value>ไม่สามารถบันทึกข้อมูลได้</value>
+  </data>
+  <data name="tMsgAdd" xml:space="preserve">
+    <value>เพิ่ม</value>
+  </data>
+  <data name="tMsgCancel" xml:space="preserve">
+    <value>ยกเลิก</value>
+  </data>
+  <data name="tMsgClose" xml:space="preserve">
+    <value>ปิด</value>
+  </data>
+  <data name="tMsgCopy" xml:space="preserve">
+    <value>คัดลอก</value>
+  </data>
+  <data name="tMsgDelete" xml:space="preserve">
+    <value>ลบ</value>
+  </data>
+  <data name="tMsgFind" xml:space="preserve">
+    <value>ค้นหา</value>
+  </data>
+  <data name="tMsgHelp" xml:space="preserve">
+    <value>วิธีใช้</value>
+  </data>
+  <data name="tMsgPost" xml:space="preserve">
+    <value>อนุมัติ</value>
+  </data>
+  <data name="tMsgReport" xml:space="preserve">
+    <value>รายงาน</value>
+  </data>
+  <data name="tMsgSave" xml:space="preserve">
+    <value>บันทึก</value>
+  </data>
+  <data name="tMsgErrorDataBuyer" xml:space="preserve">
+    <value>ข้อมูลผู้จัดซื้อไม่สมบูรณ์ กรุณาใส่ใหม่</value>
+  </data>
+  <data name="tMsgErrorDataPdt" xml:space="preserve">
+    <value>ข้อมูลสินค้าไม่สมบูรณ์ กรุณาใส่ใหม่</value>
+  </data>
+  <data name="tMsgErrorDataSpl" xml:space="preserve">
+    <value>ข้อมูลผู้จำหน่ายไม่สมบูรณ์ กรุณาใส่ใหม่</value>
+  </data>
+  <data name="tMsgNoWah" xml:space="preserve">
+    <value>คุณยังไม่ได้กำหนดคลังสินค้า</value>
+  </data>
+  <data name="tMsgNoChangeWah" xml:space="preserve">
+    <value>ไม่สามารถเปลี่ยนคลังได้เพราะมีรายการสินค้าอยู่แล้ว</value>
+  </data>
+  <data name="tMsgEdit" xml:space="preserve">
+    <value>แก้ไข</value>
+  </data>
+  <data name="tMsgRefresh" xml:space="preserve">
+    <value>รีเฟรช</value>
+  </data>
+  <data name="tMsgNonData" xml:space="preserve">
+    <value>ไม่พบข้อมูลสินค้า หรือ ยังไม่มีการกำหนดข้อมูลนี้</value>
+  </data>
+  <data name="tMsgEditcom" xml:space="preserve">
+    <value>การแก้ไขข้อมูลสมบูรณ์</value>
+  </data>
+  <data name="tMsgEditlNocom" xml:space="preserve">
+    <value>การแก้ไขข้อมูลไม่สมบูรณ์</value>
+  </data>
+  <data name="tMsgNoEditApp" xml:space="preserve">
+    <value>เอกสารถูกอนุมัติแล้ว ไม่สามารถแก้ไขได้</value>
+  </data>
+  <data name="tMsgNoEditCancel" xml:space="preserve">
+    <value>เอกสารถูกยกเลิกไปแล้ว ไม่สามารถแก้ไขได้</value>
+  </data>
+  <data name="tMsgNoEditNoSave" xml:space="preserve">
+    <value>เอกสารยังไม่ไดับันทึก ไม่สามารถแก้ไขได้</value>
+  </data>
+  <data name="tMsgClearCstCode" xml:space="preserve">
+    <value>เมื่อเปลี่ยนลูกค้า โปรแกรมจะทำการเคลียร์รายการสินค้า คุณยืนยันทึ่จะเปลี่ยนลูกค้าหรือไม่</value>
+  </data>
+  <data name="tMsgNonDataCtrName" xml:space="preserve">
+    <value>ไม่พบข้อมูลชื่อผู้ติดต่อ หรือ ยังไม่มีการกำหนดข้อมูลชื่อผู้ติดต่อ</value>
+    <comment>'*PP 10-08-26</comment>
+  </data>
+  <data name="tMsgBaht" xml:space="preserve">
+    <value>บาท</value>
+  </data>
+  <data name="tMsgSatang" xml:space="preserve">
+    <value>สตางค์</value>
+  </data>
+  <data name="tMsgConfirmChangeSpl" xml:space="preserve">
+    <value>เมื่อเปลี่ยนผู้จำหน่ายโปรแกรมจะเครียร์รายการสินค้า\nคุณยืนยันที่จะเปลี่ยนผู้จำหน่ายหรือไม่?</value>
+    <comment>'*khem 10-09-02</comment>
+  </data>
+  <data name="tMsgSave_Warning" xml:space="preserve">
+    <value>ข้อมูลมีการเปลี่ยนแปลงคุณต้องการบันทึกหรือไม่</value>
+  </data>
+  <data name="tMsgConfirmDelete" xml:space="preserve">
+    <value>คุณต้องการลบข้อมูลเอกสารนี้หรือไม่</value>
+  </data>
+  <data name="tMsgConfirmCancel" xml:space="preserve">
+    <value>คุณต้องการยกเลิกเอกสารนี้หรือไม่</value>
+  </data>
+  <data name="tMsgConfirmPost" xml:space="preserve">
+    <value>คุณต้องการอนุมัติเอกสารนี้หรือไม่</value>
+  </data>
+  <data name="tMsgWahCode" xml:space="preserve">
+    <value>กรุณาระบุข้อมูลต้นทาง</value>
+  </data>
+  <data name="tMsgClearData" xml:space="preserve">
+    <value>คุณต้องการเคลียร์รายการเก่าก่อนหรือไม่ ?</value>
+  </data>
+  <data name="tMsgNotAuthorize" xml:space="preserve">
+    <value>คุณไม่ได้รับสิทธิ์อนุญาตให้กระทำการครั้งนี้!!</value>
+  </data>
+  <data name="tMsgNotGenDoc" xml:space="preserve">
+    <value>ถ้าต้องการค้นหาแบบทันที หรือตั้งเลขที่เอกสารเองควรเลือกก่อนมีรายการสินค้า</value>
+  </data>
+  <data name="tMsgConfirmSave" xml:space="preserve">
+    <value>เมื่อบันทึกแล้ว จะไม่สามรถเปลี่ยนแปลงประเภทเอกสาร(เงินสด/เงินเชื่อ)ได้อีก \n คุณต้องการที่จะบันทึกหรือไม่</value>
+  </data>
+  <data name="tMsgNoCoppyNoSave" xml:space="preserve">
+    <value>ไม่สามารถคัดลอกเอกสารรายการนี้ได้ เพราะเอกสารปัจจุบันยังไม่ได้บันทึก</value>
+  </data>
+  <data name="tMsgNoAppStaDocDonotAct" xml:space="preserve">
+    <value>เอกสารไม่เคลื่อนไหว ไม่สามารถอนุมัติได้</value>
+  </data>
+  <data name="tMsgExceedCreditLimit" xml:space="preserve">
+    <value>จำนวนวงเงินที่ค้างจ่ายของลูกค้าเกินจำนวนเงินวงเงินเครดิต ควรตรวจสอบการชำระเงินของลูกค้าก่อน</value>
+  </data>
+  <data name="tMsgCodeHasUsed" xml:space="preserve">
+    <value>รหัสรายการปัจจุบันถูกใช้งานไปแล้ว หรือ รหัสรายการไม่ถูกต้อง\nคุณต้องการให้โปรแกรมสร้างรหัสใหม่ตามรูปแบบที่ใช้งานปัจจุบันหรือไม่?</value>
+  </data>
+  <data name="tMsgNoDocLast" xml:space="preserve">
+    <value>ไม่สามารถลบเอกสารรายการนี้ได้ เพราะรายการเอกสารปัจจุบันไม่ใช่เอกสารรายการสุดท้าย</value>
+  </data>
+  <data name="tMsgSave_AfterDisChgIsZero" xml:space="preserve">
+    <value>ไม่สามารถบันทึกเอกสารได้ เนื่องจากจำนวนเงินหลัง ลด/เงินมัดจำ น้อยกว่า 0</value>
+  </data>
+  <data name="tMsgConfirmDelPdtSN" xml:space="preserve">
+    <value>เอกสารนี้มีสินค้า Serial การคัดลอกเอกสารโปรแกรมจะทำการลบสินค้า Serial\nคุณต้องการทำต่อหรือไม</value>
+  </data>
+  <data name="tMsgUpload" xml:space="preserve">
+    <value>อัพโหลด</value>
+  </data>
+</root>

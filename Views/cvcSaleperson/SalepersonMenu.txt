@@ -1,0 +1,42 @@
+<script type="text/javascript">
+    function OpenModalDialog() {
+        var ReturnedValue = showModalDialog("/cvcSaleperson/C_Browse", "Passed String", "dialogWidth:600px; dialogHeight:600px; status:no; center:yes;titlebar =0");
+        if (ReturnedValue != undefined)
+        {
+            if (ReturnedValue != 'adasoft')
+            {
+                window.location = "/cvcSaleperson/C_Edit/" + ReturnedValue;
+            }
+        }
+    }
+    function W_SHWxMoveNext()     {
+        window.location = "/cvcSaleperson/C_MoveNext/";
+    }
+    function W_SHWxMovePrevious() {
+        window.location = "/cvcSaleperson/C_MovePrevious/";
+    }
+    function W_SHWxDelete(id)     {
+        if (confirm('Are you sure?'))         {
+            window.location = "/cvcSaleperson/C_Delete/" + id;
+        } 
+    }
+    function W_SHWxCreate() {
+        window.location = "/cvcSaleperson/C_Create/";
+    }
+    function W_SHWxIndex() {
+        window.location = "/cvcSaleperson/Index/";
+    }
+</script>
+
+    <%If ViewData("wName") = "Edit" Then%>
+        <input type="button" name="New" id="New" value="New" onclick="W_SHWxCreate();" />
+    <%Else%>
+        <input type="button" name="Cancel" id="Cancel" value="Cancel" onclick="W_SHWxIndex();" />
+    <%End If%>
+	<input type="button" name="Save" id="Save" value="Save" onclick="document.cvcSaleperson.submit();" />
+	<%If ViewData("wName") = "Edit" Then%>
+        <input type="button" name="Find" id="Find" value="Find" onclick="OpenModalDialog();" />
+        <input type="button" name="Delete" id="Delete" value="Delete" onclick="W_SHWxDelete('<%=model.FTSpnCode %>');" />
+        <input type="button" name="Next" id="Next" value="Next" onclick="W_SHWxMoveNext();" />
+        <input type="button" name="Previous" id="Previous" value="Previous" onclick="W_SHWxMovePrevious();" />
+    <%End If%>

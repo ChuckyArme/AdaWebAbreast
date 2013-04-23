@@ -1,0 +1,260 @@
+﻿.xW_DivMenuName
+{
+    width:828;  
+ 	height:35px;
+ 	border :'0' ;
+ 	color:Black;
+    text-align:Left;
+    vertical-align:Top;
+    padding: 3px 4px; 
+   
+}
+.xW_DivMenuTreeView
+{
+    width :360px;
+    height :455px;
+    float :left ;
+    vertical-align : top ;
+ }
+.xW_DivMainMenu
+{
+    /*width :55%;*/
+    width :468px;
+    height :455px;
+    float :left ;
+    border:solid 1px;
+    border-color: #b7d49e #b7d49e #b7d49e #b7d49e;
+    vertical-align : top ;   
+ } 
+ .xW_DivRptCondMain
+ {
+    width :460px;
+    height :250px;
+    vertical-align : top ; 
+    margin:0px 1px 1px 1 px;
+    /*padding: 3px 3px; */
+    /* border:solid 1px blue;*/
+    /*color:Red;*/
+ }
+ 
+  .xW_DivRptCondCaption
+ {
+    width :70px;
+    height :207px;
+    vertical-align : top ; 
+    margin:1px 1px 1px 3px;
+    float:left;
+    /*border:solid 1px red;*/
+    /*color:Red;*/
+ }
+ 
+ 
+ .xW_DivRptCondCaptionSub
+ {
+    width :63px;
+    height :22px;
+    vertical-align : top ; 
+    margin:1px 1px 0px 3px;
+    float:left;
+    /* border:solid 1px  black;*/
+    /*color:Red;*/
+ }
+ 
+ 
+ .xW_DivRptCondValue
+ {
+    width :382px;
+    height :200px;
+    vertical-align : top ; 
+    margin:1px 1px 1px 0px; 
+    float:left;
+   /*border:solid 1px red;*/
+ }
+ 
+ .xW_DivRptCondValueSub
+ {
+    width :375px;
+    height :22px;
+    vertical-align : top ; 
+    margin:1px 1px 0px 3px;
+    float:left;
+    /* border:solid 1px  black;*/
+    /*color:Red;*/
+ }
+ 
+ 
+ .xW_DivRptFrToCode
+ {
+    width :130px;
+    height :20px;
+    vertical-align : top ; 
+    margin:0px 1px 0px 1px;
+    float:left;
+    /*border:solid 1px  black;*/
+    /*color:Red;*/
+ }
+ 
+ .xW_DivRptFrToName
+ {
+    width :215px;
+    height :20px;
+    vertical-align : top ; 
+    margin:0px 1px 0px 1px;
+    float:left;
+    overflow:hidden;
+    display:block;
+    /*border:solid 1px  black;*/
+ }
+ 
+ .xW_InputFrToName
+ {  width :218px;
+   /* background-color:#FC9;*/
+ }
+  .xW_DivComboBoxFrToCode
+ {
+    width :100px;
+    height :20px;
+    vertical-align : top ; 
+    margin:0px 1px 0px 1px;
+    float:left;
+    /*border:solid 1px  black;*/
+    /*color:Red;*/
+ }
+ 
+ .xW_DivBchWahFrToName
+ {   
+    width :190px;
+    height :20px;
+    vertical-align : top ; 
+    margin:0px 1px 0px 1px;
+    float:left;
+    overflow:hidden;
+    display:block;
+    /*border:solid 1px  black;*/
+ }
+  .xW_DivBchWahFrToName input
+ {  width :190px;
+    height:20px;
+   /* background-color:#FC9;*/
+ }
+  .xW_DivInputButtonName
+ {   
+    width :80px;
+    height :100%;
+    float:left;
+ }
+ .xW_DivInputButtonName input
+ {   
+    width :80px;
+    height :100%;
+    color:Black;
+    font-size:12px;
+    text-align:Center;
+    vertical-align:Middle;
+    /*color:Red;*/
+ }
+   .xW_DivInputMouthYearName 
+ {   
+    width :80px;
+    height :100%;
+    float :left ;
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+ }
+ 
+ 
+  .xW_DivInputMouthYearName input
+ {   
+    width :80px;
+    height :100%;
+    vertical-align : bottom ; 
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+ }
+    .xW_DivInputCheckBoxName 
+ {   
+    width :auto;
+    height :100%;
+    float :left ;
+    vertical-align : Top ; 
+    margin:0px 1px 0px 1px;
+    padding: 0px 0px 0px 0px;
+ }
+ 
+ 
+  .xW_DivInputCheckBoxName input
+ {   
+    width :auto;
+    height :100%;
+    vertical-align : Top ; 
+    margin:0px 1px 0px 1px;
+    padding: 0px 0px 0px 0px;
+ }
+ .xW_DivPartialView
+ {
+    width :468px;
+    height :195px;
+    float :left;
+ }
+ .xW_DivDispalyNone
+ {
+    width :468px; 
+    display:none;
+ }
+
+ .xW_MenuTreeviewDesign
+{
+    width :55%;
+    vertical-align : top ;
+    height :500px;
+    float :left ;
+}
+.xW_MenuButtonDesign
+{
+    width :44.4999%;
+    vertical-align : top ;
+    height :500px;
+    border:solid 1px;
+    border-color: #b7d49e #b7d49e #b7d49e #b7d49e;
+    float :left ;
+}
+ 
+
+            
+.xW_Caption
+{
+    color:Black;
+    font-size:12px;
+    text-align:Left;
+    vertical-align:Top;
+     
+}
+.xW_Button
+{
+    color:Black;
+    font-size:12px;
+    text-align:Center;
+    vertical-align:Middle;
+    width:25px;
+    height:25px
+}            
+.xW_Detail
+{
+    font-family:'Tahoma' MS Sans Serif Arial;
+    font-size:12px;
+    color:Black;
+    text-align:left;
+
+}
+.xW_ButtonDesign
+{
+    position:relative;
+    top:30px;
+    left:0px;
+    width:40px;
+    height:15px;
+    padding:2px 2px 2px 2px;
+    margin:0px 0px 0px 0px;
+    text-align:center;
+    vertical-align:bottom;
+}

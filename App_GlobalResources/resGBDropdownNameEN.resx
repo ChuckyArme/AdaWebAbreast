@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Bnk_Bank" xml:space="preserve">
+    <value>Bank</value>
+  </data>
+  <data name="Bnk_CRCard" xml:space="preserve">
+    <value>Credit Card</value>
+  </data>
+  <data name="Bnk_GiftVou" xml:space="preserve">
+    <value>Gift Voucher</value>
+  </data>
+  <data name="Bnk_HirePch" xml:space="preserve">
+    <value>Hire Purchase</value>
+  </data>
+  <data name="Curr_down" xml:space="preserve">
+    <value>Sweep Down</value>
+  </data>
+  <data name="Curr_Mid" xml:space="preserve">
+    <value>Don't Sweep</value>
+  </data>
+  <data name="Curr_None" xml:space="preserve">
+    <value>Mean Values</value>
+  </data>
+  <data name="Curr_up" xml:space="preserve">
+    <value>Sweep Up</value>
+  </data>
+  <data name="Wah_Branch" xml:space="preserve">
+    <value>Branch warehouse</value>
+  </data>
+  <data name="Wah_Consignment" xml:space="preserve">
+    <value>Consignment</value>
+  </data>
+  <data name="Wah_Franchise" xml:space="preserve">
+    <value>Franchise warehouse</value>
+  </data>
+  <data name="Wah_General" xml:space="preserve">
+    <value>General warehouse</value>
+  </data>
+  <data name="Wah_Standard" xml:space="preserve">
+    <value>Standard warehouse</value>
+  </data>
+  <data name="Wah_VanSale" xml:space="preserve">
+    <value>VanSale warehouse</value>
+  </data>
+  <data name="Qst_more" xml:space="preserve">
+    <value>Select More than One</value>
+  </data>
+  <data name="Qst_one" xml:space="preserve">
+    <value>Select One</value>
+  </data>
+  <data name="Comp_ex" xml:space="preserve">
+    <value>exclusive</value>
+  </data>
+  <data name="Comp_in" xml:space="preserve">
+    <value>inclusive</value>
+  </data>
+  <data name="Pdt_GeneralProduct" xml:space="preserve">
+    <value>General Product</value>
+  </data>
+  <data name="Pdt_Gift" xml:space="preserve">
+    <value>Gift</value>
+  </data>
+  <data name="Pdt_LargeUnit" xml:space="preserve">
+    <value>Large Unit</value>
+  </data>
+  <data name="Pdt_MediumUnit" xml:space="preserve">
+    <value>Medium Unit</value>
+  </data>
+  <data name="Pdt_OpenPLU" xml:space="preserve">
+    <value>Open PLU</value>
+  </data>
+  <data name="Pdt_Other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="Pdt_RepairProduct" xml:space="preserve">
+    <value>Repair Product</value>
+  </data>
+  <data name="Pdt_Ret" xml:space="preserve">
+    <value>Ret</value>
+  </data>
+  <data name="Pdt_SalePrice" xml:space="preserve">
+    <value>Sale Price</value>
+  </data>
+  <data name="Pdt_Scales" xml:space="preserve">
+    <value>Scales</value>
+  </data>
+  <data name="Pdt_ServiceProduct" xml:space="preserve">
+    <value>Service Product</value>
+  </data>
+  <data name="Pdt_SmallUnit" xml:space="preserve">
+    <value>Small Unit</value>
+  </data>
+  <data name="Pdt_SpecialProduct" xml:space="preserve">
+    <value>Special Product</value>
+  </data>
+  <data name="Pdt_Two" xml:space="preserve">
+    <value>Two</value>
+  </data>
+  <data name="Pdt_Weight" xml:space="preserve">
+    <value>Weight</value>
+  </data>
+  <data name="Pdt_Whs" xml:space="preserve">
+    <value>Whs</value>
+  </data>
+  <data name="Spl_AgeActive" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="Spl_AgeDeActive" xml:space="preserve">
+    <value>DeActive</value>
+  </data>
+  <data name="Spl_Destination" xml:space="preserve">
+    <value>Destination</value>
+  </data>
+  <data name="Spl_Ex" xml:space="preserve">
+    <value>Exculsive</value>
+  </data>
+  <data name="Spl_Exp" xml:space="preserve">
+    <value>Exp</value>
+  </data>
+  <data name="Spl_Female" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="Spl_Fri" xml:space="preserve">
+    <value>Friday</value>
+  </data>
+  <data name="Spl_In" xml:space="preserve">
+    <value>Inculsive</value>
+  </data>
+  <data name="Spl_Individual" xml:space="preserve">
+    <value>Individual</value>
+  </data>
+  <data name="Spl_Male" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="Spl_Mon" xml:space="preserve">
+    <value>Monday</value>
+  </data>
+  <data name="Spl_NoExp" xml:space="preserve">
+    <value>No Exp</value>
+  </data>
+  <data name="Spl_Novat" xml:space="preserve">
+    <value>No Vat</value>
+  </data>
+  <data name="Spl_Person" xml:space="preserve">
+    <value>Juristic Person</value>
+  </data>
+  <data name="Spl_Ret1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Spl_Ret2" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Spl_Ret3" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Spl_Sat" xml:space="preserve">
+    <value>Saturday</value>
+  </data>
+  <data name="Spl_Source" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="Spl_Sun" xml:space="preserve">
+    <value>Sunday</value>
+  </data>
+  <data name="Spl_Thu" xml:space="preserve">
+    <value>Thursday</value>
+  </data>
+  <data name="Spl_Tue" xml:space="preserve">
+    <value>Tuesday</value>
+  </data>
+  <data name="Spl_Vat" xml:space="preserve">
+    <value>Vat</value>
+  </data>
+  <data name="Spl_Wed" xml:space="preserve">
+    <value>Wednesday</value>
+  </data>
+  <data name="Spl_Whs1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Spl_Whs2" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Spl_Whs3" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Spl_Whs4" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Spl_Whs5" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Cstr_StaCloseDis" xml:space="preserve">
+    <value>ปิดบิลลด</value>
+  </data>
+  <data name="Cst_StaCloseFull" xml:space="preserve">
+    <value>ปิดบิลเต็ม</value>
+  </data>
+  <data name="Rs_Alll" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="Rs_Refund" xml:space="preserve">
+    <value>Refund</value>
+  </data>
+  <data name="Rs_voidBill" xml:space="preserve">
+    <value>void Bill</value>
+  </data>
+  <data name="Rs_VoidLast" xml:space="preserve">
+    <value>Void Last</value>
+  </data>
+</root>

@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="oCompAdd" xml:space="preserve">
+    <value>Ada-Soft Co.,Ltd.  Soi Ladprao 94 Plubpla Wongtonglang Bangkok 10310 Tel. 0-2530-1681</value>
+  </data>
+  <data name="omnAbout" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="omnAp" xml:space="preserve">
+    <value>AP</value>
+  </data>
+  <data name="omnApPB" xml:space="preserve">
+    <value>Statement Receiving</value>
+  </data>
+  <data name="omnComment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="omnCstGrp" xml:space="preserve">
+    <value>Customer Group</value>
+  </data>
+  <data name="omnCstLevel" xml:space="preserve">
+    <value>Customer Level</value>
+  </data>
+  <data name="omnCstType" xml:space="preserve">
+    <value>Customer Type</value>
+  </data>
+  <data name="omnDepartment" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="omnDesignForm" xml:space="preserve">
+    <value>Design Form</value>
+  </data>
+  <data name="omnDPSlipType" xml:space="preserve">
+    <value>Deposit Slip Type</value>
+  </data>
+  <data name="omnGeneral" xml:space="preserve">
+    <value>General Data</value>
+  </data>
+  <data name="omnGetBchIP" xml:space="preserve">
+    <value>Branch IP</value>
+  </data>
+  <data name="omnHome" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="omnMng" xml:space="preserve">
+    <value>Management</value>
+  </data>
+  <data name="omnMngBankNote" xml:space="preserve">
+    <value>Bank Note</value>
+  </data>
+  <data name="omnMngBranch" xml:space="preserve">
+    <value>Branch</value>
+  </data>
+  <data name="omnMngComp" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="omnMngCst" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="omnMngDist" xml:space="preserve">
+    <value>District</value>
+  </data>
+  <data name="omnMngGondola" xml:space="preserve">
+    <value>Gondola</value>
+  </data>
+  <data name="omnMngOccupation" xml:space="preserve">
+    <value>Occupation</value>
+  </data>
+  <data name="omnMngPeriod" xml:space="preserve">
+    <value>Account Period</value>
+  </data>
+  <data name="omnMngProvince" xml:space="preserve">
+    <value>Province</value>
+  </data>
+  <data name="omnMngSaleArea" xml:space="preserve">
+    <value>Sale Area</value>
+  </data>
+  <data name="omnMngShipVia" xml:space="preserve">
+    <value>Ship Via</value>
+  </data>
+  <data name="omnMngSpl" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="omnMngSpn" xml:space="preserve">
+    <value>Sale Person</value>
+  </data>
+  <data name="omnMngUser" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="omnMngVatRate" xml:space="preserve">
+    <value>Vat rate</value>
+  </data>
+  <data name="omnMngWorkTime" xml:space="preserve">
+    <value>Work Time</value>
+  </data>
+  <data name="omnPdt" xml:space="preserve">
+    <value>Inventory</value>
+  </data>
+  <data name="omnPdtAdjStkChk" xml:space="preserve">
+    <value>Stock Checking</value>
+  </data>
+  <data name="omnPdtAllow" xml:space="preserve">
+    <value>Define not Allow sale...</value>
+    <comment>'*PP 10-06-16</comment>
+  </data>
+  <data name="omnPdtBrand" xml:space="preserve">
+    <value>Brand</value>
+  </data>
+  <data name="omnPdtColor" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="omnPdtEntry" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="omnPdtGrp" xml:space="preserve">
+    <value>Product Group</value>
+  </data>
+  <data name="omnPdtLoc" xml:space="preserve">
+    <value>Product Location</value>
+  </data>
+  <data name="omnPdtModel" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="omnPdtSize" xml:space="preserve">
+    <value>Product Size</value>
+  </data>
+  <data name="omnPdtTchGrp" xml:space="preserve">
+    <value>Touch Screen Group</value>
+  </data>
+  <data name="omnPdtTIn" xml:space="preserve">
+    <value>Transfer In</value>
+  </data>
+  <data name="omnPdtType" xml:space="preserve">
+    <value>Product Type</value>
+  </data>
+  <data name="omnPdtUnit" xml:space="preserve">
+    <value>Product Unit</value>
+  </data>
+  <data name="omnPdtWarehouse" xml:space="preserve">
+    <value>Warehouse</value>
+  </data>
+  <data name="omnPurchase" xml:space="preserve">
+    <value>Purchase</value>
+  </data>
+  <data name="omnPurPI" xml:space="preserve">
+    <value>Purchase Product Invoice</value>
+  </data>
+  <data name="omnPurPI_Srv" xml:space="preserve">
+    <value>Purchase Service Invoice</value>
+  </data>
+  <data name="omnPurPN" xml:space="preserve">
+    <value>Product Returning - AP</value>
+  </data>
+  <data name="omnPurPO" xml:space="preserve">
+    <value>Purchase Order</value>
+  </data>
+  <data name="omnPurPQ" xml:space="preserve">
+    <value>Purchase Requestion</value>
+  </data>
+  <data name="omnPurPT" xml:space="preserve">
+    <value>Credit Note - AP</value>
+  </data>
+  <data name="omnPurPT_DN" xml:space="preserve">
+    <value>Debit Note - AP</value>
+  </data>
+  <data name="omnPurPX" xml:space="preserve">
+    <value>Other Document - AP</value>
+  </data>
+  <data name="omnReport" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="omnRptAll" xml:space="preserve">
+    <value>Report All</value>
+  </data>
+  <data name="omnSale" xml:space="preserve">
+    <value>Sale</value>
+  </data>
+  <data name="omnSignOut" xml:space="preserve">
+    <value>Sign Out</value>
+  </data>
+  <data name="omnSleInvSrv" xml:space="preserve">
+    <value>Sale Service Invoice</value>
+  </data>
+  <data name="omnSleSN" xml:space="preserve">
+    <value>Product Returning - AR</value>
+  </data>
+  <data name="omnSleSO" xml:space="preserve">
+    <value>Sale Order</value>
+  </data>
+  <data name="omnSleSQ" xml:space="preserve">
+    <value>Quotation</value>
+  </data>
+  <data name="omnSleST" xml:space="preserve">
+    <value>Credit Note - AR</value>
+  </data>
+  <data name="omnSleSTDN" xml:space="preserve">
+    <value>Debit Note - AR</value>
+  </data>
+  <data name="omnSleSX" xml:space="preserve">
+    <value>Other Document - AR</value>
+  </data>
+  <data name="omnSplGrp" xml:space="preserve">
+    <value>Supplier Group</value>
+  </data>
+  <data name="omnSplLevel" xml:space="preserve">
+    <value>Supplier Level</value>
+  </data>
+  <data name="omnSplType" xml:space="preserve">
+    <value>Supplier Type</value>
+  </data>
+  <data name="omnSupplierEnquiry" xml:space="preserve">
+    <value>Balance Query - AP</value>
+  </data>
+  <data name="omnTCNMBank" xml:space="preserve">
+    <value>Bank</value>
+  </data>
+  <data name="omnTCNMBranch" xml:space="preserve">
+    <value>Branch</value>
+  </data>
+  <data name="omnTCNMComp" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="omnTCNMDistrict" xml:space="preserve">
+    <value>District</value>
+  </data>
+  <data name="omnTCNMQuestion" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="omnTCNMRate" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="omnTCNMZone" xml:space="preserve">
+    <value>Zone</value>
+  </data>
+  <data name="omnTCNTPdtChkHD_Sum" xml:space="preserve">
+    <value>Merge Stock Checking</value>
+  </data>
+  <data name="omnTool" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="omnToolOption" xml:space="preserve">
+    <value>Option</value>
+  </data>
+  <data name="omnTPSTCoupon" xml:space="preserve">
+    <value>Coupon</value>
+  </data>
+  <data name="omnTPSTCpnType" xml:space="preserve">
+    <value>Coupon Type</value>
+  </data>
+  <data name="omnWebboard" xml:space="preserve">
+    <value>Webboard</value>
+  </data>
+  <data name="omnPromotion" xml:space="preserve">
+    <value>Promotion</value>
+  </data>
+  <data name="omnFavorites" xml:space="preserve">
+    <value>Favorites</value>
+  </data>
+  <data name="omnPoint" xml:space="preserve">
+    <value>Member</value>
+  </data>
+  <data name="omnReceiveFreePdt" xml:space="preserve">
+    <value>Receive Free Product</value>
+  </data>
+  <data name="omnPdtGiftPoint" xml:space="preserve">
+    <value>Point Changing</value>
+  </data>
+  <data name="tProgramName" xml:space="preserve">
+    <value>AdaPos 4.0 Abreast</value>
+    <comment>*CH 19-06-2012</comment>
+  </data>
+  <data name="omnPdtFreePmt" xml:space="preserve">
+    <value>Free Product</value>
+  </data>
+  <data name="omnCstPointMovement" xml:space="preserve">
+    <value>Customer Point Movement</value>
+  </data>
+  <data name="omnOnline" xml:space="preserve">
+    <value>Online</value>
+    <comment>ออนไลน์</comment>
+  </data>
+  <data name="omnCoupon" xml:space="preserve">
+    <value>Coupon</value>
+  </data>
+  <data name="omnCompany" xml:space="preserve">
+    <value>Company</value>
+    <comment>บริษัท</comment>
+  </data>
+  <data name="omnManagement" xml:space="preserve">
+    <value>Manage (Server)</value>
+    <comment>การจัดการ (Server)</comment>
+  </data>
+  <data name="omnExit" xml:space="preserve">
+    <value>Exit</value>
+    <comment>*CH 02-10-2012</comment>
+  </data>
+  <data name="omnMngGenOther" xml:space="preserve">
+    <value>General - Other</value>
+  </data>
+  <data name="omnMngZone" xml:space="preserve">
+    <value>Zone</value>
+  </data>
+  <data name="omnMngExchg" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="omnMngBank" xml:space="preserve">
+    <value>Bank And Credit</value>
+  </data>
+  <data name="omnMngCoupon" xml:space="preserve">
+    <value>Coupon</value>
+  </data>
+  <data name="omnMngCouponType" xml:space="preserve">
+    <value>Coupon Type</value>
+  </data>
+  <data name="omnMngReson" xml:space="preserve">
+    <value>Transfer in/out Reason</value>
+  </data>
+  <data name="omnMngGenCst" xml:space="preserve">
+    <value>General - Customer</value>
+  </data>
+  <data name="omnMngGenPdt" xml:space="preserve">
+    <value>General - Product</value>
+  </data>
+  <data name="omnMngGenSpl" xml:space="preserve">
+    <value>General - Supplier</value>
+  </data>
+  <data name="omnCreate" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="omnBrwDoc" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+</root>

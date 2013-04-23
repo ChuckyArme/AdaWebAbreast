@@ -1,0 +1,64 @@
+﻿/*---------- #D ----------*/
+.xW_DivButton
+{
+    height:30px;
+    width:auto;
+    text-align:right;
+    border:solid 1px silver;
+}
+.xW_DivCommand
+{
+    border:solid 0px red;width:100%;
+}
+.xW_DivAddress,
+.xW_DivCommandButton
+{
+    border:solid 1px silver;
+}
+.xW_DivAddressInput
+{
+    vertical-align:middle; 
+    margin:2px 2px 2px 2px;
+}
+.xW_DivAddressInput input
+{ 
+    width:320px;
+}
+.xW_DivListFolder 
+{
+    border:solid 0px red;
+    height:300px;
+    width:100%;
+    overflow:scroll;
+}
+.xW_DivListFolder a
+{ 
+    color:black;
+}
+.xW_DivListFolder a:hover
+{ 
+    background-color:#b7d49e;
+}
+.xW_DivListFolder a:visited
+{ 
+    color:black;
+}
+.xW_DivMain
+{
+    height:auto; 
+    background-color:White; 
+    width:400px;
+    border:solid 0px red;
+}
+
+/*---------- #I ----------*/
+.xW_ImgFolder
+{
+    border-style:none;
+    cursor:pointer;
+}
+.xW_InputButton
+{
+    width:100px;
+    margin-top:3px;
+}

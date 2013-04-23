@@ -1,0 +1,240 @@
+﻿/*---------- #A ----------*/
+.xW_AllBackgroundDefault
+{   background-color:White;
+}
+.xW_AButtonBrowseRte
+{   vertical-align:bottom;
+}
+/*---------- #D ----------*/
+.xW_DivAddPdt
+{
+     /*Div ใหญ่สุดสำหรับคีย์รายละเอียดสินค้า*/
+    width:auto;
+    height:40px;
+    float:none;
+    /*border:solid 1px transparent; */ 
+    margin:4px 3px 3px 1px;  
+}
+.xW_DivColumnAutoTab
+{   width:95px;
+    height:inherit;
+    /*border:solid 1px ;*/
+    float:left;
+}
+.xW_DivColumnBorder
+{ border:solid 1px #5a8944;
+}
+.xW_DivColumnData
+{   width:inherit;
+    height:50%;
+    text-align:left;
+    vertical-align:middle;
+    border:0px;
+    border-style:none none none none;
+}
+.xW_DivColumnHeader
+{   
+    height:50%;
+    /*border:solid 1px red;*/
+    margin:auto;
+    text-align:center;
+}
+.xW_DivColumnPdtCode
+{   width:140px;
+    height:40px;
+    /*border:solid 1px ;*/
+    float:left;
+}
+.xW_DivColumnPdtDiscount
+{   width:90px;
+    height:40px;
+    /*border:solid 1px ;*/
+    float:left;
+}
+.xW_DivColumnPdtName
+{   width:250px;
+    height:40px;
+    /*border:solid 1px ;*/
+    float:left;
+}
+.xW_DivColumnPdtNet
+{   width:102px;
+    height:40px;
+    /*border:solid 1px ;*/
+    float:left;
+}
+.xW_DivColumnPdtPrice
+{   width:100px;
+    height:40px;
+    /*border:solid 1px ;*/
+    float:left;
+}
+.xW_DivColumnPdtQty
+{   width:70px;
+    height:40px;
+    /*border:solid 1px ;*/
+    float:left;
+}
+.xW_DivColumnPdtUnit
+{   width:70px;
+    height:40px;
+    /*border:solid 1px ;*/
+    float:left;
+}
+.xW_DivDetailFooterHis 
+{
+     /*Div ใหญ่สุดของรายละเอียด Footer*/
+    width:658px;
+    height:142px;
+    float:left;
+    border:solid 1px transparent;  
+    margin:1px 1px 0px 0px;  
+    overflow:hidden;
+    display:block;
+}
+.xW_DivRemark
+{
+	width:540px;
+	height:115px;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	/*background-color:#548231;*/
+	vertical-align:top;
+	/*border-width:1px;
+	border:solid solid none solid;
+	border-color:red;*/
+
+}
+.xW_DivRemarkBottom
+{
+	width:auto;
+	height:25px;
+	padding:0px;
+	margin:5px 5px 5px 5px;
+	border-bottom-style:solid solid solid solid;
+	border-width:1px;
+	border-color:Yellow;
+	background-color: Silver;
+	table-layout:fixed;
+	vertical-align:middle;
+}
+.xW_DivRemarkTop
+{
+	width:auto;
+	height:65px;
+	padding:0px;
+	margin:0px 0px 0px 0px;
+	table-layout:fixed;
+	text-align:left;
+	/*border:solid 1px red;*/
+}
+
+
+/*---------- #I ----------*/
+.xW_InputButtonPdtCode ,
+.xW_InputButtonPdtDiscount
+{
+    height:20px;
+    width:20px;
+    padding:0px 0px 0px 0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:top;
+    text-align:center;
+}
+.wX_InputColumnData
+{
+     height:100%;
+     width:98%;
+     text-align:right;
+     margin-right:5px;
+     margin:0px;
+     padding:0px;
+     border:none 0px ;
+     /*border-style:none none none none;*/
+}
+.wX_InputColumnDataSetPrice
+{
+     height:100%;
+     width:75px;
+     text-align:right;
+     margin-right:5px;
+     margin:0px;
+     padding:0px;
+     border:none 0px ;
+     /*border-style:none none none none;*/
+}
+.wX_InputColumnPdtCode
+{
+     height:100%;
+     width:115px;
+     text-align:left;
+     margin-right:5px;
+     margin:0px;
+     padding:0px;
+     border:none 0px ;
+     /*border-style:none none none none;*/
+}
+.wX_InputColumnPdtName
+{
+     height:100%;
+     width:98%;
+     text-align:left;
+     margin-right:5px;
+     margin:0px;
+     padding:0px;
+     border:none 0px ;
+     /*border-style:none none none none;*/
+}
+.wX_InputColumnPdtDiscount
+{
+     height:100%;
+     width:65px;
+     text-align:left;
+     margin-right:5px;
+     margin:0px;
+     padding:0px;
+     border:none 0px ;
+     /*border-style:none none none none;*/
+}
+.wX_InputRteCode
+{   
+    text-align :center;
+    width:30px;
+    height:16px;
+}
+.wX_InputTextAmount
+{
+     width:211px;
+     height:16px;
+     text-align:right;
+     overflow:hidden;
+     display:block;
+     margin: 0px 0px 0px 0px; 
+     
+}
+
+/*---------- #L ----------*/
+.xW_LabelGrandText
+{
+	width:520px;
+	height:53px;
+	margin:5px 5px 5px 5px;
+	background-color: Silver;
+	text-align:left;
+}
+
+/*---------- #T ----------*/
+.xW_TextAreaRemark
+{
+	width:630px;
+	height:53px;
+	margin:5px 5px 5px 5px;
+	text-align:left;
+}
+
+.xW_DivTabDetail3Caption
+{
+    height:20px;
+    width:70px;
+    margin: 0px  0px 0px 5px;
+}

@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="oCompAdd" xml:space="preserve">
+    <value>บริษัทเอด้าซอฟท์ จำกัด  99 ซ.ลาดพร้าว 94 (ปัญจมิตร) ถ.ลาดพร้าว  แขวงพลับพลา เขตวังทองหลาง กทม. 10310 โทร 0-2530-1681</value>
+  </data>
+  <data name="omnAbout" xml:space="preserve">
+    <value>เกี่ยวกับ</value>
+  </data>
+  <data name="omnAp" xml:space="preserve">
+    <value>เจ้าหนี้</value>
+  </data>
+  <data name="omnApPB" xml:space="preserve">
+    <value>ใบรับวางบิล</value>
+  </data>
+  <data name="omnComment" xml:space="preserve">
+    <value>แสดงความคิดเห็น</value>
+  </data>
+  <data name="omnCstGrp" xml:space="preserve">
+    <value>กลุ่มลูกค้า</value>
+  </data>
+  <data name="omnCstLevel" xml:space="preserve">
+    <value>ระดับลูกค้า</value>
+  </data>
+  <data name="omnCstType" xml:space="preserve">
+    <value>ประเภทลูกค้า</value>
+  </data>
+  <data name="omnDepartment" xml:space="preserve">
+    <value>แผนก</value>
+  </data>
+  <data name="omnDesignForm" xml:space="preserve">
+    <value>ออกแบบ ฟอร์ม</value>
+  </data>
+  <data name="omnDPSlipType" xml:space="preserve">
+    <value>ประเภทสลิปมัดจำ</value>
+  </data>
+  <data name="omnGeneral" xml:space="preserve">
+    <value>ข้อมูลทั่วไป</value>
+  </data>
+  <data name="omnGetBchIP" xml:space="preserve">
+    <value> IP สาขา</value>
+  </data>
+  <data name="omnHome" xml:space="preserve">
+    <value>หน้าแรก</value>
+  </data>
+  <data name="omnMng" xml:space="preserve">
+    <value>จัดการข้อมูล</value>
+  </data>
+  <data name="omnMngBankNote" xml:space="preserve">
+    <value>ธนบัตร</value>
+  </data>
+  <data name="omnMngBranch" xml:space="preserve">
+    <value>สาขา</value>
+  </data>
+  <data name="omnMngComp" xml:space="preserve">
+    <value>บริษัท</value>
+  </data>
+  <data name="omnMngCst" xml:space="preserve">
+    <value>ลูกค้า</value>
+  </data>
+  <data name="omnMngDist" xml:space="preserve">
+    <value>เขต/อำเภอ</value>
+  </data>
+  <data name="omnMngGondola" xml:space="preserve">
+    <value>กอนโดล่า</value>
+  </data>
+  <data name="omnMngOccupation" xml:space="preserve">
+    <value>อาชีพ</value>
+  </data>
+  <data name="omnMngPeriod" xml:space="preserve">
+    <value>รอบบัญชี</value>
+  </data>
+  <data name="omnMngProvince" xml:space="preserve">
+    <value>จังหวัด</value>
+  </data>
+  <data name="omnMngSaleArea" xml:space="preserve">
+    <value>เขตการขาย</value>
+  </data>
+  <data name="omnMngShipVia" xml:space="preserve">
+    <value>การขนส่ง</value>
+  </data>
+  <data name="omnMngSpl" xml:space="preserve">
+    <value>ผู้จำหน่าย</value>
+  </data>
+  <data name="omnMngSpn" xml:space="preserve">
+    <value>พนักงานขาย</value>
+  </data>
+  <data name="omnMngUser" xml:space="preserve">
+    <value>ผู้ใช้</value>
+  </data>
+  <data name="omnMngVatRate" xml:space="preserve">
+    <value>ภาษีมูลค่าเพิ่ม</value>
+  </data>
+  <data name="omnMngWorkTime" xml:space="preserve">
+    <value>ลงเวลาทำงาน</value>
+  </data>
+  <data name="omnPdt" xml:space="preserve">
+    <value>สินค้าคงคลัง</value>
+  </data>
+  <data name="omnPdtAdjStkChk" xml:space="preserve">
+    <value>ตรวจนับสินค้า</value>
+  </data>
+  <data name="omnPdtAllow" xml:space="preserve">
+    <value>กำหนดช่วงเวลาไม่อนุญาตขาย...</value>
+    <comment>'*PP 10-06-16</comment>
+  </data>
+  <data name="omnPdtBrand" xml:space="preserve">
+    <value>ยี่ห้อ</value>
+  </data>
+  <data name="omnPdtColor" xml:space="preserve">
+    <value>สี</value>
+  </data>
+  <data name="omnPdtEntry" xml:space="preserve">
+    <value>สินค้า</value>
+  </data>
+  <data name="omnPdtGrp" xml:space="preserve">
+    <value>กลุ่มสินค้า</value>
+  </data>
+  <data name="omnPdtLoc" xml:space="preserve">
+    <value>สถานที่เก็บสินค้า</value>
+  </data>
+  <data name="omnPdtModel" xml:space="preserve">
+    <value>รุ่น</value>
+  </data>
+  <data name="omnPdtSize" xml:space="preserve">
+    <value>ขนาดสินค้า</value>
+  </data>
+  <data name="omnPdtTchGrp" xml:space="preserve">
+    <value>กลุ่มสินค้าด่วน</value>
+  </data>
+  <data name="omnPdtTIn" xml:space="preserve">
+    <value>รับสินค้าเข้า</value>
+  </data>
+  <data name="omnPdtType" xml:space="preserve">
+    <value>ประเภทสินค้า</value>
+  </data>
+  <data name="omnPdtUnit" xml:space="preserve">
+    <value>หน่วยสินค้า</value>
+  </data>
+  <data name="omnPdtWarehouse" xml:space="preserve">
+    <value>คลังสินค้า</value>
+  </data>
+  <data name="omnPurchase" xml:space="preserve">
+    <value>ซื้อ</value>
+  </data>
+  <data name="omnPurPI" xml:space="preserve">
+    <value>ใบรับของ/ใบซื้อสินค้า</value>
+  </data>
+  <data name="omnPurPI_Srv" xml:space="preserve">
+    <value>ใบรับบริการ/ใบซื้อบริการ</value>
+  </data>
+  <data name="omnPurPN" xml:space="preserve">
+    <value>ใบส่งคืนสินค้า - เจ้าหนี้</value>
+  </data>
+  <data name="omnPurPO" xml:space="preserve">
+    <value>ใบสั่งซื้อ</value>
+  </data>
+  <data name="omnPurPQ" xml:space="preserve">
+    <value>ใบขอซื้อ</value>
+  </data>
+  <data name="omnPurPT" xml:space="preserve">
+    <value>ใบลดหนี้ - เจ้าหนี้</value>
+  </data>
+  <data name="omnPurPT_DN" xml:space="preserve">
+    <value>ใบเพิ่มหนี้ - เจ้าหนี้</value>
+  </data>
+  <data name="omnPurPX" xml:space="preserve">
+    <value>ใบเอกสารอื่น - เจ้าหนี้</value>
+  </data>
+  <data name="omnReport" xml:space="preserve">
+    <value>รายงาน</value>
+  </data>
+  <data name="omnRptAll" xml:space="preserve">
+    <value>รายงานรวม</value>
+  </data>
+  <data name="omnSale" xml:space="preserve">
+    <value>ขาย</value>
+  </data>
+  <data name="omnSignOut" xml:space="preserve">
+    <value>ออกจากระบบ</value>
+  </data>
+  <data name="omnSleInvSrv" xml:space="preserve">
+    <value>ใบบริการ/ใบขายบริการ</value>
+  </data>
+  <data name="omnSleSN" xml:space="preserve">
+    <value>ใบรับคืนสินค้า-ลูกหนี้</value>
+  </data>
+  <data name="omnSleSO" xml:space="preserve">
+    <value>ใบสั่งขาย</value>
+  </data>
+  <data name="omnSleSQ" xml:space="preserve">
+    <value>ใบเสนอราคา</value>
+  </data>
+  <data name="omnSleST" xml:space="preserve">
+    <value>ใบลดหนี้ - ลูกหนี้</value>
+  </data>
+  <data name="omnSleSTDN" xml:space="preserve">
+    <value>ใบเพิ่มหนี้ - ลูกหนี้</value>
+  </data>
+  <data name="omnSleSX" xml:space="preserve">
+    <value>ใบเอกสารอื่น -ลูกหนี้</value>
+  </data>
+  <data name="omnSplGrp" xml:space="preserve">
+    <value>กลุ่มผู้จำหน่าย</value>
+  </data>
+  <data name="omnSplLevel" xml:space="preserve">
+    <value>ระดับผู้จำหน่าย</value>
+  </data>
+  <data name="omnSplType" xml:space="preserve">
+    <value>ประเภทผู้จำหน่าย</value>
+  </data>
+  <data name="omnSupplierEnquiry" xml:space="preserve">
+    <value>สอบถามยอดหนี้ - เจ้าหนี้</value>
+  </data>
+  <data name="omnTCNMBank" xml:space="preserve">
+    <value>ธนาคาร</value>
+  </data>
+  <data name="omnTCNMBranch" xml:space="preserve">
+    <value>สาขา</value>
+  </data>
+  <data name="omnTCNMComp" xml:space="preserve">
+    <value>บริษัท</value>
+  </data>
+  <data name="omnTCNMDistrict" xml:space="preserve">
+    <value>เขต/อำเภอ</value>
+  </data>
+  <data name="omnTCNMQuestion" xml:space="preserve">
+    <value>แบบสอบถาม</value>
+  </data>
+  <data name="omnTCNMRate" xml:space="preserve">
+    <value>เงินตราต่างประเทศ</value>
+  </data>
+  <data name="omnTCNMZone" xml:space="preserve">
+    <value>โซน</value>
+  </data>
+  <data name="omnTCNTPdtChkHD_Sum" xml:space="preserve">
+    <value>รวมเอกสารตรวจนับสินค้า</value>
+  </data>
+  <data name="omnTool" xml:space="preserve">
+    <value>เครื่องมือ</value>
+  </data>
+  <data name="omnToolOption" xml:space="preserve">
+    <value>ตัวเลือก</value>
+  </data>
+  <data name="omnTPSTCoupon" xml:space="preserve">
+    <value>คูปอง</value>
+  </data>
+  <data name="omnTPSTCpnType" xml:space="preserve">
+    <value>ประเภทคูปอง</value>
+  </data>
+  <data name="omnWebboard" xml:space="preserve">
+    <value>เว็บบอร์ด</value>
+  </data>
+  <data name="omnPromotion" xml:space="preserve">
+    <value>โปรโมชั่น</value>
+    <comment>*CH 30-11-11 Edit Wording</comment>
+  </data>
+  <data name="omnFavorites" xml:space="preserve">
+    <value>รายการโปรด</value>
+  </data>
+  <data name="omnPdtFreePmt" xml:space="preserve">
+    <value>การรับของแถม</value>
+  </data>
+  <data name="omnPoint" xml:space="preserve">
+    <value>ระบบสมาชิก</value>
+  </data>
+  <data name="omnReceiveFreePdt" xml:space="preserve">
+    <value>การรับของแถม</value>
+  </data>
+  <data name="omnPdtGiftPoint" xml:space="preserve">
+    <value>การแลกสินค้า</value>
+  </data>
+  <data name="tProgramName" xml:space="preserve">
+    <value>AdaPos 4.0 Abreast</value>
+    <comment>*CH 19-06-2012</comment>
+  </data>
+  <data name="omnCstPointMovement" xml:space="preserve">
+    <value>ความเคลื่อนไหวแต้มลูกค้า</value>
+  </data>
+  <data name="omnOnline" xml:space="preserve">
+    <value>ออนไลน์</value>
+  </data>
+  <data name="omnCoupon" xml:space="preserve">
+    <value>คูปอง</value>
+  </data>
+  <data name="omnCompany" xml:space="preserve">
+    <value>บริษัท</value>
+    <comment>บริษัท</comment>
+  </data>
+  <data name="omnManagement" xml:space="preserve">
+    <value>การจัดการ (Server)</value>
+    <comment>การจัดการ (Server)</comment>
+  </data>
+  <data name="omnExit" xml:space="preserve">
+    <value>ออก</value>
+    <comment>*CH 02-10-2012</comment>
+  </data>
+  <data name="omnMngGenOther" xml:space="preserve">
+    <value>ข้อมูลทั่วไป - อื่นๆ</value>
+  </data>
+  <data name="omnMngZone" xml:space="preserve">
+    <value>โซน</value>
+  </data>
+  <data name="omnMngExchg" xml:space="preserve">
+    <value>เงินตราต่างประเทศ</value>
+  </data>
+  <data name="omnMngBank" xml:space="preserve">
+    <value>ธนาคาร และบัตรเครดิต</value>
+  </data>
+  <data name="omnMngCoupon" xml:space="preserve">
+    <value>คูปอง</value>
+  </data>
+  <data name="omnMngCouponType" xml:space="preserve">
+    <value>ประเภทคูปอง</value>
+  </data>
+  <data name="omnMngReson" xml:space="preserve">
+    <value>เหตุผลการรับเข้าเบิกออก</value>
+  </data>
+  <data name="omnMngGenCst" xml:space="preserve">
+    <value>ข้อมูลทั่วไป - ลูกค้า</value>
+  </data>
+  <data name="omnMngGenPdt" xml:space="preserve">
+    <value>ข้อมูลทั่วไป - สินค้า</value>
+  </data>
+  <data name="omnMngGenSpl" xml:space="preserve">
+    <value>ข้อมูลทั่วไป - ผู้จำหน่าย</value>
+  </data>
+  <data name="omnCreate" xml:space="preserve">
+    <value>เพิ่ม</value>
+  </data>
+  <data name="omnBrwDoc" xml:space="preserve">
+    <value>ค้นหา</value>
+  </data>
+</root>

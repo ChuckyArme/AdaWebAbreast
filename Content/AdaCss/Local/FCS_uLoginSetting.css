@@ -1,0 +1,117 @@
+﻿.xW_DivMain
+{
+    height:165px;
+}
+
+.xW_DivSizeHead
+{
+    width:98%;
+    height:155px;
+}
+
+.xW_GroupSetting
+{
+    width:98%;
+    height:155px;   
+}
+
+.xW_DivSizeData
+{
+    width:400px;
+    height:25px;
+    float:left;
+    border:solid 1px transparent;
+    margin:1px 1px 0px 1px;
+}
+
+.xW_DivCaption
+{
+    width:100px;
+    height:22px;
+    border:solid 1px transparent;
+    margin:1px 0px 1px 5px;
+    float:left;
+}
+.xW_DivTextBox
+{
+    width:280px;
+    height:22px;
+    border:solid 1px transparent;
+    margin:1px 0px 1px 1px;
+    float:left;
+}
+.xW_DivTextBox input
+{
+    width:279px;
+    height:18px;
+    border-width:1px;
+    margin:1px 0px 1px 1px;
+    float:left;
+}
+.xW_ComboBoxBch
+{
+    width:280px;
+    height:20px;
+    border-width:1px;
+    margin:1px 0px 1px 1px;
+    float:left;
+}
+.xW_ComboBox
+{
+    width:255px;
+    height:20px;
+    border-width:1px;
+    margin:1px 0px 1px 1px;
+    float:left;
+}
+.xW_RefreshDB
+{
+    margin-left:3px;
+    height:20px;
+    width:20px;
+    cursor:pointer;
+}
+
+.xW_BtnNext
+{
+    margin-top:5px;
+    margin-right:8px;
+    width:60px;
+    height:24px;
+    float:right;
+    cursor:pointer;
+}
+.xW_BtnBack
+{
+    margin-top:5px;
+    margin-right:8px;
+    width:75px;
+    height:24px;
+    float:right;
+    cursor:pointer;
+}
+.xW_DivMessage
+{
+    float:left;
+    margin:5px auto auto 140px;
+    font-size:11px;
+}
+.xW_DivMessage label
+{
+    color:Red;
+}
+
+.xW_DivSizeRadio
+{
+    width:390px;
+    height:25px;
+    float:left;
+    margin:2px 0px 0px 2px;
+    cursor:pointer;
+}
+
+.xW_DivFooter
+{    
+    margin:104px 0px 0px 0px;
+    height:30px;
+}

@@ -1,0 +1,25 @@
+﻿.xW_DivManuBar
+{
+    width:30px;
+    height:75px;
+    float:left;
+    cursor:pointer;
+    background-image:url(../../../Content/img/AdaSiteMaster/MenuBar.png);
+}
+.xW_DivManuBar:hover
+{
+    background-image:url(../../../Content/img/AdaSiteMaster/MenuBarOnHover.png);
+}
+
+.xW_TdWebPage
+{
+    background-image:url('../../../Content/img/BGdetail.png');
+}
+
+.xW_TdBanner
+{
+    padding:0px 0px 0px 0px;
+    /*background-image:url('../../../Content/img/AdaSiteMaster/Banner_new.png');*/
+    background-image:url('../../../Content/img/AdaSiteMaster/Banner_AdaPos.png');
+    background-repeat:no-repeat;
+}

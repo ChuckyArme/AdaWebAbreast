@@ -1,0 +1,155 @@
+﻿.xW_DivManuBar
+{
+    width:30px;
+    height:75px;
+    float:left;
+    cursor:pointer;
+    background-image:url(../../../Content/img/AdaSiteMaster/MenuBar.png);
+}
+.xW_DivManuBar:hover
+{
+    background-image:url(../../../Content/img/AdaSiteMaster/MenuBarOnHover.png);
+}
+
+.xW_TdWebPage
+{
+    background-image:url('../../../Content/img/BGdetail.png');
+}
+
+.xW_TdLogo
+{
+    padding:0px 0px 0px 0px;
+    width:100px;
+    height:60px;
+    background-repeat:no-repeat;
+}
+.xW_TdLogo img
+{
+    margin-top:5px;
+    margin-left:5px;
+    height:60px; 
+    float:left;
+}
+
+.xW_Language
+{
+    float:right;   
+    margin-right:60px;
+}
+
+.xW_DivLine
+{
+    height:1px;
+}
+.xW_DivLine img
+{
+    height:1px;
+}
+
+.xW_SizePage
+{
+    height:98%;
+}
+.xW_wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -1.9em;
+}
+.xW_Footer
+{
+    height:45px;
+    width:100%;
+    background-image:url(../../../Content/img/AdaLogin/FootLogin.png);
+    text-align: center;
+    margin:0px 0px 0px 0px;
+}
+
+.xW_DivMenu
+{
+    float:right;   
+    margin-right:20px;
+    margin-top:45px;
+}
+.xCN_DivMenuSub
+{
+    float:left;
+    width:auto;/*45px;*/
+    height:16px;/*55px;*/
+    margin:2px 2px 2px 2px;
+    padding:0px;
+}
+.xCN_DivMenuSub a:hover 
+{
+    cursor:pointer;
+    text-decoration:underline;
+}
+.xW_SizeStyle
+{
+    font-size:medium;   
+    font-weight:bold;
+    color:Black;
+}
+.xW_MarginRight
+{
+    margin-right:20px;
+}
+.xW_DivDetail1
+{
+    width :945px;height:620px;float:left;margin-left:35px;
+}
+.xW_DivDetail2
+{
+    width :945px;height:460px;float:left;margin-left:35px;
+}
+
+/**##### Main #####**/
+.xW_DivDetail
+{
+    height:98%;
+    width:950px;
+}
+.xW_DivDetailSub
+{
+    height:300px;
+    width:470px;
+}
+.xW_DivImage
+{
+    float:left;
+    width:auto;/*45px;*/
+    height:16px;/*55px;*/
+    margin:2px 2px 2px 2px;
+    cursor:pointer;
+    padding:0px;
+    margin-top:50px;
+}
+.xW_DivImage a 
+{
+    background-image:url(../../../Content/img/AdaMainPage/Abreast.png);
+    background-repeat:no-repeat;
+    background-position:right top;
+    float:left;
+    width:900px;
+    height:300px;
+    position:relative;
+    margin-left:15px;
+    cursor:pointer;
+    text-decoration:none;
+    color:Black;
+    /*font-size:14px;*/
+}
+.xW_DivImage label
+{
+}
+.xW_FontStyle
+{
+    margin-top:30px;
+    font-size:medium;
+}
+.xW_FontAbreastStyle
+{
+    font-size:36px;
+    font-weight:bold;
+    color:#191463;
+}

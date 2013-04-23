@@ -1,0 +1,93 @@
+﻿.xW_DivMenu
+{ 
+    /*Div สำหรับบรรจุเมนูต่างๆ */
+    /*width:400px;*/
+    width:auto;
+	height:52px;
+	padding:0px;
+	margin:0px 1px 0px 0px;
+	border:solid 1px transparent;
+	float:left;
+}
+
+.xW_DivMain 
+{
+	width:100%;
+	height:35px;
+	border:solid 1px transparent;
+	margin:0px 2px 0px 0px;
+}
+
+.xW_DivToppic
+{
+	width:600px;
+	height:30px;
+	border:solid 1px transparent;
+
+	font-weight:bold;
+	margin:1px 2px 2px 5px;
+	float:left;
+}
+
+.xW_DivToppic label
+{
+	width:auto;
+	height:auto;
+	border:solid 1px transparent;
+	margin:5px 2px 2px 0px;
+	float:left;
+}
+/* Path Menu */
+.xW_DivPath
+{
+	margin:2px 2px 2px 2px;
+}
+.xW_DivPath Label
+{
+	float:right;
+}
+.xW_DivSearch
+{
+	width:auto;
+	height:30px;
+	border:solid 1px transparent;
+	margin:1px 2px 2px 5px;
+	float:right;
+}
+
+.xW_DivSearchCap
+{
+	width:auto;
+	height:22px;
+	border:solid 1px transparent;
+	margin:1px 5px 2px 5px;
+	float:left;
+}
+
+.xW_DivSearchCap label
+{
+	width:auto;
+	height:auto;
+	text-align:right;
+	border:solid 1px transparent;
+	padding:0px 5px 0px 0px;
+	margin:3px 2px 2px 0px;
+	float:right;
+}
+
+.xW_DivSearchText
+{
+	max-width:168px;
+	height:22px;
+	border:solid 1px transparent;
+	margin:2px 2px 2px 2px;
+	float:left;
+}
+
+.xW_DivSearchText input
+{
+	max-width:160px;
+	height:16px;
+	float:left;
+}
+

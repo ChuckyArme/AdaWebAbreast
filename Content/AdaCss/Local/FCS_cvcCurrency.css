@@ -1,0 +1,279 @@
+﻿.xW_DivData
+{
+	width:192px;
+	height:250px;
+	margin:5px 1px 1px 1px;
+	border:solid 1px transparent;
+	float:left;
+}
+.xW_DivDataBottom
+{
+	width:490px;
+	height:22px;
+	border:solid 1px transparent;
+	margin:1px 1px 1px 1px;
+	float:left;
+}
+.xW_DivDetailSub
+{
+	width:780px;
+	height:250px;
+	margin:2px 5px 2px 5px;
+}
+
+.xW_DivMain
+{
+	width:822px;
+	height:400px;
+	margin:0px 0px 0px 5px;
+	overflow:hidden;
+	display:block;
+}
+.xW_DivMenu
+{ 
+    /*Div สำหรับบรรจุเมนูต่างๆ */
+    width:320px;
+	height:52px;
+	padding:0px;
+	margin:0px 1px 0px 0px;
+	border:solid 1px transparent;
+	float:left;
+}
+
+.xW_DivSearch
+{
+	width:auto;
+	height:30px;
+	border:solid 1px transparent;
+	margin:1px 2px 2px 5px;
+	float:right;
+}
+.xW_DivSearchCap
+{
+	width:auto;
+	height:22px;
+	border:solid 1px transparent;
+	margin:1px 5px 2px 5px;
+	float:left;
+}
+
+.xW_DivSearchCap label
+{
+	width:auto;
+	height:auto;
+	text-align:right;
+	border:solid 1px transparent;
+	padding:0px 5px 0px 0px;
+	margin:3px 2px 2px 0px;
+	float:right;
+}
+.xW_DivTabDetail
+{
+    width:auto;
+    height:300px;
+    background-color:#548231;
+    padding:5px 5px 5px 5px;
+    margin:0px 0px 0px 0px;
+    float:left;
+    border-style:solid solid solid solid;
+    border-width:1px;
+    border-color:#335032;
+}
+.xW_DivSearchText
+{
+	max-width:168px;
+	height:22px;
+	border:solid 1px transparent;
+	margin:2px 2px 2px 2px;
+	float:left;
+}
+
+.xW_DivSearchText input
+{
+	max-width:160px;
+	height:16px;
+	float:left;
+}
+.xW_DivDetail
+{
+	width:810px;
+	height:300px;
+	margin:2px 5px 2px 5px;
+	overflow:hidden;
+	display:block;
+}
+
+.xW_DivCaption
+{
+	width:120px;
+	height:250px;
+	border:solid 1px transparent;
+	margin:5px 1px 2px 7px;
+	float:left;
+}
+
+.xW_DivCaptionSub
+{
+	width:100px;
+	height:22px;
+	border:solid 1px transparent;
+	margin:1px 1px 1px 1px;
+	float:left;
+}
+.xW_DivCaptionSub2
+{
+	width:105px;
+	height:22px;
+	border:solid 1px transparent;
+	margin:1px 1px 1px 1px;
+	float:left;
+}
+.xW_DivCaptionSub2 label
+{
+	width:auto;
+	height:auto;
+	vertical-align:middle;
+	padding:1px 0px 1px 0px;
+	float:left;
+}
+.xW_DivCaptionSub label
+{
+	width:auto;
+	height:auto;
+	vertical-align:middle;
+	padding:1px 0px 1px 0px;
+	float:left;
+}
+
+.xW_DivCaptionAddress
+{
+	width:80px;
+	height:54px;
+	vertical-align:middle;
+	padding:1px 0px 1px 2px;
+	float:left;
+}
+
+
+.xW_DivDataSub
+{
+	width:140px;
+	height:22px;
+	border:solid 1px transparent;
+	margin:1px 1px 1px 1px;
+	float:left;
+}
+
+.xW_DivDataSub input
+{
+	width:177px;
+	height:auto;
+	vertical-align:middle;
+	padding:1px 0px 1px 0px;
+	float:left;
+}
+.xW_DivDataEntry
+{
+	width:192px;
+	height:250px;
+	margin:5px 1px 1px 1px;
+	border:solid 1px transparent;
+	float:left;
+}
+
+
+.xW_DivDataEntrySub
+{
+	width:140px;
+	height:22px;
+	border:solid 1px transparent;
+	margin:1px 1px 1px 1px;
+	float:left;
+}
+.xW_TextAreaAddress
+{
+	width:487px;
+	height:auto;
+	vertical-align:middle;
+	margin:1px 0px 1px 2px;
+	float:left;
+}
+.xW_DivCode
+{
+	width:110px;
+	height:22px;
+	margin:0px 1px 2px 0px;
+	float:left;
+}
+.xW_DivCheckbox
+{
+	width:110px;
+	height:22px;
+	margin:0px 1px 2px 0px;
+	float:left;
+}
+.xW_InputTextCode
+{
+	max-width:105px;
+	height:auto;
+	float:left;
+	text-align:left;
+}
+
+.xW_InputTextTel
+{
+	width:200px;
+	height:auto;
+	float:left;
+	text-align:left;
+}
+
+
+.xW_ImgSize
+{ 
+  border:0; 
+  width:15px; 
+  height:15px;
+}
+.xW_DivImgSub
+	{
+
+ width:118px;
+ height:131px;
+ float:inherit;
+ margin:2px 2px 0px 0px;
+ padding:0px 0px 0px 0px;
+ overflow:hidden;
+ display:block;
+ border:solid 1px black;
+	}
+.xW_DivImg
+{
+	width:120px;
+	height:250px;
+	margin:5px 1px 1px 1px;
+	border:solid 1px transparent;
+	float:left;
+    }	
+.xW_DivBrowseImage
+{
+	width:140px;
+	border:solid 1px transparent;
+	height:auto;
+	float:left;
+}
+
+.xW_DivUploadImage
+{
+	width:70px;
+	height:auto;
+	float:left;
+}
+.xW_DivDataBottomLeft
+{
+	width:430px;
+	height:22px;
+	border:solid 1px transparent;
+	margin:1px 1px 1px 0px;
+	float:left;
+}

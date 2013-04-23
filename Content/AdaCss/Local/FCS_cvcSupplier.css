@@ -1,0 +1,477 @@
+﻿
+
+	.xW_Divw1050h160{width:1050px;height:160px;margin:2px 2px 0px 0px;padding:0px;float:left;overflow:hidden;display:block;}
+	.xW_Divw1050h25{width:1050px;height:25px;margin:2px 2px 0px 0px;padding:0px;float:left;overflow:hidden;display:block;}
+	.xW_Divw20h20{width:20px;height:20px;margin:2px 2px 0px 0px;padding:0px;float:left;overflow:hidden;display:block;}
+
+
+  
+/*----- ปุ่มกด -----*/
+	.xW_DivButtomw60h24{width:60px;height:24px;padding:2px 0px 0px 2px;margin:2px 2px 2px 2px;border-style:solid solid solid solid;border-width:1px;border-color:#cdcdcd;text-align:left;vertical-align:middle;float:left;background-image:url('../img/imgGradient/oimgGray_30x30_v1.png');background-position:left top;background-repeat:repeat-x;cursor:pointer;}
+
+	.xW_DivButtonW100H30{width:100px;height:30px;padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;border-style:solid solid solid solid;border-width:1px;border-color:#cdcdcd;text-align:center;vertical-align:middle;float:left;background-image:url('../img/imgGradient/oimgGray_30x30_v1.png');background-position:left top;background-repeat:repeat-x;cursor:pointer;}
+
+
+/*
+xCN_AllFontColor xCN_AllFontFamily xCN_AllFontSize
+
+xCN_AllFontColorTextReq xCN_AllFontFamily xCN_AllFontSize
+
+.xCN_AllFontColorTextReq
+*/
+
+/*---------------------- T-Textbox --------------------------*/ 
+	/*-------------------- Enable ---------------------------*/ 
+	.xCenter_txt_Enable_w40h20{width:40px;height:20px;margin:0px;padding:0px;text-align:left;vertical-align:top;background-color:White;Border:solid 1px #6c8ec5;}
+	.xCenter_txt_Enable_w80h20{width:80px;height:20px;margin:0px;padding:0px;text-align:left;vertical-align:top;background-color:White;Border:solid 1px #6c8ec5;}
+	.xCenter_txt_Enable_w118h20{width:118px;height:20px;margin:0px;padding:0px;text-align:left;vertical-align:top;background-color:White;Border:solid 1px #6c8ec5;}
+	.xCenter_txt_Enable_w130h20{width:130px;height:20px;margin:0px;padding:0px;text-align:left;vertical-align:top;background-color:White;Border:solid 1px #6c8ec5;}
+	.xCenter_txt_Enable_w150h20{width:150px;height:20px;margin:0px;padding:0px;text-align:left;vertical-align:top;background-color:White;Border:solid 1px #6c8ec5;}
+	.xCenter_txt_Enable_w160h20{width:160px;height:20px;margin:0px;padding:0px;text-align:left;vertical-align:top;background-color:White;Border:solid 1px #6c8ec5;}
+	.xCenter_txt_Enable_w180h20{width:180px;height:20px;margin:0px;padding:0px;text-align:left;vertical-align:top;background-color:White;Border:solid 1px #6c8ec5;}
+	
+	.xCenter_txt_Enable_w198h20{width:198px;height:20px;margin:0px;padding:0px;text-align:left;vertical-align:top;background-color:White;Border:solid 1px #6c8ec5;}
+	.xCenter_txt_Enable_w198h52{width:198px;height:52px;margin:0px;padding:0px;text-align:left;vertical-align:top;background-color:White;Border:solid 1px #6c8ec5;}
+	.xCenter_txt_Enable_w200h20{width:200px;height:20px;margin:0px;padding:0px;text-align:left;vertical-align:top;background-color:White;Border:solid 1px #6c8ec5;}
+	.xCenter_txt_Enable_w280h20{width:280px;height:20px;margin:0px;padding:0px;text-align:left;vertical-align:top;background-color:White;Border:solid 1px #6c8ec5;}
+	.xCenter_txt_Enable_w280h76{width:280px;height:76px;margin:0px;padding:0px;text-align:left;vertical-align:top;background-color:White;Border:solid 1px #6c8ec5;}
+	.xCenter_txt_Enable_w290h20{width:290px;height:20px;margin:0px;padding:0px;text-align:left;vertical-align:top;background-color:White;Border:solid 1px #6c8ec5;}
+	.xCenter_txt_Enable_w300h20{width:300px;height:20px;margin:0px;padding:0px;text-align:left;vertical-align:top;background-color:White;Border:solid 1px #6c8ec5;}
+	.xCenter_txt_Enable_w300h40{width:300px;height:40px;margin:0px;padding:0px;text-align:left;vertical-align:top;background-color:White;Border:solid 1px #6c8ec5;}
+	.xCenter_txt_Enable_w120h40{width:120px;height:40px;margin:0px;padding:0px;text-align:left;vertical-align:top;background-color:White;Border:solid 1px #6c8ec5;}
+	   
+	/*-------------------- Disable ------------------------*/ 
+	.xCenter_txt_Disable_w30h20{width:30px;height:20px;margin:0px;padding:0px;text-align:left;vertical-align:top;background-color:#FC9;Border:solid 1px #6c8ec5;}
+	.xCenter_txt_Disable_w80h20{width:80px;height:20px;margin:0px;padding:0px;text-align:left;vertical-align:top;background-color:#FC9;Border:solid 1px #6c8ec5;}
+	.xCenter_txt_Disable_w90h20{width:90px;height:20px;margin:0px;padding:0px;text-align:left;vertical-align:top;background-color:#FC9;Border:solid 1px #6c8ec5;}
+	.xCenter_txt_Disable_w120h20{width:120px;height:20px;margin:0px;padding:0px;text-align:left;vertical-align:top;background-color:#FC9;Border:solid 1px #6c8ec5;}
+	.xCenter_txt_Disable_w150h20{width:150px;height:20px;margin:0px;padding:0px;text-align:left;vertical-align:top;background-color:#FC9;Border:solid 1px #6c8ec5;}
+	.xCenter_txt_Disable_w168h20{width:168px;height:20px;margin:0px;padding:0px;text-align:left;vertical-align:top;background-color:#FC9;Border:solid 1px #6c8ec5;}
+	.xCenter_txt_Disable_w185h20{width:185px;height:20px;margin:0px;padding:0px;text-align:left;vertical-align:top;background-color:#FC9;Border:solid 1px #6c8ec5;}
+	
+	/*-------------- ปุ่มกด 20x20 ---------------*/
+    .xCenter_btnImages_w20h20{cursor:pointer;width:20px;height:20px;padding:0px;margin:0px;}
+
+	.xCenter_w100h112{width:100px;height:112px;float:right;margin:2px 2px 0px 0px;padding:0px;overflow:hidden;display:block;border:solid 1px #6699cc;background-color:White;}
+	.xCenter_w102h35{width:102px;height:35px;float:right;margin:2px 2px 0px 0px;padding:0px 0px 0px 0px;overflow:hidden;display:block/*;border:solid 1px #6699cc;background-color:White;*/}
+	
+	
+	.xCenter_w1050h200{width:1050px;height:200px;float:left;margin:2px 2px 0px 0px;padding:0px;overflow:hidden;display:block;}
+	
+	.x007Spl_w20h20{min-width:20px;width:20px;height:20px;float:left;margin:2px 1px 1px 0px;padding:0px;overflow:hidden;display:block;}
+	.x007Spl_w50h22{min-width:50px;width:50px;height:22px;float:left;margin:2px 1px 1px 0px;padding:0px;overflow:hidden;display:block;}
+	.x007Spl_w120h22{min-width:119px;width:119px;height:22px;float:left;margin:2px 1px 1px 0px;padding:0px;overflow:hidden;display:block;}
+	.x007Spl_w240h22{min-width:239px;width:239px;height:22px;float:left;margin:2px 1px 1px 0px;padding:0px;overflow:hidden;display:block;}
+	.x007Spl_w260h22{min-width:249px;width:249px;height:22px;float:left;margin:2px 1px 1px 0px;padding:0px;overflow:hidden;display:block;}
+	
+	
+	.x007Spl_txt_Enable_w50h20{width:48px;height:20px;margin:0p;padding:0px;text-align:left;vertical-align:top;background-color:#d3e0c2;Border:solid 1px #333333;}
+	.x007Spl_txt_Enable_w120h20{width:117px;height:20px;margin:0px;padding:0px;text-align:left;vertical-align:top;background-color:White;Border:solid 1px #333333;}
+	.x007Spl_txt_Enable_w240h20{width:237px;height:20px;margin:0px;padding:0px;text-align:left;vertical-align:top;background-color:White;Border:solid 1px #333333;}
+	.x007Spl_txt_Enable_w260h20{width:247px;height:20px;margin:0px;padding:0px;text-align:left;vertical-align:top;background-color:White;Border:solid 1px #333333;}
+
+	.x007Spl_w120h160{width:138px;height:146px;float:none;margin:6px 6px 0px 6px;padding:0px;overflow:hidden;display:block;border:solid 1px #6699cc;background-color:White;}
+	.x007Spl_w120h40{width:138px;height:40px;float:none;margin:6px 6px 0px 6px;padding:0px;overflow:hidden;display:block;border:solid 1px #6699cc;background-color:White;}
+	
+
+/*---------------------------------------------------------*/
+
+/*----- Text-Align -----*/
+	.xW_TextAlignRight{vertical-align:top;text-align:right;margin:0px;padding:0px 3px 0px 3px;}
+	.xW_TextAlignLeft{vertical-align:top;text-align:left;margin:0px;padding:0px;}
+	.xW_TextAlignCenter{vertical-align:top;text-align:center;margin:0px;padding:0px;}
+
+/*----- Text -----*/
+	.xW_InputTextW30H20{width:30px;height:20px;vertical-align:top;text-align:left;margin:0px;padding:0px 0px 0px 1px;Border:solid 1px #6c8ec5;}
+	.xW_InputTextW70H20{width:70px;height:20px;vertical-align:top;text-align:left;margin:0px;padding:0px 0px 0px 1px;Border:solid 1px #6c8ec5;}
+	.xW_InputTextW80H20{width:80px;height:20px;vertical-align:top;text-align:left;margin:0px;padding:0px 0px 0px 1px;Border:solid 1px #6c8ec5;}
+	.xW_InputTextW97H20{width:97px;height:20px;vertical-align:top;text-align:left;margin:0px;padding:0px 0px 0px 1px;Border:solid 1px #6c8ec5;}
+	.xW_InputTextW120H20{width:120px;height:20px;vertical-align:top;text-align:left;margin:0px;padding:0px 0px 0px 1px;Border:solid 1px #6c8ec5;}
+	.xW_InputTextW150H20{width:150px;height:20px;vertical-align:top;text-align:left;margin:0px;padding:0px 0px 0px 1px;Border:solid 1px #6c8ec5;}
+	.xW_InputTextW160H20{width:160px;height:20px;vertical-align:top;text-align:left;margin:0px;padding:0px 0px 0px 1px;Border:solid 1px #6c8ec5;}
+	.xW_InputTextW190H20{width:190px;height:20px;vertical-align:top;text-align:left;margin:0px;padding:0px 0px 0px 1px;Border:solid 1px #6c8ec5;}
+	.xW_InputTextW200H20{width:214px;height:20px;vertical-align:top;text-align:left;margin:0px;padding:0px 0px 0px 1px;Border:solid 1px #6c8ec5;}
+	.xW_InputTextW260H20{width:260px;height:20px;vertical-align:top;text-align:left;margin:0px;padding:0px 0px 0px 1px;Border:solid 1px #6c8ec5;}
+
+/*----- Text Area -----*/
+	.xW_InputTextW260H80{width:260px;height:80px;vertical-align:top;text-align:left;margin:0px;padding:0px 0px 0px 1px;Border:solid 1px #6c8ec5;}
+	.xW_InputTextW190H52{width:190px;height:52px;vertical-align:top;text-align:left;margin:0px;padding:0px 0px 0px 1px;Border:solid 1px #6c8ec5;}
+
+/*----- DatePicker -----*/
+	.xW_DatePickerW80H20{width:80px;height:20px;vertical-align:top;text-align:left;Border:solid 1px #6c8ec5;}
+
+/*----- DropDownList -----*/
+	.xW_DropDownListW80H24{width:80px;height:24px;vertical-align:top;text-align:left;margin:0px;padding:0px 0px 0px 1px;Border:solid 1px #6c8ec5;}
+	.xW_DropDownListW100H22{width:100px;height:22px;vertical-align:text-top;text-align:left;margin:0px;padding:0px;Border:solid 1px #6c8ec5;}
+		
+	
+/*----- Div ---270--*/
+
+	.xW_DivTabDetailSub{width:782px;height:270px;padding:5px 5px 5px 5px;margin:0px;float:left;overflow:hidden;display:block;border-style:solid solid solid solid;border-width:0px;}
+ 
+	/*----- DataEntry -----*/
+	.xW_DivDataEntry{width:800px;height:auto;margin:0px 0px 5px 0px;padding:0px;text-align:left;vertical-align:top;border-style:none;border-width:1px;background-color:Transparent;}
+	.xW_DivDataEntryLeft{width:380px;height:180px;border-style:solid solid solid solid;border-width:1px;border-color:black;background-color:Transparent;vertical-align:top;text-align:left;margin:0px 0px 5px 0px;padding:0px 0px 0px 0px;float:left;background-color:#f9fde4;}
+	.xW_DivDataEntryRight{width:420px;height:180px;border-style:solid solid solid none;border-width:1px;border-color:black;background-color:Transparent;vertical-align:top;text-align:left;margin:0px 0px 5px 0px;padding:0px 0px 0px 0px;float:left;background-color:#f9fde4;}
+			 
+	.xW_DivTabDataEntry{width:810px;height:auto;background-color:#dbe5ce;border-style: solid solid solid solid;border-width:1px;border-color:#335032;padding:5px 0px 5px 5px;margin:0px 0px 5px 0px;float:left;overflow:hidden;display:block;}
+	.xW_DivTabDataEntryTop{width:810px;height:auto;padding:0px;margin:0px 0px 5px 0px;background-color:Transparent;}
+	.xW_DivTabDataEntryBottom{width:810px;height:auto;background-color: Transparent;padding:0px;margin:10px 0px 0px 0px;}
+
+	/*----- General -----*/
+	.xW_DivTabGeneralLeft{width:394px;height:266px;margin:0px;padding:0px;float:left;background-color:Transparent;overflow:hidden;display:block;border-style:solid;border-width:1px;}
+	.xW_DivTabGeneralRight{width:385px;height:266px;margin:0px;padding:0px;float:left;background-color:Transparent;overflow:hidden;display:block;border-style:solid solid solid none;border-width:1px;}
+
+	/*----- Contractor -----*/
+	.xW_DivCtrLeft
+	{
+		width:640px;
+		height:266px;
+		margin:0px;
+		padding:2px 0px 0px 4px;
+		float:left;
+		background-color:#d3e0c2;
+		overflow:hidden;
+		display:block;
+		border-style:solid none solid solid;
+		border-width:1px;
+		border-color:#332a29;
+	}
+	
+	.xW_DivCtrRight
+	{
+		width:109px;
+		height:266px;
+		margin:0px 4px 0px 0px;
+		padding:2px 4px 0px 0px;
+		float:right;
+		background-color:#d3e0c2;
+		overflow:hidden;
+		display:block;
+		border-style:solid solid solid none;
+		border-width:1px;
+		border-color:#332a29;
+	}
+	
+	
+	.xW_DivCtrLeftTop
+	{
+		width:638px;
+		height:34px;
+		margin:2px 0px 0px 0px;
+		padding:0px;
+		float:left;
+		background-color:#d3e0c2;
+		overflow:hidden;
+		display:block;
+		border-style:solid solid none solid;
+		border-width:1px;
+		border-color:#332a29;
+	 }
+	 
+	.xW_DivCtrLeftBottom
+	{
+		width:636px;
+		height:218px;
+		margin:0px 0px 0px 0px;
+		padding:0px 0px 0px 2px;
+		float:left;
+		background-color:#d3e0c2;
+		overflow:hidden;
+		display:block;
+		border-style:solid solid solid solid;
+		border-width:1px;
+		border-color:#332a29;
+		overflow:auto;
+		position:relative;
+	}
+	
+	
+
+	/*----- ByHist AND CNDNOth -----*/
+	.xW_DivTabSubAll
+	{
+		 width:760px;
+		 height:230px;
+		 margin:0px;
+		 padding:0px;
+		 float:left;
+		 background-color:Transparent;
+		 overflow:hidden;
+		 display:block;
+		 border-style:solid;
+		 border-width:1px;
+		 border-color:#332a29;
+	}
+	
+	.xW_DivTabSubCNDNOthAll
+	{
+		 width:746px;
+		 height:228px;
+		 margin:0px;
+		 padding:0px;
+		 float:left;
+		 background-color:Transparent;
+		 overflow:hidden;
+		 display:block;
+		 border-style:solid;
+		 border-width:1px;
+		 border-color:#332a29;
+	}
+
+
+	/*----- DivClear -----*/
+	.xW_DivClear 
+	{ 
+		clear:both; 
+		border:0; 
+		height:0 !important; 
+		width:auto; 
+	}
+
+	/*----- DivLeft -----*/
+	.xW_DivLW100H24
+	{
+		/*--------------------------------------------------------- (ถึง Col 60)
+		Cmt:Div ใหญ่ของสถานะเอกสาร
+		--------------------------------------------------------- (ถึง Col 60)
+		*/
+		width:100px;
+		height:24px;
+		float:left;
+		margin:2px 0px 0px 2px;
+		padding:0px 0px 0px 0px;
+		overflow:hidden;
+		display:block;
+		/*border:solid 1px red;
+		background-color:White;*/
+	}
+	
+	.xW_DivLW120H24
+	{
+		/*--------------------------------------------------------- (ถึง Col 60)
+		Cmt:Div ใหญ่ของสถานะเอกสาร
+		--------------------------------------------------------- (ถึง Col 60)
+		*/
+		width:120px;
+		height:24px;
+		float:left;
+		margin:2px 0px 0px 2px;
+		padding:0px 0px 0px 0px;
+		overflow:hidden;
+		display:block;
+		/*border:solid 1px red;
+		background-color:White;*/
+    }
+    
+	.xW_DivLW140H24
+	{
+		/*--------------------------------------------------------- (ถึง Col 60)
+		Cmt:Div ใหญ่ของสถานะเอกสาร
+		--------------------------------------------------------- (ถึง Col 60)
+		*/
+		width:140px;
+		height:24px;
+		float:left;
+		margin:2px 0px 0px 2px;
+		padding:0px 0px 0px 0px;
+		overflow:hidden;
+		display:block;
+		/*border:solid 1px red;
+		background-color:White;*/
+	}
+	.xW_DivLW160H24
+	{
+		/*--------------------------------------------------------- (ถึง Col 60)
+		Cmt:Div ใหญ่ของสถานะเอกสาร
+		--------------------------------------------------------- (ถึง Col 60)
+		*/
+		width:160px;
+		height:24px;
+		float:left;
+		margin:2px 0px 0px 2px;
+		padding:0px 0px 0px 0px;
+		overflow:hidden;
+		display:block;
+		/*border:solid 1px red;
+		background-color:White;*/
+	}
+	.xW_DivLW200H24
+	{
+		/*--------------------------------------------------------- (ถึง Col 60)
+		Cmt:Div ใหญ่ของสถานะเอกสาร
+		--------------------------------------------------------- (ถึง Col 60)
+		*/
+		width:200px;
+		height:24px;
+		float:left;
+		margin:2px 0px 0px 2px;
+		padding:0px 0px 0px 0px;
+		overflow:hidden;
+		display:block;
+		/*border:solid 1px red;
+		background-color:White;*/
+	}
+	.xW_DivLW190H60
+	{
+		/*--------------------------------------------------------- (ถึง Col 60)
+		Cmt:Div ใหญ่ของสถานะเอกสาร
+		--------------------------------------------------------- (ถึง Col 60)
+		*/
+		width:193px;
+		height:60px;
+		float:left;
+		margin:2px 0px 0px 2px;
+		padding:0px 0px 0px 0px;
+		overflow:hidden;
+		display:block;
+		/*border:solid 1px red;
+		background-color:White;*/
+	}
+	.xW_DivLW220H24
+	{
+		/*--------------------------------------------------------- (ถึง Col 60)
+		Cmt:Div ใหญ่ของสถานะเอกสาร
+		--------------------------------------------------------- (ถึง Col 60)
+		*/
+		width:220px;
+		height:24px;
+		float:left;
+		margin:2px 0px 0px 2px;
+		padding:0px 0px 0px 0px;
+		overflow:hidden;
+		display:block;
+		/*border:solid 1px red;
+		background-color:White;*/
+	}
+	.xW_DivLW280H52
+	{
+		/*--------------------------------------------------------- (ถึง Col 60)
+		Cmt:Div ใหญ่ของสถานะเอกสาร
+		--------------------------------------------------------- (ถึง Col 60)
+		*/
+		width:280px;
+		height:52px;
+		float:left;
+		margin:2px 0px 0px 2px;
+		padding:0px 0px 0px 0px;
+		overflow:hidden;
+		display:block;
+		/*border:solid 1px red;
+		background-color:White;*/
+	}
+	.xW_DivLW270H24
+	{
+		/*--------------------------------------------------------- (ถึง Col 60)
+		Cmt:Div ใหญ่ของสถานะเอกสาร
+		--------------------------------------------------------- (ถึง Col 60)
+		*/
+		width:270px;
+		height:24px;
+		float:left;
+		margin:2px 0px 0px 2px;
+		padding:0px 0px 0px 0px;
+		overflow:hidden;
+		display:block;
+		/*border:solid 1px red;
+		background-color:White;*/
+	}
+	.xW_DivLW270H88
+	{
+		/*--------------------------------------------------------- (ถึง Col 60)
+		Cmt:Div ใหญ่ของสถานะเอกสาร
+		--------------------------------------------------------- (ถึง Col 60)
+		*/
+		width:270px;
+		height:88px;
+		float:left;
+		margin:2px 0px 0px 2px;
+		padding:0px 0px 0px 0px;
+		overflow:hidden;
+		display:block;
+		/*border:solid 1px red;
+		background-color:White;*/
+	}
+	.xW_DivLW388H24
+	{
+		/*--------------------------------------------------------- (ถึง Col 60)
+		Cmt:Div ใหญ่ของสถานะเอกสาร
+		--------------------------------------------------------- (ถึง Col 60)
+		*/
+		width:388px;
+		height:24px;
+		float:left;
+		margin:2px 0px 0px 2px;
+		padding:0px 0px 0px 0px;
+		overflow:hidden;
+		display:block;
+		/*border:solid 1px red;
+		background-color:White;*/
+    }
+
+	/*----- DivRight -----*/
+	.xW_DivRW58H192
+	{
+		/*--------------------------------------------------------- (ถึง Col 60)
+		Cmt:Div ใหญ่ของสถานะเอกสาร
+		--------------------------------------------------------- (ถึง Col 60)
+		*/
+		width:58px;
+		height:192px;
+		float:right;
+		margin:2px 2px 0px 0px;
+		padding:0px 0px 0px 0px;
+		overflow:hidden;
+		display:block;
+		/*border:solid 1px red;
+		background-color:White;*/
+	}
+	
+	.xW_DivRW90H200
+	{
+		/*--------------------------------------------------------- (ถึง Col 60)
+		Cmt:Div ใหญ่ของสถานะเอกสาร
+		--------------------------------------------------------- (ถึง Col 60)
+		*/
+		width:90px;
+		height:200px;
+		float:right;
+		margin:2px 2px 0px 0px;
+		padding:0px 0px 0px 0px;
+		overflow:hidden;
+		display:block;
+		/*border:solid 1px red;
+		background-color:White;*/
+	}
+	.xW_DivRW98H136
+	{
+		/*--------------------------------------------------------- (ถึง Col 60)
+		Cmt:Div ใหญ่ของสถานะเอกสาร
+		--------------------------------------------------------- (ถึง Col 60)
+		*/
+		width:98px;
+		height:136px;
+		float:right;
+		margin:2px 2px 0px 0px;
+		padding:0px 0px 0px 0px;
+		overflow:hidden;
+		display:block;
+		/*border:solid 1px red;
+		background-color:White;*/
+	}
+	.xW_DivRW98H32
+	{
+		/*--------------------------------------------------------- (ถึง Col 60)
+		Cmt:Div ใหญ่ของสถานะเอกสาร
+		--------------------------------------------------------- (ถึง Col 60)
+		*/
+		width:98px;
+		height:32px;
+		float:right;
+		margin:2px 2px 0px 0px;
+		padding:0px 0px 0px 0px;
+		overflow:hidden;
+		display:block;
+		/*border:solid 1px red;
+		background-color:White;*/
+	}

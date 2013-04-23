@@ -1,0 +1,244 @@
+﻿.xW_DivMain
+{
+	width:530px;
+	height:94px;
+	/*border:solid 1px red;*/
+	 table-layout:fixed;
+	 	background-repeat:no-repeat;
+	margin:3px 3px 3px 1px;	
+}
+
+.xW_DivHeaderColor
+{
+	background-color:#5a8944;
+}
+
+.xW_DivRowIDHeader
+{
+	width:60px;
+	height:23px;
+	border-width:1px;
+	text-align:center;
+	border-style: none  solid solid none;
+	margin:0px 0px 0px 0px;	
+	float:left;
+}
+.xW_DivRowIDHeader label
+{
+	vertical-align:middle;
+    padding:5px 1px 1px 1px;
+}
+
+.xW_DivColRowID
+{
+	width:60px;
+	height:93px;
+	border-width:1px;
+	border-style: solid  solid solid solid;
+	margin:0px -1px 0px 0px;
+	vertical-align:middle;	
+	text-align:center;
+	float:left;
+}
+
+.xW_DivColRowIDSub
+{
+	width:60px;
+	height:22px;
+	border-width:1px;
+	border-style: none  none solid none;
+	vertical-align:middle;	
+	text-align:center;
+	float:left;
+}
+
+.xW_DivOtherPlaceHeader
+{
+	width:150px;
+	height:23px;
+	border-width:1px;
+	text-align:center;
+	border-style: none  none solid none;
+	margin:0px 0px 0px 0px;	
+	float:left;
+}
+
+.xW_DivOtherPlaceHeader label
+{
+	vertical-align:middle;
+    padding:5px 1px 1px 1px;
+}
+
+.xW_DivColOtherPlace
+{
+	width:150px;
+	height:93px;
+	border-width:1px;
+	border-style: solid  solid solid solid;
+	vertical-align:middle;	
+	text-align:center;
+	float:left;
+}
+
+.xW_DivColOtherPlaceSub
+{
+	width:150px;
+	height:22px;
+	border-width:1px;
+	border-style: none  none solid none;
+	vertical-align:middle;	
+	text-align:center;
+	float:left;
+}
+.xW_DivColOtherPlaceSub input
+{
+	width:145px;
+	height:20px;
+	border-width:0px;
+	margin:0px 0px 0px 0px;
+	vertical-align:middle;	
+	text-align:left;
+	float:none;
+}
+
+.xW_DivColPdtPriceHeader
+{
+	width:120px;
+	height:23px;
+	border-width:1px;
+	text-align:center;
+	border-style: none  none solid none;
+	margin:0px 0px 0px 0px;	
+	float:left;
+}
+
+.xW_DivColPdtPriceHeader label
+{
+	vertical-align:middle;
+    padding:5px 1px 1px 1px;
+}
+
+.xW_DivColPdtPrice
+{
+	width:120px;
+	height:93px;
+	border-width:1px;
+	border-style: solid  solid solid none;
+	margin:0px 0px 0px 0px;
+	vertical-align:middle;	
+	text-align:center;
+	float:left;
+}
+
+.xW_DivColPdtPriceSub
+{
+	width:120px;
+	height:22px;
+	border-width:1px;
+	border-style: none  solid solid none;
+	vertical-align:middle;	
+	text-align:center;
+	float:left;
+}
+.xW_DivColPdtPriceSub input
+{
+	width:115px;
+	height:20px;
+	border-width:0px;
+	margin:0px 0px 0px 0px;
+	vertical-align:middle;	
+	text-align:right;
+	float:none;
+}
+
+.xW_DivColOtherHeader
+{
+	width:140px;
+	height:23px;
+	border-width:1px;
+	text-align:center;
+	border-style: none  none solid none;
+	margin:0px 0px 0px 0px;	
+	float:left;
+}
+
+.xW_DivColOtherHeader label
+{
+	vertical-align:middle;
+    padding:5px 1px 1px 1px;
+}
+
+.xW_DivColOther
+{
+	width:140px;
+	height:93px;
+	border-width:1px;
+	border-style: solid  solid solid none;
+	margin:0px 0px 0px 0px;
+	vertical-align:middle;	
+	text-align:center;
+	float:left;
+}
+
+.xW_DivColOther textarea
+{
+	width:137px;
+	height:64px;
+	border-width:0px;
+	margin:0px 0px 0px 0px;
+	vertical-align:middle;	
+	text-align:left;
+	float:none;
+}
+
+.xW_DivColSaveHeader
+{
+	width:54px;
+	height:23px;
+	border-width:1px;
+	text-align:center;
+	border-style: none  none solid none;
+	margin:0px 0px 0px 0px;	
+	float:left;
+}
+
+
+.xW_DivColSaveHeader label
+{
+	vertical-align:middle;
+    padding:5px 1px 1px 1px;
+}
+
+.xW_DivColSave
+{
+	width:54px;
+	height:93px;
+	border-width:1px;
+	border-style: solid  solid solid none;
+	margin:0px 0px 0px 0px;
+	vertical-align:middle;	
+	text-align:center;
+	float:left;
+}
+
+.xW_DivColSaveImg
+{
+	width:54px;
+	height:40px;
+	margin:15px 3px 10px 3px;
+	border-color:Red;
+	border-width :1px;
+	text-align:center;
+	vertical-align:middle;
+	cursor:pointer;
+}
+.xW_DivColSaveImg img
+{
+	max-width :32px;
+	max-height:32px;
+	text-align:center;
+	padding:10px 1px 1px 1px;
+	vertical-align:middle; 
+	cursor:pointer;
+	
+}

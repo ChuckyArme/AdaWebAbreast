@@ -1,0 +1,460 @@
+﻿.xW_DivLabel
+{ 
+    float:left;
+    margin:0px 15px 0px 10px;
+}
+.xW_DivShwError
+{
+    color:Red;   
+}
+.xW_DivSize100
+{
+    width:100%;
+}
+.xW_DivTabDetail
+{   
+    height:425px; width:89.9%;
+}
+.xW_DivTabDetailSub
+{   
+    height:99.9%;
+    width:99.9%;
+}
+.xW_DivData
+{
+	width:500px;
+	height:auto;/*520px;*/
+	margin:5px 1px 1px 1px;
+	border:solid 1px transparent;
+	float:left;
+}
+.xW_DivDataBottom
+{
+	width:490px;
+	height:22px;
+	border:solid 1px transparent;
+	margin:1px 1px 1px 1px;
+	float:left;
+}
+
+.xW_DivMain
+{
+	width:935px;/*822px;*/
+	height:100%;/*530px;*/
+	margin:0px 0px 0px 5px;
+	overflow:hidden;
+	display:block;
+}
+
+.xW_DivMenu
+{ 
+    /*Div สำหรับบรรจุเมนูต่างๆ */
+    /*width:400px;*/
+    width:auto;
+	height:52px;
+	padding:0px;
+	margin:0px 1px 0px 0px;
+	border:solid 1px transparent;
+	float:left;
+}
+
+/* Path Menu */
+.xW_DivPath
+{
+	margin:2px 2px 2px 2px;
+}
+.xW_DivPath Label
+{
+	float:right;
+}
+/* End path menu */
+.xW_DivSearch
+{
+	width:auto;
+	height:20px;
+	border:solid 1px transparent;
+	/*margin:30px 2px 2px 5px;*/
+	float:right;
+}
+.xW_DivSearchCap
+{
+	width:auto;
+	height:12px;
+	border:solid 1px transparent;
+	/*margin:1px 5px 2px 5px;*/
+	margin:30px 2px 2px 5px;
+	float:left;
+}
+
+.xW_DivSearchCap label
+{
+	width:auto;
+	height:auto;
+	text-align:right;
+	border:solid 1px transparent;
+	padding:0px 5px 0px 0px;
+	margin:3px 2px 2px 0px;
+	float:right;
+}
+
+.xW_DivSearchCapPrd
+{
+	width:auto;
+	height:12px;
+	border:solid 1px transparent;
+	/*margin:1px 5px 2px 5px;*/
+	margin:15px 2px 2px 5px;
+	float:left;
+}
+
+.xW_DivSearchCapPrd label
+{
+	width:auto;
+	height:auto;
+	text-align:right;
+	border:solid 1px transparent;
+	padding:0px 5px 0px 0px;
+	margin:3px 2px 2px 0px;
+	float:right;
+}
+
+.xW_DivSearchText
+{
+	max-width:168px;
+	height:22px;
+	border:solid 1px transparent;
+	/*margin:2px 2px 2px 2px;*/
+	margin:15px 2px 2px 2px;
+	float:left;
+}
+
+.xW_DivSearchImg
+{
+	margin:16px 2px 2px 2px;
+}
+
+.xW_DivSearchText input
+{
+	max-width:160px;
+	height:16px;
+	float:left;
+}
+.xW_DivDetail
+{
+	width:930px;
+	height:500px;
+	margin:1px 1px 1px 1px;
+	overflow:hidden;
+	display:block;
+}
+.xW_DivDetailDialog
+{
+	width:100px;
+	height:100px;
+	margin:1px 1px 1px 1px;
+	overflow:hidden;
+	display:block;
+	float:left;
+}
+.xW_DivCaption
+{
+	width:100px;
+	height:auto;/*220px;*/
+	border:solid 1px transparent;
+	margin:5px 1px 2px 7px;
+	float:left;
+}
+
+.xW_DivCaptionSub
+{
+	width:80px;
+	height:22px;
+	border:solid 1px transparent;
+	margin:1px 1px 1px 1px;
+	float:left;
+}
+.xW_DivCaptionSub label
+{
+	width:auto;
+	height:auto;
+	vertical-align:middle;
+	padding:1px 0px 1px 0px;
+	float:left;
+}
+.xW_DivCaptionSubEdit
+{
+	width:90px;
+	height:22px;
+	border:solid 1px transparent;
+	margin:1px 1px 1px 1px;
+	float:left;
+}
+.xW_DivCaptionSubEdit label
+{
+	width:auto;
+	height:auto;
+	vertical-align:middle;
+	padding:1px 0px 1px 0px;
+	float:left;
+}
+.xW_DivCaptionAddress
+{
+	width:80px;
+	height:54px;
+	vertical-align:middle;
+	padding:1px 0px 1px 2px;
+	float:left;
+}
+
+
+.xW_DivDataSub
+{
+	width:495px;
+	height:22px;
+	border:solid 1px transparent;
+	margin:1px 1px 1px 1px;
+	float:left;
+}
+.xW_DivDataSubVer
+{
+	width:110px;
+	height:22px;
+	border:solid 1px transparent;
+	margin:1px 1px 1px 1px;
+	float:left;
+}
+
+.xW_DivDataSub input
+{
+	width:490px;
+	height:auto;
+	vertical-align:middle;
+	padding:1px 0px 1px 0px;
+	float:left;
+}
+
+.xW_DivDataAddress
+{
+	width:490px;
+	height:54px;
+	vertical-align:middle;
+	padding:1px 0px 3px 0px;
+	float:left;
+}
+.xW_TextAreaAddress
+{
+	width:487px;
+	height:auto;
+	vertical-align:middle;
+	margin:1px 0px 1px 2px;
+	float:left;
+	/* CH 03-10-2012 */
+	max-width:198px;
+	max-height:50px;
+}
+.xW_DivTextBoxWithTxtErr
+{
+	width:350px;
+	height:22px;
+	margin:0px 1px 2px 0px;
+	float:left;
+}
+.xW_DivTextBox
+{
+	width:220px;
+	height:22px;
+	margin:0px 1px 2px 0px;
+	float:left;
+}
+.xW_DivTextBoxName
+{
+	width:296px;
+	height:22px;
+	margin:0px 1px 2px 0px;
+	float:left;
+}
+.xW_DivCode
+{
+	width:110px;
+	height:22px;
+	margin:0px 1px 2px 0px;
+	float:left;
+}
+.xW_InputTextCode
+{
+	max-width:105px;
+	height:auto;
+	float:left;
+	text-align:left;
+}
+.xW_TelerikIngeter
+{
+    margin:1px 1px 1px 2px;
+    max-width:120px;
+	height:auto;
+	float:left;
+	text-align:left;
+}
+.xW_WidthInputTextLock
+{
+    max-width:200px;
+    height:auto;
+    text-align:left;
+    margin:0px 5px 0px 5px;
+}
+.xW_WidthInputNameTextLock
+{
+    max-width:280px;
+    height:auto;
+    text-align:left;
+    margin:0px 5px 0px 5px;
+}
+.xW_InputTextTel
+{
+	width:200px;
+	height:auto;
+	float:left;
+	text-align:left;
+}
+.xW_DivProvince
+{
+	width:355px;
+	height:auto;
+	float:left;
+	margin:0px 1px 2px 3px;
+	text-align:left;
+}
+
+.xW_DivProvince input
+{
+	width:353px;
+	height:auto;
+	float:left;
+	text-align:left;
+}
+
+.xW_ImgSize
+{ 
+  border:0; 
+  width:15px; 
+  height:15px;
+}
+
+.xW_DivBrowseOption
+{
+	width:22px;
+	height:22px;
+	float:left;
+	border:solid 1px transparent;
+	margin:0px 0px 0px 2px;
+	overflow:hidden;
+	display:block;
+}
+
+.xW_DivBrowseOption input
+{
+	width:20px;
+	height:20px;
+	text-align:center;
+
+}
+.xW_DivCheckBox
+{
+    width:20px;
+    height:20px;
+    text-align:left;
+    float:left;
+    margin:2px 0px 0px 0px;
+}
+
+.xW_DivCompany
+{
+    width:auto;
+    height:20px;
+    text-align:left;
+    float:left;
+}
+
+
+
+.xW_DivCheckBoxCaption
+{
+    width:auto;
+    height:20px;
+    text-align:left;
+    float:left;
+    margin:2px 0px 0px 0px;
+}
+
+.xW_DivCheckBoxLabel
+{
+    width:100%;
+    height:100%;
+    border:solid 1px transparent;
+    text-align:left;
+    float:left;
+}
+
+.xW_DivBranch
+{
+    width:500px;
+    height:22px;
+    border:solid 1px transparent;
+    margin:1px 5px 0px 0px;
+    text-align:left;
+    float:left;
+}
+.xW_DivBchVersion
+{
+    width:110px;
+    height:22px;
+    border:solid 1px transparent;
+    margin:0px 3px 0px 0px;
+    text-align:left;
+    float:left;
+}
+
+.xW_DivBchVersion input
+{
+    width:104px;
+    height:16px;
+    text-align:left;
+}
+
+/* สำหรับตาราง CH 02-10-2012 */
+.xW_Tabel
+{
+    border-collapse:collapse;
+    width:99.9%;
+    /*border-style:hidden;*/
+}
+.xW_ThHeader th
+{
+	border-right:solid 1px WindowText;
+}
+.xW_TdDetail td
+{
+	border-right:solid 1px #BEBEBE;
+}
+/* Gird Telerik */
+.xW_DivGridDetail
+{
+   vertical-align:top;
+   width:100%;
+   float:left;
+   height:202px;
+   padding: 0px 0px 0px 0px;
+   margin: 5px 0px 0px 0px; 
+   
+}
+
+/* Cursor : potinter */
+.xW_CursorPointter
+{
+    cursor:pointer;
+}
+/* Margin 1 */
+.xW_Margin1
+{
+    margin:0px 0px 0px 1px;
+}

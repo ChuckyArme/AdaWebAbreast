@@ -1,0 +1,291 @@
+﻿
+.xW_DivDetail
+{
+	width:auto;
+	height:auto;
+	margin:0px 0px 1px 1px;
+	border:solid 1px transparent;
+    background-color:#548231;
+    padding:5px 5px 5px 5px;
+	overflow:hidden;
+	display:block;
+	float:left;
+}
+
+.xW_DivDocCaption
+{
+    height:113px;
+    width:75px;
+    border:solid 1px transparent;
+    padding:0px;
+    float:left;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+}
+.xW_DivDocCaptionSub
+{
+    height:20px;
+    width:72px;
+    padding:0px;
+    margin:2px 0px 0px 3px; 
+    vertical-align:middle;
+    text-align:left;
+    float:left;
+}
+.xW_DivDocData
+{
+    height:113px;
+    width:124px;
+    padding:0px;
+    float:left;
+    margin:0px 2px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+}
+
+.xW_DivDocDataSub
+{
+    height:20px;
+    width:143px;
+    padding:0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+   border:solid 1px transparent;
+    float:left;
+}
+
+.xW_DivDocDataSub input
+{
+    height:18px;
+    width:140px;
+    padding:0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+    float:left;
+}
+.xW_DivDocDetail
+{
+    height:50px;
+    width:227px;
+    padding:0px;
+    margin:3px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+    border:solid 1px transparent;
+    overflow:hidden;
+	display:block;
+}
+
+.xW_DivDocumentMenuName
+{
+    height:35px;
+    width:227px;
+    border-width:1px;
+    border-style: solid solid solid solid;
+    padding:0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:center;
+}
+
+
+.xW_DivDocType
+{
+    width:99%;
+    height:31px;
+    float:left;
+    border-width:1px; 
+   /* border-style:solid solid solid solid;
+    border-color:Blue;*/
+    margin:0px 0px 2px 0px;
+}
+
+.xW_DivDocTypeFrom
+{
+    width:300px;
+    height:24px;
+    float:left;
+    border-width:1px; 
+   /* border-color:transparent;
+    border-style:solid solid solid solid;*/
+    margin:2px 0px 1px 5px;
+    float:left;
+} 
+
+.xW_DivDocTypeSub
+{
+    width:100px;
+    height:18px;
+    float:left;
+    border-width:1px; 
+   /* border-color:red;
+    border-style:solid solid solid solid;*/
+    margin:0px 0px 0px 0px;
+    float:left;
+} 
+
+.xW_DivGridDetail
+{
+   vertical-align:top;
+   width:auto;
+   float:left;
+   height:170px;
+   padding: 0px 0px 0px 0px;
+ /*  border:solid 1px blue;*/
+   margin: 0px 0px 0px 0px; 
+   
+}
+
+.xW_DivHeader
+{
+	width:auto;
+	height:520px;
+	margin:0px 0px 0px 5px;
+	/*border-color:red;*/
+	border-width:1px;
+	overflow:hidden;
+	display:block;
+	float:none;
+}
+
+.xW_DivHeaderLeft
+{
+	width:698px;
+	height:90px;
+	margin:2px 1px 2px 2px;
+	border-width:1px;
+	overflow:hidden;
+	display:block;
+	float:left;
+}
+
+.xW_DivHeaderRight
+{
+    /*Div ใหญ่ของรายละเอียดเลขที่เอกสาร*/
+    width:227px;
+    height:90px;
+    float:right;
+    border-width:1px; 
+  /*  border-style:solid solid solid solid;
+    border-color:Blue;*/
+    margin:2px 2px 2px 0px;
+}
+
+
+.xW_DivRemark
+{
+    width:99%;
+    height:50px;
+    float:left;
+    border-width:1px; 
+   /* border-style:solid solid solid solid;
+    border-color:transparent;*/
+    margin:2px 0px 1px 0px;
+}
+
+.xW_DivRemarkCap
+{
+    width:70px;
+    height:44px;
+    float:left;
+    border-width:1px; 
+    /*  border-style:solid solid solid solid;
+    border-color:green;*/
+    margin:2px 0px 1px 5px;
+}
+
+.xW_DivRemarkData
+{
+    width:80%;
+    height:44px;
+    float:left;
+    border-width:1px; 
+    /*border-color:transparent;
+      border-style:solid solid solid solid;*/
+    margin:2px 0px 1px 5px;
+    float:left;
+}
+
+.xW_DivRemarkData label
+{
+    width:99%;
+    height:40px;
+    float:left;
+    border-width:1px; 
+   /* border-color:Blue;*/
+    margin:0px 0px 1px 5px;
+}
+
+.xW_DivSelectFromBill
+{
+    width:120px;
+    height:21px;
+    float:left;
+    border-width:1px; 
+   /* border-color:transparent;
+    border-style:solid solid solid solid;*/
+    margin:0px 0px 1px 1px;
+    float:left;
+} 
+
+.xW_DivSelectFromBill Select
+{
+    width:120px;
+    height:20px;
+    float:left;
+   /* border-width:1px; 
+   border-color:transparent;
+    border-style:solid solid solid solid;*/
+    margin:0px 0px 1px 1px;
+    float:left;
+}
+
+.xW_DivTabToppic
+{
+    width:99%;
+    height:auto; 
+    float:none;
+    padding:0px;
+
+    margin:0px;
+    background-color:Transparent;
+} 
+
+.xW_DivTabProductList
+{
+    width:auto;
+    height:210px;
+    float:left;
+    margin:0px 2px  0px 2px;  
+   /* border:solid 1px red;*/
+}
+
+.xW_DivTrasactionName
+{
+	width:80px;
+	height:20px;
+	margin:0px 0px 0px 0px;
+/*	border-color:red;
+	border-width:1px;*/
+	overflow:hidden;
+	display:block;
+	float:left;
+}
+
+.xW_DivTrasactionName label
+{
+	width:80px;
+	height:18px;
+	margin:2px 0px 0px 5px;
+	/*border-color:red;*/
+	border-width:1px;
+	overflow:hidden;
+	display:block;
+	float:left;
+}
+
+
+

@@ -1,0 +1,154 @@
+﻿/*.xW_DivDetail
+{
+	width:815px;
+	height:420px;
+	margin:2px 5px 2px 5px;
+	overflow:hidden;
+	display:block;
+}*/
+.xW_DivMainMenu 
+{  
+    /*Div ใหญ่สุดของเมนูด้านบน 
+      สำหรับบรรจุ Div เมนู และสถานะเอกสาร*/
+	width:315px;
+	height:55px;
+	padding:0px;
+	margin:1px 0px 1px 5px;
+	border-width:1px;
+} 
+.xW_DivMain
+{
+     /*Div ใหญ่สุดของ Page*/
+    width:315px;
+    height:200px;
+    border:solid 1px transparent;
+}
+.xW_DivDetail
+{
+	width:315px;
+	height:150px;
+	margin:2px 5px 2px 5px;
+	overflow:hidden;
+	display:block;
+}
+.xW_DivDetailDialog
+{
+	width:235px;
+	height:200px;
+	margin:2px 5px 2px 5px;
+	overflow:hidden;
+	display:block;
+}
+.xW_DivDetailSub
+{
+	width:780px;
+	height:380px;
+	margin:2px 5px 2px 5px;
+}
+.xW_DivDetailHD
+{
+	width:250px;
+	height:420px;
+	margin:2px 5px 2px 5px;
+	overflow:hidden;
+	display:block;
+}
+
+.xW_DivCaption
+{
+	width:50px;
+	height:120px;
+	float:left;
+}
+.xW_DivCaptionSub
+{
+	width:50px;
+	height:22px;
+	border:solid 1px transparent;
+	margin:4px 1px 1px 1px;
+	float:left;
+}
+
+.xW_DivCaptionSub label
+{
+	width:auto;
+	height:auto;
+	vertical-align:middle;
+	padding:1px 0px 1px 0px;
+	float:left;
+}
+.xW_DivData
+{
+	width:180px;
+	height:120px;
+	float:left;
+}
+
+.xW_DivDataSub
+{
+	width:180px;
+	height:25px;
+	border:solid 1px transparent;
+	margin:1px 1px 1px 1px;
+	float:left;
+}
+/* Path Menu */
+.xW_DivPath
+{
+	margin:2px 2px 2px 2px;
+}
+.xW_DivSearch
+{
+	width:auto;
+	height:20px;
+	border:solid 1px transparent;
+	/*margin:30px 2px 2px 5px;*/
+	float:right;
+}
+.xW_DivSearchData
+{
+    width:315px;
+	height:20px;
+	padding:0px;
+	float:left;
+	margin: 0px  0px 1px 2px;
+	border:solid 1px transparent;
+}
+
+
+.xW_DivSearchCaption
+{
+    width:130px;
+    height:20px;
+    text-align:left;
+    padding:3px 0px 0px 3px;
+    float:left;
+    border:solid 0px red;
+    margin-left: 2px;
+}
+.xW_DivSearch_TextBox
+{
+    width:120px;
+    height:20px;
+    padding:0px;
+    text-align:left;
+    vertical-align:top;
+    float:left;
+    border:solid 0px red;
+    padding:3px;
+    overflow:hidden;
+    display:block;
+    
+}
+
+
+.xW_DivMenu
+{ 
+    /*Div สำหรับบรรจุเมนูต่างๆ */
+    width:500px;
+	height:52px;
+	padding:0px;
+	margin:0px 1px 0px 0px;
+	border:solid 1px transparent;
+	float:left;
+}

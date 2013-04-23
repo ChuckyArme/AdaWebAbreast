@@ -1,0 +1,75 @@
+﻿/*----- img Dialog ------*/
+.xCN_DivShowIcon img
+{
+	width:48px;
+	height:48px;
+	border:solid 1px transparent;
+	margin:0px 2px 20px 2px;
+	float:left;
+}
+
+.xCN_DivShowIconError
+{
+	background-image:url(../../Content/img/AdaDialogIcon/Error.png);
+}
+.xCN_DivShowIconQuestion a
+{
+	background-image:url(../../img/AdaDialogIcon/Question.png);
+	background-repeat:no-repeat;
+    background-position:center top;
+}
+.xCN_DivShowIconWarning a
+{
+	background-image:url(../../img/AdaDialogIcon/warning.png);
+	background-repeat:no-repeat;
+    background-position:center top;
+}
+.xCN_DivShowIconInfomation
+{
+	background-image:url(../../../Content/img/AdaDialogIcon/Information.png);
+}
+.xCN_DivDialogTop
+{
+	width:auto;
+	height:auto;
+	border:solid 1px Transparent;
+	margin:1px 1px 1px 1px;
+}
+.xCN_DivDialoglabel
+{
+	margin:10px 1px 1px 1px;
+}
+.xCN_DivTabDisplaySub
+{
+   vertical-align:top;
+   width:100%;
+   float:left;
+   height:100%;
+   padding: 0px 0px 0px 0px;
+   margin: 5px 0px 0px 0px; 
+   
+}
+.xCN_DivShowIcon
+{
+	width:55px;
+	height:130px;
+	border:solid 1px transparent;
+	margin:5px 2px 2px 2px;
+	float:left;
+}
+.xCN_DivShowIcon a
+{
+	width:48px;
+	height:48px;
+	border:solid 1px transparent;
+	margin:0px 2px 20px 2px;
+	float:left;
+}
+.xCN_DivShowMsg
+{
+	width:auto;
+	height:30px;
+	border:solid 1px Transparent;
+	margin:5px 2px 2px 1px;
+	float:left;
+}

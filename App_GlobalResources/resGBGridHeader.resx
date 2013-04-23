@@ -1,0 +1,511 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="olaAddr" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="olaAmount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="olaAreCode" xml:space="preserve">
+    <value>Area Code</value>
+  </data>
+  <data name="olaAreName" xml:space="preserve">
+    <value>Area Name</value>
+  </data>
+  <data name="olaBrowse" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="olaBrwPdt" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="olaBrwRate" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="olaBrwReason" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="olaBrwSpl" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="olaBrwWah" xml:space="preserve">
+    <value>Warehouse</value>
+  </data>
+  <data name="olaBuyerCode" xml:space="preserve">
+    <value>Buyer Code</value>
+  </data>
+  <data name="olaBuyerName" xml:space="preserve">
+    <value>Buyer Name</value>
+  </data>
+  <data name="olaChangeValue" xml:space="preserve">
+    <value>Change Value</value>
+    <comment>*CH 18-12-2012</comment>
+  </data>
+  <data name="olaClrCode" xml:space="preserve">
+    <value>Color Code</value>
+  </data>
+  <data name="olaClrName" xml:space="preserve">
+    <value>Color Name</value>
+  </data>
+  <data name="olaCode" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="olaCstCode" xml:space="preserve">
+    <value>Customer Code</value>
+  </data>
+  <data name="olaCstName" xml:space="preserve">
+    <value>Customer Name</value>
+  </data>
+  <data name="olaCustomerGroupList" xml:space="preserve">
+    <value>List of Customer Group</value>
+  </data>
+  <data name="olaCustomerGroupTypeList" xml:space="preserve">
+    <value>List of Customer Type</value>
+  </data>
+  <data name="olaCustomerLevelList" xml:space="preserve">
+    <value>List of Customer Level</value>
+  </data>
+  <data name="olaDep" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="olaDepartmentList" xml:space="preserve">
+    <value>List of Department</value>
+  </data>
+  <data name="olaDiscount" xml:space="preserve">
+    <value>Discount</value>
+  </data>
+  <data name="olaDplTypeList" xml:space="preserve">
+    <value>List of Deposit Slip Type</value>
+  </data>
+  <data name="olaDueDate" xml:space="preserve">
+    <value>Due Date</value>
+  </data>
+  <data name="olaEdit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="olaFindCustomerGroup" xml:space="preserve">
+    <value>Find Customer Group :</value>
+  </data>
+  <data name="olaFindCustomerLevel" xml:space="preserve">
+    <value>Find Customer Level :</value>
+  </data>
+  <data name="olaFindCustomerType" xml:space="preserve">
+    <value>Find Customer Type :</value>
+  </data>
+  <data name="olaFindDepartment" xml:space="preserve">
+    <value>Find Department :</value>
+  </data>
+  <data name="olaFindDplType" xml:space="preserve">
+    <value>Find Deposit Slip Type :</value>
+  </data>
+  <data name="olaFindOccupation" xml:space="preserve">
+    <value>Find Occupation :</value>
+  </data>
+  <data name="olaFindPdtBrand" xml:space="preserve">
+    <value>Find Product Brand :</value>
+  </data>
+  <data name="olaFindPdtColor" xml:space="preserve">
+    <value>Find Product Color :</value>
+  </data>
+  <data name="olaFindPdtLocation" xml:space="preserve">
+    <value>Find Product Location :</value>
+  </data>
+  <data name="olaFindPdtModel" xml:space="preserve">
+    <value>Find Product Model :</value>
+  </data>
+  <data name="olaFindPdtSize" xml:space="preserve">
+    <value>Find Product Size :</value>
+  </data>
+  <data name="olaFindPdtType" xml:space="preserve">
+    <value>Find Product Type :</value>
+  </data>
+  <data name="olaFindPdtUnit" xml:space="preserve">
+    <value>Find Product Unit :</value>
+  </data>
+  <data name="olaFindProvince" xml:space="preserve">
+    <value>Find Province :</value>
+  </data>
+  <data name="olaFindSaleArea" xml:space="preserve">
+    <value>Find Sale Area :</value>
+  </data>
+  <data name="olaFindShipVia" xml:space="preserve">
+    <value>Find Ship Via :</value>
+  </data>
+  <data name="olaFindSplGrp" xml:space="preserve">
+    <value>Find Supplier Group :</value>
+  </data>
+  <data name="olaFindSplLev" xml:space="preserve">
+    <value>Find Supplier Level :</value>
+  </data>
+  <data name="olaFindSplType" xml:space="preserve">
+    <value>Find Supplier Type :</value>
+  </data>
+  <data name="olaFindVATRate" xml:space="preserve">
+    <value>Find VAT Rate :</value>
+  </data>
+  <data name="olaListData" xml:space="preserve">
+    <value>List of</value>
+  </data>
+  <data name="olaMenuCustomerGroup" xml:space="preserve">
+    <value>Customer Group</value>
+  </data>
+  <data name="olaMenuCustomerLevel" xml:space="preserve">
+    <value>Customer Level</value>
+  </data>
+  <data name="olaMenuCustomerType" xml:space="preserve">
+    <value>Customer Type</value>
+  </data>
+  <data name="olaMenuDepartment" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="olaMenuDplType" xml:space="preserve">
+    <value>Deposit Slip Type</value>
+  </data>
+  <data name="olaMenuOccupation" xml:space="preserve">
+    <value>Occupation</value>
+  </data>
+  <data name="olaMenuPdtBrand" xml:space="preserve">
+    <value>Product Brand</value>
+  </data>
+  <data name="olaMenuPdtColor" xml:space="preserve">
+    <value>Product Color</value>
+  </data>
+  <data name="olaMenuPdtLocation" xml:space="preserve">
+    <value>Product Location</value>
+  </data>
+  <data name="olaMenuPdtModel" xml:space="preserve">
+    <value>Product Model</value>
+  </data>
+  <data name="olaMenuPdtSize" xml:space="preserve">
+    <value>Product Size</value>
+  </data>
+  <data name="olaMenuPdtType" xml:space="preserve">
+    <value>Product Type</value>
+  </data>
+  <data name="olaMenuPdtUnit" xml:space="preserve">
+    <value>Product Unit</value>
+  </data>
+  <data name="olaMenuProvince" xml:space="preserve">
+    <value>Province</value>
+  </data>
+  <data name="olaMenuSaleArea" xml:space="preserve">
+    <value>Sale Area</value>
+  </data>
+  <data name="olaMenuShipVia" xml:space="preserve">
+    <value>Ship Via</value>
+  </data>
+  <data name="olaMenuSplGrp" xml:space="preserve">
+    <value>Supplier Group</value>
+  </data>
+  <data name="olaMenuSplLev" xml:space="preserve">
+    <value>Supplier Level</value>
+  </data>
+  <data name="olaMenuSplType" xml:space="preserve">
+    <value>Supplier Type</value>
+  </data>
+  <data name="olaMenuVATRate" xml:space="preserve">
+    <value>VAT Rate</value>
+  </data>
+  <data name="olaMsgSelCol" xml:space="preserve">
+    <value>Please select colum  you want to find</value>
+  </data>
+  <data name="olaName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="olaOccupationList" xml:space="preserve">
+    <value>List of Occupation</value>
+  </data>
+  <data name="olaOthName" xml:space="preserve">
+    <value>Other Name</value>
+  </data>
+  <data name="olaPaid" xml:space="preserve">
+    <value>Paid</value>
+  </data>
+  <data name="olaPbnCode" xml:space="preserve">
+    <value>Brand Code</value>
+  </data>
+  <data name="olaPbnName" xml:space="preserve">
+    <value>Brand Name</value>
+  </data>
+  <data name="olaPdtBrandList" xml:space="preserve">
+    <value>List of Product Brand</value>
+  </data>
+  <data name="olaPdtCode" xml:space="preserve">
+    <value>Product Code</value>
+  </data>
+  <data name="olaPdtColorList" xml:space="preserve">
+    <value>List of Product Color</value>
+  </data>
+  <data name="olaPdtLocationList" xml:space="preserve">
+    <value>List of Product Location</value>
+  </data>
+  <data name="olaPdtModelList" xml:space="preserve">
+    <value>List of Product Model</value>
+  </data>
+  <data name="olaPdtName" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="olaPdtSizeList" xml:space="preserve">
+    <value>List of Product Size</value>
+  </data>
+  <data name="olaPdtTypeList" xml:space="preserve">
+    <value>List of Product Type</value>
+  </data>
+  <data name="olaPdtUnit" xml:space="preserve">
+    <value>Qty.</value>
+  </data>
+  <data name="olaPdtUnitCode" xml:space="preserve">
+    <value>Unit Code</value>
+  </data>
+  <data name="olaPdtUnitList" xml:space="preserve">
+    <value>List of Product Unit</value>
+  </data>
+  <data name="olaPdtUnitName" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="olaPdtUnitPrice" xml:space="preserve">
+    <value>Price/Unit</value>
+  </data>
+  <data name="olaPic" xml:space="preserve">
+    <value>Picture file</value>
+  </data>
+  <data name="olaPmoCode" xml:space="preserve">
+    <value>Model Code</value>
+  </data>
+  <data name="olaPmoName" xml:space="preserve">
+    <value>Model Name</value>
+  </data>
+  <data name="olaPoint" xml:space="preserve">
+    <value>Point</value>
+  </data>
+  <data name="olaPosi" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="olaProvinceList" xml:space="preserve">
+    <value>List of Province</value>
+  </data>
+  <data name="olaPszCode" xml:space="preserve">
+    <value>Size Code</value>
+  </data>
+  <data name="olaPszName" xml:space="preserve">
+    <value>Size Name</value>
+  </data>
+  <data name="olaPtyCode" xml:space="preserve">
+    <value>Type Code</value>
+  </data>
+  <data name="olaPtyName" xml:space="preserve">
+    <value>Type Name</value>
+  </data>
+  <data name="olaRatCode" xml:space="preserve">
+    <value>Rate Code</value>
+  </data>
+  <data name="olaRatName" xml:space="preserve">
+    <value>Rate Name</value>
+  </data>
+  <data name="olaRatPrice" xml:space="preserve">
+    <value>Rate Price</value>
+  </data>
+  <data name="olaRatShoName" xml:space="preserve">
+    <value>Short Name</value>
+  </data>
+  <data name="olaRecDocDate" xml:space="preserve">
+    <value>Receipt Date</value>
+  </data>
+  <data name="olaRecDocNo" xml:space="preserve">
+    <value>Receipt No</value>
+  </data>
+  <data name="olaRemain" xml:space="preserve">
+    <value>Remain</value>
+  </data>
+  <data name="olaRowID" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="olaRsnCode" xml:space="preserve">
+    <value>Reason Code</value>
+  </data>
+  <data name="olaRsnName" xml:space="preserve">
+    <value>Reason Name</value>
+  </data>
+  <data name="olaSaleAreaList" xml:space="preserve">
+    <value>List of Sale Area</value>
+  </data>
+  <data name="olaSelect" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="olaShipping" xml:space="preserve">
+    <value>Shipping</value>
+  </data>
+  <data name="olaShipViaList" xml:space="preserve">
+    <value>List of Ship Via</value>
+  </data>
+  <data name="olaShpCode" xml:space="preserve">
+    <value>Ship Code</value>
+  </data>
+  <data name="olaShpName" xml:space="preserve">
+    <value>Ship Name</value>
+  </data>
+  <data name="olaSplCode" xml:space="preserve">
+    <value>Supplier Code</value>
+  </data>
+  <data name="olaSplGrpList" xml:space="preserve">
+    <value>List of Supplier Group</value>
+  </data>
+  <data name="olaSplLevList" xml:space="preserve">
+    <value>List of Supplier Level</value>
+  </data>
+  <data name="olaSplName" xml:space="preserve">
+    <value>Supplier Name</value>
+  </data>
+  <data name="olaSplTypeList" xml:space="preserve">
+    <value>List of Supplier Type</value>
+  </data>
+  <data name="olaTel" xml:space="preserve">
+    <value>Telephone</value>
+  </data>
+  <data name="olaTotal" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="olaVATRate" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="olaVATRateList" xml:space="preserve">
+    <value>List of VAT Rate</value>
+  </data>
+  <data name="olaWahCode" xml:space="preserve">
+    <value>Wah Code</value>
+  </data>
+  <data name="olaWahName" xml:space="preserve">
+    <value>Wah Name</value>
+  </data>
+  <data name="olaDateStart" xml:space="preserve">
+    <value>Date Start</value>
+  </data>
+  <data name="olaDateStop" xml:space="preserve">
+    <value>Date Stop</value>
+  </data>
+  <data name="olaSta" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="olaTimeStart" xml:space="preserve">
+    <value>Time Start</value>
+  </data>
+  <data name="olaTimeStop" xml:space="preserve">
+    <value>Time Start</value>
+  </data>
+</root>

@@ -1,0 +1,2952 @@
+﻿/************************A********************************/
+.xCN_Body
+{
+    background-image:url(../../../Content/img/AdaLogin/BG2_3-2.png);
+    text-align: center;
+}
+.xCN_ABrowseData
+{
+    vertical-align:top;
+}
+/*-------Set border color-------------------------*/
+.xCN_AllBackgroundColorMainMenu
+{
+    background-color:#F9FDEF;
+}
+
+.xCN_AllBackgroundColor
+{
+    /*สีพื้นและสีเส้น ปัจจุบันเป็นสีเปลือกไข่*/
+    background-color:#e7f2bd;
+    border-color:#336653;
+
+}
+
+.xCN_AllBackgroundColorCshOrCrd
+{
+    /*สีพื้นและสีเส้นของประเภทการจ่ายเงิน ปัจจุบันเป็นสีส้ม*/
+    background-color:#d2d7a0;
+    border-color:red;
+    border-width: thick;
+}
+
+.xCN_AllBackgroundColorCustomer
+{
+    /*สีพื้นและสีเส้นของลูกค้า ปัจจุบันเป็นเขียว*/
+    background-color:#5a8944;
+    border-color:silver;
+    border-width: thick;
+}
+
+.xCN_AllBackgroundColorHeader
+{
+    /*สีพื้นและสีเส้น ปัจจุบันเป็นสีน้ำเงิน*/
+    background-color:#5a8944;
+    border-color: Black;
+}
+
+.xCN_AllBackgroundColorMenu
+{
+    /*สีพื้นและสีเส้น ปัจจุบันเป็นสีเขียวเข้ม*/
+    background-color:#5a8944;
+    border-color:#336653;
+}
+
+/*-------------------Border Color---------*/
+.xCN_AllBorderColor
+{
+    /*สีเส้น ปัจจุบันเป็นสีน้ำเงิน*/
+    border:solid 1px #335023;
+}
+
+
+/*--------------------Font Family---------*/
+.xCN_AllFontFamily
+{
+	font:Tahoma;
+}
+
+
+/*--------------------Font Size-----------*/
+.xCN_AllFontSize
+{
+    font-size:12px;
+}
+
+/*--------------------Font Color----------*/
+.xCN_AllFontColor
+{
+    /*ปัจจุบันเป็นสีดำ
+     color: #212121; */
+     color:Black;
+}
+
+/*--------------------Font Group Color----------*/
+.xCN_AllFontGroupColor
+{
+    /*ปัจจุบันเป็นสีน้ำเงิน*/
+     color: Blue; 
+}
+
+
+/*-----------Font Color Text Request------*/
+.xCN_AllFontColorTextReq
+{
+     color:Blue!important; 
+}
+
+/*-----------Menu Font Color--------------*/
+.xCN_AllMenuFontColor
+{
+    /*ปัจจุบันเป็นสีขาว*/
+     color: #f9fafc; 
+}
+
+/*-----------Font Size Menu Name---------*/
+.xCN_AllMenuFontSize
+{
+    font-size:16px;
+}
+.xCN_AllMenuManageFontSize
+{
+    font-size:14px;
+}
+
+/*-------Set Backgroud Text box Read Only--------*/
+.xCN_AllReadOnlyBGColor
+{	
+    /*สีพื้น Read Only สีเหลืองอ่อน*/
+    background-color:#dfe497;
+    border:solid 1px silver;
+}
+
+/*-------Table Alternate Row Color----*/
+.xCN_AllTabelAlternateRowsColor
+{
+	background-color:#d8f6b8;
+}
+
+
+/*-------Table Default Row Color----*/
+.xCN_AllTableDefaultRowsColor
+{
+	background-color:#fdfdfd;
+}
+
+/*------------- Toppic Font Size-----------*/
+
+.xCN_AllToppicFontSize
+{
+   /*ขนาดตัวอักษรของชื่อหัวข้อ*/
+   font-size:16px; 
+   font-weight:bold;
+}
+
+
+
+
+
+/************************B*************************/
+
+
+
+
+/************************B*************************/
+
+/************************D*************************/
+.xCN_DivAddPdt
+{
+     /*Div ใหญ่สุดสำหรับคีย์รายละเอียดสินค้า*/
+    width:815px;
+    height:40px;
+    float:none;
+    margin:3px 0px 0px 0px;  
+}
+
+/*-----------product Code กรณีเป็นเอกสารอื่น-----------*/
+
+/*-----------Pdt Amount-----------*/
+
+.xCN_DivAddPdtColumnPdtAmount
+{
+     width:193px;
+     height:40px;
+     float:left;
+     margin :0px 0px 1px 0px;
+     overflow:hidden;
+     display:block;
+     border-width:1px;
+     border-style: solid  solid solid none;
+}
+
+.xCN_DivAddPdtColumnPdtAmountCap
+{
+     width:193px;
+     height:17px;
+     text-align:center;
+     vertical-align:middle;
+     margin:0px 0px 0px 0px;
+     border-width:0px;
+     overflow:hidden;
+     display:block;
+}
+
+.xCN_DivAddPdtColumnPdtAmountData
+{
+     width:192px;
+     height:22px;
+     text-align:left;
+     overflow:hidden;
+     display:block;
+}
+
+.xCN_DivAddPdtColumnPdtAmountData input
+{
+     width:191px;
+     height:19px;
+     text-align:right;
+     border-width:1px;
+     border-style:none none none none;
+}
+
+/*-----------Pdt Code-----------*/
+.xCN_DivAddPdtColumnPdtCode
+{
+     width:220px;
+     height:40px;
+     float:left;
+     margin :0px 0px 1px 0px;
+     overflow:hidden;
+     display:block;
+     border-width:1px;
+     border-style: solid  solid solid  solid;
+     
+}
+
+.xCN_DivAddPdtColumnPdtCodeCap
+{
+     width:auto;
+     height:17px;
+     text-align:center;
+     vertical-align:middle;
+     margin:0px 0px 0px 0px;
+     border-width:0px;
+}
+
+.xCN_DivAddPdtColumnPdtCodeData
+{
+     width:216px;
+     height:20px;
+     text-align:left;
+     border-width:1px;
+    
+}
+
+.xCN_DivAddPdtColumnPdtCodeData input
+{
+     width:218px;
+     height:20px;
+     text-align:left;
+     border-width:1px;
+     border-style:none none none none;
+}
+/*-----------product Name-----------*/
+
+
+/*-----------product Name-----------*/
+.xCN_DivAddPdtColumnPdtName
+{
+     width:262px;
+     height:40px;
+     float:left;
+     margin :0px 0px 1px 0px;
+     overflow:hidden;
+     display:block;
+     border-width:1px;
+     border-style: solid  solid solid none;
+}
+
+.xCN_DivAddPdtColumnPdtNameCap
+{
+     width:262px;
+     height:17px;
+     text-align:center;
+     vertical-align:middle;
+     margin:0px 0px 0px 0px;
+     border-width:0px;
+}
+
+.xCN_DivAddPdtColumnPdtNameData
+{
+     width:260px;
+     height:20px;
+     text-align:left;
+     border-width:1px;
+}
+
+.xCN_DivAddPdtColumnPdtNameData input
+{
+     width:259px;
+     height:19px;
+     text-align:left;
+     border-width:1px;
+     border-style:none none none none;
+   
+}
+
+/*-----------Unit Price-----------*/
+
+.xCN_DivAddPdtColumnPdtPrice
+{
+     width:135px;
+     height:40px;
+     float:left;
+     margin :0px 0px 1px 0px;
+     overflow:hidden;
+     display:block;
+     border-width:1px;
+     border-style: solid  solid solid none;
+}
+
+.xCN_DivAddPdtColumnPdtPriceCap
+{
+     width:139px;
+     height:17px;
+     text-align:center;
+     vertical-align:middle;
+     margin:0px 0px 0px 0px;
+     border-width:0px;
+     overflow:hidden;
+     display:block;
+}
+
+.xCN_DivAddPdtColumnPdtPriceData
+{
+     width:133px;
+     height:20px;
+     text-align:left;
+     border-width:1px;
+}
+
+.xCN_DivAddPdtColumnPdtPriceData input
+{
+     width:133px;
+     height:18px;
+     text-align:right;
+     border-width:1px;
+     border-style:none none none none;
+}
+
+/* Button Select Check Box */
+.xCN_BtnSelectData
+ {
+    cursor:pointer; 
+    width:auto; 
+    height:25px; 
+    float:right;
+    margin: 2px 10px 0px 2px;
+  }
+.xCN_CheckColor :hover
+{
+    color:#6D9F5A;
+}
+.xCN_CheckColor a:hover
+{
+    color:#6D9F5A;
+}
+.xCN_CheckColor Label:hover
+{
+    color:#6D9F5A;
+}
+.xCN_LabelCheckColor
+{
+    color:#6D9F5A;
+}
+.xCN_LabelUnCheckColor
+{
+    color:Red;
+}
+.xCN_DivBrowData
+{
+     /*Div สำหรับบรรจุปุ่ม Browse*/
+    width:20px;
+    height:20px;
+    float:left;
+    margin:0px 0px 0px 2px;  
+    cursor:pointer;
+   /* border:solid 1px red;  */
+}
+
+.xCN_DivBrowDataSetTopMargin
+{
+     /*Div สำหรับบรรจุปุ่ม Browse*/
+    margin:2px 0px 0px 0px;  
+
+}
+
+.xCN_DivColumnAutoTab
+{   width:99px;
+    height:inherit;
+    /*border:solid 1px;*/
+    float:left;
+}
+
+ .xCN_DivCstAddrMain
+{
+    /*Div ใหญ่บรรจุ Text Area แสดงที่อยู่ลูกค้า*/
+    width:198px;
+    height:69px;
+
+}
+
+.xCN_DivCstAddrMain textarea
+{
+    border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	margin:0px;
+	padding:0px 0px 0px 3px;
+	width :197px; 
+	height:69px; 
+}
+
+
+.xCN_DivCstCaption
+{
+    width:65px;
+    height:20px;
+    text-align:left;
+    padding:3px 0px 0px 3px;
+    float:left;
+    border:solid 0px red;
+}
+
+.xCN_DivCstCode
+{
+    width:100px;
+    height:20px;
+    padding:0px;
+    text-align:left;
+    vertical-align:top;
+    float:left;
+    border:solid 0px red;
+    padding:3px;
+    overflow:hidden;
+    display:block;
+    
+}
+
+.xCN_DivCstCode input
+{
+    width:97px;
+    height:14px;
+    text-align:left;
+    vertical-align:top;
+}
+
+.xCN_DivCstMainCode
+{
+    /*Div ใหญ่บรรจุ caption textbox ปุ่ม browse รหัสลูกค้า*/
+    width:198px;
+    height:26px;
+    border:solid 1px #5a8944;
+   
+}
+
+
+.xCN_DivCstNameMain
+{
+    width:198px;
+    height:25px;
+    margin:0px 0px 0px 0px;
+}
+
+.xCN_DivCstNameMain input
+{
+    border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	vertical-align:middle;
+	padding:2px 0px 0px 3px;
+	width :195px;  
+   	height: 23px;
+}
+
+.xCN_DivCstTelFaxMain
+{
+    width:199px;
+    height:20px;
+    border:solid 0px blue;
+}
+
+.xCN_DivCstTelFaxMainSub
+{
+    border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	vertical-align:middle;
+	float:left;
+	padding: 0px 0px 0px 0px;
+	width :145px;  
+   	height: 20px;
+
+}
+
+.xCN_DivDetailHD
+{
+    /*Div ใหญ่สุดของรายละเอียด HD*/
+    width:auto;/*815px;*//*CH 07-05-2012*/
+    height:166px;
+    float:none;
+    border-width:1px;
+    margin:0px 0px  0px 5px;  
+}
+
+.xCN_DivDetailHDCustomer
+{
+    /*Div ใหญ่ของรายละเอียดลูกค้า*/
+    width:201px;
+    height:164px;
+    float:left;
+    border-width:1px;
+    border-style:solid solid solid solid;
+    margin:0px 1px 0px 0px;  
+    display:block;
+    overflow:hidden;
+}
+
+.xCN_DivDetailHDDocNo
+{
+    /*Div ใหญ่ของรายละเอียดเลขที่เอกสาร*/
+    width:223px;
+    height:164px;
+    float:left;
+    border-width:1px;  
+    border-style:solid solid solid solid;
+    margin:0px 0px 0px 0px;  
+}
+
+.xCN_DivDetailHDTabDetail123
+{
+    /*Div ใหญ่ของรายละเอียด 1,2 และ 3*/
+    width:504px;/*383px;*//*CH 07-01-2013*/
+    height:164px;
+    float:left;
+    border-width:1px;
+    border-style:solid solid solid solid;
+    margin:0px 1px 0px 0px;  
+}
+.xCN_DivDetailHDTabDetail123Sub
+{
+	width:inherit;/*383px;*//*CH 07-01-2013*/
+	height:164px;
+	background-color: transparent;
+	padding:0px;
+	margin:0px 5px 5px 0px;
+	border:0px;
+	/*border-color:Black;*/
+	/*border:none solid solid solid;*/
+	table-layout:fixed;
+	overflow:hidden;
+	display:block;
+}
+
+.xCN_DivDetailDT
+{
+     /*Div ใหญ่สุดของรายละเอียด DT*/
+    width:auto;/*815px;*//*CH 07-01-2013*/
+    height:196px;
+    float:none;
+    border-width:1px; 
+    border-style:solid solid solid solid;
+    border-color:#335023; 
+    margin:0px 0px 0px 5px;  
+}
+
+.xCN_DivDetailDTSub
+{
+    /* Div ใหญ่สุดของรายละเอียด DT*/
+    width:auto;/*815px;*//*CH 07-01-2013*/
+    height:151px;
+    float:none;
+    border-width:1px;  
+    margin:0px 0px 0px 0px;  
+}
+
+/*---------------Tab Remark-------------*/
+.xCN_DivDetailFooter
+{
+     /*Div ใหญ่สุดของรายละเอียด Footer*/
+    width:auto;/*815px;*//*CH 07-01-2013*/
+    height:138px;
+    float:none;
+    border-style:solid solid solid solid;
+    margin:0px 0px  0px 5px;  
+    overflow:hidden;
+    display:block;
+}
+
+/*-------------Cal Fotter------------*/
+.xCN_DivDetailFooterCalNet
+{
+   /* Div ใหญ่สุดของรายละเอียด Footer*/
+    width:272px;/*262px;*//*CH 07-01-2013*/
+    height:137px;
+    float:left;
+    border-width:1px;  
+    margin:0px 0px  0px 0px;  
+    overflow:hidden;
+    display:block;
+    border-style:none solid solid solid;
+}
+
+.xCN_DivDetailFooterCalNetColumn1
+{
+     width:156px;
+     height:135px;
+     text-align:left;
+     float:left;
+     padding:0px;
+     margin:0px;
+     border:solid 1px transparent;
+}
+
+.xCN_DivDetailFooterCalNetColumn1Sub
+{
+     width:155px;
+     height:20px;
+     text-align:left;
+     padding:0px;
+     margin:0px;
+     border:solid 1px transparent;
+}
+
+.xCN_DivDetailFooterCalNetDisCap
+{
+     width:55px;
+     height:20px;
+     float:left;
+     text-align:left;
+     overflow:hidden;
+     display:block;
+     border:solid 1px transparent;  
+}
+
+
+.xCN_DivDetailFooterCalNetDisData
+{
+     /*Div สำหรับแสดงส่วนลด*/
+    width:72px;
+    height:18px;
+    float:left;
+    margin:0px 0px 0px 1px;  
+    border-width:1px ;
+}
+
+.xCN_DivDetailFooterCalNetDisData input
+{
+     width:70px;
+     height:18px;
+     float:left;
+     text-align:right;
+     overflow:hidden;
+     display:block;
+     margin:0px;
+     padding:0px 0px 0px 0px;
+     
+}
+
+.xCN_DivDetailFooterCalNetGrandAECap
+{
+     width:55px;
+     height:20px;
+     float:left;
+     text-align:left;
+     overflow:hidden;
+     display:block;
+     border:solid 1px transparent; 
+}
+
+
+.xCN_DivDetailFooterCalNetGrandAEData
+{
+     /*Div สำหรับแสดงเงินมัดจำ*/
+    width:72px;
+    height:18px;
+    float:left;
+    margin:0px 0px 0px 1px;  
+    border:solid 0px transparent; 
+}
+
+.xCN_DivDetailFooterCalNetGrandAEData input
+{
+     width:70px;
+     height:18px;
+     float:left;
+     text-align:right;
+     overflow:hidden;
+     display:block;
+     padding:0px 0px 0px 0px;
+     /*border:solid 1px silver;*/
+}
+
+.xCN_DivDetailFooterCalNetNumberMain
+{
+     width:100px;
+     height:135px;
+     text-align:right;
+     float:left;
+     border:solid 1px transparent;
+}
+
+
+.xCN_DivDetailFooterCalNetNumberSub
+{
+   text-align:right;
+   vertical-align:middle;
+   border:solid 1px transparent;
+   width:97px;
+   height:20px;
+   margin: 0px 0px 0px 0px; 
+   
+}
+
+.xCN_DivDetailFooterCalNetNumberSub input
+{
+     width:98px;
+     height:18px;
+     float:left;
+     text-align:right;
+     overflow:hidden;
+     display:block;
+     padding:0px 0px 0px 0px;
+    /* border:solid 1px silver;*/
+}
+
+
+.xCN_DivDetailFooterCalNetPersent
+{
+     /*Div สำหรับแสดงอัตราภาษี*/
+    width:11px;
+    height:18px;
+    float:left;
+    margin:0px 0px 0px 1px;  
+    border-width:1px;
+   /* border:solid 1px transparent; */
+}
+
+.xCN_DivDetailFooterCalNetPersent label
+{
+     width:13px;
+     height:15px;
+     float:left;
+     text-align:right;
+     overflow:hidden;
+     display:block;
+     padding:1px 0px 0px 0px;
+     
+}
+
+.wCN_DivDetailFooterCalNetVATCap
+{
+     width:75px;
+     height:20px;
+     float:left;
+     text-align:left;
+     overflow:hidden;
+     display:block;
+     border:solid 1px transparent; 
+   
+}
+
+.wCN_DivDetailFooterCalNetVATData
+{
+     /*Div สำหรับแสดงอัตราภาษี*/
+    width:37px;
+    height:18px;
+    float:left;
+    margin:0px 0px 0px 1px;  
+    border:solid 0px transparent; 
+}
+
+.wCN_DivDetailFooterCalNetVATData input
+{
+     width:35px;
+     height:18px;
+     float:left;
+     text-align:right;
+     overflow:hidden;
+     display:block;
+     padding:0px 0px 0px 0px;
+     /*border:solid 1px silver;*/
+}
+
+
+.xCN_DivDetailFooterHis 
+{
+     /*Div ใหญ่สุดของรายละเอียด Footer*/
+    width:548px;
+    height:142px;
+    float:left;
+    border:solid 1px transparent;  
+    margin:1px 1px 0px 0px;  
+    overflow:hidden;
+    display:block;
+}
+
+.xCN_DivDetailFooterHisOther
+{
+	width:540px;
+	height:100px;
+	padding:0px;
+	margin:0px 0px 0px 0px;
+	table-layout:fixed;
+	text-align:left;
+}
+
+.xCN_DivDetailFooterHisRemark
+{
+	width:545px;
+	height:136px;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	vertical-align:top;
+	overflow:hidden;
+	display:block;
+
+}
+
+
+
+.xCN_DivDetailFooterHisRemarkBottom
+{
+	width:525px;
+	height:25px;
+	padding:0px;
+	margin:5px 5px 5px 5px;
+	border-bottom-style:solid solid solid solid;
+	border-width:1px;
+	background-color: Silver;
+	table-layout:fixed;
+	vertical-align:middle;
+}
+
+.xCN_DivDetailFooterHisRemarkBottom label
+{
+	width:520px;
+	height:53px;
+	margin:5px 5px 5px 5px;
+	background-color: Silver;
+	text-align:left;
+}
+
+.xCN_DivDetailFooterHisRemarkTop
+{
+	width:540px;
+	height:65px;
+	padding:0px;
+	margin:0px 0px 0px 0px;
+	table-layout:fixed;
+	text-align:left;
+	
+}
+
+.xCN_DivDetailFooterHisRemarkTop textarea
+{
+	width:520px;
+	height:53px;
+	margin:5px 5px 5px 5px;
+	text-align:left;
+}
+
+/*-------------------------------------*/
+
+.xCN_DivDocName
+{
+    height:35px;
+    width:222px;
+    border-width:1px;
+    border-style: none solid solid solid;
+    padding:0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:center;
+}
+
+.xCN_DivDocNameSub
+{
+    height:33px;
+    width:200px;
+    padding:0px;
+    margin:0px 5px 0px 5px; 
+    vertical-align:middle;
+    text-align:center;
+}
+
+.xCN_DivDocNameSub label
+{
+   text-align:center;
+   vertical-align:inherit;
+   width:196px;
+   height:100%;
+   position :relative;
+   top:5px;
+}
+
+.xCN_DivDocNo
+{
+    height:120px;
+    width:218px;
+    padding:0px;
+    margin:3px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+    border:solid 0px transparent;
+}
+
+.xCN_DivDocNoColumn1
+{
+    height:120px;
+    width:80px;
+    border:solid 0px transparent;
+    padding:0px;
+    float:left;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+}
+
+.xCN_DivDocNoColumn2
+{
+    height:120px;
+    width:114px;
+    border:solid 0px transparent;
+    padding:0px;
+    float:left;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+}
+
+.xCN_DivDocNoColumn3
+{
+    height:120px;
+    width:22px;
+    border:solid 0px transparent;
+    padding:0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+    float:left;
+}
+
+.xCN_DivDocNoColumn1Caption
+{
+    height:20px;
+    width:75px;
+    padding:0px;
+    margin:2px 0px 0px 3px; 
+    vertical-align:middle;
+    text-align:left;
+    float:left;
+}
+
+.xCN_DivDocNoColumn2Sub
+{
+    height:20px;
+    width:113px;
+    padding:0px;
+    margin:2px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+    float:left;
+}
+
+.xCN_DivDocNoColumn2Sub input
+{
+    height:18px;
+    width:110px;
+   /*border:solid 1px silver;*/
+    padding:0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+    float:left;
+}
+
+
+
+/*--------------------Doc Status----------*/
+.xCN_DivDocStatus
+{
+    /*Div ใหญ่ของสถานะเอกสาร*/
+    width:230px;
+	height:52px;
+	padding:0px;
+	float:right;
+	margin: 0px  0px 1px 2px;
+	border:solid 1px transparent;
+}
+
+.xCN_DivDocStatusDesc
+{
+    /*Div สำหรับแสดงสถานะเอกสาร*/
+    width:217px;
+	height:40px;
+	padding:0px;
+	vertical-align:middle;
+	text-align:center;
+	float:right;
+	margin:5px  5px 5px 5px;
+	/*border:solid 1px red;*/
+}
+.xCN_DivDocStatusDescEN
+{
+    /*Div สำหรับแสดงสถานะเอกสาร*/
+    width:225px;
+	height:40px;
+	padding:0px;
+	vertical-align:middle;
+	text-align:center;
+	float:right;
+	margin:5px  5px 5px 5px;
+	/*border:solid 1px red;*/
+}
+ .xCN_DivDocStatusDesc div
+{
+    /*Div ย่อยสำหรับบรรจุ Image และ Label แสดงสถานะเอกสาร*/
+	text-align:center;	
+	width:215px;
+	height:25px;
+	border:solid 1px transparent;
+    margin :8px  1px 1px 1px;  
+}
+
+.xCN_DivDocStatusDesc div img
+ {
+    /*Div ย่อยสำหรับบรรจุ Image แสดงสถานะเอกสาร*/
+ 	width:20px;
+ 	height:20px;
+ 	vertical-align :middle;
+	border:solid 1px transparent;
+ }
+
+.xCN_DivDocStatusDesc div label
+ {
+    /*Div ย่อยสำหรับบรรจุ Label แสดงสถานะเอกสาร*/
+ 	width:41px;
+ 	height:20px;
+	border:solid 1px transparent;
+ 	vertical-align :middle;
+ }
+ 
+/*----------------------------------------*/
+
+
+/************************M*************************/
+.xCN_DivMain
+{
+     /*Div ใหญ่สุดของ Page*/
+    width:auto;
+    height:580px;
+    border:solid 1px transparent;
+}
+
+/*---------------Menu---------------------*/
+.xCN_DivMainMenu 
+{  
+    /*Div ใหญ่สุดของเมนูด้านบน 
+      สำหรับบรรจุ Div เมนู และสถานะเอกสาร*/
+	width:auto;
+	height:55px;
+	padding:0px;
+	margin:1px 0px 1px 5px;
+	border-width:1px;
+} 
+.xCN_DivMainMenuPage
+{  
+    /*Div ใหญ่สุดของเมนูด้านบน 
+      สำหรับบรรจุ Div เมนู และสถานะเอกสาร*/
+	width:auto;
+	height:55px;
+	padding:0px;
+	margin:1px 0px 1px 1px;
+	border-width:1px;
+
+} 
+.xCN_DivDetail
+{  
+    /*Div รายละเอียด ที่กำหนดค่าต่างๆ */
+	width:auto;
+	height:auto;
+	padding:0px;
+	margin:1px 0px 1px 5px;
+	border-width:1px;
+
+} 
+
+.xCN_DivManageTopic
+{
+	/*Topic ของเอกสารจัดการข้อมูล*/
+	width:822;
+	height:25px;
+	text-align:left;
+	vertical-align:middle;
+	margin:2px 5px 1px 5px;
+}
+
+.xCN_DivManageTopic label
+{
+	/*Topic ของเอกสารจัดการข้อมูล*/
+	width:auto;
+	height:auto;
+	text-align:left;
+	vertical-align:middle;
+
+}
+
+.xCN_DivMenu
+{ 
+    /*Div สำหรับบรรจุเมนูต่างๆ */
+    width:573px;
+	height:52px;
+	padding:0px;
+	margin:0px 1px 0px 0px;
+	border:solid 1px transparent;
+	float:left;
+}
+
+/*---------------Menu Cancel----------------*/
+.xCN_DivMenuCancel
+{
+    /*เมนูเพิ่ม*/
+    float:left;
+    width:45px;
+    height:55px;
+    margin:2px 2px 2px 2px;
+    cursor:pointer;
+    padding:0px;
+}
+.xCN_DivMenuCancel a 
+{
+    background-image:url('../../img/imgIcon24x24/oimCancel_24x24.png');
+    background-repeat:no-repeat;
+    background-position:center top;
+    float:left;
+    width:45px;
+    height:55px;
+    position:relative;
+}
+
+.xCN_DivMenuCancel a:hover
+{
+    background-image:url('../../img/imgIcon32x32/oimCancel_32x32.png');
+    background-repeat:no-repeat;
+    background-position:center top;
+    float:left;
+    width:45px;
+    height:55px;
+    position:relative;
+    /*top:5px;*/
+}
+
+.xCN_DivMenuCancelCaption 
+{
+    position:relative;
+    top:30px;
+    left:0px;
+    width:40px;
+    height:15px;
+    padding:2px 2px 2px 2px;
+    margin:0px 0px 0px 0px;
+    text-align:center;
+    vertical-align:bottom;
+}
+
+/*---------------Menu Coppy----------------*/
+.xCN_DivMenuCoppy
+{
+    /*เมนูเพิ่ม*/
+    float:left;
+    width:45px;
+    height:55px;
+    margin:2px 2px 2px 2px;
+    cursor:pointer;
+    padding:0px;
+}
+.xCN_DivMenuCoppy a 
+{
+    background-image:url('../../img/imgIcon24x24/oimCopy_24x24.png');
+    background-repeat:no-repeat;
+    background-position:center top;
+    float:left;
+    width:45px;
+    height:55px;
+    position:relative;
+}
+
+.xCN_DivMenuCoppy a:hover
+{
+    background-image:url('../../img/imgIcon32x32/oimCopy_32x32.png');
+    background-repeat:no-repeat;
+    background-position:center top;
+    float:left;
+    width:45px;
+    height:55px;
+    position:relative;
+    /*top:5px;*/
+}
+
+.xCN_DivMenuCoppyCaption 
+{
+    position:relative;
+    top:30px;
+    left:0px;
+    width:40px;
+    height:15px;
+    padding:2px 2px 2px 2px;
+    margin:0px 0px 0px 0px;
+    text-align:center;
+    vertical-align:bottom;
+}
+
+/*---------------Menu Delete-----------------*/
+.xCN_DivMenuDelete
+{
+    /*เมนูเพิ่ม*/
+    float:left;
+    width:45px;
+    height:55px;
+    margin:2px 2px 2px 2px;
+    cursor:pointer;
+    padding:0px;
+}
+.xCN_DivMenuDelete a 
+{
+    background-image:url('../../img/imgIcon24x24/oimDelete_24x24.png');
+    background-repeat:no-repeat;
+    background-position:center top;
+    float:left;
+    width:45px;
+    height:55px;
+    position:relative;
+}
+
+.xCN_DivMenuDelete a:hover
+{
+    background-image:url('../../img/imgIcon32x32/oimDelete_32x32.png');
+    background-repeat:no-repeat;
+    background-position:center top;
+    float:left;
+    width:45px;
+    height:55px;
+    position:relative;
+    /*top:5px;*/
+}
+
+.xCN_DivMenuDeleteCaption 
+{
+    position:relative;
+    top:30px;
+    left:0px;
+    width:40px;
+    height:15px;
+    padding:2px 2px 2px 2px;
+    margin:0px 0px 0px 0px;
+    text-align:center;
+    vertical-align:bottom;
+}
+
+/*---------------Menu Help----------------*/
+.xCN_DivMenuHelp
+{
+    /*เมนูเพิ่ม*/
+    float:left;
+    width:45px;
+    height:55px;
+    margin:2px 2px 2px 2px;
+    cursor:pointer;
+    padding:0px;
+}
+.xCN_DivMenuHelp a 
+{
+    background-image:url('../../img/imgIcon24x24/oimHelp_24x24.png');
+    background-repeat:no-repeat;
+    background-position:center top;
+    float:left;
+    width:45px;
+    height:55px;
+    position:relative;
+}
+
+.xCN_DivMenuHelp a:hover
+{
+    background-image:url('../../img/imgIcon32x32/oimHelp_32x32.png');
+    background-repeat:no-repeat;
+    background-position:center top;
+    float:left;
+    width:45px;
+    height:55px;
+    position:relative;
+    /*top:5px;*/
+}
+
+.xCN_DivMenuHelpCaption 
+{
+    position:relative;
+    top:30px;
+    left:0px;
+    width:40px;
+    height:15px;
+    padding:2px 2px 2px 2px;
+    margin:0px 0px 0px 0px;
+    text-align:center;
+    vertical-align:bottom;
+}
+/*---------------Menu Log Out-------------*/
+.xCN_DivMenuLogOut
+{
+    float:left;
+    width:45px;
+    height:55px;
+    margin:2px 2px 2px 2px;
+    cursor:pointer;
+    padding:0px;
+}
+.xCN_DivMenuLogOut a 
+{
+    /*background-image:url('../../img/imgIcon24x24/Log Out_24x24.png');*/
+    background-image:url('../../img/imgIcon24x24/oimExit_24x24.png');
+    background-repeat:no-repeat;
+    background-position:center top;
+    float:left;
+    width:45px;
+    height:55px;
+    position:relative;
+}
+.xCN_DivMenuLogOut a:hover
+{
+    /*background-image:url('../../img/imgIcon32x32/Log Out_32x32.png');*/
+    background-image:url('../../img/imgIcon32x32/oimExit_32x32.png');
+    background-repeat:no-repeat;
+    background-position:center top;
+    float:left;
+    width:45px;
+    height:55px;
+    position:relative;
+    /*top:5px;*/
+}
+.xCN_DivMenuLogOutCaption 
+{
+    position:relative;
+    top:30px;
+    left:0px;
+    width:40px;
+    height:15px;
+    padding:2px 2px 2px 2px;
+    margin:0px 0px 0px 0px;
+    text-align:center;
+    vertical-align:bottom;
+}
+
+/*---------------Menu Home----------------*/
+.xCN_DivMenuHome
+{
+    /*เมนูเพิ่ม*/
+    float:left;
+    width:45px;
+    height:55px;
+    margin:2px 2px 2px 2px;
+    cursor:pointer;
+    padding:0px;
+}
+.xCN_DivMenuHome a 
+{
+    background-image:url('../../img/imgIcon24x24/oimHome_24x24.png');
+    background-repeat:no-repeat;
+    background-position:center top;
+    float:left;
+    width:45px;
+    height:55px;
+    position:relative;
+}
+
+.xCN_DivMenuHome a:hover
+{
+    background-image:url('../../img/imgIcon32x32/oimHome_32x32.png');
+    background-repeat:no-repeat;
+    background-position:center top;
+    float:left;
+    width:45px;
+    height:55px;
+    position:relative;
+    /*top:5px;*/
+}
+
+.xCN_DivMenuHomeCaption 
+{
+    position:relative;
+    top:30px;
+    left:0px;
+    width:45px;
+    height:15px;
+    padding:2px 2px 2px 2px;
+    margin:0px 0px 0px 0px;
+    text-align:center;
+    vertical-align:bottom;
+}
+
+/*---------------Menu New-----------------*/
+.xCN_DivMenuNew 
+{
+    /*เมนูเพิ่ม*/
+    float:left;
+    width:45px;
+    height:55px;
+    margin:2px 2px 2px 2px;
+    cursor:pointer;
+    padding:0px; 
+}
+.xCN_DivMenuNew a 
+{
+    background-image:url('../../img/imgIcon24x24/oimNew_24x24.png');
+    background-repeat:no-repeat;
+    background-position:center top;
+    float:left;
+    width:45px;
+    height:55px;
+    position:relative;
+}
+
+.xCN_DivMenuNew a:hover
+{
+    background-image:url('../../img/imgIcon32x32/oimNew_32x32.png');
+    background-repeat:no-repeat;
+    background-position:center top;
+    float:left;
+    width:45px;
+    height:55px;
+    position:relative;
+    /*top:5px;*/
+}
+
+.xCN_DivMenuNewCaption 
+{
+    position:relative;
+    top:30px;
+    left:0px;
+    width:40px;
+    height:15px;
+    padding:2px 2px 2px 2px;
+    margin:0px 0px 0px 0px;
+    cursor:pointer;
+    text-align:center;
+    vertical-align:bottom;
+}
+/*---------------Menu Post----------------*/
+.xCN_DivMenuPost
+{
+    /*เมนูเพิ่ม*/
+    float:left;
+    width:45px;
+    height:55px;
+    margin:2px 2px 2px 2px;
+    cursor:pointer;
+    padding:0px;
+}
+.xCN_DivMenuPost a 
+{
+    background-image:url('../../img/imgIcon24x24/oimPost_24x24.png');
+    background-repeat:no-repeat;
+    background-position:center top;
+    float:left;
+    width:45px;
+    height:55px;
+    position:relative;
+}
+
+.xCN_DivMenuPost a:hover
+{
+    background-image:url('../../img/imgIcon32x32/oimPost_32x32.png');
+    background-repeat:no-repeat;
+    background-position:center top;
+    float:left;
+    width:45px;
+    height:55px;
+    position:relative;
+    /*top:5px;*/
+}
+
+.xCN_DivMenuPostCaption 
+{
+    position:relative;
+    top:30px;
+    left:0px;
+    width:40px;
+    height:15px;
+    padding:2px 2px 2px 2px;
+    margin:0px 0px 0px 0px;
+    text-align:center;
+    vertical-align:bottom;
+}
+
+/*---------------Menu Report----------------*/
+.xCN_DivMenuReport
+{
+    /*เมนูเพิ่ม*/
+    float:left;
+    width:45px;
+    height:55px;
+    margin:2px 2px 2px 2px;
+    cursor:pointer;
+    padding:0px;
+}
+.xCN_DivMenuReport a 
+{
+    background-image:url('../../img/imgIcon24x24/oimPrint_24x24.png');
+    background-repeat:no-repeat;
+    background-position:center top;
+    float:left;
+    width:45px;
+    height:55px;
+    position:relative;
+}
+
+.xCN_DivMenuReport a:hover
+{
+    background-image:url('../../img/imgIcon32x32/oimPrint_32x32.png');
+    background-repeat:no-repeat;
+    background-position:center top;
+    float:left;
+    width:45px;
+    height:55px;
+    position:relative;
+    /*top:5px;*/
+}
+
+.xCN_DivMenuReportCaption 
+{
+    position:relative;
+    top:30px;
+    left:0px;
+    width:40px;
+    height:15px;
+    padding:2px 2px 2px 2px;
+    margin:0px 0px 0px 0px;
+    text-align:center;
+    vertical-align:bottom;
+}
+
+/*---------------Menu Save-----------------*/
+.xCN_DivMenuSave
+{
+    /*เมนูเพิ่ม*/
+    float:left;
+    width:45px;
+    height:55px;
+    margin:2px 2px 2px 2px;
+    cursor:pointer;
+    padding:0px;
+}
+.xCN_DivMenuSave a 
+{
+    background-image:url('../../img/imgIcon24x24/oimSave_24x24.png');
+    background-repeat:no-repeat;
+    background-position:center top;
+    float:left;
+    width:45px;
+    height:55px;
+    position:relative;
+}
+
+.xCN_DivMenuSave a:hover
+{
+    background-image:url('../../img/imgIcon32x32/oimSave_32x32.png');
+    background-repeat:no-repeat;
+    background-position:center top;
+    float:left;
+    width:45px;
+    height:55px;
+    position:relative;
+    /*top:5px;*/
+}
+
+.xCN_DivMenuSaveCaption 
+{
+    position:relative;
+    top:30px;
+    left:0px;
+    width:40px;
+    height:15px;
+    padding:2px 2px 2px 2px;
+    margin:0px 0px 0px 0px;
+    text-align:center;
+    vertical-align:bottom;
+}
+
+
+/*---------------Menu Search-----------------*/
+.xCN_DivMenuSearch
+{
+    /*เมนูเพิ่ม*/
+    float:left;
+    width:45px;
+    height:55px;
+    margin:2px 2px 2px 2px;
+    cursor:pointer;
+    padding:0px;
+}
+.xCN_DivMenuSearch a 
+{
+    background-image:url('../../img/imgIcon24x24/oimFind_24x24.png');
+    background-repeat:no-repeat;
+    background-position:center top;
+    float:left;
+    width:45px;
+    height:55px;
+    position:relative;
+}
+
+.xCN_DivMenuSearch a:hover
+{
+    background-image:url('../../img/imgIcon32x32/oimFind_32x32.png');
+    background-repeat:no-repeat;
+    background-position:center top;
+    float:left;
+    width:45px;
+    height:55px;
+    position:relative;
+    /*top:5px;*/
+}
+
+.xCN_DivMenuSearchCaption 
+{
+    position:relative;
+    top:30px;
+    left:0px;
+    width:40px;
+    height:15px;
+    padding:2px 2px 2px 2px;
+    margin:0px 0px 0px 0px;
+    text-align:center;
+    vertical-align:bottom;
+}
+
+/*-----------product Code เอกสารทั่วไป-----------*/
+
+.xCN_DivAddPdtAmountCap
+{
+     width:auto;
+     height:17px;
+     text-align:center;
+     vertical-align:middle;
+     margin:0px 0px 0px 0px;
+     border-width:0px;
+     overflow:hidden;
+     display:block;
+}
+
+.xCN_DivAddPdtAmountData
+{
+     width:108px;
+     height:22px;
+     text-align:left;
+     overflow:hidden;
+     display:block;
+}
+
+.xCN_DivAddPdtAmountData input
+{
+     width:105px;
+     height:20px;
+     text-align:right;
+     border-width:1px;
+     border-style:none none none none;
+}
+
+.xCN_DivAddPdtAmountMain
+{
+     width:110px;
+     height:40px;
+     float:left;
+     margin :0px 0px 1px 0px;
+     overflow:hidden;
+     display:block;
+     border-width:1px;
+     border-style: solid  solid solid none;
+}
+
+.xCN_DivAddPdtCode
+{
+     width:138px;
+     height:20px;
+     text-align:left;
+     border-width:1px;
+    
+}
+.xCN_DivAddPdtCodeCap
+{
+     width:auto;
+     height:17px;
+     text-align:center;
+     vertical-align:middle;
+     margin:0px 0px 0px 0px;
+     border-width:0px;
+}
+
+.xCN_DivAddPdtCodeData
+{
+     width:114px;
+     height:20px;
+     float:left;
+     text-align:left;
+    /* overflow:hidden;
+     display:block;*/
+         
+}
+
+.xCN_DivAddPdtCodeData input
+{
+     width:112px;
+     height:20px;
+     font:left;
+     float:left;
+     text-align:left;
+     border-width:1px;
+     border-style:none none none none;
+}
+
+.xCN_DivAddPdtCodeMain
+{
+     width:139px;
+     height:40px;
+     float:left;
+     /*border-color:Red;*/
+     margin :0px 0px 1px 0px;
+     overflow:hidden;
+     display:block;
+     border-width:1px;
+     border-style: solid  solid solid  solid;
+     
+}
+
+.xCN_DivAddPdtDis
+{
+     width:76px;
+     height:20px;
+     text-align:left;
+     border-width:1px;
+    
+}
+
+.xCN_DivAddPdtDisCap
+{
+     width:auto;
+     height:17px;
+     text-align:center;
+     vertical-align:middle;
+     margin:0px 0px 0px 0px;
+     border-width:0px;
+}
+
+.xCN_DivAddPdtDisData
+{
+     width:54px;
+     height:20px;
+     float:left;
+     text-align:left;
+    /* overflow:hidden;
+     display:block;*/
+         
+}
+
+.xCN_DivAddPdtDisData input
+{
+     width:50px;
+     height:20px;
+     font:left;
+     float:left;
+     text-align:left;
+     border-width:1px;
+     border-style:none none none none;
+}
+
+.xCN_DivAddPdtDisMain
+{
+     width:77px;
+     height:40px;
+     float:left;
+     /*border-color:Red;*/
+     margin :0px 0px 1px 0px;
+     overflow:hidden;
+     display:block;
+     border-width:1px;
+     border-style: solid  solid solid  none;
+     
+}
+
+
+/*--------------------Product Name ทั่วไป---------*/
+
+.xCN_DivAddPdtNameCap
+{
+     width:auto;
+     height:17px;
+     text-align:center;
+     vertical-align:middle;
+     margin:0px 0px 0px 0px;
+     border-width:0px;
+}
+
+
+.xCN_DivAddPdtNameData
+{
+     width:138px;
+     height:20px;
+     float:left;
+     text-align:left;
+    /* overflow:hidden;
+     display:block;*/
+         
+}
+
+.xCN_DivAddPdtNameData input
+{
+     width:135px;
+     height:20px;
+     font:left;
+     float:left;
+     text-align:left;
+     border-width:1px;
+     border-style:none none none none;
+}
+
+.xCN_DivAddPdtNameMain
+{
+     width:139px;
+     height:40px;
+     margin :0px 0px 1px 0px;
+     overflow:hidden;
+     display:block;
+     float:left;
+     border-width:1px;
+     border-style: solid  solid solid none;
+     
+}
+
+/*--------------------Product Qty ทั่วไป---------*/
+
+.xCN_DivAddPdtQtyCap
+{
+     width:auto;
+     height:17px;
+     text-align:center;
+     vertical-align:middle;
+     margin:0px 0px 0px 0px;
+     border-width:0px;
+}
+
+
+.xCN_DivAddPdtQtyData
+{
+     width:88px;
+     height:20px;
+     float:left;
+   /*  text-align:left;
+     overflow:hidden;
+     display:block;*/
+         
+}
+
+.xCN_DivAddPdtQtyData input
+{
+     width:85px;
+     height:20px;
+     font:left;
+     float:left;
+     text-align:right;
+     border-width:1px;
+     border-style:none none none none;
+}
+
+.xCN_DivAddPdtQtyMain
+{
+     width:90px;
+     height:40px;
+     margin :0px 0px 1px 0px;
+     overflow:hidden;
+     display:block;
+     float:left;
+     border-width:1px;
+     border-style: solid  solid solid none;
+     
+}
+/*--------------------Product Unit Name ทั่วไป---------*/
+
+.xCN_DivAddPdtUnitNameCap
+{
+     width:auto;
+     height:17px;
+     text-align:center;
+     vertical-align:middle;
+     margin:0px 0px 0px 0px;
+     border-width:0px;
+}
+
+
+.xCN_DivAddPdtUnitNameData
+{
+     width:58px;
+     height:20px;
+     float:left;
+     text-align:left;
+    /* overflow:hidden;
+     display:block;*/
+         
+}
+
+.xCN_DivAddPdtUnitNameData select
+{
+     width:55px;
+     height:20px;
+     font:left;
+     float:left;
+     text-align:left;
+     border-width:1px;
+     border-style:none none none none;
+ }
+ 
+ .xCN_DivAddPdtUnitNameMain
+{
+     width:60px;
+     height:40px;
+     margin :0px 0px 1px 0px;
+     float:left;
+     overflow:hidden;
+     display:block;
+     border-width:1px;
+     border-style: solid  solid solid none;
+     
+}
+ 
+ /*--------------------Product Unit Price ทั่วไป---------*/
+
+.xCN_DivAddPdtUnitPriceCap
+{
+     width:auto;
+     height:17px;
+     text-align:center;
+     vertical-align:middle;
+     margin:0px 0px 0px 0px;
+     border-width:0px;
+}
+
+
+.xCN_DivAddPdtUnitPriceData
+{
+     width:88px;
+     height:20px;
+     float:left;
+     text-align:right;
+    /* overflow:hidden;
+     display:block;*/
+         
+}
+
+.xCN_DivAddPdtUnitPriceData input
+{
+     width:85px;
+     height:20px;
+     font:left;
+     float:left;
+     text-align:right;
+     border-width:1px;
+     border-style:none none none none;
+}
+
+.xCN_DivAddPdtUnitPriceMain
+{
+     width:90px;
+     height:40px;
+     margin :0px 0px 1px 0px;
+     overflow:hidden;
+     display:block;
+     float:left;
+     border-width:1px;
+     border-style: solid  solid solid none;
+     
+}
+
+/*-----------product Discount เอกสารทั่วไป-----------*/
+
+
+
+
+/*-----------Pdt Amount-----------*/
+
+
+
+
+/************************F*************************/
+
+
+/*--------------------G------------------*/
+.xCN_DivGridDetail
+{
+   vertical-align:top;
+   width:auto;
+   padding: 0px 0px 0px 0px;
+   margin: 0px 0px 0px 0px; 
+   
+}
+
+/*----------- Tab Style -------------*/
+/*---------แท็บ Active----------*/
+.xCN_DivTabActive
+{
+    width:auto;
+    height:auto;
+    padding:2px 10px 2px 15px;
+    margin:0px 3px 0px 0px;
+    border-style:solid solid none solid;
+    border-width:1px;
+    border-color:#335032;
+    position:relative;
+    top:1px;
+    color:White;
+    text-align:center;
+    vertical-align:top;
+    float:left;
+    background-image:url('../../img/imgGradient/oimgGreen_30x30_v1.png');
+    background-position:left top;
+    background-repeat:repeat-x;
+    cursor:default;
+ }
+.xCN_DivTabActiveGrp
+{
+    color:white;
+    background-color:#5a8944;
+}
+ /*---------แท็บ Active----------*/
+.xCN_DivTabBottomActive
+{
+    width:auto;
+    height:auto;
+    padding:2px 10px 2px 15px;
+    margin:3px 3px 0px 0px;
+    border-style:none solid solid solid;
+    border-width:1px;
+    border-color:#335032;
+    position:relative;
+    top:-2px;
+    color:White;
+    text-align:center;
+    vertical-align:top;
+    float:left;
+    background-image:url('../../img/imgGradient/oimgGreen_30x30_v2.png');
+    background-position:left top;
+    background-repeat:repeat-x;
+    cursor:default;
+ }
+    
+/*---------แท็บ UN Active----------*/
+.xCN_DivTabBottomUnActive
+{
+    width:auto;
+    height:auto;
+    padding:2px 10px 2px 10px;
+    margin:0px 3px 0px 0px;
+    border-style:solid solid none solid;
+    border-width:1px;
+    border-color:#cdcdcd;
+    text-align:center;
+    vertical-align:top;
+    float:left;
+    background-image:url('../../img/imgGradient/oimgGray_30x30_v1.png');
+    background-position:left top;
+    background-repeat:repeat-x;
+    cursor:pointer;
+}
+
+ /*---------แท็บส่วนของรายละเอียด------*/ 
+.xCN_DivTabDetail
+{
+    width:auto;
+    height:auto;
+    background-color:#548231;
+    padding:5px 5px 5px 5px;
+    margin:0px 0px 0px 0px;
+    float:left;
+    border-style:solid solid solid solid;
+    border-width:1px;
+    border-color:#335032;
+}
+
+/*---------แท็บส่วนด้านล่าง----------*/
+.xCN_DivTabDetailBottom
+{
+    width:auto;
+    height:83%;/*auto*//*CH 07-01-2013*/
+    background-color:#548231;
+    padding:5px 5px 5px 5px;
+    margin:0px 0px 1px 0px;
+    float:left;
+    border-style:solid solid solid solid;
+    border-width:1px;
+    border-color:#335032;
+ }
+ 
+ .xCN_DivTabDisplay
+{
+    display:none;
+}
+.xCN_DivDisplayNone
+{
+    display:none;
+}
+  
+ 
+/*---------แท็บ UN Active----------*/
+.xCN_DivTabUnActive
+{
+    width:auto;
+    height:auto;
+    padding:2px 10px 2px 10px;
+    margin:0px 3px 0px 0px;
+    border-style:solid solid none solid;
+    border-width:1px;
+    border-color:#cdcdcd;
+    text-align:center;
+    vertical-align:top;
+    float:left;
+    background-image:url('../../img/imgGradient/oimgGray_30x30_v1.png');
+    background-position:left top;
+    background-repeat:repeat-x;
+    cursor:pointer;
+}
+.xCN_DivTabUnActiveGrp
+{
+    color:black;
+    background-color:Transparent;
+}
+/*--------------------------------------*/
+
+/*---------แท็บรายละเอียด 1----------*/
+.xCN_DivTabDetailSub
+{
+	width:489px;/*369px;*//*CH 07-01-2013*/
+	height:126px;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	float:left;
+	border-width:1px;
+	border-style: none solid solid solid;
+	table-layout:fixed;
+}
+.xCN_DivTabDetail1BillDate
+{
+    height:20px;
+    width:100px;
+    float:left;
+    /*border:solid 1px red;*/
+    padding:0px;
+    margin:0px 0px 0px 0px;
+}
+
+.xCN_DivTabDetail1BrowseRefNo
+{
+    height:20px;
+    width:20px;
+    float:left;
+    padding:0px;
+    margin:0px 0px 0px 0px;
+}
+
+.xCN_DivTabDetail1Caption
+{
+    height:20px;
+    width:118px;
+    margin:5px 0px 0px 0px;
+}
+
+.xCN_DivTabDetail1Column1
+{
+    width:80px;
+    height:120px;
+    float:left;
+
+}
+.xCN_DivTabDetail1Column2
+{
+    width:120px;
+    height:120px;
+    float:left;
+
+}
+
+.xCN_DivTabDetail1Column3
+{
+    width:163px;
+    height:120px;
+    float:left;
+
+}
+
+.xCN_DivTabDetail1CreditTerm
+{
+    height:50px;
+    width:98px;
+
+}
+.xCN_DivTabDetail1CreditTermSub
+{
+    height:40px;
+    width:70px;
+    text-align:center;
+    vertical-align:middle;
+    margin:0px 5px 5px 5px; 
+}
+
+.xCN_DivTabDetail1CreditTermSub input
+{
+   text-align:center;
+   width:65px;
+   float:left;
+   /*border: solid 1px transparent;*/
+   height:15px;
+   margin:3px 0px 0px 0px; 
+}
+.xCN_DivCreditTermSub
+{
+    height:40px;
+    width:70px;
+    text-align:center;
+    vertical-align:middle;
+    margin:0px 5px 5px 5px; 
+}
+
+.xCN_DivTabDetail1CshOrCrd
+{
+    height:60px;
+    width:98px;
+}
+
+.xCN_DivTabDetail1CshOrCrdSub
+{
+    height:50px;
+    width:70px;
+    margin:5px 5px 5px 5px; 
+}
+
+.xCN_DivTabDetail1InputData
+{
+    height:20px;
+    width:161px;
+    padding:0px;
+    margin:3px 0px 0px 0px;
+}
+
+.xCN_DivTabDetail1InputRefNo
+{
+    height:20px;
+    width:137px;
+    float:left;
+    padding:0px;
+    margin:0px 0px 0px 0px;
+}
+
+.xCN_DivTabDetail1InputRefNo input
+{
+    height:15px;
+    width:130px;
+    margin: 0px 3px 0px 0px;
+}
+
+.xCN_DivTabDetail1Sign
+{
+    height:20px;
+    width:60px;
+    float:left;
+    padding:0px;
+    margin:0px 0px 0px 0px;
+}
+
+
+/*---------แท็บรายละเอียด 2----------*/
+
+.xCN_DivTabDetail2AreaCode
+{
+    height:20px;
+    width:68px;
+    float:left;
+    padding:0px;
+    /*border:solid 1px red;*/
+    margin:0px 0px 0px 0px;
+}
+
+.xCN_DivTabDetail2AreaCode input
+{
+    height:16px;
+    width:65px;
+    padding:0px;
+    /*border:solid 1px red;*/
+    margin:0px 0px 0px 0px;
+}
+
+.xCN_DivTabDetail2ShipCode
+{
+    height:20px;
+    width:102px;
+    float:left;
+    padding:0px;
+    /*border:solid 1px red;*/
+    margin:0px 0px 0px 0px;
+}
+.xCN_DivTabDetail2ShipCode input
+{
+    height:16px;
+    width:98px;
+    padding:0px;
+    /*border:solid 1px red;*/
+    margin:0px 0px 0px 0px;
+}
+.xCN_DivTabDetail2AreaName
+{
+    height:20px;
+    width:171px;
+    border-width:1px;
+   /* border:solid 1px green;*/
+    padding:0px;
+    margin:3px 0px 0px 0px;
+}
+.xCN_DivTabDetail2AreaName input
+{
+    height:18px;
+    width:171px;
+    padding:0px;
+    /*border:solid 1px silver;*/
+    margin:0px 0px 0px 0px;
+   /* border:solid 1px red;*/
+}
+.xCN_DivTabDetail2ShipName
+{
+    height:20px;
+    width:180px;
+    border-width:1px;
+   /* border:solid 1px green;*/
+    padding:0px;
+    margin:3px 0px 0px 0px;
+}
+.xCN_DivTabDetail2ShipName input
+{
+    height:18px;
+    width:180px;
+    padding:0px;
+    /*border:solid 1px silver;*/
+    margin:0px 0px 0px 0px;
+   /* border:solid 1px red;*/
+}
+
+.xCN_DivTabDetail2Caption
+{
+    height:20px;
+    width:87px;
+    margin: 3px  0px 0px 5px;
+}
+
+.xCN_DivTabDetail2Column1
+{
+    width:80px;
+    height:120px;
+    float:left;
+    margin:3px 0px 0px 0px;
+}
+.xCN_DivTabDetail2Column2
+{
+    width:100px;
+    height:120px;
+    float:left;
+    margin:3px 0px 0px 0px;
+}
+
+.xCN_DivTabDetail2Column3
+{
+    width:80px;
+    height:120px;
+    float:left;
+    margin:3px 0px 0px 0px;
+}
+
+.xCN_DivTabDetail2Column4
+{
+    width:100px;
+    height:120px;
+    float:left;
+    margin:3px 0px 0px 0px;
+}
+.xCN_DivTabDetail2Column5
+{
+    width:132px;
+    height:120px;
+    float:left;
+    margin:3px 0px 0px 0px;
+}
+
+.xCN_DivTabDetail2InputData
+{
+    height:20px;
+    width:97px;
+    padding:0px;
+    margin:3px 0px 0px 0px;
+}
+.xCN_DivTabDetail2DInput
+{
+    height:20px;
+    width:110px;
+    padding:0px;
+    margin:3px 0px 0px 0px;
+}
+.xCN_InputSize
+{
+    height:15px; 
+    width:96px;  
+}
+.xCN_DivTabDetail2Input
+{
+    height:20px;
+    width:135px;
+    padding:0px;
+    margin:3px 0px 0px 0px;
+}
+
+.xCN_DivTabDetail2FTXphDocNo
+{
+    height:16px;
+    width:89px;
+    margin: 0px 0px 0px 0px;    
+}
+.xCN_DivTabDetail2DocNo
+{
+    height:16px;
+    width:98px;
+    margin: 0px 0px 0px 0px;    
+}
+
+
+/*---------แท็บรายละเอียด 3----------*/
+.xCN_DivDetail3ActiveDoc
+{
+    height:25px;
+    width:97px;
+    padding:0px;
+    margin:2px 0px 0px 0px;
+}
+
+.xCN_DivDetail3CheckBoxActiveDoc
+{
+    width:20px;
+    height:20px;
+    margin:0px 0px 0px 0px;
+    float:left;
+}
+
+.xCN_DivDetail3ActiveDocCaption
+{
+   text-align:left;
+   width:58px;
+   height:20px;
+   float:left;
+   padding:2px 0px 0px 0px;
+   margin:0px 0px 0px 2px; 
+   
+}
+
+.xCN_DivTabDetail3Caption
+{
+    height:20px;
+    width:70px;
+    margin: 3px  0px 0px 5px;
+}
+
+.xCN_DivTabDetail3Column1
+{
+    width:80px;
+    height:120px;
+    float:left;
+    margin:3px 0px 0px 0px;
+}
+
+.xCN_DivTabDetail3Column2
+{
+    width:60px;
+    height:120px;
+    float:left;
+    margin:3px 1px 0px 0px;
+    border:solid 1px transparent;
+}
+
+.xCN_DivTabDetail3Column3
+{
+    width:20px;
+    height:120px;
+    float:left;
+    margin:3px 0px 0px 0px;
+    border:solid 1px transparent;
+}
+
+.xCN_DivTabDetail3Column4
+{
+    width:100px;
+    height:120px;
+    float:left;
+    margin:3px 0px 0px 0px;
+    border:solid 1px transparent;
+}
+
+.xCN_DivTabDetail3Column5
+{
+    width:99px;
+    height:120px;
+    float:left;
+    margin:3px 0px 0px 0px;
+}
+
+.xCN_DivTabDetail3EmpCode
+{
+    height:20px;
+    width:58px;
+    padding:0px;
+    margin:2px 0px 0px 0px;
+}
+
+.xCN_DivTabDetail3EmpCode input
+{
+    height:15px;
+    width:55px;
+    margin: 0px 0px 0px 0px;
+}
+
+.xCN_DivTabDetail3EmpName
+{
+    height:20px;
+    width:97px;
+    float:left;
+    padding:0px;
+    margin:2px 0px 0px 0px;
+    
+}
+
+.xCN_DivTabDetail3EmpName input
+{
+    height:18px;
+    width:95px;
+    padding:0px;
+   /* border:solid 1px silver;*/
+    margin:0px 0px 0px 0px;
+}
+
+.xCN_DivTabDetail3Veh
+{
+    height:40px;
+    width:97px;
+    padding:0px;
+    margin:4px 0px 0px 0px;
+    
+}
+
+.xCN_DivTabDetail3VehIDSub
+{
+    height:15px;
+    width:97px;
+    /*border:solid 1px red;*/
+    padding:0px;
+    margin:0px 0px 0px 0px;
+    vertical-align:bottom;
+}
+
+.xCN_DivTabDetail3VehIDTextbox
+{
+    height:20px;
+    width:97px;
+    /*border:solid 1px red;*/
+    padding:0px;
+    margin:0px 0px 0px 0px;
+    vertical-align:top;
+}
+
+.xCN_DivTabDetail3VehIDTextbox input
+{
+    height:18px;
+    width:95px;
+    padding:0px;
+    border:solid 1px silver;
+    margin:0px 0px 0px 0px;
+}
+
+/*---------แท็บส่วนบน-----------*/ 
+.xCN_DivTabTopicGrp
+{
+    float:left;
+    border:solid 1px green;
+    margin-left:2px;
+    cursor:pointer;
+    padding:0px 3px 0px 3px;
+}
+.xCN_DivTabTopicGrpNum
+{
+    float:right;
+}
+.xCN_DivTabToppic
+{
+    width:auto;
+    height:auto; 
+    float:left;
+    padding:0px;
+    margin:0px;
+    background-color:Transparent;
+} 
+.xCN_DivTabToppic a div 
+{
+    width:auto;
+    height:auto;
+    padding:5px 10px 5px 10px;
+    margin:0px 3px 0px 0px;
+    text-align:center;
+    vertical-align:top;float:left;left:0px;
+}                   
+.xCN_DivTabToppic a:link 
+{
+    font-family:Tahoma 'MS Sans Serif' Arial;
+    font-size:12px;
+    font-weight: normal;
+    color:Gray;
+}
+.xCN_DivTabToppic a:visited 
+{
+    font-family:Tahoma 'MS Sans Serif' Arial;
+    font-size:12px;
+    font-weight:normal;
+    color:Gray;
+}
+.xCN_DivTabToppic a:hover 
+{
+    font-family:Tahoma 'MS Sans Serif' Arial;
+    font-size:12px;
+    font-weight:normal;
+    color:red;
+    background-image:url('../img/imgGradient/oimgGray_30x30_v1_hover.png');
+}
+   
+/*---------หัวแท็บส่วนล่าง-----------*/ 
+.xCN_DivTabToppicBottom
+{
+    width:100%;
+    height:auto; 
+    float:left;
+    padding:0px;
+    margin:0px;
+    background-color:Transparent;
+} 
+.xCN_DivTabToppicBottom a div 
+{
+    width:auto;
+    height:auto;
+    padding:5px 10px 5px 10px;
+    margin:0px 3px 0px 0px;
+    text-align:center;
+    vertical-align:top;float:left;left:0px;
+}                   
+.xCN_DivTabToppicBottom a:link 
+{
+    font-family:Tahoma 'MS Sans Serif' Arial;
+    font-size:12px;
+    font-weight: normal;
+    color:Gray;
+}
+.xCN_DivTabToppicBottom a:visited 
+{
+    font-family:Tahoma 'MS Sans Serif' Arial;
+    font-size:12px;
+    font-weight:normal;
+    color:Gray;
+}
+.xCN_DivTabToppicBottom a:hover 
+{
+    font-family:Tahoma 'MS Sans Serif' Arial;
+    font-size:12px;
+    font-weight:normal;
+    color:red;
+    background-image:url('../img/imgGradient/oimgGray_30x30_v1_hover.png');
+}
+
+/*--------------------I------------------*/
+
+.xCN_ImgBrowData
+ {
+    /* ปุ่มBrowse Data */
+ 	width:20px;
+ 	height:20px;
+ 	border:0;
+ 	/*background-image:url('../../img/imgIcon16x16/Search_16x16.png');*/
+    background-repeat:no-repeat;
+    background-position:center  center;
+    cursor:pointer;
+  }
+  
+ .xCN_ImgGenDocNo
+ {
+    /* ปุ่มBrowse Data */
+ 	width:20px;
+ 	height:20px;
+ 	border:0;
+ 	background-image:url('../../img/imgIcon16x16/Search_16x16.png');
+    background-repeat:no-repeat;
+    background-position:center  center;
+  }
+  
+.xCN_InputBottomBrowse
+{
+     /*ปุ่ม Browse แสดงจุดสามจุดบนปุ่ม*/
+    height:20px;
+    width:20px;
+    padding:0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    cursor:pointer;
+    text-align:center;
+ 
+}
+
+  
+.xCN_InputTextCstTelFax
+{
+    border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	vertical-align:middle;
+	float:left;
+	padding: 0px 0px 0px 2px;
+	width :143px;  
+   	height: 20px;
+
+}
+
+.xCN_InputTextExOrInRefNo
+{
+    height:15px;
+    width:130px;
+    margin: 0px 3px 0px 0px;
+    /*border:solid 1px red;*/
+}
+
+
+/*--------------------L----------------*/
+.xCN_LableTelFaxCap
+{
+    width:50px;
+    height:20px;
+    float:left;
+    text-align:left;
+    padding:0px 0px 0px 2px;
+    vertical-align:middle;
+}
+
+/*--------------------S------------------*/
+ .xCN_SelectInDetail2
+{
+	width:93px;
+	height:20px;	
+}
+.xCN_DropdownDetail2
+{
+	width:104px;
+	height:20px;	
+}
+
+/*--------------------T------------------*/
+
+.xCN_TableHeaderColor
+/* สีของส่วนหัวตาราง*/
+{ 
+	background-color:#b7d49e;
+}
+.xCN_TableHeaderColorTelerik
+/* สีของส่วนหัวตาราง background-color:#b7d49e;*/
+{ 
+	border-color:#486b23;
+	color:#fff;
+	background:#4c7822 url('../../2010.3.1110/Forest/sprite.png') repeat-x 0 -368px;
+	
+}
+.xCN_TableAlternateRowColor
+/* สีสลับแถวของตาราง*/
+{
+   background-color:#d8f6b8;
+
+}
+
+.xCN_TableDefaultRowColor
+/* สีเริ่มต้นของตาราง*/
+{ 
+	background-color:#fdfdfd;
+}
+
+.xCN_TableAlternateRowColorTelerik
+/* สีสลับแถวของตาราง*/
+{
+   background-color:#c7d6a7;
+}
+.xCN_TableDefaultRowColorTelerik
+/* สีเริ่มต้นของตาราง*/
+{ 
+	background-color:#d1deb6;
+	border-color:#486b23;
+}
+.xCN_TableSelectRowColorTelerik
+/* สีเริ่มต้นของตาราง*/
+{ 
+	background-color:#3a5621;
+	color: #f9fafc; 
+}
+
+.xCN_TableOverRowColorTelerik
+{ 
+	background-color:#437C17;
+	color: #f9fafc; 
+}
+.xCN_MouseOver
+{
+    cursor:pointer;   
+}
+/*##### a Link #####*/
+.xCN_LabelLink
+{
+    width:auto;
+}
+
+/*------ Splash ------*/
+.xCN_DivSplash
+{
+    vertical-align:middle;
+    text-align:center;
+    width:64px;
+    height:64px;
+    background-image:url('../../img/AdaSiteMaster/Waiting.gif');
+}
+
+/*### Language ###*/
+.xCN_DivTHLang
+{
+    float:left;
+    width:auto;/*45px;*/
+    height:16px;/*55px;*/
+    margin:2px 2px 2px 2px;
+    cursor:pointer;
+    padding:0px;
+}
+.xCN_DivTHLang a 
+{
+    background-image:url(../../../Content/img/AdaLogin/TH.png);
+    background-repeat:no-repeat;
+    background-position:left top;
+    float:left;
+    /*width:48px;
+    height:48px;*/
+    width:16px;
+    height:16px;
+    position:relative;
+    margin-left:15px;
+    cursor:pointer;
+    text-decoration:none;
+    color:Black;
+    font-size:14px;
+}
+.xCN_DivTHLang a:hover 
+{
+    text-decoration:underline;
+}
+.xCN_DivTHLang label
+{
+    cursor:pointer;
+}
+
+.xCN_DivENLang
+{
+    float:left;
+    width:auto;
+    height:16px;/*55px;*/
+    margin:2px 2px 2px 2px;
+    cursor:pointer;
+    padding:0px;
+    margin-left:15px;
+}
+.xCN_DivENLang a 
+{
+    background-image:url(../../../Content/img/AdaLogin/EN.png);
+    background-repeat:no-repeat;
+    background-position:left top;
+    float:left;
+    width:16px;
+    height:16px;/*48px;*/
+    position:relative;
+    margin-left:30px;
+    cursor:pointer;
+    text-decoration:none;
+    color:Black;
+    font-size:14px;
+}
+.xCN_DivENLang a:hover 
+{
+    text-decoration:underline;
+}
+
+.xCN_DivTH a 
+{
+    background-image:url(../../../Content/img/AdaLogin/TH.png);
+    background-repeat:no-repeat;
+    background-position:left center;
+    cursor:pointer;
+    margin-left:10px;
+}
+.xCN_DivTH a:hover 
+{
+    text-decoration:underline;
+}
+
+.xCN_DivEN a 
+{
+    background-image:url(../../../Content/img/AdaLogin/EN.png);
+    background-repeat:no-repeat;
+    background-position:left center;
+    cursor:pointer;
+    margin-left:10px;
+}
+.xCN_DivEN a:hover 
+{
+    text-decoration:underline;
+}
+
+.xCN_DivDropDown
+{
+    margin-right:30px;
+}
+
+/* hide input file */
+.xCN_HideInputFile
+{
+    position: relative;
+	text-align: left;
+	margin:0px 0px 0px 0px;
+	-moz-opacity:0 ;
+	filter:alpha(opacity: 0);
+	opacity: 0;
+	z-index: 2;   
+}
+.xCN_FakeInputFile {
+	position: absolute;
+	margin:0px 0px 0px 0px;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	background-color:inherit;
+}

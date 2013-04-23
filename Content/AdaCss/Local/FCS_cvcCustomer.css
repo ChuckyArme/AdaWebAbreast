@@ -1,0 +1,366 @@
+.xW_DIVLayOut
+{
+    width:480px;/*420px;*/
+    margin:1px 1px 1px 1px;
+    float:inherit;
+}
+
+.xW_DIVLayOut2
+{
+    width:265px;
+    margin:1px 1px 1px 1px;
+    float:inherit;
+}
+
+.xW_DIVLayOut3
+{
+    width:100px;
+    margin:1px 1px 1px 1px;
+    float:right;
+}
+.xW_DIVLayOut4
+{
+    width:120px;
+    margin:1px 1px 1px 1px;
+    float:right;
+}
+
+.xW_DIVfDataS
+{
+    width:60px;
+    margin:1px 2px 1px 1px;
+    height:auto;
+}
+
+.xW_DIVfDataM
+{
+    width:80px;
+    margin:1px 2px 1px 1px;
+    height:auto;
+}
+
+.xW_DIVfDataXL
+{
+    width:120px;
+    margin:1px 2px 1px 1px;
+    height:auto;
+}
+
+.xW_DIVfDataL
+{
+    width:100;
+    margin:1px 2px 1px 1px;
+    height:auto;
+}
+
+.xW_TBxDataS
+{
+    width:50px;
+    height:auto;
+}
+
+.xW_TBxDataM
+{
+    width:75px;
+    height:auto;
+}
+
+.xW_TBxDataL
+{
+    width:100px;
+    height:auto;
+}
+
+.xW_FloatLeft
+{
+    float:left;
+}
+.xW_FloatRight
+{
+    float:right;
+}
+.xW_RightMangin
+{
+    margin:0px 10px 0px 0px;
+}
+.xW_LeftMargin
+{
+    margin:0px 0px -2px 0px;
+}
+/*----- DataEntry -----*/
+.xW_DivDataEntry
+{
+    margin-left:5px;
+}
+.xW_DivDataEntryC
+{
+    width:900px;/*790px;*/
+    height:auto;
+    margin:0px 0px 5px 5px;
+    padding:0px;
+    text-align:left;
+    vertical-align:top;
+    border-style:none;
+    border-width:1px;
+    background-color:Transparent;
+}
+.xW_DivDataEntryLeftC
+{
+    width:500px;/*430px;*/
+    height:200px;/*200px;*/
+    border-style:solid solid solid solid;
+    border-width:1px;
+    border-color:black;
+    background-color:Transparent;
+    vertical-align:top;
+    text-align:left;
+    margin:0px 0px 5px 0px;
+    padding:5px 0px 0px 5px;
+    float:left;
+    background-color:#f9fde4;
+}
+.xW_DivDataEntryRightC
+{
+    width:285px;/*240px;*/
+    height:200px;
+    border-style:solid solid solid none;
+    border-width:1px;
+    border-color:black;
+    background-color:Transparent;
+    vertical-align:top;
+    text-align:left;
+    margin:0px 0px 5px 0px;
+    padding:5px 0px 0px 5px;
+    float:left;
+    background-color:#f9fde4;
+}
+.xW_DivDataEntryRightC2
+{
+    width:100px;
+    height:200px;
+    border-style:solid solid solid none;
+    border-width:1px;
+    border-color:black;
+    background-color:Transparent;
+    vertical-align:top;
+    text-align:left;
+    margin:0px 0px 5px 0px;
+    padding:5px 0px 0px 5px;
+    float:left;
+    background-color:#f9fde4;
+}
+.xW_DivPicCtr
+{
+    width:100px;
+    height:228px;
+    background-color:inherit;
+    vertical-align:top;
+    text-align:left;
+    margin:0px 0px 5px 0px;
+    padding:5px 0px 0px 5px;
+    float:left;
+    /*background-color:#f9fde4;*/
+}
+			 
+.xW_DivTabDataEntryC
+{
+    width:910px;/*800px;*/
+    height:auto;
+    background-color:#dbe5ce;
+    border-style: solid solid solid solid;
+    border-width:1px;
+    border-color:#335032;
+    padding:5px 0px 5px 5px;
+    margin:0px 0px 5px 0px;
+    float:left;
+    overflow:hidden;
+    display:block;
+}
+.xW_DivTabDataEntryTopC
+{
+    width:910px;/*800px;*/
+    height:auto;
+    padding:0px;
+    margin:0px 0px 5px 0px;
+    background-color:Transparent;
+}
+.xW_DivTabDataEntryBottomC
+{
+    width:900px;/*800px;*/
+    height:auto;
+    background-color: Transparent;
+    padding:0px;
+    margin:10px 0px 0px 0px;
+}
+
+.xW_DivTabGeneral
+{
+    width:288px;/*248px;*/
+    height:230px;
+    border-style:solid solid solid solid;
+    border-width:0px;
+    border-color:black;
+    background-color:Transparent;
+    vertical-align:top;
+    text-align:left;
+    margin:0px 0px 5px 0px;
+    padding:5px 0px 0px 5px;
+    float:left;
+    background-color:#f9fde4;
+}
+.xW_DivTabContractor
+{
+    width:764px;/*864px;*/
+    height:230px;
+    border-width:0px;
+    vertical-align:top;
+    text-align:left;
+    margin:0px 0px 5px 0px;
+    padding:5px 0px 0px 5px;
+    float:left;
+    background-color:#f9fde4;
+}
+.xW_DivTabDetailSubC
+{
+    width:auto;
+    height:auto;
+    padding:5px 5px 5px 5px;
+    margin:0px;float:left;
+    overflow:hidden;
+    display:block;
+    border-style:solid solid solid solid;
+    border-width:0px;
+}
+    
+.xW_DivTabSubAllC{
+		width:880px;/*760px;*/
+		height:auto;
+		margin:0px;
+		padding:0px;
+		float:left;
+		background-color:Transparent;
+		overflow:hidden;
+		display:block;
+		border-style:solid;
+		border-width:1px;
+		border-color:#332a29;
+}
+.xW_DivTabSubCDDNOth{
+		width:880px;
+		height:auto;
+		margin:0px;
+		padding:0px;
+		float:left;
+		background-color:Transparent;
+		overflow:hidden;
+		display:block;
+		border-style:solid;
+		border-width:1px;
+		border-color:#332a29;
+}
+.xW_DivTabDetail
+{
+    width:auto;
+    height:auto;
+    background-color:#548231;
+    padding:5px 5px 0px 5px;
+    margin:0px 0px 0px 0px;
+    float:left;
+    border-style:solid solid solid solid;
+    border-width:1px;
+    border-color:#335032;
+}
+
+/* Input Grid */
+.xW_DivTabDetailInput
+{   
+    width:auto;
+    height:auto;
+    background-color:#548231;
+    padding:0px 5px 5px 5px;
+    margin:0px 0px 0px 0px;
+    float:left;
+}
+
+.xW_DivInputHeight
+{
+    height:20px;
+}
+
+.xW_DivInputGrid
+{
+    float:left;
+    border:solid 1px #335032;
+    height:100%;
+    background-color:White;
+}
+.xW_DivInputGrid input[type="text"]
+{
+    border-width:0px;
+    height:20px;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+}
+
+.xW_InputWidthCtr01
+{
+    width:110px;
+    text-align:right;
+}
+.xW_InputWidthCtr02
+{
+    width:225px;
+    text-align:right;
+}
+.xW_InputWidthCtr03
+{
+    width:85px;
+    text-align:right;
+}
+.xW_InputWidthCtr04
+{
+    width:110px;
+    text-align:right;
+}
+.xW_InputWidthCtr05
+{
+    width:15px;
+}
+.xW_InputWidthCtr06
+{
+    width:140px;
+    text-align:right;
+}
+.xW_InputWidthCtr07
+{
+    width:300px;
+    text-align:right;
+}
+.xW_InputWidthCtr08
+{
+    width:144px;
+    text-align:right;
+}
+
+.fileupload {
+    width: 100px;
+    height: 30px;
+    position: relative;
+    overflow: hidden;
+    background: ...; /* and other things to make it pretty */
+}
+
+.fileupload input {
+    position: absolute;
+    top: 0;
+    right: 0; /* not left, because only the right part of the input seems to
+                 be clickable in some browser I can't remember */
+    cursor: pointer;
+    opacity: 0.0;
+    filter: alpha(opacity=0); /* and all the other old opacity stuff you
+                                 want to support */
+    font-size: 300px; /* wtf, but apparently the most reliable way to make
+                         a large part of the input clickable in most browsers */
+    height: 200px;
+}
+/* END Input Grid */

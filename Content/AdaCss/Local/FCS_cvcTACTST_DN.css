@@ -1,0 +1,1210 @@
+﻿/*---------- #A ----------*/
+.xW_AllBackgroundDefault
+{   background-color:White;
+}
+
+/*---------- #D ----------*/
+.xW_DivAddPdt
+{
+     /*Div ใหญ่สุดสำหรับคีย์รายละเอียดสินค้า*/
+    width:815px;
+    height:40px;
+    float:none;
+    /*border:solid 1px transparent; */ 
+    margin:4px 3px 3px 1px;  
+}
+.xW_DivBrowseData
+{
+     /*Div สำหรับบรรจุปุ่ม Browse*/
+    width:20px;
+    height:20px;
+    float:left;
+    margin:3px 0px 0px 2px;  
+    vertical-align:middle;
+    padding:0px 0px 0px 0px;
+   /* border:solid 1px red; */ 
+}
+.xW_DivBrowseDataDis
+{
+     /*Div สำหรับบรรจุปุ่ม Browse ส่วนลด*/
+    width:20px;
+    height:20px;
+    float:left;
+    vertical-align:top;
+    margin:0px 0px 0px 0px;  
+    border:solid 1px transparent;  
+}
+.xW_DivBrowseDataEmp
+{
+     /*Div สำหรับบรรจุปุ่ม Browse*/
+    width:20px;
+    height:20px;
+    float:left;
+    margin:2px 0px 0px 0px;  
+   /* border:solid 1px red; */ 
+}
+.xW_DivBrowseDataGrandAE
+{
+     /*Div สำหรับบรรจุปุ่ม Browse เงินมัดจำ*/
+    width:20px;
+    height:20px;
+    float:left;
+    vertical-align:top;
+    margin:0px 0px 0px 0px;  
+    border:solid 1px transparent;  
+}
+.xW_DivBrowseDataVAT
+{
+     /*Div สำหรับบรรจุปุ่ม Browse ภาษี*/
+    width:20px;
+    height:20px;
+    float:left;
+    vertical-align:top;
+    margin:0px 0px 0px 0px;  
+    border:solid 1px transparent;  
+}
+.xW_DivButton
+{   text-align:center;
+}
+.xW_DivCaptionDetail2
+{
+    height:20px;
+    width:87px;
+    /*border:solid 1px red;*/
+    margin: 3px  0px 0px 5px;
+}
+.xW_DivCaptionDetail3
+{
+    height:20px;
+    width:70px;
+    /*border:solid 1px red;*/
+    margin: 3px  0px 0px 5px;
+}
+.xW_DivCaptionHeader
+{   /*border:solid 1px red;*/
+    width:100%;
+    height:50px;
+    border-style:none none none none;
+}
+.xW_DivColumnAutoTab
+{   width:95px;
+    height:inherit;
+    /*border:solid 1px ;*/
+    float:left;
+}
+.xW_DivColumnBorder
+{ border:solid 1px #5a8944;
+}
+.xW_DivColumnData
+{   width:inherit;
+    height:50%;
+    text-align:left;
+    vertical-align:middle;
+    border:0px;
+    border-style:none none none none;
+}
+.xW_DivColumnHeader
+{   
+    height:50%;
+    /*border:solid 1px red;*/
+    margin:auto;
+    text-align:center;
+}
+.xW_DivColumnPdtCode
+{   width:120px;
+    height:40px;
+    /*border:solid 1px ;*/
+    float:left;
+}
+.xW_DivColumnPdtDiscount
+{   width:90px;
+    height:40px;
+    /*border:solid 1px ;*/
+    float:left;
+}
+.xW_DivColumnPdtName
+{   width:150px;
+    height:40px;
+    /*border:solid 1px ;*/
+    float:left;
+}
+.xW_DivColumnPdtNet
+{   width:102px;
+    height:40px;
+    /*border:solid 1px ;*/
+    float:left;
+}
+.xW_DivColumnPdtPrice
+{   width:100px;
+    height:40px;
+    /*border:solid 1px ;*/
+    float:left;
+}
+.xW_DivColumnPdtUnit
+{   width:70px;
+    height:40px;
+    /*border:solid 1px ;*/
+    float:left;
+}
+.xW_DivColumnPdtQty
+{   width:70px;
+    height:40px;
+    /*border:solid 1px ;*/
+    float:left;
+}
+.xW_DivCstAddrMain
+{
+    width:198px;
+    height:69px;
+   /* border:solid 1px silver;*/
+}
+.xW_DivCstCaption
+{
+    width:65px;
+    height:20px;
+    text-align:left;
+    padding:3px 0px 0px 3px;
+    float:left;
+    border:solid 0px red;
+    vertical-align:middle;
+}
+.xW_DivCstCode
+{
+    width:100px;
+    height:20px;
+    padding:0px 0px 0px 0px;
+    margin:3px 0px 0px 0px;
+    text-align:left;
+    vertical-align:middle;
+    float:left;
+    border:solid 0px red;
+    overflow:hidden;
+    display:block;
+    
+}
+.xW_DivCstMainCode
+{
+    width:198px;
+    height:26px;
+    border:solid 1px #5a8944;
+    vertical-align:middle;
+}
+ .xW_DivCstNameMain
+{
+    width:198px;
+    height:25px;
+    margin:0px 0px 0px 0px;
+    /*border:solid 1px transparent*/
+}
+.xW_DivCstTelFaxMain
+{
+    width:199px;
+    height:20px;
+    border:solid 0px blue;
+}
+.xW_DivDetail1BillDate
+{
+    height:20px;
+    width:100px;
+    float:left;
+    /*border:solid 1px red;*/
+    padding:0px;
+    margin:0px 0px 0px 0px;
+}
+.xW_DivDetail1BrowseRefNo
+{
+    height:20px;
+    width:20px;
+    float:left;
+   /* border:solid 1px red;*/
+    padding:0px;
+    margin:0px 0px 0px 0px;
+}
+.xW_DivDetail1InputData
+{
+    height:20px;
+    width:161px;
+    padding:0px;
+    margin:3px 0px 0px 0px;
+}
+.xW_DivDetail1InputRefNo
+{
+    height:20px;
+    width:137px;
+    float:left;
+   /* border:solid 1px red;*/
+    padding:0px;
+    margin:0px 0px 0px 0px;
+}
+.xW_DivDetail2InputAreaCode
+{
+    height:20px;
+    width:77px;
+    /*border:solid 1px red;*/
+    float:left;
+    padding:0px;
+    margin:0px 0px 0px 0px;
+}
+.xW_DivDetail2InputData
+{
+    height:20px;
+    width:97px;
+   /* border:solid 1px red;*/
+    padding:0px;
+    margin:3px 0px 0px 0px;
+}
+.xW_DivDetail2InputDataArea
+{
+    height:20px;
+    width:100px;
+    /*border:solid 1px red;*/
+    padding:0px;
+    margin:3px 0px 0px 0px;
+}
+.xW_DivDetail3ActiveDoc
+{
+    height:25px;
+    width:97px;
+    /*border:solid 1px blue;*/
+    padding:0px;
+    margin:2px 0px 0px 0px;
+}
+.xW_DivDetail3InputData
+{
+    height:20px;
+    width:58px;
+   /* border:solid 1px red;*/
+    padding:0px;
+    margin:2px 0px 0px 0px;
+}
+.xW_DivDetail3VihicleTransfer
+{
+    height:40px;
+    width:97px;
+    /*border:solid 1px red;*/
+    padding:0px;
+    margin:4px 0px 0px 0px;
+    
+}
+.xW_DivDetail3VihicleTransferSub
+{
+    height:15px;
+    width:97px;
+    /*border:solid 1px red;*/
+    padding:0px;
+    margin:0px 0px 0px 0px;
+    vertical-align:bottom;
+}
+.xW_DivDetail3VihicleTransferTextbox
+{
+    height:20px;
+    width:97px;
+    /*border:solid 1px red;*/
+    padding:0px;
+    margin:0px 0px 0px 0px;
+    vertical-align:top;
+}
+.xW_DivDetailFooter
+{
+     /*Div ใหญ่สุดของรายละเอียด Footer*/
+    width:815px;
+    height:138px;
+    float:none;
+    border-style:solid solid solid solid;
+    margin:0px 0px  0px 5px;  
+    overflow:hidden;
+    display:block;
+}
+.xW_DivDetailHD
+{
+    /*Div ใหญ่สุดของรายละเอียด HD*/
+    width:815px;
+    height:166px;
+    float:none;
+    border-width:1px;
+    /*border-color:#5a8944;*/
+    margin:0px 0px  0px 5px;  
+}
+.xW_DivDetailHDDocNo
+{
+    /*Div ใหญ่ของรายละเอียดเลขที่เอกสาร*/
+    width:223px;
+    height:164px;
+    float:left;
+    border-width:1px;  
+    border-style:solid solid solid solid;
+    margin:0px 0px 0px 0px;  
+}
+.xW_DivDetailCreditTerm
+{
+    height:50px;
+    width:98px;
+}
+.xW_DivDetailCreditTermSub
+{
+    height:40px;
+    width:70px;
+    text-align:center;
+    vertical-align:middle;
+    margin:0px 5px 5px 5px; 
+  /*  background-color:Red;*/
+}
+.xW_DivDetailCshOrCrd
+{
+    height:60px;
+    width:98px;
+}
+.xW_DivDetailCshOrCrdSub
+{
+    height:50px;
+    width:70px;
+    margin:5px 5px 5px 5px; 
+}
+.xW_DivDetailDT
+{
+     /*Div ใหญ่สุดของรายละเอียด DT*/
+    width:815px;
+    height:151px;
+    float:none;
+    border-width:1px;  
+    margin:0px 0px 0px 0px;  
+}
+.xW_DivDetailDTMain
+{
+     /*Div ใหญ่สุดของรายละเอียด DT*/
+    width:815px;
+    /*height:196px;*/
+    float:none;
+    border-width:1px; 
+    border-style:solid solid solid solid;
+    border-color:#335023; 
+    margin:0px 0px 0px 5px;  
+}
+.xW_DivDetailFooterCalNet
+{
+    /*Div ใหญ่สุดของรายละเอียด Footer*/
+    width:262px;
+    height:137px;
+    float:left;
+    border-width:1px;  
+    margin:0px 0px  0px 0px;  
+    overflow:hidden;
+    display:block;
+    border-style:none solid solid solid;
+}
+.xW_DivDetailFooterHis 
+{
+     /*Div ใหญ่สุดของรายละเอียด Footer*/
+    width:548px;
+    height:142px;
+    float:left;
+    border:solid 1px transparent;  
+    margin:1px 1px 0px 0px;  
+    overflow:hidden;
+    display:block;
+}
+.xW_DivDetailFooterCalNet
+{
+    /*Div ใหญ่สุดของรายละเอียด Footer*/
+    width:262px;
+    height:137px;
+    float:left;
+    border-width:1px;  
+    margin:0px 0px  0px 0px;  
+    overflow:hidden;
+    display:block;
+    border-style:none solid solid solid;
+}
+.xW_DivDetailHDCustomer
+{
+    /*Div ใหญ่ของรายละเอียดลูกค้า*/
+    width:201px;
+    height:164px;
+    float:left;
+    /*border-color:red;*/
+    border-width:1px;
+    border-style:solid solid solid solid;
+    margin:0px 1px 0px 0px;  
+    display:block;
+    overflow:hidden;
+}
+.xW_DivDetailHDTabDetail123
+{
+    /*Div ใหญ่ของรายละเอียด 1,2 และ 3*/
+    width:383px;
+    height:164px;
+    float:left;
+    /*border:solid 1px Red;*/
+    margin:0px 1px 0px 0px;  
+}
+.xW_DivDocNo
+{
+    height:120px;
+    width:218px;
+    /*border:solid 1px red;*/
+    padding:0px;
+    margin:3px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+}
+.xW_DivDocNoColumn1
+{
+    height:120px;
+    width:80px;
+    border:solid 0px transparent;
+    padding:0px;
+    float:left;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+}
+.xW_DivDocNoColumn1Caption
+{
+    height:20px;
+    width:75px;
+    /*border:solid 1px blue;*/
+    padding:0px;
+    margin:2px 0px 0px 3px; 
+    vertical-align:middle;
+    text-align:left;
+    float:left;
+}
+.xW_DivDocNoColumn2
+{
+    height:120px;
+    width:114px;
+    border:solid 0px transparent;
+    padding:0px;
+    float:left;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+}
+.xW_DivDocNoColumn2Sub
+{
+    height:20px;
+    width:113px;
+    /*border:solid 1px red;*/
+    padding:0px;
+    margin:2px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+    float:left;
+}
+.xW_DivDocNoColumn3
+{
+    height:120px;
+    width:22px;
+    border:solid 0px transparent;
+    padding:0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+    float:left;
+}
+.xW_DivDocNoColumn3Sub
+{
+    height:20px;
+    width:20px;
+    border:solid 0px transparent;
+    padding:0px;
+    margin:2px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+
+}
+.xW_DivDocStatus
+{
+	text-align:center;	
+	width:215px;
+	height:25px;
+	border:solid 1px transparent;
+    margin :8px  1px 1px 1px;  
+}
+.xW_DivFieldSet
+{   /*border:solid 1px red;*/
+    text-align:left;
+    padding: 0px 0px 0px 0px;
+    margin-left:270px;
+    width:300px;
+    margin: 0 auto;
+}
+.wX_DivFotterColumn1
+{
+     width:156px;
+     height:135px;
+     text-align:left;
+     float:left;
+     padding:0px;
+     margin:0px;
+     border:solid 1px transparent;
+}
+.wX_DivFotterColumn1Sub
+{
+     width:155px;
+     height:20px;
+     text-align:left;
+     padding:0px;
+     margin:0px;
+     border:solid 1px transparent;
+}
+.wX_DivFotterColumn2
+{
+     width:100px;
+     height:135px;
+     text-align:right;
+     float:left;
+     border:solid 1px transparent;
+}
+.wX_DivFotterColumn2Sub
+{
+   text-align:right;
+   vertical-align:middle;
+   border:solid 1px transparent;
+   width:97px;
+   height:20px;
+   /*padding: 2px 0px 2px 0px;*/
+   margin: 0px 0px 0px 0px; 
+   
+}
+.xW_DivGridDetail
+{
+   vertical-align:top;
+   /*border:solid 1px red;*/
+   width:auto;
+   padding: 0px 0px 0px 0px;
+   margin: 0px 0px 0px 0px; 
+}
+.xW_DivInputTextEmpName
+{
+    height:20px;
+    width:97px;
+    /* border:solid 1px red;*/
+    float:left;
+    padding:0px;
+    margin:2px 0px 0px 0px;
+    
+}
+.xW_DivMain
+{
+     /*Div ใหญ่สุดของ Page*/
+    width:827px;
+    height:580px;
+   /* border:solid 1px green;*/ 
+}
+.xW_DivMenuNameSub
+{
+    height:33px;
+    width:200px;
+    /*border:solid 1px red;*/
+    padding:0px;
+    margin:0px 5px 0px 5px; 
+    vertical-align:middle;
+    text-align:center;
+}
+.xW_DivRadioBtn
+{   /*border:solid 1px red;*/
+    width:100%;
+    text-align:center;
+}
+.xW_DivRemark
+{
+	width:540px;
+	height:115px;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	/*background-color:#548231;*/
+	vertical-align:top;
+	/*border-width:1px;
+	border:solid solid none solid;
+	border-color:red;*/
+
+}
+.xW_DivRemarkTop
+{
+	width:540px;
+	height:65px;
+	padding:0px;
+	margin:0px 0px 0px 0px;
+	table-layout:fixed;
+	text-align:left;
+	/*border:solid 1px red;*/
+}
+.xW_DivRemarkBottom
+{
+	width:525px;
+	height:25px;
+	padding:0px;
+	margin:5px 5px 5px 5px;
+	border-bottom-style:solid solid solid solid;
+	border-width:1px;
+	border-color:Yellow;
+	background-color: Silver;
+	table-layout:fixed;
+	vertical-align:middle;
+}
+.xW_DivShowDis
+{
+     /*Div สำหรับแสดงส่วนลด*/
+    width:52px;
+    height:20px;
+    float:left;
+    margin:0px 0px 0px 1px;  
+    border:solid 0px transparent; 
+}
+.xW_DivShowGrandAE
+{
+     /*Div สำหรับแสดงเงินมัดจำ*/
+    width:52px;
+    height:20px;
+    float:left;
+    margin:0px 0px 0px 1px;  
+    border:solid 0px transparent; 
+}
+.xW_DivShowVAT
+{
+     /*Div สำหรับแสดงอัตราภาษี*/
+    width:52px;
+    height:20px;
+    float:left;
+    margin:0px 0px 0px 1px;  
+    border:solid 0px transparent; 
+}
+.xW_DivTabDetail1Column1
+{
+    width:80px;
+    height:120px;
+    float:left;
+
+}
+.xW_DivTabDetail1Column2
+{
+    width:120px;
+    height:120px;
+    float:left;
+}
+.xW_DivTabDetail1Column3
+{
+    width:163px;
+    height:120px;
+    float:left;
+}
+.xW_DivTabDetail2Column1
+{
+    width:80px;
+    height:120px;
+    float:left;
+    margin:3px 0px 0px 0px;
+    /*border:solid 1px blue;*/
+}
+.xW_DivTabDetail2Column2
+{
+    width:100px;
+    height:120px;
+    float:left;
+    margin:3px 0px 0px 0px;
+   /* border:solid 1px blue;*/
+}
+.xW_DivTabDetail2Column3
+{
+    width:80px;
+    height:120px;
+    float:left;
+    margin:3px 0px 0px 0px;
+    /*border:solid 1px blue;*/
+}
+.xW_DivTabDetail2Column4
+{
+    width:100px;
+    height:120px;
+    float:left;
+    margin:3px 0px 0px 0px;
+    /*border:solid 1px blue;*/
+}
+.xW_DivTabDetail3Column1
+{
+    width:80px;
+    height:120px;
+    float:left;
+    margin:3px 0px 0px 0px;
+   /* border:solid 1px blue;*/
+}
+.xW_DivTabDetail3Column2
+{
+    width:60px;
+    height:120px;
+    float:left;
+    margin:3px 1px 0px 0px;
+    border:solid 1px transparent;
+}
+.xW_DivTabDetail3Column3
+{
+    width:20px;
+    height:120px;
+    float:left;
+    margin:3px 0px 0px 0px;
+    border:solid 1px transparent;
+}
+.xW_DivTabDetail3Column4
+{
+    width:100px;
+    height:120px;
+    float:left;
+    margin:3px 0px 0px 0px;
+    border:solid 1px transparent;
+}
+.xW_DivTabDetail3Column5
+{
+    width:99px;
+    height:120px;
+    float:left;
+    margin:3px 0px 0px 0px;
+   /* border:solid 1px red;*/
+}
+.xW_DivDetailCaption
+{
+    height:20px;
+    width:118px;
+    /*border:solid 1px red;*/
+    margin:5px 0px 0px 0px;
+}
+.xW_DivTabDetailMain
+{
+	width:383px;
+	height:164px;
+	background-color: transparent;
+	padding:0px;
+	margin:0px 5px 5px 0px;
+	/*border:solid 1px Black;*/
+	table-layout:fixed;
+	overflow:hidden;
+	display:block;
+}
+.xW_DivTabDetailSub
+{
+	width:369px;
+	height:126px;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	float:left;
+	border-width:1px;
+	border-style: none solid solid solid;
+	/*border-color:red;*/
+	table-layout:fixed;
+}
+.xW_DivTabNoDisplay
+{   
+    display:none;
+}
+
+/*---------- #I ----------*/
+.xW_ImgDocStatus
+{
+    width:20px;
+    height:20px;
+    vertical-align :middle;
+    /*border:solid 1px blue;*/
+}
+.xW_InputActiveDoc
+{
+    width:20px;
+    height:20px;
+    margin:0px 0px 0px 0px;
+    float:left;
+    /*border:solid 1px green;*/
+}
+.xW_InputButton
+{   font-size:12px;
+    width:70px;
+}
+.xW_InputBottonBrowseOpt ,
+.xW_InputButtonPdtCode ,
+.xW_InputButtonPdtDiscount
+{
+    height:20px;
+    width:20px;
+    padding:0px 0px 0px 0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:top;
+    text-align:center;
+}
+.xW_InputButtonDis
+{
+     /*ปุ่ม Browse Disount*/
+    height:20px;
+    width:20px;
+    padding:0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:center;
+ 
+}
+.xW_InputButtonGrandAE
+{
+     /*ปุ่ม Browse เงินมัดจำ*/
+    height:20px;
+    width:20px;
+    padding:0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:center;
+ 
+}
+.xW_InputButtonVAT
+{
+     /*Browse อัตราภาษี*/
+    height:20px;
+    width:20px;
+    padding:0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:center;
+ 
+}
+.wX_InputColumnData
+{
+     height:100%;
+     width:98%;
+     text-align:right;
+     margin-right:5px;
+     margin:0px;
+     padding:0px;
+     border:none 0px ;
+     /*border-style:none none none none;*/
+}
+.wX_InputColumnPdtCode
+{
+     height:100%;
+     width:95px;
+     text-align:left;
+     margin-right:5px;
+     margin:0px;
+     padding:0px;
+     border:none 0px ;
+     /*border-style:none none none none;*/
+}
+.wX_InputColumnPdtName
+{
+     height:100%;
+     width:98%;
+     text-align:left;
+     margin-right:5px;
+     margin:0px;
+     padding:0px;
+     border:none 0px ;
+     /*border-style:none none none none;*/
+}
+.wX_InputColumnPdtDiscount
+{
+     height:100%;
+     width:65px;
+     text-align:left;
+     margin-right:5px;
+     margin:0px;
+     padding:0px;
+     border:none 0px ;
+     /*border-style:none none none none;*/
+}
+.wX_InputTextAmount
+{
+     width:211px;
+     height:16px;
+     text-align:right;
+     overflow:hidden;
+     display:block;
+     margin: 0px 0px 0px 0px; 
+     
+}
+.xW_InputTextAreaCode
+{
+    height:16px;
+    width:72px;
+   /* border:solid 1px red;*/
+    padding:0px;
+    margin:0px 0px 0px 0px;
+}
+.xW_InputTextAreaName
+{
+    height:18px;
+    width:170px;
+    padding:0px;
+    border:solid 1px silver;
+    margin:0px 0px 0px 0px;
+    /*border:solid 1px red;*/
+}
+.xW_InputTextCstCode
+{
+    width:97px;
+    height:14px;
+    text-align:left;
+    vertical-align:middle;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+ }
+ .xW_InputTextCstName
+{
+    border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	vertical-align:middle;
+	padding:2px 0px 0px 3px;
+	width :195px;  
+   	height: 23px;
+}
+.xW_InputTextCstTelFax
+{
+    border-style: none;
+	border-color: inherit;
+	border-width: 0;
+	vertical-align:middle;
+	float:left;
+	padding: 0px 0px 0px 2px;
+	width :145px;  
+   	height: 20px;
+
+}
+.wX_InputTextDiscount
+{
+     width:50px;
+     height:18px;
+     float:left;
+     text-align:right;
+     overflow:hidden;
+     display:block;
+     margin:0px;
+     padding:0px 0px 0px 0px;
+     border:solid 1px silver;
+}
+.xW_InputTextDocNo
+{
+    height:18px;
+    width:110px;
+    border:solid 1px silver;
+    padding:0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+    float:left;
+}
+.xW_InputTextEmpCodeInDetail3
+{
+    height:15px;
+    width:55px;
+    margin: 0px 0px 0px 0px;
+   /* border:solid 1px blue;*/
+}
+.xW_InputTextEmpName
+{
+    height:18px;
+    width:95px;
+    padding:0px;
+    border:solid 1px silver;
+    margin:0px 0px 0px 0px;
+    /*border:solid 1px red;*/
+}
+.xW_InputTextExOrInRefNo
+{
+    height:15px;
+    width:130px;
+    margin: 0px 3px 0px 0px;
+    /*border:solid 1px red;*/
+}
+.xW_InputTextFTXphDocNo
+{
+    width:86px;
+}
+.wX_InputTextFooterAmount
+{
+     width:98px;
+     height:18px;
+     float:left;
+     text-align:right;
+     overflow:hidden;
+     display:block;
+     padding:0px 0px 0px 0px;
+     border:solid 1px silver;
+}
+.wX_InputTextGrandAE
+{
+     width:50px;
+     height:18px;
+     float:left;
+     text-align:right;
+     overflow:hidden;
+     display:block;
+     padding:0px 0px 0px 0px;
+     border:solid 1px silver;
+}
+.xW_InputTextShwDetailName
+{
+   text-align:left;
+   vertical-align:middle;
+   border:solid 1px silver;
+   width:111px;
+   height:16px;
+   padding: 0px 0px 2px 0px;
+   margin: 0px 0px 2px 0px; 
+   
+}
+.wX_InputTextVAT
+{
+     width:50px;
+     height:18px;
+     float:left;
+     text-align:right;
+     overflow:hidden;
+     display:block;
+     padding:0px 0px 0px 0px;
+     border:solid 1px silver;
+}
+.xW_InputTextVihicleTransfer
+{
+    height:18px;
+    width:95px;
+    padding:0px;
+    border:solid 1px silver;
+    margin:0px 0px 0px 0px;
+    /*border:solid 1px red;*/
+}
+
+/*---------- #L ----------*/
+.xW_LabelActiveDoc
+{
+   text-align:left;
+   /*border:solid 1px red;*/
+   width:60px;
+   height:20px;
+   float:left;
+   padding:2px 0px 0px 0px;
+   margin:0px 0px 0px 2px; 
+}
+.xW_LabelCaptionHeader
+{   font-size:20px;
+    font-weight:bold;
+}
+.xW_LabelCreditTermCap
+{
+   text-align:center;
+   width:50px;
+   height:15px;
+   margin:3px 0px 0px 0px; 
+}
+.wX_LabelDiscountCap
+{
+     width:75px;
+     height:20px;
+     float:left;
+     text-align:left;
+     overflow:hidden;
+     display:block;
+     border:solid 1px transparent; 
+
+     
+}
+.xW_LabelDocStatus
+{
+    width:190px;
+    height:20px;
+    /*border:solid 1px blue;*/
+    vertical-align :middle;
+}
+.wX_LabelGrandAECap
+{
+     width:75px;
+     height:20px;
+     float:left;
+     text-align:left;
+     overflow:hidden;
+     display:block;
+     border:solid 1px transparent; 
+}
+.xW_LabelGrandText
+{
+	width:520px;
+	height:53px;
+	margin:5px 5px 5px 5px;
+	background-color: Silver;
+	text-align:left;
+}
+.xW_LabelMenuName
+{
+   text-align:center;
+   vertical-align:inherit;
+  /* border-width:1px;
+   border-style: solid  solid solid  solid;*/
+   width:196px;
+   height:100%;
+   position :relative;
+   top:5px;
+  /* padding: 5px 0px 5px 0px;
+   margin: 5px 0px 5px 0px; */
+   
+}
+.xW_LableTelFaxCap
+{
+    width:50px;
+    height:20px;
+    float:left;
+    text-align:left;
+    padding:0px 0px 0px 2px;
+    vertical-align:middle;
+}
+.wX_LabelVATCap
+{
+     width:75px;
+     height:20px;
+     float:left;
+     text-align:left;
+     overflow:hidden;
+     display:block;
+     border:solid 1px transparent; 
+
+     
+}
+
+/*---------- #S ----------*/
+.xW_SelectDetail2
+{
+	width:93px;
+	height:20px;
+}
+.xW_SpanCaptionDocType
+{   text-align:left;
+    font-size:16px;
+    font-weight:bold;
+}
+.xW_SpanCaptionRadioBtn
+{   text-align:left;
+    font-size:14px;
+}
+
+/*---------- #T ----------*/
+.xW_TextAreaCstAddr
+{
+    border-style: none;
+	border-color: inherit;
+	border-width: 0;
+	margin:0px;
+	padding:0px 0px 0px 3px;
+	width :197px; 
+	height:69px; 
+}
+.xW_TextAreaRemark
+{
+	width:520px;
+	height:53px;
+	margin:5px 5px 5px 5px;
+	text-align:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+

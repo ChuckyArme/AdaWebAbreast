@@ -1,0 +1,429 @@
+﻿
+ .xW_ComboSize
+{
+	width:87px;
+	height:20px;
+	
+}
+
+.xW_DivDetailHDColumn1
+{
+    /*Div ใหญ่ของคอลัมน์ที่ 1*/
+    width:373px;
+    height:164px;
+    float:left;
+    border-width:1px;
+    border-style:solid solid solid solid;
+    margin:0px 1px 0px 0px;  
+    overflow:hidden;
+    display:block;
+}
+
+.xW_DivDetailHDColumn1PdtInfo
+{ 
+    /*Div ส่วนที่เป็นส่วนแสดงแหล่งที่มาของสินค้า อยู่ใน xW_DivDetailHDColumn1*/
+    width:369px;
+    height:70px;
+    float:none;
+    border-width:1px;
+    /*border-color:Gray;
+    border-style:solid solid solid solid;*/
+    margin:1px 1px 0px 1px;  
+    overflow:hidden;
+    display:block;
+}
+
+.xW_DivDetailHDColumn1PdtInfoCols1And2
+{ 
+     /*Div แบ่งความกว้างของคอลัมน์ที่ 1และ2 ใน xW_DivDetailHDColumn1PdtInfo */
+    width:90px;
+    height:80px;
+    float:left;
+    border-width:1px;
+   /* border-color:Gray;
+    border-style:solid solid solid solid;*/
+    margin:5px 1px 1px 0px;  
+    overflow:hidden;
+    display:block;
+}
+
+.xW_DivDetailHDColumn1PdtInfoCols3
+{ 
+    /*Div แบ่งความกว้างของคอลัมน์ที่ 3 ใน xW_DivDetailHDColumn1PdtInfo */
+    width:180px;
+    height:80px;
+    float:left;
+    border-width:1px;
+    /*border-color:Gray;
+    border-style:solid solid solid solid;*/
+    margin:5px 1px 1px 0px;  
+    overflow:hidden;
+    display:block;
+}
+
+.xW_DivDetailHDColumn1PdtInfoCap
+{ 
+    /*Div อยู่ใน xW_DivDetailHDColumn1*/
+    width:88px;
+    height:20px;
+    float:none;
+    border-width:1px;
+    border-color: inherit;
+    border-style:none;
+    padding:0px 0px 0px 5px;
+    margin:2px 1px 0px 0px;  
+    overflow:hidden;
+    display:block;
+}
+
+
+.xW_DivDetailHDColumn1PdtInfoInput
+{ 
+    /*Div อยู่ใน xW_DivDetailHDColumn1*/
+    width:88px;
+    height:20px;
+    float:none;
+    border-width:1px;
+    border-color: inherit;
+    border-style:none;
+    margin:1px 1px 0px 1px;  
+    overflow:hidden;
+    display:block;
+}
+
+.xW_DivDetailHDColumn1PdtLastUpdte
+{
+    /*Div ส่วนที่เป็นส่วนแสดงวันที่ที่ปรับปรุงสินค้าล่าสุด อยู่ใน xW_DivDetailHDColumn1*/
+    width:369px;
+    height:30px;
+    float:none;
+    border-width:1px;
+    /*border-color:Gray;
+    border-style:solid solid solid solid;*/
+    margin:0px 1px 1px 1px;  
+    overflow:hidden;
+    display:block;
+}
+
+.xW_DivDetailHDColumn1PdtLastUpdteCap
+{ 
+    /*Div อยู่ใน xW_DivDetailHDColumn1 ส่วนของปรับปรุงล่าสุด*/
+    width:130px;
+    height:22px;
+    float:left;
+    border-width:1px;
+    /*border-color: red;
+    border-style:solid;*/
+    vertical-align:middle;
+    padding:0px 0px 0px 5px;
+    margin:1px 1px 0px 0px;  
+    overflow:hidden;
+    display:block;
+}
+.xW_DivDetailHDColumn1PdtLastUpdteDate
+{ 
+    /*Div อยู่ใน xW_DivDetailHDColumn1 ส่วนของปรับปรุงล่าสุด*/
+    width:90px;
+    height:22px;
+    float:left;
+    border-width:1px;
+    /*border-color: red;
+    border-style:solid;*/
+    text-align:left;
+    vertical-align:middle;
+    padding:0px 0px 0px 1px;
+    margin:1px 1px 0px 0px;  
+    overflow:hidden;
+    display:block;
+}
+
+.xW_DivDetailHDColumn1PdtLastUpdteImportData
+ {
+    /* ปุ่มBrowse Data */
+ 	width:38px;
+ 	height:20px;
+ 	/*border:solid 1px red;*/
+ 	margin:1px 0px 0px 0px;
+ 	float:left;
+ 	vertical-align:middle !important;
+ 	text-align:center !important;
+ 	/*background-image:url('../../Content/img/imgHToolsBar/ImportData.gif');*/
+    background-repeat:no-repeat;
+    background-position:center  center;
+  }
+  
+  .xW_DivDetailHDColumn1PdtLastUpdteImportData a 
+{	display:block;
+	text-align:right;
+	color: white; /*text color*/
+	padding: 0px 0px;
+	border-right: 1px solid #564c66; /*dark purple divider between menu items*/
+	/*background:   silver url(../../Content/img/imgHToolsBar/ImportData.gif) center center repeat-x;*/
+}
+
+.xW_DivDetailHDColumn1PdtRemark
+{
+     /*Div ส่วนที่เป็นส่วนแสดงหมายเหตุ อยู่ใน xW_DivDetailHDColumn1*/
+    width:369px;
+    height:55px;
+    float:none;
+    border-width:1px;
+   /* border-color:Gray;
+    border-style:solid solid solid solid;*/
+    margin:0px 1px 0px 1px;  
+    overflow:hidden;
+    display:block;
+}
+
+.xW_DivDetailHDColumn1PdtRemarkCap
+{ 
+    /*Div อยู่ใน xW_DivDetailHDColumn1 ส่วนของหมายเหตุ*/
+    width:86px;
+    height:20px;
+    float:left;
+    border-width:1px;
+  /*  border-color: red;
+    border-style:solid;*/
+    padding:0px 0px 0px 5px;
+    margin:1px 1px 0px 0px;  
+    overflow:hidden;
+    display:block;
+}
+
+.xW_DivDetailHDColumn1PdtRemarkInput
+{ 
+    /*Div อยู่ใน xW_DivDetailHDColumn1*/
+    width:267px;
+    height:55px;
+    float:none;
+    border-width:1px;
+   /* border-color: red;
+    border-style:solid;*/
+    margin:1px 1px 0px 1px;  
+    overflow:hidden;
+    display:block;
+}
+
+.xW_DivDetailHDColumn1PdtRemarkInput textarea
+{
+    width:265px;
+    height:50px;
+    padding:0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+}
+
+.xW_DivDetailHDColumn2
+{
+    /*Div ใหญ่ของคอลัมน์ที่ 2*/
+    width:211px;
+    height:164px;
+    float:left;
+    border-width:1px;
+    border-style:solid solid solid solid;
+    margin:0px 1px 0px 0px;  
+    display:block;
+    overflow:hidden;
+}
+
+.xW_DivDetailHDColumn2Sub1
+{
+  
+    width:80px;
+    height:110px;
+    float:left;
+   /* border-width:1px;
+    border-style:solid solid solid solid;*/
+    margin:6px 1px 0px 1px;  
+    display:block;
+    overflow:hidden;
+}
+
+.xW_DivDetailHDColumn2Sub1Cap
+{
+  
+    width:74px;
+    height:20px;
+    float:left;
+   /* border-width:1px;
+    border-style:solid solid solid solid;*/
+    margin:1px 1px 0px 3px;  
+    display:block;
+    overflow:hidden;
+}
+
+.xW_DivDetailHDColumn2Sub2
+{
+    width:124px;
+    height:110px;
+    float:left;
+   /* border-width:1px;
+    border-style:solid solid solid solid;*/
+    margin:5px 1px 0px 0px;  
+    display:block;
+    overflow:hidden;
+}
+
+.xW_DivDetailHDColumn2Sub2CurrencyName
+{
+    width:124px;
+    height:200px;
+    float:left;
+   /* border-width:1px;
+    border-style:solid solid solid solid;*/
+    margin:1px 1px 0px 0px;  
+    display:block;
+    overflow:hidden;
+}
+
+.xW_DivDetailHDColumn2Sub2Input
+{
+    width:122px;
+    height:20px;
+    float:left;
+    border-width:1px;
+    border-style:none;
+    margin:2px 1px 0px 0px;  
+    display:block;
+    overflow:hidden;
+}
+
+.xW_DivDetailHDColumn2Sub2RefNo
+{
+    width:97px;
+    height:20px;
+    float:left;
+   /* border-width:1px;
+    border-color:Red;
+    border-style:solid solid solid solid;*/
+    margin:0px 1px 0px 0px;  
+    display:block;
+    overflow:hidden;
+}
+
+.xW_DivDetailHDDocActive
+{
+    /*Div ใหญ่ครอบเอกสารเคลื่อนไหว*/
+    width:211px;
+    height:20px;
+    float:left;
+  /*  border-width:1px;
+    border-style:solid solid solid solid;*/
+    margin:0px 1px 0px 0px;  
+    display:block;
+    overflow:hidden;
+}
+
+.xW_DivForInputTextSize40px
+{
+    width:44px;
+    height:20px;
+    float:left;
+   /* border-color:Red;
+    border-style:solid;*/
+    border-width:1px;
+    margin:0px 0px 0px 0px;  
+    overflow:hidden;
+    display:block;  
+}
+
+.xW_DivForInputTextSize50px
+{
+    width:54px;
+    height:20px;
+    float:left;
+   /* border-color:Red;
+    border-style:solid;*/
+    padding:0px 0px 0px 1px;
+    border-width:1px;
+    margin:0px 0px 0px 0px;  
+    overflow:hidden;
+    display:block;  
+}
+.xW_DivForInputTextSize60px
+{
+    width:65px;
+    height:20px;
+    float:left;
+    border-width:1px;
+    margin:0px 0px 0px 0px;  
+    overflow:hidden;
+    display:block;  
+}
+
+.xW_DivForInputTextSize177px
+{
+    width:177px;
+    height:20px;
+    float:none;
+    border-width:1px;
+    /*border-color:Red;
+    border-style:solid;*/
+    margin:1px 0px 0px 0px;  
+    overflow:hidden;
+    display:block;  
+}
+
+.xW_InputTextSize40px
+{
+    width:40px;
+    height:16px;
+    padding:0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+}
+
+.xW_InputTextSize50px
+{
+    width:50px;
+    height:16px;
+    padding:0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+}
+
+.xW_InputTextSize60px
+{
+    width:60px;
+    height:16px;
+    padding:0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+}
+
+
+.xW_InputTextSize93px
+{
+    width:93px;
+    height:16px;
+    padding:0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+}
+
+.xW_InputTextSize120px
+{
+    width:119px;
+    height:18px;
+    padding:0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+}
+
+.xW_InputTextSize177px
+{
+    width:175px;
+    height:18px;
+    padding:0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+}
+
+

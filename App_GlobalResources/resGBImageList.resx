@@ -1,0 +1,571 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="oimgBrowse" xml:space="preserve">
+    <value>~/Content/img/img24x24.png/Browse.png</value>
+  </data>
+  <data name="oimgdisabled_Openfile" xml:space="preserve">
+    <value>~/Content/img/img24x24.png/disabled_Openfile.png</value>
+  </data>
+  <data name="oimgdisabled_Save" xml:space="preserve">
+    <value>~/Content/img/img24x24.png/disabled_Save.png</value>
+  </data>
+  <data name="oimgGencode" xml:space="preserve">
+    <value>~/Content/img/Gencode.png</value>
+  </data>
+  <data name="oimgOpenfile" xml:space="preserve">
+    <value>~/Content/img/img24x24.png/Openfile.png</value>
+  </data>
+  <data name="oimgSave" xml:space="preserve">
+    <value>~/Content/img/img24x24.png/Save.png</value>
+  </data>
+  <data name="oimgUndo" xml:space="preserve">
+    <value>~/Content/img/Undo.png</value>
+  </data>
+  <data name="oimgDelete" xml:space="preserve">
+    <value>~/Content/Icon/onebit_33.png</value>
+  </data>
+  <data name="oimgNew" xml:space="preserve">
+    <value>~/Content/Icon/onebit_31.png</value>
+  </data>
+  <data name="oimgEdit" xml:space="preserve">
+    <value>~/Content/Icon/onebit_20.png</value>
+  </data>
+  <data name="oimgEdit_disabled" xml:space="preserve">
+    <value>~/Content/Icon/onebit_20.png</value>
+  </data>
+  <data name="oimgTextpreview" xml:space="preserve">
+    <value>~/Content/img/img24x24.png/Text preview.png</value>
+  </data>
+  <data name="oimgClose" xml:space="preserve">
+    <value>~/Content/img/img24x24.png/Exit.png</value>
+  </data>
+  <data name="oimgCoppy" xml:space="preserve">
+    <value>~/Content/img/img24x24.png/Copy.png</value>
+  </data>
+  <data name="oimgHelp" xml:space="preserve">
+    <value>~/Content/img/img24x24.png/Help book.png</value>
+  </data>
+  <data name="oimgPost" xml:space="preserve">
+    <value>~/Content/img/img24x24.png/post.png</value>
+  </data>
+  <data name="oimgReport" xml:space="preserve">
+    <value>~/Content/img/img24x24.png/List.png</value>
+  </data>
+  <data name="oimgSearch" xml:space="preserve">
+    <value>~/Content/img/img24x24.png/Search.png</value>
+  </data>
+  <data name="oimgCancel" xml:space="preserve">
+    <value>~/Content/img/Cancel.gif</value>
+  </data>
+  <data name="oimgTab1" xml:space="preserve">
+    <value>~/Content/img/Tab1.png</value>
+  </data>
+  <data name="oimgTab1_Disable" xml:space="preserve">
+    <value>~/Content/img/Tab1_Disable.png</value>
+  </data>
+  <data name="oimgTab2" xml:space="preserve">
+    <value>~/Content/img/Tab2.png</value>
+  </data>
+  <data name="oimgTab2_Disable" xml:space="preserve">
+    <value>~/Content/img/Tab2_Disable.png</value>
+  </data>
+  <data name="oimgTab3" xml:space="preserve">
+    <value>~/Content/img/Tab3.png</value>
+  </data>
+  <data name="oimgTab3_Disable" xml:space="preserve">
+    <value>~/Content/img/Tab3_Disable.png</value>
+  </data>
+  <data name="oimgAppv" xml:space="preserve">
+    <value>~/Content/img/img24x24.png/process_accept.png</value>
+  </data>
+  <data name="oimgNoAppv" xml:space="preserve">
+    <value>~/Content/img/img24x24.png/process.png</value>
+  </data>
+  <data name="oimgPCRemove" xml:space="preserve">
+    <value>~/Content/img/img24x24.png/process_remove.png</value>
+  </data>
+  <data name="oimgTab4" xml:space="preserve">
+    <value>~/Content/img/Tab4TH.png</value>
+  </data>
+  <data name="oimgTab4_Disable" xml:space="preserve">
+    <value>~/Content/img/Tab4TH_Disable.png</value>
+  </data>
+  <data name="oimgTab5" xml:space="preserve">
+    <value>~/Content/img/Tab5TH.png</value>
+  </data>
+  <data name="oimgTab5_Disable" xml:space="preserve">
+    <value>~/Content/img/Tab5TH_Disable.png</value>
+  </data>
+  <data name="oimgTab6" xml:space="preserve">
+    <value>~/Content/img/Tab6TH.png</value>
+  </data>
+  <data name="oimgTab6_Disable" xml:space="preserve">
+    <value>~/Content/img/Tab6TH_Disable.png</value>
+  </data>
+  <data name="oimgTab7" xml:space="preserve">
+    <value>~/Content/img/Tab7TH.png</value>
+  </data>
+  <data name="oimgTab7_Disable" xml:space="preserve">
+    <value>~/Content/img/Tab7TH_Disable.png</value>
+  </data>
+  <data name="oimgDetail" xml:space="preserve">
+    <value>~/Content/img/img24x24.png/Yes.png</value>
+  </data>
+  <data name="oimgTabButton" xml:space="preserve">
+    <value>~/Content/img/oimgTabButton.png</value>
+  </data>
+  <data name="oimgTabFootter" xml:space="preserve">
+    <value>~/Content/img/oimgTabFootter.png</value>
+  </data>
+  <data name="oimgTabFootter1" xml:space="preserve">
+    <value>~/Content/img/oimgTabFootter1.png</value>
+  </data>
+  <data name="oimgCNDNOtherTH" xml:space="preserve">
+    <value>~/Content/img/imgTCNMCst/oimgCNDNOtherTH.png</value>
+    <comment>'*PP 10-05-17</comment>
+  </data>
+  <data name="oimgCNDNOtherTH_Disable" xml:space="preserve">
+    <value>~/Content/img/imgTCNMCst/oimgCNDNOtherTH_Disable.png</value>
+    <comment>'*PP 10-05-17</comment>
+  </data>
+  <data name="oimgContractorTH" xml:space="preserve">
+    <value>~/Content/img/imgTCNMCst/oimgContractorTH.png</value>
+    <comment>'*PP 10-05-17</comment>
+  </data>
+  <data name="oimgContractorTH_Disable" xml:space="preserve">
+    <value>~/Content/img/imgTCNMCst/oimgContractorTH_Disable.png</value>
+    <comment>'*PP 10-05-17</comment>
+  </data>
+  <data name="oimgCreditNoteTH" xml:space="preserve">
+    <value>~/Content/img/imgTCNMCst/oimgCreditNoteTH.png</value>
+    <comment>'*PP 10-05-17</comment>
+  </data>
+  <data name="oimgCreditNoteTH_Disable" xml:space="preserve">
+    <value>~/Content/img/imgTCNMCst/oimgCreditNoteTH_Disable.png</value>
+    <comment>'*PP 10-05-17</comment>
+  </data>
+  <data name="oimgDebitNoteTH" xml:space="preserve">
+    <value>~/Content/img/imgTCNMCst/oimgDebitNoteTH.png</value>
+    <comment>'*PP 10-05-17</comment>
+  </data>
+  <data name="oimgDebitNoteTH_Disable" xml:space="preserve">
+    <value>~/Content/img/imgTCNMCst/oimgDebitNoteTH_Disable.png</value>
+    <comment>'*PP 10-05-17</comment>
+  </data>
+  <data name="oimgGeneralTH" xml:space="preserve">
+    <value>~/Content/img/imgTCNMCst/oimgGeneralTH.png</value>
+    <comment>'*PP 10-05-17</comment>
+  </data>
+  <data name="oimgGeneralTH_Disable" xml:space="preserve">
+    <value>~/Content/img/imgTCNMCst/oimgGeneralTH_Disable.png</value>
+    <comment>'*PP 10-05-17</comment>
+  </data>
+  <data name="oimgLineLeft" xml:space="preserve">
+    <value>~/Content/img/imgTCNMCst/oimgLineLeft.png</value>
+    <comment>'*PP 10-05-17</comment>
+  </data>
+  <data name="oimgLineMidle" xml:space="preserve">
+    <value>~/Content/img/imgTCNMCst/oimgLineMidle.png</value>
+    <comment>'*PP 10-05-17</comment>
+  </data>
+  <data name="oimgLineRigth" xml:space="preserve">
+    <value>~/Content/img/imgTCNMCst/oimgLineRigth.png</value>
+    <comment>'*PP 10-05-17</comment>
+  </data>
+  <data name="oimgLineTop" xml:space="preserve">
+    <value>~/Content/img/imgTCNMCst/oimgLineTop.png</value>
+    <comment>'*PP 10-05-17</comment>
+  </data>
+  <data name="oimgOtherDataTH" xml:space="preserve">
+    <value>~/Content/img/imgTCNMCst/oimgOtherDataTH.png</value>
+    <comment>'*PP 10-05-17</comment>
+  </data>
+  <data name="oimgOtherDataTH_Disable" xml:space="preserve">
+    <value>~/Content/img/imgTCNMCst/oimgOtherDataTH_Disable.png</value>
+    <comment>'*PP 10-05-17</comment>
+  </data>
+  <data name="oimgOtherNoteTH" xml:space="preserve">
+    <value>~/Content/img/imgTCNMCst/oimgOtherNoteTH.png</value>
+    <comment>'*PP 10-05-17</comment>
+  </data>
+  <data name="oimgOtherNoteTH_Disable" xml:space="preserve">
+    <value>~/Content/img/imgTCNMCst/oimgOtherNoteTH_Disable.png</value>
+    <comment>'*PP 10-05-17</comment>
+  </data>
+  <data name="oimgRetailHistTH" xml:space="preserve">
+    <value>~/Content/img/imgTCNMCst/oimgRetailHistTH.png</value>
+    <comment>'*PP 10-05-17</comment>
+  </data>
+  <data name="oimgRetailHistTH_Disable" xml:space="preserve">
+    <value>~/Content/img/imgTCNMCst/oimgRetailHistTH_Disable.png</value>
+    <comment>'*PP 10-05-17</comment>
+  </data>
+  <data name="oimgShipPlaceTH" xml:space="preserve">
+    <value>~/Content/img/imgTCNMCst/oimgShipPlaceTH.png</value>
+    <comment>'*PP 10-05-17</comment>
+  </data>
+  <data name="oimgShipPlaceTH_Disable" xml:space="preserve">
+    <value>~/Content/img/imgTCNMCst/oimgShipPlaceTH_Disable.png</value>
+    <comment>'*PP 10-05-17</comment>
+  </data>
+  <data name="oimgWholesaleHistTH" xml:space="preserve">
+    <value>~/Content/img/imgTCNMCst/oimgWholesaleHistTH.png</value>
+    <comment>'*PP 10-05-17</comment>
+  </data>
+  <data name="oimgWholesaleHistTH_Disable" xml:space="preserve">
+    <value>~/Content/img/imgTCNMCst/oimgWholesaleHistTH_Disable.png</value>
+    <comment>'*PP 10-05-17</comment>
+  </data>
+  <data name="oimgLineConner1" xml:space="preserve">
+    <value>~/Content/img/imgTCNMCst/oimgLineConner1.png</value>
+    <comment>'*PP 10-05-17</comment>
+  </data>
+  <data name="oimgLineConner2" xml:space="preserve">
+    <value>~/Content/img/imgTCNMCst/oimgLineConner2.png</value>
+    <comment>'*PP 10-05-17</comment>
+  </data>
+  <data name="oimgLineConner11" xml:space="preserve">
+    <value>~/Content/img/imgTab/oimgLineConner1.png</value>
+    <comment>'*PP 10-06-10</comment>
+  </data>
+  <data name="oimgLineConner21" xml:space="preserve">
+    <value>~/Content/img/imgTab/oimgLineConner2.png</value>
+    <comment>'*PP 10-06-10</comment>
+  </data>
+  <data name="oimgLineLeft1" xml:space="preserve">
+    <value>~/Content/img/imgTab/oimgLineLeft.png</value>
+    <comment>'*PP 10-06-10</comment>
+  </data>
+  <data name="oimgLineMidle1" xml:space="preserve">
+    <value>~/Content/img/imgTab/oimgLineMidle.png</value>
+    <comment>'*PP 10-06-10</comment>
+  </data>
+  <data name="oimgLineRigth1" xml:space="preserve">
+    <value>~/Content/img/imgTab/oimgLineRigth.png</value>
+    <comment>'*PP 10-06-10</comment>
+  </data>
+  <data name="oimgLineTop1" xml:space="preserve">
+    <value>~/Content/img/imgTab/oimgLineTop.png</value>
+    <comment>'*PP 10-06-10</comment>
+  </data>
+  <data name="oimgTabActive_110x20" xml:space="preserve">
+    <value>~/Content/img/imgTab/oimgTabActive_110x20.png</value>
+    <comment>'*PP 10-06-10</comment>
+  </data>
+  <data name="oimgTabActive_130x20" xml:space="preserve">
+    <value>~/Content/img/imgTab/oimgTabActive_130x20.png</value>
+    <comment>'*PP 10-06-10</comment>
+  </data>
+  <data name="oimgTabActive_80x20" xml:space="preserve">
+    <value>~/Content/img/imgTab/oimgTabActive_80x20.png</value>
+    <comment>'*PP 10-06-10</comment>
+  </data>
+  <data name="oimgTabUnActive_110x20" xml:space="preserve">
+    <value>~/Content/img/imgTab/oimgTabUnActive_110x20.png</value>
+    <comment>'*PP 10-06-10</comment>
+  </data>
+  <data name="oimgTabUnActive_130x20" xml:space="preserve">
+    <value>~/Content/img/imgTab/oimgTabUnActive_130x20.png</value>
+    <comment>'*PP 10-06-10</comment>
+  </data>
+  <data name="oimgTabUnActive_80x20" xml:space="preserve">
+    <value>~/Content/img/imgTab/oimgTabUnActive_80x20.png</value>
+    <comment>'*PP 10-06-10</comment>
+  </data>
+  <data name="oimgTop" xml:space="preserve">
+    <value>~/Content/img/imgTab/oimgTop.png</value>
+    <comment>'*PP 10-06-10</comment>
+  </data>
+  <data name="oimgBgbtnActive" xml:space="preserve">
+    <value>~/Content/img/imgbtn/oimgBgbtnActive.png</value>
+    <comment>'*PP 10-05-18</comment>
+  </data>
+  <data name="oimgBgbtnUnActive" xml:space="preserve">
+    <value>~/Content/img/imgbtn/oimgBgbtnUnActive.png</value>
+    <comment>'*PP 10-05-18</comment>
+  </data>
+  <data name="oimgTabNoSent_DisEN" xml:space="preserve">
+    <value>~/Content/img/oimgSoHD/TabNoSent_DisEN.png</value>
+  </data>
+  <data name="oimgTabNoSent_DisTH" xml:space="preserve">
+    <value>~/Content/img/oimgSoHD/TabNoSent_DisTH.png</value>
+  </data>
+  <data name="oimgTabNoSent_EnEN" xml:space="preserve">
+    <value>~/Content/img/oimgSoHD/TabNoSent_EnEN.png</value>
+  </data>
+  <data name="oimgTabNoSent_EnTH" xml:space="preserve">
+    <value>~/Content/img/oimgSoHD/TabNoSent_EnTH.png</value>
+  </data>
+  <data name="oimgTabPO_DisEN" xml:space="preserve">
+    <value>~/Content/img/oimgSoHD/TabPO_DisEN.png</value>
+  </data>
+  <data name="oimgTabPO_DisTH" xml:space="preserve">
+    <value>~/Content/img/oimgSoHD/TabPO_DisTH.png</value>
+  </data>
+  <data name="oimgTabPO_EnEN" xml:space="preserve">
+    <value>~/Content/img/oimgSoHD/TabPO_EnEN.png</value>
+  </data>
+  <data name="oimgTabPO_EnTH" xml:space="preserve">
+    <value>~/Content/img/oimgSoHD/TabPO_EnTH.png</value>
+  </data>
+  <data name="oimgTabRec_DisEN" xml:space="preserve">
+    <value>~/Content/img/oimgSoHD/TabNoRec_DisEN.png</value>
+  </data>
+  <data name="oimgTabRec_DisTH" xml:space="preserve">
+    <value>~/Content/img/oimgSoHD/TabNoRec_DisTH.png</value>
+  </data>
+  <data name="oimgTabRec_EnEN" xml:space="preserve">
+    <value>~/Content/img/oimgSoHD/TabNoRec_EnEN.png</value>
+  </data>
+  <data name="oimgTabRec_EnTH" xml:space="preserve">
+    <value>~/Content/img/oimgSoHD/TabNoRec_EnTH.png</value>
+  </data>
+  <data name="oimgTabRemark_DisEN" xml:space="preserve">
+    <value>~/Content/img/oimgSoHD/TabRemak_DisEN.png</value>
+  </data>
+  <data name="oimgTabRemark_DisTH" xml:space="preserve">
+    <value>~/Content/img/oimgSoHD/TabRemak_DisTH.png</value>
+  </data>
+  <data name="oimgTabRemark_EnEN" xml:space="preserve">
+    <value>~/Content/img/oimgSoHD/TabRemak_EnEN.png</value>
+  </data>
+  <data name="oimgTabRemark_EnTH" xml:space="preserve">
+    <value>~/Content/img/oimgSoHD/TabRemak_EnTH.png</value>
+  </data>
+  <data name="oimgTabSale_DisEN" xml:space="preserve">
+    <value>~/Content/img/oimgSoHD/TabSale_DisEN.png</value>
+  </data>
+  <data name="oimgTabSale_DisTH" xml:space="preserve">
+    <value>~/Content/img/oimgSoHD/TabSale_DisTH.png</value>
+  </data>
+  <data name="oimgTabSale_EnEN" xml:space="preserve">
+    <value>~/Content/img/oimgSoHD/TabSale_EnEN.png</value>
+  </data>
+  <data name="oimgTabSale_EnTH" xml:space="preserve">
+    <value>~/Content/img/oimgSoHD/TabSale_EnTH.png</value>
+  </data>
+  <data name="oimgTabShipVia_DisEN" xml:space="preserve">
+    <value>~/Content/img/oimgSoHD/TabShip_DisEN.png</value>
+  </data>
+  <data name="oimgTabShipVia_DisTH" xml:space="preserve">
+    <value>~/Content/img/oimgSoHD/TabShip_DisTH.png</value>
+  </data>
+  <data name="oimgTabShipVia_EnEN" xml:space="preserve">
+    <value>~/Content/img/oimgSoHD/TabShip_EnEN.png</value>
+  </data>
+  <data name="oimgTabShipVia_EnTH" xml:space="preserve">
+    <value>~/Content/img/oimgSoHD/TabShip_ENTH.png</value>
+  </data>
+  <data name="oimgBg001" xml:space="preserve">
+    <value>~/Content/img/imgBG/oimgBg001.png</value>
+    <comment>'*PP 10-06-22</comment>
+  </data>
+  <data name="oimgLockDisable" xml:space="preserve">
+    <value>~/Content/img/img24x24.png/LockDisable.png</value>
+    <comment>*Khem 53-07-31</comment>
+  </data>
+  <data name="oimgRefresh" xml:space="preserve">
+    <value>~/Content/img/img24x24.png/Refresh.png</value>
+    <comment>'*Khem 10-08-09</comment>
+  </data>
+  <data name="oimgEdit2" xml:space="preserve">
+    <value>~/Content/img/img24x24.png/Edit.gif</value>
+    <comment>'*Khem 10-08-10</comment>
+  </data>
+  <data name="oimgEdit2_Disable" xml:space="preserve">
+    <value>~/Content/img/img24x24.png/Edit_Disable.gif</value>
+    <comment>'*Khem 10-08-10</comment>
+  </data>
+  <data name="oimgPost_Disable" xml:space="preserve">
+    <value>~/Content/img/img24x24.png/post_Disable.gif</value>
+    <comment>'*Khem 10-08-10</comment>
+  </data>
+  <data name="oimgRefresh_Disable" xml:space="preserve">
+    <value>~/Content/img/img24x24.png/Refresh_Disable.gif</value>
+    <comment>'*Khem 10-08-10</comment>
+  </data>
+  <data name="oimgSave_Disable" xml:space="preserve">
+    <value>~/Content/img/img24x24.png/Save_Disable.gif</value>
+    <comment>'*Khem 10-08-10</comment>
+  </data>
+  <data name="oimgSelectPic" xml:space="preserve">
+    <value>~/Content/img/b-download.gif</value>
+    <comment>'*PP 10-08-23</comment>
+  </data>
+  <data name="oimgComingSoon" xml:space="preserve">
+    <value>~/Content/img/ComingSoon.png</value>
+    <comment>'*PP 10-05-23</comment>
+  </data>
+  <data name="oimgDesign" xml:space="preserve">
+    <value>~/Content/img/imgIcon32x32/ico3-32x32.png</value>
+  </data>
+  <data name="oimgDefault" xml:space="preserve">
+    <value>~/Content/img/imgIcon32x32/ico1-32x32.png</value>
+  </data>
+  <data name="oimgSaveData" xml:space="preserve">
+    <value>~/Content/img/imgIcon48x48/SaveData.png</value>
+  </data>
+  <data name="oimgDump" xml:space="preserve">
+    <value>~/Content/img/imgIcon24x24/Dump.png</value>
+    <comment>*CH 10-10-2012</comment>
+  </data>
+  <data name="oimgDumpLock" xml:space="preserve">
+    <value>~/Content/img/imgIcon24x24/DumpLock.png</value>
+    <comment>*CH 10-10-2012</comment>
+  </data>
+  <data name="oimgSelectAll" xml:space="preserve">
+    <value>~/Content/img/imgIcon16x16/Check_16x16.png</value>
+  </data>
+  <data name="oimgSelectNone" xml:space="preserve">
+    <value>~/Content/img/imgIcon16x16/Delete_16x16.png</value>
+  </data>
+  <data name="oimgCreate" xml:space="preserve">
+    <value>~/Content/img/img24x24.png/Create.png</value>
+    <comment>*CH 19-11-2012</comment>
+  </data>
+  <data name="oimDelete" xml:space="preserve">
+    <value>~/Content/img/img24x24.png/Delete.png</value>
+    <comment>*CH 19-11-2012</comment>
+  </data>
+  <data name="oimNo" xml:space="preserve">
+    <value>~/Content/img/img24x24.png/No.png</value>
+    <comment>*CH 19-11-2012</comment>
+  </data>
+  <data name="oimYes" xml:space="preserve">
+    <value>~/Content/img/img24x24.png/Yes.png</value>
+    <comment>*CH 19-11-2012</comment>
+  </data>
+  <data name="oimgBrwLock" xml:space="preserve">
+    <value>~/Content/img/imgBttn/BrowseLock.png</value>
+    <comment>*CH 12-12-12</comment>
+  </data>
+  <data name="oimgGenLock" xml:space="preserve">
+    <value>~/Content/img/imgBttn/GencodeLock.png</value>
+    <comment>*CH 12-12-12</comment>
+  </data>
+  <data name="oimgCreateLock" xml:space="preserve">
+    <value>~/Content/img/imgBttn/CreateLock.png</value>
+    <comment>*CH 13-12-2012</comment>
+  </data>
+  <data name="oimgChangeValue" xml:space="preserve">
+    <value>~/Content/img/imgBttn/calculator.png</value>
+    <comment>*CH 18-12-2012</comment>
+  </data>
+</root>

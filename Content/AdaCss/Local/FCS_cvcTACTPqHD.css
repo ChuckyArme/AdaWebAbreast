@@ -1,0 +1,166 @@
+﻿.xW_DivDetailHDDocNo
+{
+    /*Div ใหญ่ของรายละเอียดเลขที่เอกสาร*/
+    width:224px;
+    height:auto;
+    float:right;
+    border-width:1px;  
+    border-style:solid solid solid solid;
+    margin:3px 0px 0px 0px;  
+    padding :0px 0px 3px 0px;
+}
+.xW_DivDocNo
+{
+    height:120px;
+    width:218px;
+    /*border:solid 1px red;*/
+    padding:0px;
+    margin:3px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+}
+.xW_DivDocNoColumn1
+{
+    height:120px;
+    width:80px;
+    border:solid 0px transparent;
+    padding:0px;
+    float:left;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+}
+.xW_DivDocNoColumn1Caption
+{
+    height:20px;
+    width:75px;
+    /*border:solid 1px blue;*/
+    padding:0px;
+    margin:2px 0px 0px 3px; 
+    vertical-align:middle;
+    text-align:left;
+    float:left;
+}
+.xW_DivDocNoColumn2
+{
+    height:120px;
+    width:114px;
+    border:solid 0px transparent;
+    padding:0px;
+    float:left;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+}
+.xW_DivDocNoColumn2Sub
+{
+    height:20px;
+    width:113px;
+    /*border:solid 1px red;*/
+    padding:0px;
+    margin:2px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+    float:left;
+}
+.xW_DivDocNoColumn3
+{
+    height:120px;
+    width:22px;
+    border:solid 0px transparent;
+    padding:0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+    float:left;
+}
+.xW_DivDocNoColumn3Sub
+{
+    height:20px;
+    width:20px;
+    border:solid 0px transparent;
+    padding:0px;
+    margin:2px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+
+}
+.xW_DivDocName
+{
+    height:35px;
+    width:253px;
+    border-width:1px;
+    border-style: none solid solid solid;
+    padding:0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:center;
+}
+.xW_DivMainMenu 
+{  
+    /*Div ใหญ่สุดของเมนูด้านบน 
+      สำหรับบรรจุ Div เมนู และสถานะเอกสาร*/
+	width:auto;
+	height:55px;
+	padding:0px;
+	margin:1px 5px 1px 5px;
+	border-width:1px;
+
+} 
+
+.xW_DivMenuNameSub
+{
+    height:33px;
+    width:auto;
+    /*border:solid 1px red;*/
+    padding:0px;
+    margin:0px 5px 0px 5px; 
+    vertical-align:middle;
+    text-align:center;
+}
+
+.xW_InputTextDocNo
+{
+    height:18px;
+    width:110px;
+    border:solid 1px silver;
+    padding:0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+    float:left;
+}
+.xW_InputTextShwDetailName
+{
+   text-align:left;
+   vertical-align:middle;
+   border:solid 1px silver;
+   width:111px;
+   height:16px;
+   padding: 0px 0px 2px 0px;
+   margin: 0px 0px 2px 0px; 
+   
+}
+
+/*---------- #L ----------*/
+.xW_LabelMenuName
+{
+   text-align:center;
+   vertical-align:inherit;
+  /* border-width:1px;
+   border-style: solid  solid solid  solid;*/
+   width:196px;
+   height:100%;
+   position :relative;
+   top:5px;
+  /* padding: 5px 0px 5px 0px;
+   margin: 5px 0px 5px 0px; */
+   
+}
+
+.xW_TextareaRmk
+{
+    width:210px;
+    height:300px;
+    margin:0px 0px 0px 3px;
+}

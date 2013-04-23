@@ -1,0 +1,769 @@
+﻿
+ .xW_ComboSize
+{
+	width:87px;
+	height:20px;
+	
+}
+
+.xW_DivDetailHDColumn1
+{
+    /*Div ใหญ่ของคอลัมน์ที่ 1*/
+    width:480px;
+    height:164px;
+    float:left;
+    border-width:1px;
+    border-style:solid solid solid solid;
+    margin:0px 1px 0px 0px;  
+    overflow:hidden;
+    display:block;
+}
+
+.xW_DivDetailHDColumn1PdtInfo
+{ 
+    /*Div ส่วนที่เป็นส่วนแสดงแหล่งที่มาของสินค้า อยู่ใน xW_DivDetailHDColumn1*/
+    width:369px;
+    height:70px;
+    float:none;
+    border-width:1px;
+    /*border-color:Gray;
+    border-style:solid solid solid solid;*/
+    margin:1px 1px 0px 1px;  
+    overflow:hidden;
+    display:block;
+}
+
+.xW_DivDetailHDColumn1PdtInfoCols1And2
+{ 
+     /*Div แบ่งความกว้างของคอลัมน์ที่ 1และ2 ใน xW_DivDetailHDColumn1PdtInfo */
+    width:90px;
+    height:80px;
+    float:left;
+    border-width:1px;
+   /* border-color:Gray;
+    border-style:solid solid solid solid;*/
+    margin:5px 1px 1px 0px;  
+    overflow:hidden;
+    display:block;
+}
+
+.xW_DivDetailHDColumn1PdtInfoCols3
+{ 
+    /*Div แบ่งความกว้างของคอลัมน์ที่ 3 ใน xW_DivDetailHDColumn1PdtInfo */
+    width:180px;
+    height:80px;
+    float:left;
+    border-width:1px;
+    /*border-color:Gray;
+    border-style:solid solid solid solid;*/
+    margin:5px 1px 1px 0px;  
+    overflow:hidden;
+    display:block;
+}
+
+.xW_DivDetailHDColumn1PdtInfoCap
+{ 
+    /*Div อยู่ใน xW_DivDetailHDColumn1*/
+    width:88px;
+    float:left;
+    margin:2px 1px 0px 0px;  
+}
+
+
+.xW_DivDetailHDColumn1PdtInfoInput
+{ 
+    /*Div อยู่ใน xW_DivDetailHDColumn1*/
+    width:88px;
+    height:20px;
+    float:none;
+    border-width:1px;
+    border-color: inherit;
+    border-style:none;
+    margin:1px 1px 0px 1px;  
+    overflow:hidden;
+    display:block;
+}
+
+.xW_DivDetailHDColumn1PdtLastUpdte
+{
+    /*Div ส่วนที่เป็นส่วนแสดงวันที่ที่ปรับปรุงสินค้าล่าสุด อยู่ใน xW_DivDetailHDColumn1*/
+    width:auto;
+    height:25px;
+    border:solid 1px Gray;
+    margin:5px 5px 5px 5px;  
+    padding:1px 1px 1px 35px;  
+    vertical-align:bottom;
+}
+
+.xW_DivDetailHDColumn1PdtLastUpdteCap
+{ 
+    /*Div อยู่ใน xW_DivDetailHDColumn1 ส่วนของปรับปรุงล่าสุด*/
+    width:130px;
+    height:22px;
+    float:left;
+    border-width:1px;
+    /*border-color: red;
+    border-style:solid;*/
+    vertical-align:middle;
+    padding:0px 0px 0px 5px;
+    margin:1px 1px 0px 0px;  
+    overflow:hidden;
+    display:block;
+}
+.xW_DivDetailHDColumn1PdtLastUpdteDate
+{ 
+    /*Div อยู่ใน xW_DivDetailHDColumn1 ส่วนของปรับปรุงล่าสุด*/
+    width:105px;
+    height:22px;
+    float:left;
+    border-width:1px;
+    /*border-color: red;
+    border-style:solid;*/
+    text-align:left;
+    vertical-align:middle;
+    padding:0px 0px 0px 1px;
+    margin:1px 1px 0px 0px;  
+    overflow:hidden;
+    display:block;
+}
+
+.xW_DivDetailHDColumn1PdtLastUpdteImportData
+ {
+    /* ปุ่มBrowse Data */
+ 	width:38px;
+ 	height:20px;
+ 	/*border:solid 1px red;*/
+ 	margin:0px 0px 0px 0px;
+ 	float:left;
+ 	vertical-align:middle !important;
+ 	text-align:center !important;
+ 	background-repeat:no-repeat;
+    background-position:center  center;
+  }
+  
+  .xW_DivDetailHDColumn1PdtLastUpdteImportData a 
+{	display:block;
+	text-align:right;
+	color: white; /*text color*/
+	padding: 0px 0px;
+	border-right: 1px solid #564c66; /*dark purple divider between menu items*/
+	/*background:   silver url(../../Content/img/imgHToolsBar/ImportData.gif) center center repeat-x;*/
+}
+
+.xW_DivDetailHDColumn1PdtRemark
+{
+     /*Div ส่วนที่เป็นส่วนแสดงหมายเหตุ อยู่ใน xW_DivDetailHDColumn1*/
+    width:auto;
+    height:auto;
+    float:none;
+    border-width:1px;
+   /* border-color:Gray;
+    border-style:solid solid solid solid;*/
+    margin:0px 1px 0px 1px;  
+    overflow:hidden;
+    display:block;
+}
+
+.xW_DivDetailHDColumn1PdtRemarkCap
+{ 
+    /*Div อยู่ใน xW_DivDetailHDColumn1 ส่วนของหมายเหตุ*/
+    width:86px;
+    float:left;
+    border-width:1px;
+  /*  border-color: red;
+    border-style:solid;*/
+    padding:0px 0px 0px 5px;
+    margin:1px 0px 0px 0px;  
+    overflow:hidden;
+    display:block;
+}
+
+.xW_DivDetailHDColumn1PdtRemarkInput
+{ 
+    /*Div อยู่ใน xW_DivDetailHDColumn1*/
+    width:auto;
+    height:auto;
+    float:none;
+    border-width:1px;
+   /* border-color: red;
+    border-style:solid;*/
+    margin:1px 1px 0px 1px;  
+    display:block;
+}
+
+.xW_DivDetailHDColumn1PdtRemarkInput textarea
+{
+    width:370px;
+    height:25px;
+    padding:0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+}
+
+.xW_DivDetailHDColumn2
+{
+    /*Div ใหญ่ของคอลัมน์ที่ 2*/
+    width:225px;
+    height:164px;
+    float:left;
+    border-width:1px;
+    border-style:solid solid solid solid;
+    margin:0px 1px 0px 0px;  
+    display:block;
+    overflow:hidden;
+}
+
+.xW_DivDetailHDColumn2Sub1
+{
+  
+    width:80px;
+    height:110px;
+    float:left;
+   /* border-width:1px;
+    border-style:solid solid solid solid;*/
+    margin:6px 1px 0px 1px;  
+    display:block;
+    overflow:hidden;
+}
+
+.xW_DivDetailHDColumn2Sub1Cap
+{
+  
+    width:74px;
+    height:20px;
+    float:left;
+   /* border-width:1px;
+    border-style:solid solid solid solid;*/
+    margin:1px 1px 0px 3px;  
+    display:block;
+    overflow:hidden;
+}
+
+.xW_DivDetailHDColumn2Sub2
+{
+    width:124px;
+    height:110px;
+    float:left;
+   /* border-width:1px;
+    border-style:solid solid solid solid;*/
+    margin:5px 1px 0px 0px;  
+    display:block;
+    overflow:hidden;
+}
+
+.xW_DivDetailHDColumn2Sub2CurrencyName
+{
+    width:124px;
+    height:200px;
+    float:left;
+   /* border-width:1px;
+    border-style:solid solid solid solid;*/
+    margin:1px 1px 0px 0px;  
+    display:block;
+    overflow:hidden;
+}
+
+.xW_DivDetailHDColumn2Sub2Input
+{
+    width:122px;
+    height:20px;
+    float:left;
+    border-width:1px;
+    border-style:none;
+    margin:2px 1px 0px 0px;  
+    display:block;
+    overflow:hidden;
+}
+
+.xW_DivDetailHDColumn2Sub2RefNo
+{
+    width:97px;
+    height:20px;
+    float:left;
+   /* border-width:1px;
+    border-color:Red;
+    border-style:solid solid solid solid;*/
+    margin:0px 1px 0px 0px;  
+    display:block;
+    overflow:hidden;
+}
+
+.xW_DivDetailHDDocActive
+{
+    /*Div ใหญ่ครอบเอกสารเคลื่อนไหว*/
+    width:211px;
+    height:20px;
+    float:left;
+  /*  border-width:1px;
+    border-style:solid solid solid solid;*/
+    margin:0px 1px 0px 0px;  
+    display:block;
+    overflow:hidden;
+}
+
+.xW_DivForInputTextSize40px
+{
+    width:44px;
+    height:20px;
+    float:left;
+   /* border-color:Red;
+    border-style:solid;*/
+    border-width:1px;
+    margin:0px 0px 0px 0px;  
+    overflow:hidden;
+    display:block;  
+}
+
+.xW_DivForInputTextSize50px
+{
+    width:54px;
+    height:20px;
+    float:left;
+   /* border-color:Red;
+    border-style:solid;*/
+    padding:0px 0px 0px 1px;
+    border-width:1px;
+    margin:0px 0px 0px 0px;  
+    overflow:hidden;
+    display:block;  
+}
+.xW_DivForInputTextSize60px
+{
+    width:65px;
+    float:left;
+    border-width:1px;
+    margin:0px 0px 0px 0px;  
+}
+
+.xW_DivForInputTextSize1
+{
+    width:auto;
+    height:20px;
+    float:none;
+    border-width:1px;
+    /*border-color:Red;
+    border-style:solid;*/
+    margin:1px 0px 0px 0px;  
+    overflow:hidden;
+    display:block;  
+}
+
+.xW_InputTextSize40px
+{
+    width:40px;
+    height:16px;
+    padding:0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+}
+
+.xW_InputTextSize50px
+{
+    width:50px;
+    height:16px;
+    padding:0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+}
+
+.xW_InputTextSize2
+{
+    width:60px;
+    height:16px;
+    padding:0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+}
+
+
+.xW_InputTextSize93px
+{
+    width:93px;
+    height:16px;
+    padding:0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+}
+
+.xW_InputTextSize120px
+{
+    width:117px;
+    height:18px;
+    padding:0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+}
+
+.xW_InputTextSize1
+{
+    width:280px;
+    height:18px;
+    padding:0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+}
+.xW_DivCol1Row
+{
+    margin-top:2px;
+}
+.xW_DivAddPdt
+{
+     /*Div ใหญ่สุดสำหรับคีย์รายละเอียดสินค้า*/
+    height:40px;
+    float:none;
+    margin:3px 0px 0px 0px;  
+}
+.xW_DivDetailFooterHis 
+{
+     /*Div ใหญ่สุดของรายละเอียด Footer*/
+    /*width:auto;
+    height:auto;*/
+    width:658px;
+    height:142px;
+    float:left;
+    border:solid 1px transparent;  
+    margin:1px 1px 0px 0px;  
+    overflow:hidden;
+    display:block;
+}
+.xW_DivDetailFooterHisRemarkTop
+{
+	width:auto;
+	height:65px;
+	padding:0px;
+	margin:0px 0px 0px 0px;
+	table-layout:fixed;
+	text-align:left;
+}
+/*.xW_DivDetailFooterHisRemarkTop textarea
+{
+	width:630px;
+	height:53px;
+	margin:5px 5px 5px 5px;
+	text-align:left;
+}*/
+.xW_DivDetailFooterHisRemark
+{
+    width:540px;
+	height:115px;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	vertical-align:top;
+	/*width:655px;
+	height:136px;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	vertical-align:top;
+	overflow:hidden;
+	display:block;*/
+
+}
+.xCN_DivDetailFooterCalNet
+{
+   /* Div ใหญ่สุดของรายละเอียด Footer*/
+    width:272px;
+    height:137px;
+    float:right;
+    border-width:1px;  
+    margin:0px 0px  0px 0px;  
+    border-style:none solid solid solid;
+}
+.xW_DivDetailFooterHisRemarkBottom
+{
+	/*width:630px;
+	height:25px;*/
+	padding:0px;
+	/*margin:5px 5px 5px 5px;*/
+	border-bottom-style:solid solid solid solid;
+	border-width:1px;
+	background-color: Silver;
+	vertical-align:middle;
+	overflow:hidden;
+	display:block;
+	
+	width:auto;
+	height:25px;
+	margin:5px 0px 0px 0px;
+	border-color:Yellow;
+	table-layout:fixed;
+	vertical-align:middle;
+}
+.xW_DivAddPdtCodeMain
+{
+     /*width:auto;*/
+     width:inherit;
+     height:40px;
+     float:left;
+     /*border-color:Red;*/
+     margin :0px 0px 1px 0px;
+     overflow:hidden;
+     display:block;
+     border-width:1px;
+     border-style: solid  solid solid  solid;
+     
+}
+.wX_InputColumnPdtCode
+{
+     height:100%;
+     width:115px;/*95px;*//*CH 07-01-2013*/
+     text-align:left;
+     /*margin-right:0px;*/
+     margin:0px;
+     padding:0px;
+     border:none 0px ;
+     /*border-style:none none none none;*/
+}
+.xW_DivAddPdtCode
+{
+     width:auto;
+     height:auto;
+     text-align:left;
+     border-width:1px;
+    
+}
+.xW_DivAddPdtCodeData
+{
+     width:auto;
+     height:auto;
+     float:left;
+     text-align:left;
+    /* overflow:hidden;
+     display:block;*/
+         
+}
+
+.xW_DivAddPdtCodeData input
+{
+     width:112px;
+     height:20px;
+     font:left;
+     float:left;
+     text-align:left;
+     border-width:1px;
+     border-style:none none none none;
+}
+.xW_DivAddPdtNameMain
+{
+     width:auto;
+     height:40px;
+     margin :0px 0px 1px 0px;
+     overflow:hidden;
+     display:block;
+     float:left;
+     border-width:1px;
+     border-style: solid  solid solid none;
+     
+}
+.xW_DivAddPdtNameData
+{
+     width:auto;
+     height:auto;
+     float:left;
+     text-align:left;
+    /* overflow:hidden;
+     display:block;*/
+         
+}
+
+.xW_DivAddPdtNameData input
+{
+     width:155px;
+     height:20px;
+     font:left;
+     float:left;
+     text-align:left;
+     border-width:1px;
+     border-style:none none none none;
+}
+.xW_DivAddPdtUnitNameMain
+{
+     width:auto;
+     height:40px;
+     margin :0px 0px 1px 0px;
+     float:left;
+     overflow:hidden;
+     display:block;
+     border-width:1px;
+     border-style: solid  solid solid none;
+     
+}
+.xW_DivAddPdtUnitNameData
+{
+     width:auto;
+     height:auto;
+     float:left;
+     text-align:left;
+    /* overflow:hidden;
+     display:block;*/
+         
+}
+
+.xW_DivAddPdtUnitNameData select
+{
+     width:100px;
+     height:20px;
+     font:left;
+     float:left;
+     text-align:left;
+     border-width:1px;
+     border-style:none none none none;
+}
+.xW_DivAddPdtQtyMain
+{
+     width:auto;
+     height:40px;
+     margin :0px 0px 1px 0px;
+     overflow:hidden;
+     display:block;
+     float:left;
+     border-width:1px;
+     border-style: solid  solid solid none;
+     
+}
+.xW_DivAddPdtQtyData
+{
+     width:auto;
+     height:auto;
+     float:left;
+   /*  text-align:left;
+     overflow:hidden;
+     display:block;*/
+         
+}
+
+.xW_DivAddPdtQtyData input
+{
+     width:100px;
+     height:20px;
+     font:left;
+     float:left;
+     text-align:right;
+     border-width:1px;
+     border-style:none none none none;
+}
+.xW_DivAddPdtUnitPriceMain
+{
+     width:auto;
+     height:40px;
+     margin :0px 0px 1px 0px;
+     overflow:hidden;
+     display:block;
+     float:left;
+     border-width:1px;
+     border-style: solid  solid solid none;
+     
+}
+.xW_DivAddPdtUnitPriceData
+{
+     width:auto;
+     height:auto;
+     float:left;
+     text-align:right;
+    /* overflow:hidden;
+     display:block;*/
+         
+}
+
+.xW_DivAddPdtUnitPriceData input
+{
+     width:100px;
+     height:20px;
+     font:left;
+     float:left;
+     text-align:right;
+     border-width:1px;
+     border-style:none none none none;
+}
+.xW_DivAddPdtDisMain
+{
+     width:auto;
+     height:40px;
+     float:left;
+     /*border-color:Red;*/
+     margin :0px 0px 1px 0px;
+     overflow:hidden;
+     display:block;
+     border-width:1px;
+     border-style: solid  solid solid  none;
+     
+}
+.xW_DivAddPdtDis
+{
+     width:auto;
+     height:auto;
+     text-align:left;
+     border-width:1px;
+    
+}
+.xW_DivAddPdtDisData
+{
+     width:auto;
+     height:auto;
+     float:left;
+     text-align:left;
+    /* overflow:hidden;
+     display:block;*/
+         
+}
+
+.xW_DivAddPdtDisData input
+{
+     width:100px;
+     height:20px;
+     font:left;
+     float:left;
+     text-align:left;
+     border-width:1px;
+     border-style:none none none none;
+}
+.xW_DivAddPdtAmountMain
+{
+     width:auto;
+     height:40px;
+     float:left;
+     margin :0px 0px 1px 0px;
+     overflow:hidden;
+     display:block;
+     border-width:1px;
+     border-style: solid  solid solid none;
+}
+.xW_DivAddPdtAmountData
+{
+     width:auto;
+     height:auto;
+     text-align:left;
+     overflow:hidden;
+     display:block;
+}
+
+.xW_DivAddPdtAmountData input
+{
+     width:105px;
+     height:20px;
+     text-align:right;
+     border-width:1px;
+     border-style:none none none none;
+}
+.xW_DivColumnAutoTab
+{   width:99px;
+    height:inherit;
+    /*border:solid 1px;*/
+    float:right;
+}
+
+/*---------- #T ----------*/
+.xW_TextAreaRemark
+{
+	width:630px;/*520px;*//*CH 07-01-2013*/
+	height:53px;
+	/*margin:5px 5px 5px 5px;*/
+	margin:0px 0px 5px 0px;
+	text-align:left;
+}

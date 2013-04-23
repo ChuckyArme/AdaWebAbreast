@@ -1,0 +1,629 @@
+﻿.xW_DivActive
+{
+    padding:5px 0px 0px 100px;
+}
+.xW_DivAllow
+{
+    height:100%;
+    width:300px;/*width:300px; *CH 06-10-11*/
+    /*width:184px;*/
+    /*border:solid 1px red;*/
+    float:left;
+}
+.xW_DivAllowDetailSub
+{
+    width:309px;
+    height:118px;
+    /*border:solid 1px blue;*/
+}
+.xW_DivComment
+{
+    width:auto;
+    height:auto;
+    padding:0px 5px 5px 5px;
+    margin:0px 0px 0px 0px;
+    float:left;
+    /*border:solid 1px red;*/
+}
+.xW_DivDefinePdtData
+{
+    margin:2px 2px 2px 2px;
+    width:200px;
+    /*border:solid 1px red;*/
+    float:left;
+}
+.xW_DivDefinePdtDataRow
+{
+    margin:0px 0px 0px 0px;
+    width:auto;
+    /*border:solid 1px blue;*/
+}
+.xW_DivDetailHD
+{
+    /*Div ใหญ่สุดของรายละเอียด HD*/
+    width:auto;
+    height:190px;
+    float:none;
+    /*border-width:1px;/*
+    /*border-color:#5a8944;*/
+    margin:0px 5px  0px 5px;  
+}
+.xW_DivDetailHDDocNo
+{
+    /*Div ใหญ่ของรายละเอียดเลขที่เอกสาร*/
+    width:223px;
+    height:164px;
+    float:right;
+    border-width:1px;  
+    border-style:solid solid solid solid;
+    margin:24px 0px 0px 0px;  
+}
+.xW_DivDocNo
+{
+    height:120px;
+    width:218px;
+    /*border:solid 1px red;*/
+    padding:0px;
+    margin:3px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+}
+.xW_DivDocNoColumn1
+{
+    height:120px;
+    width:80px;
+    border:solid 0px transparent;
+    padding:0px;
+    float:left;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+}
+.xW_DivDocNoColumn1Caption
+{
+    height:20px;
+    width:75px;
+    /*border:solid 1px blue;*/
+    padding:0px;
+    margin:2px 0px 0px 3px; 
+    vertical-align:middle;
+    text-align:left;
+    float:left;
+}
+.xW_DivDocNoColumn2
+{
+    height:120px;
+    width:114px;
+    border:solid 0px transparent;
+    padding:0px;
+    float:left;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+}
+.xW_DivDocNoColumn2Sub
+{
+    height:20px;
+    width:113px;
+    /*border:solid 1px red;*/
+    padding:0px;
+    margin:2px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+    float:left;
+}
+.xW_DivDocNoColumn3
+{
+    height:120px;
+    width:22px;
+    border:solid 0px transparent;
+    padding:0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+    float:left;
+}
+.xW_DivDocNoColumn3Sub
+{
+    height:20px;
+    width:20px;
+    border:solid 0px transparent;
+    padding:0px;
+    margin:2px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+
+}
+.xW_DivGeneral
+{ 
+    height:inherit;
+    width:588px;
+    float:left;
+    /*border:solid 1px red;*/
+}
+.xW_DivGeneralData
+{
+    width:370px;
+    height:auto;
+    /*border:solid 1px red;*/
+    margin:2px;
+    float:left;
+}
+.xW_DivGeneralDataRow
+{
+    /*border:solid 1px transparence;*/
+    float:left;
+    width:100%;
+    margin-top:1px;
+}
+.xW_DivGeneralLabel
+{
+    width:75px;
+    height:100%;
+    float:left;
+    /*border:solid 1px blue;*/
+}
+.xW_DivGeneralLabel2
+{
+    width:45px;
+    height:100%;
+    float:left;
+    margin-left:2px;
+    /*border:solid 1px blue;*/
+}
+.xW_DivGridRange
+{
+    margin-left:5px;
+    float:left;
+    width:280px;
+}
+.xW_DivInputGrid
+{
+    float:left;
+    border:solid 1px #335032;
+    height:100%;
+    background-color:White;
+}
+.xW_DivInputGrid input[type="text"]
+{
+    border-width:0px;
+    height:20px;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+}
+.xW_DivInputHeight
+{
+    height:20px;
+}
+.xW_DivInsertButton
+{
+    float:left;
+    margin-top:2px;
+}
+.xW_DivInsertPdt
+{
+    float:right;
+    width:480px;
+    margin:2px 2px 2px 2px;
+    /*border:solid 1px blue;*/
+}
+.xW_DivInsertPdtData
+{   
+    float:left;
+}
+.xW_DivInsertPdtInput
+{   
+    float:left;
+}
+.xW_DivInsertPdtLabel
+{   
+    float:left;
+    width:75px
+}
+.xW_DivInsertPdtRow
+{   
+    width:auto;
+    float:left;
+    margin:5px 0px 0px 100px;
+}
+.xW_DivInsertPdtRow2
+{   
+    width:auto;
+    float:left;
+    margin:0px 0px 0px 100px;
+}
+.xW_DivInsertPdtRow3
+{   
+    width:auto;
+    float:none;
+    margin:2px 0px 0px 2px;
+}
+.xW_DivMain
+{
+   /*Div ใหญ่สุดของ Page*/
+    width:947px;
+    height:100%;
+    /*border:solid 1px green;*/
+}
+.xW_DivMainMenu 
+{  
+    /*Div ใหญ่สุดของเมนูด้านบน 
+      สำหรับบรรจุ Div เมนู และสถานะเอกสาร*/
+	width:auto;
+	height:55px;
+	padding:0px;
+	margin:1px 5px 1px 5px;
+	border-width:1px;
+
+} 
+.xW_DivMemberPmt ,
+.xW_DivMemberPmtCheckbox ,
+.xW_DivBirthDayPmtCheckbox
+{
+    /*width:100%;*/
+    width:auto;
+    float:left;
+}
+.xW_DivMemberPmtData
+{
+    width:100%;
+    float:left;
+    padding:1px 0px 0px 94px;
+}
+.xW_DivBirthDayPmt
+{
+    width:auto;
+    float:left;
+}
+.xW_DivBirthDayPmtData
+{
+    /*width:100%;*/
+    width:auto;
+    float:left;
+    margin:0px 0px 0px 2px;
+}
+.xW_DivMemberPmtLabel ,
+.xW_DivBirthDayPmtLabel
+{
+    float:left;
+    width:75px;
+    margin-top:2px;
+}
+.xW_DivBirthDayPmtLabel2
+{
+    /*float:left;*/
+    width:145px;
+    margin-top:2px;
+}
+.xW_DivMemberPmtNumeric ,
+.xW_DivBirthDayPmtNumeric
+{
+    float:left;
+    margin:0px 1px 0px 1px;
+}
+.xW_DivMemberPmtUnit ,
+.xW_DivBirthDayPmtUnit
+{
+    float:left;
+}
+.xW_DivMenuNameSub
+{
+    height:33px;
+    width:200px;
+    /*border:solid 1px red;*/
+    padding:0px;
+    margin:0px 5px 0px 5px; 
+    vertical-align:middle;
+    text-align:center;
+}
+.xW_DivPmtName
+{
+    margin:0px 0px 0px 0px;
+    width:auto;
+    float:left;
+    /*border:solid 1px blue;*/
+}
+.xW_DivSetTime
+{
+    width:auto;
+    height:auto;
+    float:left;
+}
+.xW_DivSetTimeRow
+{
+    margin:2px 0px 0px 2px;
+    width:100%;
+    float:left
+}
+.xW_DivSetTimeRowLabel
+{
+    width:90px;
+    float:left;
+}
+.xW_DivSetTimeRowValue
+{
+    float:left;
+}
+.xW_DivSetSupplier
+{
+    width:auto;
+    height:auto;
+    float:left;
+}
+.xW_DivSetSplRow
+{
+    margin:2px 0px 0px 2px;
+    width:100%;
+    float:left
+}
+.xW_DivSetSplRowLabel
+{
+    width:90px;
+    float:left;
+}
+.xW_DivSetSplRowValue
+{
+    float:left;
+}
+.xW_DivTabCondition
+{
+    width:auto;
+    height:159px;
+    float:none;
+    margin:0px 5px  0px 5px;  
+    /*border:solid 1px red;*/
+}
+.xW_DivTabConditionSub
+{
+    /*height:93px;*/
+    height:auto;
+    width:927px;
+    /*border:solid 1px blue;*/
+}
+.xW_DivTabDetail
+{   
+    width:auto;
+    height:auto;
+    background-color:#548231;
+    padding:5px 5px 5px 5px;
+    margin:0px 0px 0px 0px;
+    float:left;
+}
+.xW_DivTabDetailInput
+{   
+    width:auto;
+    height:auto;
+    background-color:#548231;
+    padding:0px 5px 5px 5px;
+    margin:0px 0px 0px 0px;
+    float:left;
+}
+.xW_DivTabDetailSub
+{   
+    height:155px;
+    width:695px;
+    /*border:solid 1px blue;*/
+}
+.xW_DivTabInsertPdtSub
+{   
+    height:88px;
+    width:470px;
+    /*border:solid 1px blue;*/
+}
+.xW_DivTabProduct
+{
+    width:auto;
+    height:auto;
+    float:none;
+    margin:0px 5px 0px 5px;  
+    /*border:solid 1px red;*/
+}
+.xW_DivTabProductSub
+{
+    /*height:123px;*/
+    height:auto;
+    width:927px;
+    margin:0px 0px 0px 0px;  
+    padding:0px 0px 0px 0px;  
+}
+.xW_DivTabToppicLabel
+{
+    font-size:11px;
+}
+
+/*---------- #F ----------*/
+.xW_FieldsetManageGrp
+{
+    margin:0px 2px 2px 2px;
+    padding:0px 0px 5px 5px;
+}
+
+/*---------- #I ----------*/
+.xW_LabelDocStatusEN /*CH 08-12-11*/
+{
+    width:20px;
+    height:20px;
+    vertical-align :middle;
+}
+.xW_DivDocStatusEN /*CH 08-12-11*/
+{
+	text-align:center;	
+	width:25px;
+	height:25px;
+	border:solid 1px transparent;
+    margin :8px  1px 1px 1px;  
+}
+.xW_InputBottonBrowseOpt
+{
+    height:20px;
+    width:20px;
+    padding:0px 0px 0px 0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:top;
+    text-align:center;
+}
+.xW_ImgBrowseData
+{
+    vertical-align:top;
+}
+.xW_InputDefineGrpName
+{
+    width:194px;
+}
+.xW_InputGeneral
+{
+    height:15px;
+}
+.xW_InputGetCond
+{
+    vertical-align:top;
+    margin-top:0px;
+}
+.xW_InputHeight01
+{
+    height:30px;
+}
+.xW_InputInsertButton
+{   
+    width:480px;
+}
+.xW_InputInsertPdt
+{
+    vertical-align:top;
+    width:150px;
+}
+.xW_InputInsertPdt2
+{
+    vertical-align:top;
+    width:150px;
+    height:13px;
+}
+.xW_InputInsertPdtGrp
+{
+    vertical-align:top;
+    width:250px;
+}
+.xW_InputTextDocNo
+{
+    height:18px;
+    width:110px;
+    border:solid 1px silver;
+    padding:0px;
+    margin:0px 0px 0px 0px; 
+    vertical-align:middle;
+    text-align:left;
+    float:left;
+}
+.xW_InputTextShwDetailName
+{
+   text-align:left;
+   vertical-align:middle;
+   border:solid 1px silver;
+   width:111px;
+   height:16px;
+   padding: 0px 0px 2px 0px;
+   margin: 0px 0px 2px 0px; 
+   
+}
+.xW_InputWidth01
+{
+    width:289px;
+}
+.xW_InputWidth02
+{
+    width:40px;
+}
+.xW_InputWidth03
+{
+    width:217px;
+}
+.xW_InputWidth04
+{
+    width:40px;
+}
+.xW_InputWidth05
+{
+    width:46px;
+}
+.xW_InputWidth06
+{
+    width:291px;
+}
+.xW_InputWidth07
+{
+    width:120px;
+}
+.xW_InputWidthCond01
+{
+    width:38px;
+    text-align:center;
+}
+.xW_InputWidthCond02
+{
+    width:129px;
+    text-align:center;
+}
+.xW_InputWidthCond03
+{
+    width:58px;
+    text-align:center;
+}
+.xW_InputWidthCond04
+{
+    width:58px;
+    text-align:right;
+}
+.xW_InputWidthCond05
+{
+    width:98px;
+    text-align:right;
+}
+.xW_InputWidthCond06
+{
+    width:98px;
+    text-align:right;
+}
+.xW_InputWidthCond07
+{
+    width:98px;
+    text-align:right;
+}
+.xW_InputWidthCond08
+{
+    width:98px;
+    text-align:right;
+}
+.xW_InputWidthCond09
+{
+    width:71px;/*68px; *CH 13-12-11*/
+}
+.xW_InputWidthCond10
+{
+    width:86px;/*88px; *CH 13-12-11*/
+    text-align:right;
+}
+.xW_InputWidthCond11
+{
+    width:54px;
+    text-align:right;
+}
+.xW_InputWidthCond12
+{
+    width:17px;
+}
+
+/*---------- #L ----------*/
+.xW_LabelMenuName
+{
+   text-align:center;
+   vertical-align:inherit;
+  /* border-width:1px;
+   border-style: solid  solid solid  solid;*/
+   width:196px;
+   height:100%;
+   position :relative;
+   top:5px;
+  /* padding: 5px 0px 5px 0px;
+   margin: 5px 0px 5px 0px; */
+   
+}

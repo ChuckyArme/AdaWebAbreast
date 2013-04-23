@@ -1,0 +1,514 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="olaAmount" xml:space="preserve">
+    <value>จำนวนเงิน</value>
+  </data>
+  <data name="olaCode" xml:space="preserve">
+    <value>รหัส</value>
+  </data>
+  <data name="olaCustomerGroupList" xml:space="preserve">
+    <value>รายการข้อมูล กลุ่มลูกค้า</value>
+  </data>
+  <data name="olaCustomerGroupTypeList" xml:space="preserve">
+    <value>รายการข้อมูล ประเภทลูกค้า</value>
+  </data>
+  <data name="olaCustomerLevelList" xml:space="preserve">
+    <value>รายการข้อมูล ระดับลูกค้า</value>
+  </data>
+  <data name="olaDepartmentList" xml:space="preserve">
+    <value>รายการข้อมูล แผนก</value>
+  </data>
+  <data name="olaDiscount" xml:space="preserve">
+    <value>ส่วนลด</value>
+  </data>
+  <data name="olaEdit" xml:space="preserve">
+    <value>แก้ไข</value>
+  </data>
+  <data name="olaFindCustomerGroup" xml:space="preserve">
+    <value>ค้นหากลุ่มลูกค้า :</value>
+  </data>
+  <data name="olaFindCustomerLevel" xml:space="preserve">
+    <value>ค้นหาระดับลูกค้า :</value>
+  </data>
+  <data name="olaFindCustomerType" xml:space="preserve">
+    <value>ค้นหาประเภทลูกค้า :</value>
+  </data>
+  <data name="olaFindDepartment" xml:space="preserve">
+    <value>ค้นหาแผนก :</value>
+  </data>
+  <data name="olaFindOccupation" xml:space="preserve">
+    <value>ค้นหาอาชีพ :</value>
+  </data>
+  <data name="olaFindPdtBrand" xml:space="preserve">
+    <value>ค้นหายี่ห้อ :</value>
+  </data>
+  <data name="olaFindPdtColor" xml:space="preserve">
+    <value>ค้นหาสีของสินค้า :</value>
+  </data>
+  <data name="olaFindPdtLocation" xml:space="preserve">
+    <value>ค้นหาสถานที่เก็บสินค้า :</value>
+  </data>
+  <data name="olaFindPdtModel" xml:space="preserve">
+    <value>ค้นหารุ่นสินค้า :</value>
+  </data>
+  <data name="olaFindPdtSize" xml:space="preserve">
+    <value>ค้นหาขนาดสินค้า :</value>
+  </data>
+  <data name="olaFindPdtType" xml:space="preserve">
+    <value>ค้นหาประเภทสินค้า :</value>
+  </data>
+  <data name="olaFindPdtUnit" xml:space="preserve">
+    <value>ค้นหาหน่วยสินค้า :</value>
+  </data>
+  <data name="olaFindProvince" xml:space="preserve">
+    <value>ค้นหาจังหวัด :</value>
+  </data>
+  <data name="olaFindSaleArea" xml:space="preserve">
+    <value>ค้นหาเขตการขาย :</value>
+  </data>
+  <data name="olaFindShipVia" xml:space="preserve">
+    <value>ค้นหาการขนส่ง :</value>
+  </data>
+  <data name="olaFindSplGrp" xml:space="preserve">
+    <value>ค้นหากลุ่มผู้จำหน่าย :</value>
+  </data>
+  <data name="olaFindSplLev" xml:space="preserve">
+    <value>ค้นหาระดับผู้จำหน่าย :</value>
+  </data>
+  <data name="olaFindSplType" xml:space="preserve">
+    <value>ค้นหาประเภทผู้จำหน่าย :</value>
+  </data>
+  <data name="olaFindVATRate" xml:space="preserve">
+    <value>ค้นหาภาษีมูลค่าเพิ่ม :</value>
+  </data>
+  <data name="olaMenuCustomerGroup" xml:space="preserve">
+    <value>กลุ่มลูกค้า</value>
+  </data>
+  <data name="olaMenuCustomerLevel" xml:space="preserve">
+    <value>ระดับลูกค้า</value>
+  </data>
+  <data name="olaMenuCustomerType" xml:space="preserve">
+    <value>ประเภทลูกค้า</value>
+  </data>
+  <data name="olaMenuDepartment" xml:space="preserve">
+    <value>แผนก</value>
+  </data>
+  <data name="olaMenuOccupation" xml:space="preserve">
+    <value>อาชีพ</value>
+  </data>
+  <data name="olaMenuPdtBrand" xml:space="preserve">
+    <value>ยี่ห้อ</value>
+  </data>
+  <data name="olaMenuPdtColor" xml:space="preserve">
+    <value>สีของสินค้า</value>
+  </data>
+  <data name="olaMenuPdtLocation" xml:space="preserve">
+    <value>สถานที่เก็บสินค้า</value>
+  </data>
+  <data name="olaMenuPdtModel" xml:space="preserve">
+    <value>รุ่นสินค้า</value>
+  </data>
+  <data name="olaMenuPdtSize" xml:space="preserve">
+    <value>ขนาดของสินค้า</value>
+  </data>
+  <data name="olaMenuPdtType" xml:space="preserve">
+    <value>ประเภทสินค้า</value>
+  </data>
+  <data name="olaMenuPdtUnit" xml:space="preserve">
+    <value>หน่วยสินค้า</value>
+  </data>
+  <data name="olaMenuProvince" xml:space="preserve">
+    <value>จังหวัด</value>
+  </data>
+  <data name="olaMenuSaleArea" xml:space="preserve">
+    <value>เขตการขาย</value>
+  </data>
+  <data name="olaMenuShipVia" xml:space="preserve">
+    <value>การขนส่ง</value>
+  </data>
+  <data name="olaMenuSplGrp" xml:space="preserve">
+    <value>กลุ่มผู้จำหน่าย</value>
+  </data>
+  <data name="olaMenuSplLev" xml:space="preserve">
+    <value>ระดับผู้จำหน่าย</value>
+  </data>
+  <data name="olaMenuSplType" xml:space="preserve">
+    <value>ประเภทผู้จำหน่าย</value>
+  </data>
+  <data name="olaMenuVATRate" xml:space="preserve">
+    <value>ภาษีมูลค่าเพิ่ม</value>
+  </data>
+  <data name="olaMsgSelCol" xml:space="preserve">
+    <value>กรุณาเลือกขอบเขตข้อมูลที่ต้องการค้นหา</value>
+  </data>
+  <data name="olaName" xml:space="preserve">
+    <value>ชื่อ</value>
+  </data>
+  <data name="olaOccupationList" xml:space="preserve">
+    <value>รายการข้อมูล อาชีพ</value>
+  </data>
+  <data name="olaPdtBrandList" xml:space="preserve">
+    <value>รายการข้อมูล ยี่ห้อ</value>
+  </data>
+  <data name="olaPdtCode" xml:space="preserve">
+    <value>รหัสสินค้า</value>
+  </data>
+  <data name="olaPdtColorList" xml:space="preserve">
+    <value>รายการข้อมูล สีของสินค้า</value>
+  </data>
+  <data name="olaPdtLocationList" xml:space="preserve">
+    <value>รายการข้อมูล สถานที่เก็บสินค้า</value>
+  </data>
+  <data name="olaPdtModelList" xml:space="preserve">
+    <value>รายการข้อมูล รุ่นสินค้า</value>
+  </data>
+  <data name="olaPdtName" xml:space="preserve">
+    <value>ชื่อสินค้า</value>
+  </data>
+  <data name="olaPdtSizeList" xml:space="preserve">
+    <value>รายการข้อมูล ขนาดสินค้า</value>
+  </data>
+  <data name="olaPdtTypeList" xml:space="preserve">
+    <value>รายการข้อมูล ประเภทสินค้า</value>
+  </data>
+  <data name="olaPdtUnit" xml:space="preserve">
+    <value>จำนวน</value>
+  </data>
+  <data name="olaPdtUnitList" xml:space="preserve">
+    <value>รายการข้อมูล หน่วยสินค้า</value>
+  </data>
+  <data name="olaPdtUnitName" xml:space="preserve">
+    <value>หน่วย</value>
+  </data>
+  <data name="olaPdtUnitPrice" xml:space="preserve">
+    <value>ราคา/หน่วย</value>
+  </data>
+  <data name="olaProvinceList" xml:space="preserve">
+    <value>รายการข้อมูล จังหวัด</value>
+  </data>
+  <data name="olaRowID" xml:space="preserve">
+    <value>ลำดับ</value>
+  </data>
+  <data name="olaSaleAreaList" xml:space="preserve">
+    <value>รายการข้อมูล เขตการขาย</value>
+  </data>
+  <data name="olaShipViaList" xml:space="preserve">
+    <value>รายการข้อมูล การขนส่ง</value>
+  </data>
+  <data name="olaSplGrpList" xml:space="preserve">
+    <value>รายการข้อมูล กลุ่มผู้จำหน่าย</value>
+  </data>
+  <data name="olaSplLevList" xml:space="preserve">
+    <value>รายการข้อมูล ระดับผู้จำหน่าย</value>
+  </data>
+  <data name="olaSplTypeList" xml:space="preserve">
+    <value>รายการข้อมูล ประเภทผู้จำหน่าย</value>
+  </data>
+  <data name="olaVATRate" xml:space="preserve">
+    <value>อัตราภาษี</value>
+  </data>
+  <data name="olaVATRateList" xml:space="preserve">
+    <value>รายการข้อมูล ภาษีมูลค่าเพิ่ม</value>
+  </data>
+  <data name="olaDplTypeList" xml:space="preserve">
+    <value>รายการข้อมูล ประเภทใบนำฝาก</value>
+    <comment>รายการข้อมูล ประเภทใบนำฝาก</comment>
+  </data>
+  <data name="olaFindDplType" xml:space="preserve">
+    <value>ค้นหาประเภทใบนำฝาก :</value>
+    <comment>ค้นหาประเภทใบนำฝาก :</comment>
+  </data>
+  <data name="olaMenuDplType" xml:space="preserve">
+    <value>ประเภทใบนำฝาก</value>
+    <comment>ประเภทใบนำฝาก</comment>
+  </data>
+  <data name="olaBrowse" xml:space="preserve">
+    <value>ค้นหา</value>
+  </data>
+  <data name="olaPdtUnitCode" xml:space="preserve">
+    <value>รหัสหน่วย</value>
+  </data>
+  <data name="olaClrCode" xml:space="preserve">
+    <value>รหัสสี</value>
+  </data>
+  <data name="olaClrName" xml:space="preserve">
+    <value>ชื่อสี</value>
+  </data>
+  <data name="olaPbnCode" xml:space="preserve">
+    <value>รหัสยี่ห้อ</value>
+  </data>
+  <data name="olaPbnName" xml:space="preserve">
+    <value>ชื่อยี่ห้อ</value>
+  </data>
+  <data name="olaPmoCode" xml:space="preserve">
+    <value>รหัสรุ่น</value>
+  </data>
+  <data name="olaPmoName" xml:space="preserve">
+    <value>ชื่อรุ่น</value>
+  </data>
+  <data name="olaPszCode" xml:space="preserve">
+    <value>รหัสขนาด</value>
+  </data>
+  <data name="olaPszName" xml:space="preserve">
+    <value>ชื่อขนาด</value>
+  </data>
+  <data name="olaPtyCode" xml:space="preserve">
+    <value>รหัสประเภท</value>
+  </data>
+  <data name="olaPtyName" xml:space="preserve">
+    <value>ชื่อประเภท</value>
+  </data>
+  <data name="olaBuyerCode" xml:space="preserve">
+    <value>รหัสผู้จัดซื้อ</value>
+  </data>
+  <data name="olaBuyerName" xml:space="preserve">
+    <value>ชื่อผู้จัดซื้อ</value>
+  </data>
+  <data name="olaChangeValue" xml:space="preserve">
+    <value>เปลี่ยนแปลงค่า</value>
+    <comment>*CH 18-12-2012</comment>
+  </data>
+  <data name="olaSplCode" xml:space="preserve">
+    <value>รหัสผู้จำหน่าย</value>
+  </data>
+  <data name="olaSplName" xml:space="preserve">
+    <value>ชื่อผู้จำหน่าย</value>
+  </data>
+  <data name="olaRatCode" xml:space="preserve">
+    <value>รหัสสกุลเงิน</value>
+  </data>
+  <data name="olaRatName" xml:space="preserve">
+    <value>ชื่ออัตราแลกเปลี่ยน</value>
+  </data>
+  <data name="olaRatPrice" xml:space="preserve">
+    <value>อัตราเงิน</value>
+  </data>
+  <data name="olaRatShoName" xml:space="preserve">
+    <value>ชื่อย่อ</value>
+  </data>
+  <data name="olaAreCode" xml:space="preserve">
+    <value>รหัสเขต</value>
+  </data>
+  <data name="olaAreName" xml:space="preserve">
+    <value>ชื่อเขต</value>
+  </data>
+  <data name="olaSelect" xml:space="preserve">
+    <value>เลือก</value>
+  </data>
+  <data name="olaShpCode" xml:space="preserve">
+    <value>รหัสการขนส่ง</value>
+  </data>
+  <data name="olaShpName" xml:space="preserve">
+    <value>ชื่อการขนส่ง</value>
+  </data>
+  <data name="olaBrwWah" xml:space="preserve">
+    <value>คลัง</value>
+  </data>
+  <data name="olaWahCode" xml:space="preserve">
+    <value>รหัสคลัง</value>
+  </data>
+  <data name="olaWahName" xml:space="preserve">
+    <value>ชื่อคลัง</value>
+  </data>
+  <data name="olaListData" xml:space="preserve">
+    <value>รายการข้อมูล</value>
+  </data>
+  <data name="olaBrwRate" xml:space="preserve">
+    <value>สกุลเงิน</value>
+  </data>
+  <data name="olaBrwSpl" xml:space="preserve">
+    <value>ผู้จำหน่าย</value>
+  </data>
+  <data name="olaBrwReason" xml:space="preserve">
+    <value>เหตุผล</value>
+  </data>
+  <data name="olaRsnCode" xml:space="preserve">
+    <value>รหัสเหตุผล</value>
+  </data>
+  <data name="olaRsnName" xml:space="preserve">
+    <value>ชื่อเหตุผล</value>
+  </data>
+  <data name="olaBrwPdt" xml:space="preserve">
+    <value>สินค้า</value>
+  </data>
+  <data name="olaCstCode" xml:space="preserve">
+    <value>รหัสลูกค้า</value>
+  </data>
+  <data name="olaCstName" xml:space="preserve">
+    <value>ชื่อลูกค้า</value>
+  </data>
+  <data name="olaOthName" xml:space="preserve">
+    <value>ชื่ออื่น</value>
+  </data>
+  <data name="olaTel" xml:space="preserve">
+    <value>เบอร์โทรศัพท์</value>
+  </data>
+  <data name="olaAddr" xml:space="preserve">
+    <value>ที่อยู่</value>
+  </data>
+  <data name="olaDep" xml:space="preserve">
+    <value>แผนก</value>
+  </data>
+  <data name="olaPic" xml:space="preserve">
+    <value>ไฟล์ภาพ</value>
+  </data>
+  <data name="olaPosi" xml:space="preserve">
+    <value>ตำแหน่ง</value>
+  </data>
+  <data name="olaDueDate" xml:space="preserve">
+    <value>ครบกำหนด</value>
+  </data>
+  <data name="olaPaid" xml:space="preserve">
+    <value>ชำระแล้ว</value>
+  </data>
+  <data name="olaPoint" xml:space="preserve">
+    <value>แต้ม</value>
+  </data>
+  <data name="olaRecDocDate" xml:space="preserve">
+    <value>วันที่เอกสาร</value>
+  </data>
+  <data name="olaRecDocNo" xml:space="preserve">
+    <value>เลขที่เอกสาร</value>
+  </data>
+  <data name="olaRemain" xml:space="preserve">
+    <value>ค้างชำระ</value>
+  </data>
+  <data name="olaShipping" xml:space="preserve">
+    <value>การขนส่ง</value>
+  </data>
+  <data name="olaTotal" xml:space="preserve">
+    <value>รวม</value>
+  </data>
+  <data name="olaDateStart" xml:space="preserve">
+    <value>วันที่เริ่มต้น</value>
+  </data>
+  <data name="olaDateStop" xml:space="preserve">
+    <value>วันที่สิ้นสุด</value>
+  </data>
+  <data name="olaSta" xml:space="preserve">
+    <value>สถานะ</value>
+  </data>
+  <data name="olaTimeStart" xml:space="preserve">
+    <value>เวลาเริ่มต้น</value>
+  </data>
+  <data name="olaTimeStop" xml:space="preserve">
+    <value>เวลาสิ้นสุด</value>
+  </data>
+</root>

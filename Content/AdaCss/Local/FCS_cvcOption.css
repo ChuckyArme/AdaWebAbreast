@@ -1,0 +1,371 @@
+﻿/*---------- #D ----------*/
+.xW_DivAutoCodeButtonSave
+{
+    float:right; 
+    /*border:solid 1px blue;*/
+    width:auto;
+    height:auto;
+    margin:5px 5px 5px auto;
+}
+.xW_DivAutoCodeButtonSave input
+{
+    width:100px;
+}
+.xW_DivAutoCodeCheckBox
+{
+    /*border:solid 1px blue;*/
+    width:40%;
+    height:100%;
+    float:left;
+}
+.xW_DivAutoCodeCheckBoxData
+{
+    margin:5px 5px 5px 5px;
+}
+.xW_DivAutoCodeDetail
+{
+    /*border:solid 1px green;*/
+    margin:5px 5px 5px 5px;
+    float:left;
+    height:auto;
+    width:783px;
+}
+.xW_DivAutoCodeGrid
+{
+    /*border:solid 1px red;*/
+    float:left;
+    width:30%;
+    height:100%;
+}
+.xW_DivAutoCodeHeader
+{
+    /*border:solid 1px blue;*/
+    width:auto;
+    height:25px;
+}
+.xW_DivAutoCodeHeaderDesc
+{
+    width:auto;
+    height:22px;
+    /*background-color:#b7d49e;*/
+}
+.xW_DivAutoCodeHeaderDescLabel
+{
+    /*border:solid 1px red;*/
+    margin:0px 0px 0px 0px;
+    width:auto;
+    text-align:center;
+}
+.xW_DivAutoCodeHeaderDescLabel label
+{
+    font-size:14px;
+}
+.xW_DivAutoCodeHeaderLabel
+{
+    /*border:solid 1px red;*/
+    margin:0px 100px 0px 100px;
+    width:auto;
+    text-align:center;
+    font-weight:bold;
+}
+.xW_DivAutoCodeHeaderLabel label
+{
+    font-size:16px;
+}
+.xW_DivAutoCodeHeaderData
+{
+    /*border:solid 1px red;*/
+    width:auto;
+    height:90px;
+    margin:0px 0px 0px 0px;
+}
+.xW_DivAutoCodeSample
+{
+    /*border:solid 1px blue;*/
+    width:59%;
+    height:100%;
+    float:right;
+    font-weight:bold;
+    margin-top:10px
+}
+.xW_DivAutoCodeSampleColumn1
+{
+    float:left;
+    /*border:solid 1px red;*/
+    width:28%;
+    height:28px;
+}
+.xW_DivAutoCodeSampleColumn1 label
+{
+    margin:0px 0px 0px 5px;
+}
+.xW_DivAutoCodeSampleColumn2
+{
+    float:left;
+    /*border:solid 1px red;*/
+    width:70%;
+    height:28px;
+    background-color:#b7d49e;
+}
+.xW_DivAutoCodeSampleColumn2 label
+{
+    margin:0px 0px 0px 5px;
+}
+.xW_DivAutoCodeSampleData
+{
+    margin:5px 5px 5px 5px;
+    /*border:solid 1px green;*/
+}
+.xW_DivAutoCodeSampleRow
+{
+    /*border:solid 1px blue;*/
+    width:100%;
+    height:30px;
+}
+.xW_DivAutoCodeShowDetail
+{
+    /*border:solid 1px blue;*/
+    float:right;
+    width:69%;
+    height:100%;
+    background-color:#f9fdef;
+}
+.xW_DivAutoCodeUserDefine
+{
+    /*border:solid 1px blue;*/
+    width:auto;
+    height:auto;
+    margin:5px 5px 5px 5px;
+}
+.xW_DivAutoCodeUserDefineColumn1
+{
+   width :15%;
+   height:100%;
+   float:left;
+   /*border:solid 1px blue;*/
+}
+.xW_DivAutoCodeUserDefineColumn2
+{
+   width :84%;
+   height:100%;
+   float:right;
+   /*border:solid 1px blue;*/
+}
+.xW_DivAutoCodeUserDefineColumn2 input
+{
+   width :150px;
+}
+.xW_DivAutoCodeUserDefineColumn2 select
+{
+   width :70px;
+}
+.xW_DivAutoCodeUserDefineData
+{
+   height:150px;
+   margin:10px 10px 10px 10px;
+   /*border:solid 1px red;*/
+}
+.xW_DivAutoCodeUserDefineHeader
+{
+    /*border:solid 1px blue;*/
+    width:inherit;height:25px;
+    float:none;
+}
+.xW_DivAutoCodeUserDefineHeaderLabel
+{
+    width:100%;
+    /*border:solid 1px red;*/
+    margin:0px 0px 0px 10px;
+    text-align:left;
+    font-weight:bold;
+}
+.xW_DivAutoCodeUserDefineHeaderLabel
+{
+    font-size:16px;
+}
+.xW_DivAutoCodeUserDefineRow
+{
+    height:30px;
+}
+.xW_DivButton
+{   
+    float:none;
+    height:25px;
+    margin:5px 5px 5px 5px;
+    /*border:solid 1px blue;*/
+}
+.xW_DivButtonTemplete
+{   
+    float:left;
+    height:inherit;
+    /*border:solid 1px green;*/
+}
+.xW_DivButtonTemplete input[type=button]
+{   
+    width:120px;
+}
+.xW_DivButtonCommand
+{   
+    float:right;
+    height:inherit;
+    /*border:solid 1px green;*/
+}
+.xW_DivButtonCommand input[type=button]
+{   
+    width:100px;
+}
+.xW_DivCaptionTabGeneral
+{   
+    width:auto;
+    text-align:center;
+}
+.xW_DivCaptionTabGeneral span
+{   
+    font-size:18px;
+    font-weight:bold;
+}
+.xW_DivColumn
+{
+    float:left;
+    width:50%;
+    height:inherit;
+}
+.xW_DivColumnDetail
+{   
+    border:solid 1px silver;
+    height:20px;
+    background-color:White;
+}
+.xW_DivColumnHeader
+{   
+    height:50%;
+    /*border:solid 1px red;*/
+    margin:auto;
+    text-align:center;
+}
+.xW_DivDisplayNone
+{   
+    display:none;
+}
+.xW_DivFilter
+{
+    float:none;
+    width:auto;
+    margin:0px 5px 0px 5px;
+}
+.xW_DivFilterButton
+{
+    float:left;
+}
+.xW_DivFooter
+{
+    float:left;
+    width:805px;
+    margin:0px 0px 0px 0px;
+    /*border:solid 1px red;*/
+}
+.xW_DivGridBottom,
+.xW_DivGridTop
+{   
+    margin:5px 5px 0px 5px;
+}
+.xW_DivInput
+{
+    float:none;
+    width:auto;
+    height:40px;
+    margin:0px 5px 5px 5px;
+    /*border:solid 1px red;*/
+}
+.xW_DivInputName
+{
+    float:left;
+    width:40%;
+    height:inherit;
+    border:solid 1px silver;
+    background-color:#b7d49e;
+}
+.xW_DivInputDesc
+{
+    float:right;
+    width:59%;
+    height:inherit;
+    border:solid 1px silver;
+    background-color:#b7d49e;
+}
+.xW_DivInputDesc span,
+.xW_DivInputName span
+{
+    vertical-align:middle;
+    margin-left:2px;
+    font-size:11px;
+}
+.xW_DivMain
+{   
+    width:auto;
+    height:auto;
+	margin:10px 10px 10px 10px;
+	overflow:hidden;
+}
+.xW_DivStatusBar
+{   
+    float:none;
+    width:auto;
+    height:20px;
+    margin:5px 5px 5px 5px;
+    /*border:solid 1px red;*/
+}
+.xW_DivTabDetail
+{
+    width:795px;
+    height:482px;
+    margin:0px 0px 0px 0px;
+}
+.xW_DivTabDetailSub
+{
+    width:inherit;
+    height:inherit;
+    margin:0px 0px 0px 0px;
+}
+
+/*---------- #I ----------*/
+.xW_ImgFilterButton
+{
+    vertical-align:middle;
+    border:none 0px black;
+}
+.xW_InputBrwReport
+{
+    float:right;
+    height:inherit;
+    width:5%;
+    visibility:hidden;
+    padding:0px 0px 0px 0px;
+    margin:0px 0px 0px 0px;
+}
+.xW_InputColumnRef
+{
+    height:100%;
+    width:100%;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    border:none 0px red;
+}
+.xW_InputColumnVal
+{
+    height:100%;
+    width:95%;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    border:none 0px red;
+}
+.xW_InputFilter
+{
+    width:300px;
+    vertical-align:middle;
+}
+/*---------- #L ----------*/
+.xW_LabelFilter
+{
+    vertical-align:middle;
+}

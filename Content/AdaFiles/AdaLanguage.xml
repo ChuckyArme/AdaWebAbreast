@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AdaLang>
+	<Language>
+		<Curture>EN</Curture>
+		<Description>English</Description>
+	</Language>
+	<Language>
+		<Curture>TH</Curture>
+		<Description>ไทย</Description>
+	</Language>
+</AdaLang>

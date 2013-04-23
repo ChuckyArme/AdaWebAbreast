@@ -1,0 +1,377 @@
+﻿.xW_DivMainMenu 
+{  
+    /*Div ใหญ่สุดของเมนูด้านบน 
+      สำหรับบรรจุ Div เมนู และสถานะเอกสาร*/
+	width:auto;
+	height:55px;
+	padding:0px;
+	margin:1px 5px 1px 5px;
+	border-width:1px;
+}
+.xW_DivMain
+{
+   /*Div ใหญ่สุดของ Page*/
+    width:947px;
+    height:100%;
+    /*border:solid 1px green;*/
+}
+.xW_DivMaster
+{
+    /*Div ใหญ่สุดของMaster*/
+    width:auto;
+    height:190px;
+    float:none;
+    margin:0px 5px  0px 4px;  
+}
+.xW_DivDetail
+{
+    width:auto;
+    height:190px;
+    float:none;
+    margin:0px 5px  0px 4px;  
+}
+/* Body */
+.xW_DivHeight1
+{
+    height:525px;
+}
+
+/* Tab */
+/* Margin */
+.xW_Margin1
+{
+    margin:2px 0px 0px 8px;
+}
+.xW_Margin2
+{
+    margin:0px 0px 0px 2px;
+}
+.xW_Margin3
+{
+    margin:4px 0px 0px 0px;
+}
+.xW_Margin4
+{
+    margin:2px 0px 4px 0px;
+}
+.xW_Margin5
+{
+    margin:2px 0px 0px 2px;
+}
+
+.xW_DivSize100
+{
+    width:100%;
+}
+.xW_DivSize95
+{
+    width:95%;
+}
+
+.xW_InputGeneral
+{
+    height:15px;
+}
+.xW_InputWidth01
+{
+    width:224px;
+}
+.xW_InputWidth02
+{
+    width:200px;
+}
+.xW_InputWidth03
+{
+    width:70px;
+}
+.xW_InputWidth04
+{
+    width:160px;
+}
+
+.xW_InputAlignRight
+{
+    text-align:right
+}
+
+.xW_ImgBrowseData
+{
+    vertical-align:top;
+}
+
+/* Master */
+.xW_DivTabDetailSub
+{   
+    height:155px;
+    width:695px;
+    /*border:solid 1px blue;*/
+}
+.xW_DivMasterData
+{
+    width:auto;
+    height:auto;
+    /*border:solid 1px red;*/
+    float:left;
+}
+.xW_DivWidthMaster1
+{
+    width:320px;
+}
+.xW_DivWidthMaster2
+{
+    width:360px;
+}
+.xW_DivWidthMaster3
+{
+    width:220px;
+}
+.xW_DivMasterDataRow
+{
+    /*border:solid 1px transparence;*/
+    float:left;
+    width:100%;
+    margin-top:1px;
+}
+.xW_DivMasterLabel
+{
+    width:75px;
+    height:100%;
+    float:left;
+    margin:4px 0px 0px 4px;
+    /*border:solid 1px blue;*/
+}
+.xW_DivAddBarCodeLabel
+{
+    width:75px;
+    height:auto;
+    float:right;
+    margin:4px 0px 0px 4px;
+    /*border:solid 1px blue;*/
+}
+.xW_DivAdd div:hover
+{
+    color:#4D7924;
+}
+.xW_DivCancel div:hover
+{
+    color:#9D0607;
+}
+.xW_DivPdtData
+{
+    margin:2px 0px 2px 0px;
+    width:240px;
+    float:left;
+    /*border:solid 1px blue;*/
+}
+.xW_DivPdtData2
+{
+    margin:2px 0px 2px 0px;
+    width:280px;
+    float:left;
+    /*border:solid 1px blue;*/
+}
+
+/*--------------- Save Barcode ----------------*/
+.xW_DivSaveBarCode
+{
+    float:left;
+    width:45px;
+    height:50px;
+    margin:2px 2px 2px 2px;
+    cursor:pointer;
+    padding:0px;
+}
+.xW_DivSaveBarCode a 
+{
+    background-image:url('../../img/img24x24.png/Yes.png');
+    background-repeat:no-repeat;
+    background-position:center top;
+    float:left;
+    width:45px;
+    height:50px;
+    position:relative;
+    color:Black;
+}
+.xW_DivSaveBarCode a:hover
+{
+    color:#4D7924;
+}
+.xW_DivSaveBarCodeCaption 
+{
+    position:relative;
+    top:22px;
+    left:0px;
+    width:40px;
+    height:15px;
+    padding:2px 2px 2px 2px;
+    margin:0px 0px 0px 0px;
+    text-align:center;
+    vertical-align:bottom;
+}
+/*------------------ Cancel Barcode ------------------*/
+.xW_DivCancelBarCode
+{
+    float:left;
+    width:45px;
+    height:50px;
+    margin:2px 2px 2px 2px;
+    cursor:pointer;
+    padding:0px;
+}
+.xW_DivCancelBarCode a 
+{
+    background-image:url('../../img/img24x24.png/No.png');
+    background-repeat:no-repeat;
+    background-position:center top;
+    float:left;
+    width:45px;
+    height:50px;
+    position:relative;
+    color:Black;
+}
+.xW_DivCancelBarCode a:hover
+{
+    color:#9D0607;
+}
+.xW_DivCancelBarCodeCaption 
+{
+    position:relative;
+    top:22px;
+    left:0px;
+    width:40px;
+    height:15px;
+    padding:2px 2px 2px 2px;
+    margin:0px 0px 0px 0px;
+    text-align:center;
+    vertical-align:bottom;
+}
+/*------------------ Cancel Barcode ------------------*/
+.xW_DivDeleteBarCodeLock
+{
+    float:left;
+    width:45px;
+    height:50px;
+    margin:2px 2px 2px 2px;
+    cursor:pointer;
+    padding:0px;
+}
+.xW_DivDeleteBarCodeLock a
+{
+    background-image:url('../../img/imgBttn/DeleteLock_24x24.png');
+    background-repeat:no-repeat;
+    background-position:center top;
+    float:left;
+    width:45px;
+    height:50px;
+    position:relative;
+    color:Black;
+}
+.xW_DivDeleteBarCode
+{
+    float:left;
+    width:45px;
+    height:50px;
+    margin:2px 2px 2px 2px;
+    cursor:pointer;
+    padding:0px;
+}
+.xW_DivDeleteBarCode a 
+{
+    background-image:url('../../img/img24x24.png/Delete.png');
+    background-repeat:no-repeat;
+    background-position:center top;
+    float:left;
+    width:45px;
+    height:50px;
+    position:relative;
+    color:Black;
+}
+.xW_DivDeleteBarCode a:hover
+{
+    color:#9D0607;
+}
+.xW_DivDeleteBarCodeCaption 
+{
+    position:relative;
+    top:22px;
+    left:0px;
+    width:40px;
+    height:15px;
+    padding:2px 2px 2px 2px;
+    margin:0px 0px 0px 0px;
+    text-align:center;
+    vertical-align:bottom;
+}
+/*------------------ Add Barcode ------------------*/
+.xW_DivAddBarCodeLock
+{
+    float:left;
+    width:45px;
+    height:50px;
+    margin:2px 2px 2px 2px;
+    cursor:pointer;
+    padding:0px;
+}
+.xW_DivAddBarCodeLock a
+{
+    background-image:url('../../img/imgBttn/CreateLock.png');
+    background-repeat:no-repeat;
+    background-position:center top;
+    float:left;
+    width:45px;
+    height:50px;
+    position:relative;
+    color:Black;
+}
+.xW_DivAddBarCode
+{
+    /*เมนูเพิ่ม*/
+    float:left;
+    width:45px;
+    height:50px;
+    margin:2px 2px 2px 2px;
+    cursor:pointer;
+    padding:0px;
+}
+.xW_DivAddBarCode a 
+{
+    background-image:url('../../img/img24x24.png/Create.png');
+    background-repeat:no-repeat;
+    background-position:center top;
+    float:left;
+    width:45px;
+    height:50px;
+    position:relative;
+    color:Black;
+}
+.xW_DivAddBarCode a:hover
+{
+    color:#4D7924;
+}
+.xW_DivAddBarCodeCaption 
+{
+    position:relative;
+    top:22px;
+    left:0px;
+    width:40px;
+    height:15px;
+    padding:2px 2px 2px 2px;
+    margin:0px 0px 0px 0px;
+    text-align:center;
+    vertical-align:bottom;
+}
+
+/*------------- Browse Image in Grid Telerik -------------*/
+.xW_ImageButton
+{
+    background-image:url('../../img/img24x24.png/Browse.png');
+    background-repeat:no-repeat;
+    background-position:right center;
+    /*background-position:center top;
+    float:right;*/
+    width:20px;
+    height:20px;
+    margin:2px 0px 2px 0px;
+    position:relative;
+    color:black;
+}

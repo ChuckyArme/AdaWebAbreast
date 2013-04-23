@@ -1,0 +1,273 @@
+﻿.xW_DivData
+{
+	width:500px;
+	height:220px;
+	margin:5px 1px 1px 1px;
+	border:solid 1px transparent;
+	float:left;
+}
+.xW_DivDataBottom
+{
+	width:490px;
+	height:22px;
+	border:solid 1px transparent;
+	margin:1px 1px 1px 1px;
+	float:left;
+}
+
+.xW_DivMain
+{
+	width:822px;
+	height:330px;
+	margin:0px 0px 0px 5px;
+	overflow:hidden;
+	display:block;
+}
+
+.xW_DivMenu
+{ 
+    /*Div สำหรับบรรจุเมนูต่างๆ */
+    width:400px;
+	height:52px;
+	padding:0px;
+	margin:0px 1px 0px 0px;
+	border:solid 1px transparent;
+	float:left;
+}
+.xW_DivSearch
+{
+	width:auto;
+	height:30px;
+	border:solid 1px transparent;
+	margin:1px 2px 2px 5px;
+	float:right;
+}
+.xW_DivSearchCap
+{
+	width:auto;
+	height:22px;
+	border:solid 1px transparent;
+	margin:1px 5px 2px 5px;
+	float:left;
+}
+
+.xW_DivSearchCap label
+{
+	width:auto;
+	height:auto;
+	text-align:right;
+	border:solid 1px transparent;
+	padding:0px 5px 0px 0px;
+	margin:3px 2px 2px 0px;
+	float:right;
+}
+
+.xW_DivSearchText
+{
+	max-width:168px;
+	height:22px;
+	border:solid 1px transparent;
+	margin:2px 2px 2px 2px;
+	float:left;
+}
+
+.xW_DivSearchText input
+{
+	max-width:160px;
+	height:16px;
+	float:left;
+}
+.xW_DivDetail
+{
+	width:810px;
+	height:238px;
+	margin:2px 5px 2px 5px;
+	overflow:hidden;
+	display:block;
+}
+
+.xW_DivCaption
+{
+	width:100px;
+	height:220px;
+	border:solid 1px transparent;
+	margin:5px 1px 2px 7px;
+	float:left;
+}
+
+.xW_DivCaptionSub
+{
+	width:80px;
+	height:22px;
+	border:solid 1px transparent;
+	margin:1px 1px 1px 1px;
+	float:left;
+}
+.xW_DivCaptionSub label
+{
+	width:auto;
+	height:auto;
+	vertical-align:middle;
+	padding:1px 0px 1px 0px;
+	float:left;
+}
+
+.xW_DivCaptionAddress
+{
+	width:80px;
+	height:54px;
+	vertical-align:middle;
+	padding:1px 0px 1px 2px;
+	float:left;
+}
+
+
+.xW_DivDataSub
+{
+	width:495px;
+	height:22px;
+	border:solid 1px transparent;
+	margin:1px 1px 1px 1px;
+	float:left;
+}
+
+.xW_DivDataSub input
+{
+	width:490px;
+	height:auto;
+	vertical-align:middle;
+	padding:1px 0px 1px 0px;
+	float:left;
+}
+
+.xW_DivDataAddress
+{
+	width:490px;
+	height:54px;
+	vertical-align:middle;
+	padding:1px 0px 3px 0px;
+	float:left;
+}
+.xW_TextAreaAddress
+{
+	width:487px;
+	height:auto;
+	vertical-align:middle;
+	margin:1px 0px 1px 2px;
+	float:left;
+}
+.xW_DivCode
+{
+	width:110px;
+	height:22px;
+	margin:0px 1px 2px 0px;
+	float:left;
+}
+.xW_InputTextCode
+{
+	max-width:105px;
+	height:auto;
+	float:left;
+	text-align:left;
+}
+
+.xW_InputTextTel
+{
+	width:200px;
+	height:auto;
+	float:left;
+	text-align:left;
+}
+.xW_DivProvince
+{
+	width:355px;
+	height:auto;
+	float:left;
+	margin:0px 1px 2px 3px;
+	text-align:left;
+}
+
+.xW_DivProvince input
+{
+	width:353px;
+	height:auto;
+	float:left;
+	text-align:left;
+}
+
+.xW_ImgSize
+{ 
+  border:0; 
+  width:15px; 
+  height:15px;
+}
+
+.xW_DivBrowseOption
+{
+	width:22px;
+	height:22px;
+	float:left;
+	border:solid 1px transparent;
+	margin:0px 0px 0px 2px;
+	overflow:hidden;
+	display:block;
+}
+
+.xW_DivBrowseOption input
+{
+	width:20px;
+	height:20px;
+	text-align:center;
+
+}
+.xW_DivCheckBox
+{
+    width:20px;
+    height:20px;
+    text-align:left;
+    float:left;
+}
+
+.xW_DivCompany
+{
+    width:auto;
+    height:20px;
+    text-align:left;
+    float:left;
+}
+
+
+
+.xW_DivCheckBoxCaption
+{
+    width:auto;
+    height:20px;
+    text-align:left;
+    float:left;
+}
+
+.xW_DivCheckBoxLabel
+{
+    width:100%;
+    height:100%;
+    border:solid 1px transparent;
+    text-align:left;
+    float:left;
+}
+
+.xW_DivBchVersion
+{
+    width:110px;
+    height:22px;
+    border:solid 1px transparent;
+    margin:0px 5px 0px 1px;
+    text-align:left;
+    float:left;
+}
+
+.xW_DivBchVersion input
+{
+    width:103px;
+    height:16px;
+    text-align:left;
+}

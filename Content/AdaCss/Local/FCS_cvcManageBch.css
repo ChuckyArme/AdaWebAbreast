@@ -1,0 +1,347 @@
+﻿.xW_DivDetail
+{
+	width:800px;
+	height:400px;
+	margin:2px 5px 2px 5px;
+	overflow:hidden;
+	display:block;
+}
+
+.xW_DivDetailSub
+{
+	width:780px;
+	height:360px;
+	margin:1px 1px 1px 1px;
+}
+
+.xW_DivDataMap
+{
+	width:770px;
+	height:315px;
+	border:solid 1px transparent;
+	overflow:hidden;
+	margin:2px 5px 2px 5px;
+}
+.xW_DivDataMap Img
+{
+	vertical-align: middle;
+	background-repeat:repeat-y;
+}
+.xW_ImgMap
+{
+    width:90%;
+    height:90%;
+}
+
+.xW_DivCaption
+{
+	width:120px;
+	height:360px;
+	border:solid 1px transparent;
+	margin:5px 1px 2px 15px;
+	float:left;
+}
+
+.xW_DivCaptionSub
+{
+	width:117px;
+	height:22px;
+	border:solid 1px transparent;
+	margin:1px 1px 1px 1px;
+	float:left;
+}
+
+.xW_DivCaptionSub label
+{
+	width:auto;
+	height:auto;
+	vertical-align:middle;
+	padding:1px 0px 1px 0px;
+	float:left;
+}
+
+.xW_DivCaptionAddress
+{
+	width:117px;
+	height:54px;
+	vertical-align:middle;
+	padding:1px 0px 1px 2px;
+	float:left;
+}
+
+.xW_DivData
+{
+	width:630px;
+	height:360px;
+	margin:5px 1px 1px 1px;
+	border:solid 1px transparent;
+	float:left;
+}
+
+.xW_DivDataSub
+{
+	width:620px;
+	height:22px;
+	border:solid 1px transparent;
+	margin:1px 1px 1px 1px;
+	float:left;
+}
+
+.xW_DivDataSub input
+{
+	width:616px;
+	height:auto;
+	vertical-align:middle;
+	padding:1px 0px 1px 0px;
+	float:left;
+}
+
+.xW_DivDataAddress
+{
+	width:620px;
+	height:54px;
+	vertical-align:middle;
+	padding:1px 0px 1px 0px;
+	float:left;
+}
+
+.xW_DivBchCode
+{
+	max-width:84px;
+	height:auto;
+	float:left;
+	text-align:left;
+	margin:0px 2px 0px 0px;
+}
+
+.xW_TextAreaAddress
+{
+	width:616px;
+	height:auto;
+	vertical-align:middle;
+	margin:1px 0px 1px 2px;
+	float:left;
+	/* CH 03-10-2012 */
+	max-width:258px;
+	max-height:50px;
+}
+
+.xW_InputTextBchCode
+{
+	max-width:80px;
+	height:auto;
+	float:left;
+	text-align:left;
+}
+
+.xW_DivBchName
+{
+	width:300px;
+	height:auto;
+	float:left;
+	text-align:left;
+	margin:0px 0px 0px 2px;
+}
+.xW_InputTextBchName
+{
+	width:310px;
+	height:auto;
+	float:left;
+	text-align:left;
+}
+
+.xW_DivVATCode
+{
+	max-width:84px;
+	height:auto;
+	float:left;
+	text-align:left;
+	margin:0px 2px 0px 0px;
+}
+.xW_InputTextVATCode
+{
+	max-width:80px;
+	height:auto;
+	float:left;
+	text-align:left;
+}
+
+.xW_DivVATName
+{
+	max-width:197px;
+	height:auto;
+	float:left;
+	text-align:left;
+	margin:0px 0px 0px 2px;
+}
+.xW_InputTextVATName
+{
+	max-width:183px;
+	height:auto;
+	float:left;
+	text-align:left;
+}
+.xW_DivDataBottom
+{
+	width:420px;
+	height:220px;
+    border:solid 1px transparent;
+	margin:1px 1px 1px 0px;
+	float:left;
+}
+
+.xW_DivDataBottomLeft
+{
+	width:430px;
+	height:22px;
+	border:solid 1px transparent;
+	margin:1px 1px 1px 0px;
+	float:left;
+}
+
+.xW_DivDataLogo
+{
+	width:160px;
+	height:160px;
+	border:solid 1px transparent;
+	margin:1px 1px 2px 1px;
+	overflow:hidden ;
+	float:left;
+}
+.xW_ImgLogo
+{
+    /*width:90%;
+    height:90%;*/
+    margin:0px 10px 10px 10px;
+    overflow:hidden;
+}
+.xW_ImgSizeLogo
+{
+    width:85%;
+    height:85%;
+    margin:0px 10px 10px 10px;
+    overflow:hidden;
+}
+
+.xW_InputTextTelFaxTaxNo
+{
+	width:420px;
+	height:auto;
+	vertical-align:middle;
+	padding:1px 0px 1px 0px;
+	float:left;
+}
+
+.xW_DropDownList
+{
+	width:110px;
+	height:auto;
+	margin:1px 1px 1px 1px;
+	float:left;
+}
+
+.xW_DivBrowseImage
+{
+	width:280px;
+	border:solid 1px transparent;
+	height:auto;
+	float:left;
+}
+
+.xW_DivUploadImage
+{
+	width:70px;
+	height:auto;
+	float:left;
+}
+
+/* Path Menu */
+.xW_DivHeaderPath
+{
+	width:auto;
+	height:20px;
+	border:solid 1px transparent;
+	float:right;
+}
+.xW_DivPath
+{
+	margin:2px 2px 2px 2px;
+}
+.xW_DivPath Label
+{
+	float:right;
+}
+
+.xW_InputTextCode
+{
+	max-width:200px;
+	height:auto;
+	float:left;
+	text-align:left;
+}
+
+.xW_DivProvince
+{
+	width:260px;
+	height:auto;
+	float:left;
+	margin:0px 1px 2px 3px;
+	text-align:left;
+}
+.xW_DivProvince input
+{
+	width:245px;
+	height:auto;
+	float:left;
+	text-align:left;
+}
+
+.xW_DivCompany
+{
+    width:100px;
+    height:20px;
+    text-align:left;
+    float:left;
+}
+.xW_DivCode
+{
+	width:210px;
+	height:22px;
+	margin:0px 1px 2px 0px;
+	float:left;
+}
+.xW_DivCheckBox
+{
+    width:20px;
+    height:20px;
+    text-align:left;
+    float:left;
+    margin:2px 0px 0px 0px;
+}
+.xW_DivDataBch
+{
+	width:620px;
+	height:22px;
+	border:solid 1px transparent;
+	margin:1px 1px 1px 1px;
+	float:left;
+}
+.xW_DivHDCode
+{
+	width:620px;
+	height:22px;
+	margin:0px 1px 2px 0px;
+	float:left;
+}
+.xW_InputText
+{
+    width:200px;
+	height:auto;
+	vertical-align:middle;
+	padding:1px 0px 1px 0px;
+	float:left;
+}
+.xW_InputCheckBox
+{
+    margin:2px 1px 0px 7px;
+}

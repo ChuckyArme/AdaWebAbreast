@@ -1,0 +1,330 @@
+﻿.xW_DivMain
+{
+	width:790px;
+	height:350px;
+	margin:1px 1px 1px 1px;
+	overflow:hidden;
+	display:block;
+}
+.xW_DivMainTop
+{
+	width:795px;
+	height:85px;
+	border:solid 1px transparent;
+	padding:0px 1px 1px 1px;
+	float:left;
+	margin-bottom:10px;
+}
+.xW_DivMainTopLeft
+{
+	width:360px;/*300px;*/  /*CH 18-05-2012*/
+	height:85px;
+	float:left;
+	border:solid 1px transparent;
+	margin:5px 1px 1px 5px;
+
+}
+.xW_DivMainTopLeftSub
+{
+	width:335px;
+	height:22px;
+	border:solid 1px transparent;
+	margin:1px 1px 0px 1px;
+	float:left;
+}
+.xW_FieldSetBorderColor
+{
+     border-color:#336653;
+}
+.xW_DivDocNoCap
+{
+	width:80px;
+	height:22px;
+	border:solid 1px transparent;
+	margin:1px 0px 1px 1px;
+	float:left;
+}
+.xW_DivRptNo
+{
+	width:225px;
+	height:20px;
+	border:solid 1px transparent;
+	margin:1px 0px 0px 1px;
+	float:left;
+}
+.xW_DivRptNo Input
+{
+	width:220px;
+	height:15px;
+	margin:1px 0px 0px 1px;
+	float:left;
+}
+.xW_DivDocDate
+{
+	width:244px;
+	height:16px;
+	border:solid 1px transparent;
+	margin:1px 1px 1px 1px;
+	float:left;
+}
+.xW_DivMainTopRight
+{
+	width:400px;/*428px;*/
+	height:80px;
+	float:left;/*left;*/ /*CH 18-05-2012*/
+	border:solid 1px transparent;
+	margin:5px 1px 1px 4px;
+}
+.xW_DivMainTopRightSub
+{
+	width:376px;/*410px;*/ /*CH 18-05-2012*/
+	height:22px;
+	float:left;
+	border:solid 1px transparent;
+	margin:1px 1px 0px 1px;
+}
+.xW_DivRptCap
+{
+	width:100px;
+	height:22px;
+	border:solid 1px transparent;
+	margin:1px 0px 1px 1px;
+	float:left;
+}
+.xW_DivRptDefaultName
+{
+	width:270px;/*300px;*/ /*CH 18-05-2012*/
+	height:20px;
+	border:solid 1px transparent;
+	margin:1px 0px 1px 1px;
+	float:left;
+}
+.xW_DivRptDefaultName input
+{
+	width:265px;/*299px;*/ /*CH 18-05-2012*/
+	height:15px;
+	border-width:1px;
+	margin:1px 0px 1px 1px;
+	float:left;
+}
+.xW_DivRptUserDefindName
+{
+	width:245px;/*282px;*/ /*CH 18-05-2012*/
+	height:20px;
+	border:solid 1px transparent;
+	margin:1px 0px 1px 1px;
+	float:left;
+}
+.xW_DivRptUserDefindName input
+{
+	width:241px;/*278px;*/ /*CH 18-05-2012*/
+	height:16px;
+	border-width:1px;
+	margin:1px 0px 1px 1px;	
+	float:left;
+}
+
+.xW_DivMainBottom
+{
+	width:790px;/*790px;*/ /*CH 18-05-2012*/
+	height:200px;
+	border:solid 1px transparent;
+	margin:1px 1px 1px 5px;
+	float:left;
+}
+.xW_DivMainBottomLeft
+{
+	width:590px;/*630px;*/ /*CH 18-05-2012*/
+	/*height:172px;*/
+	float:left;
+	border:solid 1px transparent;
+	/*margin:28px 1px 1px 2px;*/	
+	height:182px;
+	margin:5px 1px 1px 0px;
+}
+.xW_DivMainBottomLeftfieldset
+{
+	width:95%;/*100%;*/ /*CH 18-05-2012*/
+	height:100%;
+}
+.xW_DivMainBottomLeftSub
+{
+	width:585px;/*620px;*/ /*CH 18-05-2012*/
+	height:178px;
+	float:left;
+	border:solid 1px transparent;
+	margin:0px 1px 1px 2px;
+	overflow:hidden;
+	display:block;
+}
+.xW_DivMainBottomCst
+{
+	width:80px;
+	height:122px;
+	float:left;
+	border:solid 1px transparent;
+	margin:1px 1px 1px 1px;
+}
+.xW_DivMainBottomCstCap
+{
+	width:80px;
+	height:25px;
+	float:left;
+	border:solid 1px transparent;
+	margin:2px 0px 1px 1px;
+}
+
+.xW_DivMainBottomLeftCaption
+{
+	width:100px;
+	height:120px;
+	border:solid 1px transparent;
+	margin:0px 0px 0px 0px;
+	float:left;
+}
+.xW_DivMainBottomLeftAddrCaption
+{
+	width:100px;
+	height:20px;
+	text-align:left;
+	vertical-align:middle;
+	border:solid 1px transparent;
+	margin:15px 0px 22px 1px;
+	float:left;
+}
+.xW_DivMainBottomCstDetail
+{
+	width:490px;/*507px;*/ /*CH 18-05-2012*/
+	height:122px;
+	float:left;
+	border:solid 1px transparent;
+	margin:1px 1px 1px 0px;
+}
+.xW_DivMainBottomCstDetailSub
+{
+	width:473px;/*500px;*/ /*CH 18-05-2012*/
+	height:25px;
+	float:left;
+	border:solid 1px transparent;
+	margin:1px 1px 1px 0px;
+}
+.xW_DivCstCode
+{
+	width:195px;
+	height:20px;
+	float:left;
+}
+.xW_DivCstCode input
+{
+	width:193px;
+	height:16px;
+	margin:3px 0px 1px 0px;	
+	float:left;
+}
+.xW_DivButton
+{
+	width:52px;
+	height:25px;
+	margin:0px 0px 0px 4px;	
+	float:left;
+}
+.xW_DivButton input
+{
+	width:52px;
+	height:25px;
+	margin:0px 0px 0px 0px;	
+	float:left;
+}
+
+.xW_DivMainBottomCstName
+{
+	width:470px;/*500px;*/ /*CH 18-05-2012*/
+	height:20px;
+	float:left;
+	border:solid 1px transparent;
+	margin:0px 1px 4px 0px;
+}
+
+.xW_DivMainBottomCstName input
+{
+	width:465px;/*495px;*/ /*CH 18-05-2012*/
+	height:16px;
+	float:left;
+	margin:0px 1px 1px 0px;
+}
+.xW_DivMainBottomCstAddress
+{
+	width:470px;/*500px;*/ /*CH 18-05-2012*/
+	height:60px;
+	border:solid 1px transparent;
+	margin:1px 1px 4px 0px;
+}
+.xW_DivMainBottomCstAddressTextarea
+{
+	width:465px;/*495px;*/ /*CH 18-05-2012*/
+	height:55px;
+	float:left;
+	margin:1px 1px 1px 0px;
+}
+.xW_DivCstTelorFax
+{
+	width:195px;/*210px;*/ /*CH 18-05-2012*/
+	height:20px;
+	float:left;
+	text-align:left;
+}
+.xW_DivCstTelorFax input
+{
+	width:193px;/*208px;*/ /*CH 18-05-2012*/
+	height:16px;
+	float:left;
+	text-align:left;
+	margin:3px 0px 1px 0px;	
+}
+.xW_DivCstFaxCap
+{
+	width:72px;
+	height:25px;
+	float:left;
+	text-align:center;
+	margin:4px 2px 0px 2px;
+
+}
+
+.xW_DivMainBottomRight
+{
+	width:162px;
+	/*height:170px;*/
+	height:182px;
+	float:left;
+	border:solid 1px transparent;
+	margin:5px 1px 1px 0px;
+}
+.xW_DivMainBottomRightFiedSet
+{
+	width:144px;
+	height:100%;
+}
+.xW_DivRptAction
+{
+	width :140px; 
+	height :25px; 
+	margin:5px 2px 0px 2px;
+	border:solid 1px transparent;
+	text-align:center;
+}
+.xW_DivRptAction input
+{
+	width :75px; 
+	height :25px; 
+	text-align:center;
+	margin:0px 5px 0px 5px;	
+}
+.xW_DivRptSample
+{
+	width :140px; 
+	height :70px; 
+	margin:1px 2px 1px 2px;
+	border:solid 1px transparent;
+	text-align:center;
+}
